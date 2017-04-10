@@ -1,6 +1,93 @@
+// Body
+body {
+  padding: 0;
+  margin: 0;
+}
+div {
+  padding: 0;
+  margin: 0;
+}
 
-Navbar
-
+// Navbar
 .navbar {
   display: none;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// Flexboxes
+
+.mainContainer {
+  @extend .flex;
+  width: 100%;
+  max-width: 1024px;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+    .section0 {
+      @extend.flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      height: 150px;
+      background-color: yellow;
+        .navBox {
+          @extend .flex;
+          margin: auto;
+          width: 85%;
+          .nav1 {
+            width: calc(25% - 1px);
+            background-color: lime;
+            height: 75px;
+            margin: auto;
+            border-right: 1px black solid
+          }
+          .nav2 {
+            @extend .nav1;
+          }
+          .nav3 {
+            @extend .nav1;
+          }
+          .nav4 {
+            @extend .nav1;
+            border-right: 0;
+          }
+        }
+    }
+    .section1 {
+      @extend .flex;
+      width: 90%;
+      height: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: blue;
+    }
+    .section2 {
+      @extend .section1;
+      background-color: orange;
+    }
+    .section3 {
+      @extend .section1;
+      background-color: green;
+    }
+    .section4 {
+      @extend .section1;
+      background-color: purple;
+    }
 }

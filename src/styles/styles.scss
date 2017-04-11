@@ -28,8 +28,13 @@ div {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-image: url("../images/collage2014big.jpg");
+  opacity: 0.8;
   z-index: -1;
+  background-image: url("../images/collage2014big.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 // Navbar
@@ -80,8 +85,9 @@ div {
       background-color: rgba(0,0,0,.6);
         .navBox {
           @extend .flex;
+          width: 90%;
+          max-width: 1024px;
           margin: auto;
-          width: 85%;
           color: white;
           .nav1 {
             @extend .flex;
@@ -116,8 +122,37 @@ div {
     .section1Box {
         width: 100%;
         .section1 {
-          @extend .flex;
-          @extend .section;
+            @extend .flex;
+            @extend .section;
+            border: 0;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .flexImage {
+              @extend.flex;
+              width: 30%;
+              .section1BoxImage {
+                width: 90%;
+                min-width: 200px;
+                margin: auto;
+                border-radius: 5%;
+              }
+            }
+            .flexText {
+              width: 70%;
+              margin-top: auto;
+              margin-bottom: auto;
+              .section1Text1 {
+                width: 100%;
+                color: white;
+                font-size: 4em;
+              }
+              .section1Text2 {
+                @extend .section1Text1;
+                font-size: 2.5em;
+              }
+            }
+          }
         }
     }
     .section2Box {
@@ -144,4 +179,3 @@ div {
         border: 1px black solid;
       }
     }
-}

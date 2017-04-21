@@ -48,7 +48,7 @@ const HomePage = () => {
                   Richard Mands
                 </div>
                 <div className="section1Text2">
-                  Full-Stack Javascript Developer.
+                  Full-Stack Javascript Developer
                 </div>
               </div>
             </div>

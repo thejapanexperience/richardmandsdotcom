@@ -13,6 +13,19 @@
   color: #311847;
 }
 
+.color2 {
+  color: #e93e43;
+}
+
+$color2: #e93e43;
+
+// $colorGradient1: #EC4067;
+// $colorGradient1: rgba(137,52,121,0.8);
+$colorGradient1: rgba(134,11,180,0.8);
+// $colorGradient2: #893479;
+// $colorGradient2: rgba(236,64,103,0.8);
+$colorGradient2: rgba(230,20,100,0.8);
+
 .transition1{
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -82,7 +95,12 @@ div {
   @extend .flex;
   width: 100%;
   // background-color: black;
-  background-color: rgba(128,0,128,0.4);
+  // background-color: rgba(128,0,128,0.4);
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, $colorGradient2 , $colorGradient1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $colorGradient2, $colorGradient1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $colorGradient2, $colorGradient1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $colorGradient2 , $colorGradient1); /* Standard syntax */
   margin-left: auto;
   margin-right: auto;
   padding-top: 150px;
@@ -151,7 +169,7 @@ div {
   padding-bottom: 20px;
 }
 
-.flexImage {
+.section1Image {
   @extend .flex;
   width: 30%;
   .section1BoxImage {
@@ -186,6 +204,26 @@ div {
   font-size: 2.5em;
 }
 
+.section1Text3Box {
+  margin-top: 10px;
+}
+
+.section1Text3 {
+  @extend .section1Text1;
+  font-size: 2.5em;
+  color: white;
+  margin-right: 10px;
+  :hover {
+    @extend .transition1;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  :not(:hover){
+    @extend .transition1;
+  }
+}
+
 .section2Box {
   width: 100%;
   background-color: white;
@@ -195,8 +233,8 @@ div {
   @extend .flex;
   @extend .section;
   height: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .sectionText {
@@ -216,18 +254,21 @@ div {
   margin: auto;
   padding-top: 15px;
   font-size: 1.2em;
+  text-align: justify;
   line-height: calc(1.2em + 5px);
 }
 
 .iconBox {
   @extend .flex;
-  width: 90%;
+  width: 100%;
   margin: auto;
-  margin-top: 10px;
+  padding-top: 15px;
 }
 
 .iconBoxImageBox {
   width: 120px;
+  padding-right: 5px;
+  padding-bottom: 5px;
   margin: auto;
   :hover {
     @extend .transition2;
@@ -242,6 +283,9 @@ div {
 
 .iconBoxImage {
   width: 100%;
+}
+.iconBoxImageSmall {
+  width: 80%;
 }
 
 

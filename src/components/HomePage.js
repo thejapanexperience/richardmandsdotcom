@@ -38,7 +38,7 @@ const HomePage = () => {
 
         <div className="section1Box">
           <div className="section1">
-            <div className="flexImage">
+            <div className="section1Image">
               <img className="section1BoxImage" src="../images/richard1Crop.jpg" alt="richardmands"/>
             </div>
             <div className="flexText">
@@ -46,7 +46,14 @@ const HomePage = () => {
                 Richard Mands
               </div>
               <div className="section1Text2">
-                Full-Stack Javascript Developer.
+                Full-Stack Javascript Developer
+              </div>
+              <div className="section1Text3Box">
+                <a className="section1Text3" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg"></i></a>
+                <a className="section1Text3" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg"></i></a>
+                <a className="section1Text3" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg"></i></a>
+                <a className="section1Text3" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg"></i></a>
+                <a className="section1Text3" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg"></i></a>
               </div>
             </div>
           </div>
@@ -63,6 +70,9 @@ const HomePage = () => {
               </span>
               <div className="iconBox">
                 <div className="iconBoxImageBox">
+                  <img className="iconBoxImageSmall" src="../images/techIcons300/Javascript.png" alt="Javascript"/>
+                </div>
+                <div className="iconBoxImageBox">
                   <img className="iconBoxImage" src="../images/techIcons300/React.png" alt="React"/>
                 </div>
                 <div className="iconBoxImageBox">
@@ -75,7 +85,7 @@ const HomePage = () => {
                   <img className="iconBoxImage" src="../images/techIcons300/SocketIO.png" alt="SocketIO"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/Amazon.png" alt="Amazon"/>
+                  <img className="iconBoxImageSmall" src="../images/techIcons300/Amazon.png" alt="Amazon"/>
                 </div>
                 <div className="iconBoxImageBox">
                   <img className="iconBoxImage" src="../images/techIcons300/Express.png" alt="Express"/>
@@ -88,9 +98,6 @@ const HomePage = () => {
                 </div>
                 <div className="iconBoxImageBox">
                   <img className="iconBoxImage" src="../images/techIcons300/Google.png" alt="Google"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/Javascript.png" alt="Javascript"/>
                 </div>
                 <div className="iconBoxImageBox">
                   <img className="iconBoxImage" src="../images/techIcons300/jQuery.png" alt="jQuery"/>
@@ -107,7 +114,26 @@ const HomePage = () => {
           </div>
         </div>
         <div className="section3Box">
-          <div className="section3" />
+          <div className="section3">
+            <div className="section1Image">
+              <img className="section1BoxImage" src="../images/richard1Crop.jpg" alt="richardmands"/>
+            </div>
+            <div className="flexText">
+              <div className="section1Text1">
+                Richard Mands
+              </div>
+              <div className="section1Text2">
+                Full-Stack Javascript Developer
+              </div>
+              <div className="section1Text3Box">
+                <a className="section1Text3" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg"></i></a>
+                <a className="section1Text3" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg"></i></a>
+                <a className="section1Text3" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg"></i></a>
+                <a className="section1Text3" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg"></i></a>
+                <a className="section1Text3" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="section4Box">
           <div className="section4" />

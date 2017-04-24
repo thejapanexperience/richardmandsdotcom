@@ -37,25 +37,25 @@ const HomePage = () => {
         </div>
 
         <div className="section1Box">
-          <div className="section1Box">
-
-            <div className="section1">
-              <div className="flexImage">
-                <img className="section1BoxImage" src="../images/richard1Crop.jpg" alt="richardmands"/>
+          <div className="section1">
+            <div className="flexImage">
+              <img className="section1BoxImage" src="../images/richard1Crop.jpg" alt="richardmands"/>
+            </div>
+            <div className="flexText">
+              <div className="section1Text1">
+                Richard Mands
               </div>
-              <div className="flexText">
-                <div className="section1Text1">
-                  Richard Mands
-                </div>
-                <div className="section1Text2">
-                  Full-Stack Javascript Developer
-                </div>
+              <div className="section1Text2">
+                Full-Stack Javascript Developer.
               </div>
             </div>
           </div>
         </div>
+        
         <div className="section2Box">
-          <div className="section2" />
+          <div className="section2" >
+
+          </div>
         </div>
         <div className="section3Box">
           <div className="section3" />

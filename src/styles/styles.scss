@@ -44,9 +44,9 @@ div {
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
 }
 
 .flex {
@@ -74,108 +74,123 @@ div {
   margin-right: auto;
   padding-top: 150px;
   padding-bottom: 50px;
-    .section0 {
-      @extend.flex;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      height: 150px;
-      background-color: rgba(0,0,0,.6);
-        .navBox {
-          @extend .flex;
-          width: 90%;
-          max-width: 1024px;
-          margin: auto;
-          color: white;
-          .nav1 {
-            @extend .flex;
-            width: calc(25% - 1px);
-            height: 75px;
-            margin: auto;
-            text-align: center;
-            .nav1Text {
-              margin: auto;
-              font-size: 3em;
-            }
-          }
-          .nav2 {
-            @extend .nav1;
-          }
-          .nav3 {
-            @extend .nav1;
-            .nav3Text {
-              margin: auto;
-              font-size: 1em;
-            }
-          }
-          .nav4 {
-            @extend .nav1;
-            .nav4Text {
-              margin: auto;
-              font-size: 1em;
-            }
-          }
-        }
-    }
-    .section1Box {
-        width: 100%;
-        .section1 {
-            @extend .flex;
-            @extend .section;
-            border: 0;
-            text-align: center;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            .flexImage {
-              @extend.flex;
-              width: 30%;
-              .section1BoxImage {
-                width: 90%;
-                min-width: 200px;
-                margin: auto;
-                border-radius: 5%;
-              }
-            }
-            .flexText {
-              width: 70%;
-              margin-top: auto;
-              margin-bottom: auto;
-              .section1Text1 {
-                width: 100%;
-                color: white;
-                font-size: 4em;
-              }
-              .section1Text2 {
-                @extend .section1Text1;
-                font-size: 2.5em;
-              }
-            }
-          }
-        }
-    }
-    .section2Box {
-      width: 100%;
-      background-color: white;
-      .section2 {
-        @extend .flex;
-        @extend .section;
-        border: 1px black solid;
-      }
-    }
-    .section3Box {
-      width: 100%;
-      .section3 {
-        @extend .section;
-      }
-    }
-    .section4Box {
-      width: 100%;
-      background-color: white;
-      .section4 {
-        @extend .flex;
-        @extend .section;
-        border: 1px black solid;
-      }
-    }
+}
+
+.section0 {
+  @extend.flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 150px;
+  background-color: rgba(0,0,0,.6);
+}
+
+.navBox {
+  @extend .flex;
+  width: 90%;
+  max-width: 1024px;
+  margin: auto;
+  color: white;
+}
+
+.nav1 {
+  @extend .flex;
+  width: calc(25% - 1px);
+  height: 75px;
+  margin: auto;
+  text-align: center;
+  .nav1Text {
+    margin: auto;
+    font-size: 3em;
+  }
+}
+.nav2 {
+  @extend .nav1;
+}
+
+.nav3 {
+  @extend .nav1;
+  .nav3Text {
+    margin: auto;
+    font-size: 1em;
+  }
+}
+.nav4 {
+  @extend .nav1;
+  .nav4Text {
+    margin: auto;
+    font-size: 1em;
+  }
+}
+
+.section1Box {
+  width: 100%;
+}
+
+.section1 {
+  @extend .flex;
+  @extend .section;
+  border: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flexImage {
+  @extend.flex;
+  width: 30%;
+  .section1BoxImage {
+    width: 90%;
+    min-width: 200px;
+    margin: auto;
+    border-radius: 5%;
+  }
+}
+
+.flexText {
+  width: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.section1Text1 {
+  width: 100%;
+  color: white;
+  font-size: 4em;
+}
+
+.section1Text2 {
+  @extend .section1Text1;
+  font-size: 2.5em;
+}
+
+.section2Box {
+  width: 100%;
+  background-color: white;
+}
+
+.section2 {
+  @extend .flex;
+  @extend .section;
+  
+}
+
+.section3Box {
+  width: 100%;
+}
+
+.section3 {
+  @extend .section;
+}
+
+.section4Box {
+  @extend .section2Box
+}
+
+.section4 {
+  @extend .flex;
+  @extend .section;
+  border: 1px black solid;
+}

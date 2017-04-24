@@ -9,6 +9,19 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.color1 {
+  color: #311847;
+}
+
+.transition1{
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.transition2{
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
 
 // Body
 body {
@@ -139,13 +152,20 @@ div {
 }
 
 .flexImage {
-  @extend.flex;
+  @extend .flex;
   width: 30%;
   .section1BoxImage {
     width: 90%;
     min-width: 200px;
     margin: auto;
     border-radius: 5%;
+  }
+  :hover {
+    @extend .transition1;
+    width: 85%;
+  }
+  :not(:hover){
+    @extend .transition1;
   }
 }
 
@@ -174,8 +194,56 @@ div {
 .section2 {
   @extend .flex;
   @extend .section;
-  
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+.sectionText {
+  @extend .flex;
+  margin: auto;
+}
+
+.sectionTextTitle {
+  @extend .color1;
+  width: 100%;
+  font-size: 2em;
+}
+
+.sectionTextBody {
+  @extend .font2;
+  width: 80%;
+  margin: auto;
+  padding-top: 15px;
+  font-size: 1.2em;
+  line-height: calc(1.2em + 5px);
+}
+
+.iconBox {
+  @extend .flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.iconBoxImageBox {
+  width: 120px;
+  margin: auto;
+  :hover {
+    @extend .transition2;
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  :not(:hover){
+    @extend .transition2;
+  }
+}
+
+.iconBoxImage {
+  width: 100%;
+}
+
 
 .section3Box {
   width: 100%;

@@ -17,18 +17,18 @@ const HomePage = () => {
             <div className="nav2" />
             <div className="nav3">
               <div className="nav3Text">
-                {/* Coding */}
+                Coding
               </div>
               <div className="nav3Text">
-                {/* My Work */}
+                My Work
               </div>
             </div>
             <div className="nav4">
               <div className="nav4Text">
-                {/* Skills */}
+                Skills
               </div>
               <div className="nav4Text">
-                {/* Resume */}
+                Resume
               </div>
             </div>
             <div className="nav5"></div>
@@ -51,10 +51,59 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="section2Box">
           <div className="section2" >
+            <div className="sectionText">
+              <span className="sectionTextTitle">
+                Let me introduce myself...
+              </span>
+              <span className="sectionTextBody">
+                I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I have experience implementing React, React Native, jQuery, Redux, Flux, Node, Express, Mongo, Firebase, Amazon Web Services, GoogleAPIs and more into my apps. I'm strongly self-reliant and am able to quickly learn and incorporate new javascript technologies into my projects. I was part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016.
+              </span>
+              <div className="iconBox">
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/React.png" alt="React"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/ReactNative.png" alt="ReactNative"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/Redux.png" alt="Redux"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/SocketIO.png" alt="SocketIO"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/Amazon.png" alt="Amazon"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/Express.png" alt="Express"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/Firebase.png" alt="Firebase"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/Flux2.png" alt="Flux2"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/Google.png" alt="Google"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/Javascript.png" alt="Javascript"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/jQuery.png" alt="jQuery"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/Mongo.png" alt="Mongo"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImage" src="../images/techIcons300/Node.png" alt="Node"/>
+                </div>
+              </div>
 
+            </div>
           </div>
         </div>
         <div className="section3Box">

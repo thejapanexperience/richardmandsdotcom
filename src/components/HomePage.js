@@ -35,7 +35,7 @@ const HomePage = () => {
             <div className="nav6" />
           </div>
         </div>
-
+        
         <div className="section1Box">
           <div className="section1">
             <div className="section1Image">

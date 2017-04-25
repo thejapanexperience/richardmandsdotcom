@@ -115,10 +115,8 @@ const HomePage = () => {
 
         <div className="section3Box">
           <div className="section3">
-            <div className="flexText">
-              <div className="section3Title">
-                Portfolio
-              </div>
+            <div className="section3Title">
+              Portfolio
             </div>
             {/* Portfolio Entry Begin */}
             <div className="portfolioBox">
@@ -205,12 +203,59 @@ const HomePage = () => {
                 Simple word version
               </a>
             </div>
+            <div className="portfolioYoutubeBoxSmall">
+              <div className="portfolioYoutubeVideo">
+                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+              </div>
+            </div>
           </div>
         </div>
+
+        <div className="section6Box">
+          <div className="section6">
+            <div className="section6Title">
+              Contact Me
+            </div>
+            <div className="section6Text">
+              richard@eduku.org
+            </div>
+            <div className="section6IconsBox">
+              <a className="section6Icons" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg"></i></a>
+              <a className="section6Icons" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg"></i></a>
+              <a className="section6Icons" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg"></i></a>
+              <a className="section6Icons" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg"></i></a>
+              <a className="section6IconsLast" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div className="section7Box">
+          <div className="section7">
+            <div className="section7Title">
+              Full Resume
+            </div>
+            <div className="section7Text">
+              <a target="blank" href="https://drive.google.com/open?id=0B6GYiEdGHBSDbFRteU9sWkxFMGM" className="resumeLink">
+                Fancy pdf version
+              </a>
+              <span> / </span>
+              <a target="blank" href="https://drive.google.com/open?id=0B6GYiEdGHBSDbFRteU9sWkxFMGM" className="resumeLink">
+                Simple word version
+              </a>
+            </div>
+            <div className="portfolioYoutubeBoxSmall">
+              <div className="portfolioYoutubeVideo">
+                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </div>
   );
+
 };
 
 export default HomePage;

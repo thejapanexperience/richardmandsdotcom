@@ -27,8 +27,8 @@ $colorGradient1: rgba(134,11,180,0.8);
 $colorGradient2: rgba(230,20,100,0.8);
 
 .transition1{
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
 }
 
 .transition2{
@@ -55,7 +55,7 @@ div {
   height: 100%;
   position: fixed;
   opacity: 0.8;
-  z-index: -1;
+  z-index: -2;
   background-image: url("../images/collage2014big.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -116,6 +116,7 @@ div {
   overflow: hidden;
   height: 150px;
   background-color: rgba(0,0,0,.6);
+  z-index: 5;
 }
 
 .navBox {
@@ -179,11 +180,11 @@ div {
     border-radius: 5%;
   }
   :hover {
-    @extend .transition1;
-    width: 85%;
+    @extend .transition2;
+    width: 95%;
   }
   :not(:hover){
-    @extend .transition1;
+    @extend .transition2;
   }
 }
 
@@ -294,7 +295,80 @@ div {
 }
 
 .section3 {
+  @extend .flex;
   @extend .section;
+  height: auto;
+  border: 0;
+}
+
+.section3Title {
+  @extend .section1Text1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.portfolioBox {
+  @extend .flex;
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.portfolioTitleText {
+  @extend .section1Text2;
+  width: 100%;
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.portfolioYoutubeBox {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+  :hover {
+    @extend .transition2;
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+  }
+  :not(:hover){
+    @extend .transition2;
+  }
+}
+
+.portfolioYoutubeBox::after {
+  padding-top: 56.25%;
+  /* 16:9 ratio */
+  display: block;
+  content: '';
+}
+
+.portfolioYoutubeVideo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /* fill parent */
+  // background-color: deepskyblue;
+  /* let's see it! */
+  // color: white;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolioBodyText {
+  @extend .sectionTextBody;
+  margin: auto;
+  width: 100%;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .section4Box {

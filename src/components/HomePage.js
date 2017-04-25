@@ -115,24 +115,56 @@ const HomePage = () => {
         </div>
         <div className="section3Box">
           <div className="section3">
-            <div className="section1Image">
-              <img className="section1BoxImage" src="../images/richard1Crop.jpg" alt="richardmands"/>
-            </div>
             <div className="flexText">
-              <div className="section1Text1">
-                Richard Mands
-              </div>
-              <div className="section1Text2">
-                Full-Stack Javascript Developer
-              </div>
-              <div className="section1Text3Box">
-                <a className="section1Text3" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg"></i></a>
-                <a className="section1Text3" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg"></i></a>
-                <a className="section1Text3" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg"></i></a>
-                <a className="section1Text3" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg"></i></a>
-                <a className="section1Text3" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg"></i></a>
+              <div className="section3Title">
+                Portfolio
               </div>
             </div>
+            {/* Portfolio Entry Begin */}
+            <div className="portfolioBox">
+              <div className="portfolioTitleText">
+                Eduku
+              </div>
+              <div className="portfolioYoutubeBox">
+                <div className="portfolioYoutubeVideo">
+                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+                </div>
+              </div>
+              <div className="portfolioBodyText">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+            {/* Portfolio Entry End */}
+            {/* Portfolio Entry Begin */}
+            <div className="portfolioBox">
+              <div className="portfolioTitleText">
+                Entable
+              </div>
+              <div className="portfolioYoutubeBox">
+                <div className="portfolioYoutubeVideo">
+                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+                </div>
+              </div>
+              <div className="portfolioBodyText">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+            {/* Portfolio Entry End */}
+            {/* Portfolio Entry Begin */}
+            <div className="portfolioBox">
+              <div className="portfolioTitleText">
+                The Fast Life
+              </div>
+              <div className="portfolioYoutubeBox">
+                <div className="portfolioYoutubeVideo">
+                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+                </div>
+              </div>
+              <div className="portfolioBodyText">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+            {/* Portfolio Entry End */}
           </div>
         </div>
         <div className="section4Box">

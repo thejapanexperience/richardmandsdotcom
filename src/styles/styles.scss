@@ -9,6 +9,30 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+@mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+  $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+  $dimension: if(unit($responsive) == 'vh', 'height', 'width');
+  $min-breakpoint: $min / $responsive-unitless * 100;
+
+  @media (max-#{$dimension}: #{$min-breakpoint}) {
+    font-size: $min;
+  }
+
+  @if $max {
+    $max-breakpoint: $max / $responsive-unitless * 100;
+
+    @media (min-#{$dimension}: #{$max-breakpoint}) {
+      font-size: $max;
+    }
+  }
+
+  @if $fallback {
+    font-size: $fallback;
+  }
+
+  font-size: $responsive;
+}
+
 .color1 {
   color: #311847;
 }
@@ -130,13 +154,13 @@ div {
 .nav1 {
   @extend .flex;
   width: 100%;
-  height: 75px;
+  height: 50px;
   margin: auto;
   .nav1Text {
     width: 100%;
     margin: auto;
-    padding-left: 10px;;
-    font-size: 2em;
+    padding-left: 2%;
+    @include responsive-font(5vw, 25px, 100px, 50px);
     text-align: left;
   }
 }
@@ -175,7 +199,7 @@ div {
 .section1Image {
   @extend .flex;
   width: 30%;
-  min-height: 200px;
+  // min-height: 200px;
   .section1BoxImage {
     width: 90%;
     margin: auto;
@@ -198,12 +222,14 @@ div {
 .section1Text1 {
   width: 100%;
   color: white;
-  font-size: 4em;
+  @include responsive-font(8vw, 35px, 100px, 50px);
+
 }
 
 .section1Text2 {
   @extend .section1Text1;
-  font-size: 2.5em;
+  @include responsive-font(5vw, 35px, 80px, 50px);
+
 }
 
 .section1Text3Box {
@@ -212,9 +238,9 @@ div {
 
 .section1Text3 {
   @extend .section1Text1;
-  font-size: 2.5em;
+  @include responsive-font(3vw, 20px, 160px, 50px);
+
   color: white;
-  margin-right: 10px;
   :hover {
     @extend .transition1;
     -moz-transform: scale(1.2);
@@ -311,7 +337,8 @@ div {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
-  font-size: 15vw;
+  @include responsive-font(20vw, 35px, 200px, 50px);
+
 }
 
 .portfolioBox {
@@ -400,6 +427,7 @@ div {
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
+  @include responsive-font(2vw, 18px, 18px, 25px);
 }
 
 .section4Box {
@@ -481,10 +509,14 @@ div {
   }
 }
 
-.resumeLink {
-  :hover {
-    transform: scale(2.0);
-  }
+.section5Text2 {
+  @extend .section4Text;
+  @include responsive-font(2vw, 18px, 18px, 25px);
+  width: 80%;
+  margin: auto;
+  color: white;
+  text-align: justify;
+  padding-top: 20px;
 }
 
 .section6Box {
@@ -497,12 +529,12 @@ div {
 
 .section6Title {
   @extend .section4Title;
-  font-size: 12vw;
+  @include responsive-font(15vw, 35px, 160px, 50px);
 }
 
 .section6Text {
   @extend .section4Text;
-  font-size: 8vw;
+  @include responsive-font(8vw, 20px, 120px, 50px);
   color: $color1;
 }
 
@@ -514,7 +546,6 @@ div {
 .section6Icons {
   @extend .section6Text;
   font-size: 4vw;
-  padding-right: 15px;
   :hover {
     @extend .transition1;
     -moz-transform: scale(1.2);
@@ -535,11 +566,39 @@ div {
   }
 }
 
-.section6IconsLast {
-  @extend .section6Icons;
-  padding-right: 0;
-}
-
 .section6Icons {
   @extend .section4Text;
+}
+
+.section7Box {
+  @extend .section5Box;
+}
+.section7 {
+  @extend .section5;
+}
+.section7Title {
+  @extend .section3Title;
+  // font-size: 13vw;
+  @include responsive-font(15vw, 35px, 160px, 50px);
+}
+.section7Text {
+  @extend .section5Text;
+  text-align: justify;
+  // padding-bottom: 40px;
+}
+hr {
+  width: 100%;
+  margin-top: 40px;
+}
+.section7ImageBox {
+  @extend .flex;
+  width: 100%;
+}
+.section7Image {
+  width: 100%;
+  height: 100%;
+}
+.spacer {
+  width: 100%;
+  height: 20px;
 }

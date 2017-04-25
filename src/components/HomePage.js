@@ -70,9 +70,6 @@ const HomePage = () => {
               </span>
               <div className="iconBox">
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImageSmall" src="../images/techIcons300/Javascript.png" alt="Javascript"/>
-                </div>
-                <div className="iconBoxImageBox">
                   <img className="iconBoxImage" src="../images/techIcons300/React.png" alt="React"/>
                 </div>
                 <div className="iconBoxImageBox">
@@ -107,6 +104,9 @@ const HomePage = () => {
                 </div>
                 <div className="iconBoxImageBox">
                   <img className="iconBoxImage" src="../images/techIcons300/Node.png" alt="Node"/>
+                </div>
+                <div className="iconBoxImageBox">
+                  <img className="iconBoxImageSmall" src="../images/techIcons300/Javascript.png" alt="Javascript"/>
                 </div>
               </div>
             </div>

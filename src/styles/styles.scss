@@ -107,7 +107,8 @@ div {
 .section {
   width: 90%;
   max-width: 1024px;
-  height: 400px;
+  height: 300px;
+  // height: auto;
   margin-left: auto;
   margin-right: auto;
   border: 1px white solid;
@@ -185,15 +186,18 @@ div {
 
 .section1Box {
   width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .section1 {
   @extend .flex;
-  @extend .section;
+  width: 90%;
+  max-width: 1024px;
+  height: auto;
+  margin: auto;
   border: 0;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .section1Image {
@@ -228,7 +232,7 @@ div {
 
 .section1Text2 {
   @extend .section1Text1;
-  @include responsive-font(5vw, 35px, 80px, 50px);
+  @include responsive-font(5vw, 35px, 65px, 30px);
 
 }
 
@@ -291,13 +295,15 @@ div {
   width: 100%;
   margin: auto;
   padding-top: 30px;
+  text-align: center;
 }
 
 .iconBoxImageBox {
-  width: 120px;
+  width: 150px;
   padding-right: 5px;
   padding-bottom: 5px;
   margin: auto;
+  text-align: center;
   :hover {
     @extend .transition2;
     -moz-transform: scale(0.8);

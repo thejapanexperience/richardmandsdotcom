@@ -418,10 +418,14 @@ div {
   padding-bottom: 20px;
 }
 
-.miniProject {
+.miniProjectBox {
   @extend .flex;
   width: 80%;
   margin: auto;
+}
+
+.miniProject {
+  width: 100%;
 }
 
 .miniProjectLink {

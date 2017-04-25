@@ -176,12 +176,34 @@ const HomePage = () => {
             <div className="section4Text">
               These projects are designed to showcase the usage of key javascript technologies.
             </div>
+            <div className="portfolioYoutubeBoxSmall">
+              <div className="portfolioYoutubeVideo">
+                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+              </div>
+            </div>
             <div className="miniProjectBox">
               <div className="miniProject">
                 <a target="blank" href="https://github.com/thejapanexperience/PokemonAPIViewer2" className="miniProjectLink">
                   PokeAPI - This project presents data from an external API.
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="section5Box">
+          <div className="section5">
+            <div className="section5Title">
+              Full Resume
+            </div>
+            <div className="section5Text">
+              <a target="blank" href="https://drive.google.com/open?id=0B6GYiEdGHBSDbFRteU9sWkxFMGM" className="resumeLink">
+                Fancy pdf version
+              </a>
+              <span> / </span>
+              <a target="blank" href="https://drive.google.com/open?id=0B6GYiEdGHBSDbFRteU9sWkxFMGM" className="resumeLink">
+                Simple word version
+              </a>
             </div>
           </div>
         </div>

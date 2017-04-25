@@ -12,11 +12,11 @@
 .color1 {
   color: #311847;
 }
+$color1: #311847;
 
 .color2 {
   color: #e93e43;
 }
-
 $color2: #e93e43;
 
 // $colorGradient1: #EC4067;
@@ -339,7 +339,31 @@ div {
   }
 }
 
+.portfolioYoutubeBoxSmall {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  margin-right: auto;
+  z-index: 1;
+  :hover {
+    @extend .transition2;
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+  }
+  :not(:hover){
+    @extend .transition2;
+  }
+}
+
 .portfolioYoutubeBox::after {
+  padding-top: 56.25%;
+  /* 16:9 ratio */
+  display: block;
+  content: '';
+}
+
+.portfolioYoutubeBoxSmall::after {
   padding-top: 56.25%;
   /* 16:9 ratio */
   display: block;
@@ -379,40 +403,21 @@ div {
 .section4 {
   @extend .flex;
   @extend .section;
+  margin: auto;
   height: auto;
   border: 0;
 }
 
-.section4Text {
-  @extend .section2Text;
-  margin: auto;
-}
-
-.section4TextTitle {
-  @extend .section2TextTitle;
-  margin: auto;
-}
-
-.section4TextBody {
-  @extend .section2TextBody;
-  margin: auto;
-}
-
-.miniProjectBox {
-  @extend .flex;
-  margin-right: auto;
-}
-
 .section4Title {
-  @extend .section2TextTitle;
+  @extend .section1Text1;
+  color: $color1;
   width: 100%;
-  margin-right: auto;
-  padding-bottom: 20px;
+  margin: auto;
 }
 
 .section4Text {
   @extend .section2TextBody;
-  width: 80%;
+  width: 100%;
   // margin-right: auto;
   padding: 0;
   padding-bottom: 20px;
@@ -420,8 +425,9 @@ div {
 
 .miniProjectBox {
   @extend .flex;
-  width: 80%;
+  width: 100%;
   margin: auto;
+  padding-top: 20px;
 }
 
 .miniProject {
@@ -431,4 +437,38 @@ div {
 .miniProjectLink {
   width: 100%;
   margin: auto;
+}
+
+.section5Box {
+  @extend .section4Box;
+  background-color: transparent;
+
+}
+
+.section5 {
+  @extend .section4;
+  background-color: transparent;
+  color: white;
+}
+
+.section5Title {
+  @extend .section4Title;
+  color: white;
+}
+
+.section5Text {
+  @extend .section4Text;
+  color: white;
+  :visited {
+    color: white;
+  }
+  :link {
+    color: white;
+  }
+}
+
+.resumeLink {
+  :hover {
+    transform: scale(2.0);
+  }
 }

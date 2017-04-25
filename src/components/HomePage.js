@@ -17,18 +17,18 @@ const HomePage = () => {
             <div className="nav2" />
             <div className="nav3">
               <div className="nav3Text">
-                Coding
+                {/* Coding */}
               </div>
               <div className="nav3Text">
-                My Work
+                {/* My Work */}
               </div>
             </div>
             <div className="nav4">
               <div className="nav4Text">
-                Skills
+                {/* Skills */}
               </div>
               <div className="nav4Text">
-                Resume
+                {/* Resume */}
               </div>
             </div>
             <div className="nav5"></div>
@@ -61,11 +61,11 @@ const HomePage = () => {
 
         <div className="section2Box">
           <div className="section2" >
-            <div className="sectionText">
-              <span className="sectionTextTitle">
+            <div className="section2Text">
+              <span className="section2TextTitle">
                 Let me introduce myself...
               </span>
-              <span className="sectionTextBody">
+              <span className="section2TextBody">
                 I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I have experience implementing React, React Native, jQuery, Redux, Flux, Node, Express, Mongo, Firebase, Amazon Web Services, GoogleAPIs and more into my apps. I'm strongly self-reliant and am able to quickly learn and incorporate new javascript technologies into my projects. I was part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016.
               </span>
               <div className="iconBox">
@@ -109,10 +109,10 @@ const HomePage = () => {
                   <img className="iconBoxImage" src="../images/techIcons300/Node.png" alt="Node"/>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
+
         <div className="section3Box">
           <div className="section3">
             <div className="flexText">
@@ -167,9 +167,25 @@ const HomePage = () => {
             {/* Portfolio Entry End */}
           </div>
         </div>
+
         <div className="section4Box">
-          <div className="section4" />
+          <div className="section4">
+            <div className="section4Title">
+              Mini-Projects
+            </div>
+            <div className="section4Text">
+              These projects are designed to showcase the usage of key javascript technologies.
+            </div>
+            <div className="miniProjectBox">
+              <div className="miniProject">
+                <a target="blank" href="https://github.com/thejapanexperience/PokemonAPIViewer2" className="miniProjectLink">
+                  PokeAPI - This project presents data from an external API.
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
   );

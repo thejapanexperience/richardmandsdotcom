@@ -173,9 +173,9 @@ div {
 .section1Image {
   @extend .flex;
   width: 30%;
+  min-height: 200px;
   .section1BoxImage {
     width: 90%;
-    min-width: 200px;
     margin: auto;
     border-radius: 5%;
   }
@@ -228,32 +228,32 @@ div {
 .section2Box {
   width: 100%;
   background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .section2 {
   @extend .flex;
   @extend .section;
   height: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
-.sectionText {
+.section2Text {
   @extend .flex;
   margin: auto;
 }
 
-.sectionTextTitle {
+.section2TextTitle {
   @extend .color1;
   width: 100%;
   font-size: 2em;
 }
 
-.sectionTextBody {
+.section2TextBody {
   @extend .font2;
   width: 80%;
   margin: auto;
-  padding-top: 15px;
+  padding-top: 20px;
   font-size: 1.2em;
   text-align: justify;
   line-height: calc(1.2em + 5px);
@@ -263,7 +263,7 @@ div {
   @extend .flex;
   width: 100%;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .iconBoxImageBox {
@@ -299,11 +299,12 @@ div {
   @extend .section;
   height: auto;
   border: 0;
+  padding-bottom: 20px;
 }
 
 .section3Title {
   @extend .section1Text1;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -363,7 +364,7 @@ div {
 }
 
 .portfolioBodyText {
-  @extend .sectionTextBody;
+  @extend .section2TextBody;
   margin: auto;
   width: 100%;
   color: white;
@@ -372,11 +373,58 @@ div {
 }
 
 .section4Box {
-  @extend .section2Box
+  @extend .section2Box;
 }
 
 .section4 {
   @extend .flex;
   @extend .section;
-  border: 1px black solid;
+  height: auto;
+  border: 0;
+}
+
+.section4Text {
+  @extend .section2Text;
+  margin: auto;
+}
+
+.section4TextTitle {
+  @extend .section2TextTitle;
+  margin: auto;
+}
+
+.section4TextBody {
+  @extend .section2TextBody;
+  margin: auto;
+}
+
+.miniProjectBox {
+  @extend .flex;
+  margin-right: auto;
+}
+
+.section4Title {
+  @extend .section2TextTitle;
+  width: 100%;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+.section4Text {
+  @extend .section2TextBody;
+  width: 80%;
+  // margin-right: auto;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.miniProject {
+  @extend .flex;
+  width: 80%;
+  margin: auto;
+}
+
+.miniProjectLink {
+  width: 100%;
+  margin: auto;
 }

@@ -35,7 +35,7 @@ const HomePage = () => {
             <div className="nav6" />
           </div>
         </div>
-        
+
         <div className="section1Box">
           <div className="section1">
             <div className="section1Image">
@@ -63,7 +63,7 @@ const HomePage = () => {
           <div className="section2" >
             <div className="section2Text">
               <span className="section2TextTitle">
-                Let me introduce myself...
+                Please allow me to introduce myself...
               </span>
               <span className="section2TextBody">
                 I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I have experience implementing React, React Native, jQuery, Redux, Flux, Node, Express, Mongo, Firebase, Amazon Web Services, GoogleAPIs and more into my apps. I'm strongly self-reliant and am able to quickly learn and incorporate new javascript technologies into my projects. I was part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016.

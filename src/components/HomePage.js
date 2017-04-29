@@ -121,6 +121,7 @@ const HomePage = () => {
             {/* Portfolio Entry Begin */}
             <div className="portfolioBox">
               <div className="portfolioTitleText">
+                <hr/>
                 Eduku
               </div>
               <div className="portfolioYoutubeBox">
@@ -136,6 +137,7 @@ const HomePage = () => {
             {/* Portfolio Entry Begin */}
             <div className="portfolioBox">
               <div className="portfolioTitleText">
+                <hr/>
                 Entable
               </div>
               <div className="portfolioYoutubeBox">
@@ -151,6 +153,7 @@ const HomePage = () => {
             {/* Portfolio Entry Begin */}
             <div className="portfolioBox">
               <div className="portfolioTitleText">
+                <hr/>
                 The Fast Life
               </div>
               <div className="portfolioYoutubeBox">

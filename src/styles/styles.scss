@@ -209,15 +209,16 @@ div {
     width: 100%;
     height: 100%;
     margin: auto;
-    box-shadow: 10px 10px 6px rgba(0,0,0,.2);
+    box-shadow: 10px 10px 10px rgba(0,0,0,.35);
     // border-radius: 5%;
   }
   :hover {
+    box-shadow: 20px 20px 10px rgba(0,0,0,.35);
     @extend .transition2;
     @extend .transition2;
-    -moz-transform: scale(0.95);
-    -webkit-transform: scale(0.95);
-    transform: scale(0.95);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
   }
   :not(:hover){
     @extend .transition2;
@@ -252,11 +253,11 @@ div {
 
   color: white;
   :hover {
+    text-shadow: 10px 10px 5px rgba(0,0,0,0.4);
     @extend .transition1;
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-    text-shadow: 10px 10px 5px rgba(0,0,0,0.4);
   }
   :not(:hover){
     @extend .transition1;

@@ -235,14 +235,13 @@ div {
   width: 100%;
   color: white;
   @include responsive-font(8vw, 35px, 100px, 50px);
-
+  text-shadow: 5px 5px 5px rgba(0,0,0,.2);
 }
 
 .section1Text2 {
   @extend .section1Text1;
   @extend .font2;
   @include responsive-font(5vw, 35px, 65px, 30px);
-
 }
 
 .section1Text3Box {
@@ -259,6 +258,7 @@ div {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+    text-shadow: 10px 10px 5px rgba(0,0,0,0.4);
   }
   :not(:hover){
     @extend .transition1;

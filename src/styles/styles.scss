@@ -209,6 +209,7 @@ div {
     width: 100%;
     height: 100%;
     margin: auto;
+    box-shadow: 10px 10px 6px rgba(0,0,0,.3);
     // border-radius: 5%;
   }
   :hover {
@@ -217,6 +218,8 @@ div {
     -moz-transform: scale(0.95);
     -webkit-transform: scale(0.95);
     transform: scale(0.95);
+    box-shadow: -10px -10px 6px rgba(0,0,0,.3);
+
   }
   :not(:hover){
     @extend .transition2;

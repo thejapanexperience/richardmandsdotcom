@@ -595,11 +595,12 @@ div {
   @extend .section3Title;
   // font-size: 13vw;
   @include responsive-font(15vw, 35px, 160px, 50px);
+  padding-bottom: 20px;
 }
 .section7Text {
   @extend .section5Text;
   text-align: justify;
-  // padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 hr {
   width: 100%;
@@ -608,6 +609,7 @@ hr {
 .section7ImageBox {
   @extend .flex;
   width: 100%;
+  padding-bottom: 40px;
 }
 .section7Image {
   width: 100%;

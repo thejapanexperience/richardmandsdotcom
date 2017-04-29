@@ -209,7 +209,7 @@ div {
     width: 100%;
     height: 100%;
     margin: auto;
-    box-shadow: 10px 10px 6px rgba(0,0,0,.3);
+    box-shadow: 10px 10px 6px rgba(0,0,0,.2);
     // border-radius: 5%;
   }
   :hover {
@@ -218,8 +218,6 @@ div {
     -moz-transform: scale(0.95);
     -webkit-transform: scale(0.95);
     transform: scale(0.95);
-    box-shadow: -10px -10px 6px rgba(0,0,0,.3);
-
   }
   :not(:hover){
     @extend .transition2;
@@ -235,7 +233,7 @@ div {
   width: 100%;
   color: white;
   @include responsive-font(8vw, 35px, 100px, 50px);
-  text-shadow: 5px 5px 5px rgba(0,0,0,.2);
+  // text-shadow: 5px 5px 5px rgba(0,0,0,.2);
 }
 
 .section1Text2 {

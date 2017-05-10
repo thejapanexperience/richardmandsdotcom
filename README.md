@@ -2,7 +2,7 @@
 
 My Website
 
-Fully customised html and sass.
+Fully custom html and sass. Fully responsive.
 
 Check it out <a target="blank" href="https://serene-bayou-99800.herokuapp.com/">here</a>.
 

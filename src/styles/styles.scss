@@ -63,6 +63,7 @@ $colorGradient2: rgba(230,20,100,0.7);
 // Body
 body {
   @extend .font1;
+  @extend .transition1;
   padding: 0;
   margin: 0;
   // background-color: red;
@@ -128,7 +129,13 @@ div {
   background: linear-gradient(to right, $colorGradient1 , $colorGradient2); /* Standard syntax */
   margin-left: auto;
   margin-right: auto;
-  padding-top: 150px;
+  padding-top: calc(10vmax + 50px);
+  @media screen and (max-width: 600px){
+    padding-top: calc(5vmax + 50px);
+  }
+  @media screen and (max-height: 600px){
+    padding-top: calc(5vmax + 50px);
+  }
   padding-bottom: 50px;
 }
 
@@ -139,7 +146,15 @@ div {
   left: 0;
   width: 100%;
   overflow: hidden;
-  height: 100px;
+  // height: 100px;
+  height: 10vmax;
+  max-height: 100px;
+  @media screen and (max-width: 600px){
+    height: 5vmax;
+  }
+  @media screen and (max-height: 600px){
+    height: 5vmax;
+  }
   background-color: rgba(0,0,0,.6);
   z-index: 5;
 }

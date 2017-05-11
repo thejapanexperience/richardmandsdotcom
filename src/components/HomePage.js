@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <div>
       <div className="backgroundImage"/>
-      <div className='mainContainer'>
+      <div className="mainContainer">
 
         <div className="section0">
           <div className="navBox">
@@ -31,7 +31,7 @@ const HomePage = () => {
                 {/* Resume */}
               </div>
             </div>
-            <div className="nav5"></div>
+            <div className="nav5" />
             <div className="nav6" />
           </div>
         </div>
@@ -39,7 +39,7 @@ const HomePage = () => {
         <div className="section1Box">
           <div className="section1">
             <div className="section1Image">
-              <img className="section1BoxImage" src="../images/richard1Crop.jpg" alt="richardmands"/>
+              <img className="section1BoxImage" src={require("../images/richard1Crop.jpg")} alt="richardmands"/>
             </div>
             <div className="flexText">
               <div className="section1Text1">
@@ -49,11 +49,11 @@ const HomePage = () => {
                 Full-Stack Javascript Developer
               </div>
               <div className="section1Text3Box">
-                <a className="section1Text3" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg"></i></a><span className="section1Text3"> | </span>
-                <a className="section1Text3" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg"></i></a><span className="section1Text3"> | </span>
-                <a className="section1Text3" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg"></i></a><span className="section1Text3"> | </span>
-                <a className="section1Text3" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg"></i></a><span className="section1Text3"> | </span>
-                <a className="section1Text3" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg"></i></a>
+                <a className="section1Text3" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="section1Text3"> | </span>
+                <a className="section1Text3" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section1Text3"> | </span>
+                <a className="section1Text3" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="section1Text3"> | </span>
+                <a className="section1Text3" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a><span className="section1Text3"> | </span>
+                <a className="section1Text3" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a>
               </div>
             </div>
           </div>
@@ -70,43 +70,43 @@ const HomePage = () => {
               </span>
               <div className="iconBox">
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/React.png" alt="React"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/React.png")} alt="React"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/ReactNative.png" alt="ReactNative"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/ReactNative.png")} alt="ReactNative"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/Redux.png" alt="Redux"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/Redux.png")} alt="Redux"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/SocketIO.png" alt="SocketIO"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/SocketIO.png")} alt="SocketIO"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImageSmall" src="../images/techIcons300/Amazon.png" alt="Amazon"/>
+                  <img className="iconBoxImageSmall" src={require("../images/techIcons300/Amazon.png")} alt="Amazon"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/Express.png" alt="Express"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/Express.png")} alt="Express"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/Firebase.png" alt="Firebase"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/Firebase.png")} alt="Firebase"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/Flux2.png" alt="Flux2"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/Flux2.png")} alt="Flux2"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/Google.png" alt="Google"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/Google.png")} alt="Google"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/jQuery.png" alt="jQuery"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/jQuery.png")} alt="jQuery"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/Mongo.png" alt="Mongo"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/Mongo.png")} alt="Mongo"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src="../images/techIcons300/Node.png" alt="Node"/>
+                  <img className="iconBoxImage" src={require("../images/techIcons300/Node.png")} alt="Node"/>
                 </div>
                 <div className="iconBoxImageBox">
-                  <img className="iconBoxImageSmall" src="../images/techIcons300/Javascript.png" alt="Javascript"/>
+                  <img className="iconBoxImageSmall" src={require("../images/techIcons300/Javascript.png")} alt="Javascript"/>
                 </div>
               </div>
             </div>
@@ -126,7 +126,7 @@ const HomePage = () => {
               </div>
               <div className="portfolioYoutubeBox">
                 <div className="portfolioYoutubeVideo">
-                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
                 </div>
               </div>
               <div className="portfolioBodyText">
@@ -142,7 +142,7 @@ const HomePage = () => {
               </div>
               <div className="portfolioYoutubeBox">
                 <div className="portfolioYoutubeVideo">
-                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
                 </div>
               </div>
               <div className="portfolioBodyText">
@@ -158,7 +158,7 @@ const HomePage = () => {
               </div>
               <div className="portfolioYoutubeBox">
                 <div className="portfolioYoutubeVideo">
-                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
                 </div>
               </div>
               <div className="portfolioBodyText">
@@ -179,7 +179,7 @@ const HomePage = () => {
             </div>
             <div className="portfolioYoutubeBoxSmall">
               <div className="portfolioYoutubeVideo">
-                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
               </div>
             </div>
             <div className="miniProjectBox">
@@ -208,7 +208,7 @@ const HomePage = () => {
             </div>
             <div className="portfolioYoutubeBoxSmall">
               <div className="portfolioYoutubeVideo">
-                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
               </div>
             </div>
             <div className="section5Text2">
@@ -226,11 +226,11 @@ const HomePage = () => {
               richard@eduku.org
             </div>
             <div className="section6IconsBox">
-              <a className="section6Icons" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg"></i></a><span className="section6Icons"> | </span>
-              <a className="section6Icons" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg"></i></a><span className="section6Icons"> | </span>
-              <a className="section6Icons" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg"></i></a><span className="section6Icons"> | </span>
-              <a className="section6Icons" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg"></i></a><span className="section6Icons"> | </span>
-              <a className="section6Icons" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg"></i></a>
+              <a className="section6Icons" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="section6Icons"> | </span>
+              <a className="section6Icons" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section6Icons"> | </span>
+              <a className="section6Icons" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="section6Icons"> | </span>
+              <a className="section6Icons" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a><span className="section6Icons"> | </span>
+              <a className="section6Icons" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a>
             </div>
           </div>
         </div>
@@ -248,7 +248,7 @@ const HomePage = () => {
               Lorem oopsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
             <div className="section7ImageBox">
-              <img className="section7Image" src="../images/richardCollageWide02.jpg" alt="richardmandsphotography"/>
+              <img className="section7Image" src={require("../images/richardCollageWide02.jpg")} alt="richardmandsphotography"/>
             </div>
             <hr/>
             <div className="section7Title">
@@ -259,13 +259,13 @@ const HomePage = () => {
             </div>
             <div className="portfolioYoutubeBox">
               <div className="portfolioYoutubeVideo">
-                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
               </div>
             </div>
-            <div className="spacer"></div>
+            <div className="spacer" />
             <div className="portfolioYoutubeBox">
               <div className="portfolioYoutubeVideo">
-                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen></iframe>
+                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
               </div>
             </div>
           </div>

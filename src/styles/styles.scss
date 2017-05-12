@@ -182,9 +182,9 @@ div {
     width: 100%;
     margin: auto;
     padding-left: 2%;
-    @include responsive-font(5vh, 5px, 50px, 50px);
+    @include responsive-font(4vmax, 18px, 50px, 50px);
     @media screen and (max-width: 600px){
-      @include responsive-font(2vh, 5px, 50px, 50px);
+      @include responsive-font(2vmax, 18px, 50px, 50px);
     }
     margin: auto;
     text-align: left;

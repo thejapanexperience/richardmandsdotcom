@@ -483,6 +483,8 @@ div {
 
 .section4Box {
   @extend .section2Box;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .section4 {
@@ -498,6 +500,7 @@ div {
   color: $color1;
   width: 100%;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .section4Text {
@@ -535,8 +538,9 @@ div {
 
 .section5Box {
   @extend .section4Box;
+  padding-top: 15px;
+  padding-bottom: 20px;
   background-color: transparent;
-
 }
 
 .section5 {
@@ -572,7 +576,8 @@ div {
 
 .section6Box {
   @extend .section4Box;
-  padding-bottom: 45px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .section6 {
@@ -588,6 +593,8 @@ div {
 
 .section6Text {
   @extend .section4Text;
+  padding: 0;
+  padding-bottom: 5px;
   @include responsive-font(8vw, 20px, 120px, 50px);
   color: $color1;
 }
@@ -620,9 +627,9 @@ div {
   }
 }
 
-.section6Icons {
-  @extend .section4Text;
-}
+// .section6Icons {
+//   @extend .section4Text;
+// }
 
 .section7Box {
   @extend .section5Box;
@@ -655,7 +662,7 @@ hr {
 }
 .section7ImageBox {
   @extend .flex;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   :hover {
     // box-shadow: 20px 20px 10px rgba(0,0,0,.35);
     @extend .transition2;

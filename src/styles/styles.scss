@@ -1,14 +1,6 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Ubuntu');
 
-.font1{
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.font2 {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
 @mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
   $responsive-unitless: $responsive / ($responsive - $responsive + 1);
   $dimension: if(unit($responsive) == 'vh', 'height', 'width');
@@ -31,6 +23,25 @@
   }
 
   font-size: $responsive;
+}
+
+.font1{
+  font-family: 'Ubuntu', sans-serif;
+}
+.font2 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.fontSizeTitle1 {
+  @include responsive-font(5vw, 16px, 35px, 30px);
+}
+.fontSizeTitle2 {
+  @include responsive-font(13vw, 20px, 150px, 50px);
+}
+.fontSizeTitle3 {
+  @include responsive-font(12vw, 18px, 120px, 50px);
+}
+.fontSizeBody1 {
+  @include responsive-font(3vw, 14px, 20px, 16px);
 }
 
 .color1 {
@@ -176,6 +187,7 @@ div {
 }
 
 .nav1Text {
+  @extend .transition1;
   width: 100%;
   margin: auto;
   margin-bottom: 10px;
@@ -184,7 +196,8 @@ div {
   text-align: left;
   @media screen and (max-width: 600px){
     @include responsive-font(2vmax, 18px, 50px, 50px);
-    text-align: center;
+    text-align: right;
+    padding-right: 2%;
     padding-left: 0;
   }
 }
@@ -209,8 +222,8 @@ div {
 
 .section1Box {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .section1 {
@@ -289,8 +302,8 @@ div {
 .section2Box {
   width: 100%;
   background-color: white;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .section2 {
@@ -306,19 +319,19 @@ div {
 
 .section2TextTitle {
   @extend .color1;
+  @extend .fontSizeTitle1;
   width: 100%;
-  font-size: 2em;
 }
 
 .section2TextBody {
   @extend .font2;
   @extend .color1;
+  @extend .fontSizeBody1;
   width: 80%;
   margin: auto;
   padding-top: 20px;
-  font-size: 1.2em;
   text-align: justify;
-  line-height: calc(1.2em + 5px);
+  // line-height: calc(1.2em + 5px);
 }
 
 .iconBoxOuter {
@@ -379,6 +392,8 @@ div {
 
 .section3Box {
   width: 100%;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .section3 {
@@ -387,18 +402,14 @@ div {
   width: 100%;
   height: auto;
   border: 0;
-  padding-bottom: 60px;
   text-align: center;
 }
 
 .section3Title {
+  @extend .fontSizeTitle2;
   width: 100%;
   color: white;
   text-align: center;
-  padding-top: 30px;
-  // padding-bottom: 20px;
-  @include responsive-font(20vw, 35px, 200px, 50px);
-
 }
 
 .portfolioBox {
@@ -409,10 +420,11 @@ div {
 }
 
 .portfolioTitleText {
-  @extend .section1Text2;
+  @extend .font1;
+  @extend .fontSizeTitle1;
+  color: white;
   width: 100%;
   text-align: right;
-  // padding-bottom: 20px;
 }
 
 .portfolioYoutubeBox {
@@ -485,9 +497,6 @@ div {
   margin: auto;
   width: 100%;
   color: white;
-  // padding-top: 20px;
-  // padding-bottom: 20px;
-  @include responsive-font(2vw, 18px, 18px, 25px);
 }
 
 .section4Box {
@@ -502,7 +511,8 @@ div {
 }
 
 .section4Title {
-  @extend .section1Text1;
+  @extend .font1;
+  @extend .fontSizeTitle3;
   color: $color1;
   width: 100%;
   text-align: center;
@@ -570,8 +580,7 @@ div {
 }
 
 .section5Text2 {
-  @extend .section4Text;
-  @include responsive-font(2vw, 18px, 18px, 25px);
+  @extend .section2TextBody;
   width: 80%;
   margin: auto;
   color: white;
@@ -588,8 +597,10 @@ div {
 }
 
 .section6Title {
-  @extend .section4Title;
-  @include responsive-font(15vw, 35px, 160px, 50px);
+  @extend .fontSizeTitle2;
+  @extend .font1;
+  margin: auto;
+  color: $color1;
 }
 
 .section6Text {
@@ -637,19 +648,27 @@ div {
   @extend .section5;
 }
 .section7Title {
-  @extend .section3Title;
-  // font-size: 13vw;
-  @include responsive-font(15vw, 35px, 160px, 50px);
-  padding-bottom: 20px;
+  @extend .fontSizeTitle2;
+  @extend .font1;
+  margin: auto;
+  color: white;
+}
+.section7Title2 {
+  @extend .fontSizeTitle3;
+  @extend .font1;
+  text-align: center;
+  margin: auto;
+  color: white;
 }
 .section7Text {
   @extend .section5Text;
+  width: 80%;
   text-align: justify;
-  padding-bottom: 40px;
+  // padding-bottom: 40px;
 }
 hr {
   width: 100%;
-  margin-top: 40px;
+  // margin-top: 40px;
 }
 .section7ImageBox {
   @extend .flex;
@@ -672,4 +691,11 @@ hr {
 .spacer {
   width: 100%;
   height: 20px;
+}
+
+.section7YoutubeBox {
+  @extend .flex;
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }

@@ -118,7 +118,7 @@ const HomePage = () => {
                 </div>
 
               </div>
-              
+
 
             </div>
           </div>
@@ -127,13 +127,13 @@ const HomePage = () => {
         <div className="section3Box">
           <div className="section3">
             <div className="section3Title">
-              Portfolio
+              PORTFOLIO
             </div>
             {/* Portfolio Entry Begin */}
             <div className="portfolioBox">
               <div className="portfolioTitleText">
-                <hr/>
-                Eduku
+                {/* <hr/> */}
+                EDUKU
               </div>
               <div className="portfolioYoutubeBox">
                 <div className="portfolioYoutubeVideo">
@@ -149,7 +149,7 @@ const HomePage = () => {
             <div className="portfolioBox">
               <div className="portfolioTitleText">
                 <hr/>
-                Entable
+                richardmands.com
               </div>
               <div className="portfolioYoutubeBox">
                 <div className="portfolioYoutubeVideo">
@@ -165,7 +165,23 @@ const HomePage = () => {
             <div className="portfolioBox">
               <div className="portfolioTitleText">
                 <hr/>
-                The Fast Life
+                ENTABLE
+              </div>
+              <div className="portfolioYoutubeBox">
+                <div className="portfolioYoutubeVideo">
+                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
+                </div>
+              </div>
+              <div className="portfolioBodyText">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+            {/* Portfolio Entry End */}
+            {/* Portfolio Entry Begin */}
+            <div className="portfolioBox">
+              <div className="portfolioTitleText">
+                <hr/>
+                THE FAST LIFE
               </div>
               <div className="portfolioYoutubeBox">
                 <div className="portfolioYoutubeVideo">
@@ -183,7 +199,7 @@ const HomePage = () => {
         <div className="section4Box">
           <div className="section4">
             <div className="section4Title">
-              Mini-Projects
+              MINI-PROJECTS
             </div>
             <div className="section4Text">
               These projects are designed to showcase the usage of key javascript technologies.
@@ -206,7 +222,7 @@ const HomePage = () => {
         <div className="section5Box">
           <div className="section5">
             <div className="section5Title">
-              Full Resume
+              FULL RESUME
             </div>
             <div className="section5Text">
               <a target="blank" href="https://drive.google.com/open?id=0B6GYiEdGHBSDbFRteU9sWkxFMGM" className="resumeLink">
@@ -231,7 +247,7 @@ const HomePage = () => {
         <div className="section6Box">
           <div className="section6">
             <div className="section6Title">
-              Contact Me
+              CONTACT ME
             </div>
             <div className="section6Text">
               richard@eduku.org
@@ -249,11 +265,11 @@ const HomePage = () => {
         <div className="section7Box">
           <div className="section7">
             <div className="section7Title">
-              Other Skills
+              OTHER SKILLS
             </div>
             <hr/>
-            <div className="section7Title">
-              Photography
+            <div className="section7Title2">
+              PHOTOGRAPHY
             </div>
             <div className="section7Text">
               Lorem oopsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -262,23 +278,27 @@ const HomePage = () => {
               <img className="section7Image" src={require("../images/richardCollageWide02.jpg")} alt="richardmandsphotography"/>
             </div>
             <hr/>
-            <div className="section7Title">
-              Videography & Editing
+            <div className="section7Title2">
+              VIDEOGRAPHY AND EDITING
             </div>
             <div className="section7Text">
               Lorem oopsum doloor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
-            <div className="portfolioYoutubeBox">
-              <div className="portfolioYoutubeVideo">
-                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
+            <div className="section7YoutubeBox">
+              <div className="portfolioYoutubeBox">
+                <div className="portfolioYoutubeVideo">
+                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
+                </div>
               </div>
-            </div>
-            <div className="spacer" />
-            <div className="portfolioYoutubeBox">
-              <div className="portfolioYoutubeVideo">
-                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
+              <div className="spacer" />
+              <div className="portfolioYoutubeBox">
+                <div className="portfolioYoutubeVideo">
+                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
+                </div>
               </div>
+              <div className="spacer" />
             </div>
+            <hr/>
           </div>
         </div>
 

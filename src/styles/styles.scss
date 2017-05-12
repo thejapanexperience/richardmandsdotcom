@@ -181,13 +181,16 @@ div {
   .nav1Text {
     width: 100%;
     margin: auto;
+    margin-bottom: 5px;
     padding-left: 2%;
     @include responsive-font(4vmax, 18px, 50px, 50px);
+    text-align: left;
     @media screen and (max-width: 600px){
       @include responsive-font(2vmax, 18px, 50px, 50px);
+      text-align: center;
+      padding-left: 0;
     }
-    margin: auto;
-    text-align: left;
+    // margin: auto;
   }
 }
 // .nav2 {

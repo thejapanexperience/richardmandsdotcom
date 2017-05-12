@@ -256,14 +256,14 @@ div {
 .section1Text1 {
   width: 100%;
   color: white;
-  @include responsive-font(8vw, 35px, 100px, 50px);
+  @include responsive-font(8vw, 20px, 100px, 50px);
   // text-shadow: 5px 5px 5px rgba(0,0,0,.2);
 }
 
 .section1Text2 {
   @extend .section1Text1;
   @extend .font2;
-  @include responsive-font(5vw, 35px, 65px, 30px);
+  @include responsive-font(5vw, 16px, 65px, 30px);
 }
 
 .section1Text3Box {
@@ -271,8 +271,8 @@ div {
 }
 
 .section1Text3 {
-  @extend .section1Text1;
-  @include responsive-font(3vw, 20px, 160px, 50px);
+  @extend .section1Text2;
+  @include responsive-font(3vw, 16px, 160px, 50px);
 
   color: white;
   :hover {

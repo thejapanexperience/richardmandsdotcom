@@ -68,47 +68,58 @@ const HomePage = () => {
               <span className="section2TextBody">
                 I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I have experience implementing React, React Native, jQuery, Redux, Flux, Node, Express, Mongo, Firebase, Amazon Web Services, GoogleAPIs and more into my apps. I'm strongly self-reliant and am able to quickly learn and incorporate new javascript technologies into my projects. I was part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016.
               </span>
-              <div className="iconBox">
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/React.png")} alt="React"/>
+
+
+              <div className="iconBoxOuter">
+
+                <div className="iconBoxJS">
+                  <div className="iconBoxImageBoxJS">
+                    <img className="iconBoxImageJS" src={require("../images/techIcons300/Javascript.png")} alt="Javascript"/>
+                  </div>
                 </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/ReactNative.png")} alt="ReactNative"/>
+
+                <div className="iconBox">
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/React.png")} alt="React"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/ReactNative.png")} alt="ReactNative"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/Redux.png")} alt="Redux"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/SocketIO.png")} alt="SocketIO"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImageSmall" src={require("../images/techIcons300/Amazon.png")} alt="Amazon"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/Express.png")} alt="Express"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/Firebase.png")} alt="Firebase"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/Flux2.png")} alt="Flux2"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/Google.png")} alt="Google"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/jQuery.png")} alt="jQuery"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/Mongo.png")} alt="Mongo"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/Node.png")} alt="Node"/>
+                  </div>
                 </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/Redux.png")} alt="Redux"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/SocketIO.png")} alt="SocketIO"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImageSmall" src={require("../images/techIcons300/Amazon.png")} alt="Amazon"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/Express.png")} alt="Express"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/Firebase.png")} alt="Firebase"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/Flux2.png")} alt="Flux2"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/Google.png")} alt="Google"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/jQuery.png")} alt="jQuery"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/Mongo.png")} alt="Mongo"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImage" src={require("../images/techIcons300/Node.png")} alt="Node"/>
-                </div>
-                <div className="iconBoxImageBox">
-                  <img className="iconBoxImageSmall" src={require("../images/techIcons300/Javascript.png")} alt="Javascript"/>
-                </div>
+
               </div>
+              
+
             </div>
           </div>
         </div>

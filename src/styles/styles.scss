@@ -238,7 +238,6 @@ div {
   :hover {
     // box-shadow: 20px 20px 10px rgba(0,0,0,.35);
     @extend .transition2;
-    @extend .transition2;
     -moz-transform: scale(1.05);
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
@@ -322,12 +321,23 @@ div {
   line-height: calc(1.2em + 5px);
 }
 
+.iconBoxOuter {
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.35);
+  width: 98%;
+}
+
 .iconBox {
   @extend .flex;
+  padding-top: 10px;
   width: 100%;
   margin: auto;
-  padding-top: 30px;
   text-align: center;
+}
+.iconBoxJS {
+  @extend .iconBox;
+  padding: 0;
+  background-color: #f0da5a;
 }
 
 .iconBoxImageBox {
@@ -346,12 +356,24 @@ div {
     @extend .transition2;
   }
 }
-
 .iconBoxImage {
   width: 100%;
 }
 .iconBoxImageSmall {
   width: 80%;
+}
+.iconBoxImageBoxJS {
+  @extend .flex;
+  @extend .iconBoxImageBox;
+  padding: 0;
+  margin: auto;
+}
+.iconBoxImageJS {
+  @extend .iconBoxImage;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding: 0;
 }
 
 
@@ -632,6 +654,16 @@ hr {
 .section7ImageBox {
   @extend .flex;
   padding-bottom: 20px;
+  :hover {
+    // box-shadow: 20px 20px 10px rgba(0,0,0,.35);
+    @extend .transition2;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  :not(:hover){
+    @extend .transition2;
+  }
 }
 .section7Image {
   width: 100%;

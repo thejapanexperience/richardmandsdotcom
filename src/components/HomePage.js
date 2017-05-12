@@ -1,12 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router';
+// import {Link} from 'react-router';
 
 const HomePage = () => {
   return (
     <div>
       <div className="backgroundImage"/>
       <div className="mainContainer">
-
+        <div className="navPadding"/>
         <div className="section0">
           <div className="navBox">
             <div className="nav1">

@@ -201,24 +201,6 @@ div {
     padding-left: 0;
   }
 }
-// .nav2 {
-//   @extend .nav1;
-// }
-//
-// .nav3 {
-//   @extend .nav1;
-//   .nav3Text {
-//     margin: auto;
-//     font-size: 1em;
-//   }
-// }
-// .nav4 {
-//   @extend .nav1;
-//   .nav4Text {
-//     margin: auto;
-//     font-size: 1em;
-//   }
-// }
 
 .section1Box {
   width: 100%;
@@ -320,6 +302,7 @@ div {
 .section2TextTitle {
   @extend .color1;
   @extend .fontSizeTitle1;
+  margin: auto;
   width: 100%;
 }
 
@@ -329,9 +312,8 @@ div {
   @extend .fontSizeBody1;
   width: 80%;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: justify;
-  // line-height: calc(1.2em + 5px);
 }
 
 .iconBoxOuter {
@@ -590,6 +572,7 @@ div {
 
 .section6Box {
   @extend .section4Box;
+  padding-bottom: 45px;
 }
 
 .section6 {

@@ -40,6 +40,9 @@
 .fontSizeTitle3 {
   @include responsive-font(11vw, 14px, 130px, 50px);
 }
+.fontSizeTitle4 {
+  @include responsive-font(5.5vw, 14px, 80px, 50px);
+}
 .fontSizeBody1 {
   @include responsive-font(3vw, 14px, 20px, 16px);
 }
@@ -458,13 +461,12 @@ div {
 
 .portfolioTitleText {
   @extend .font1;
-  @extend .fontSizeTitle1;
+  @extend .fontSizeTitle4;
   @extend .transition1Size;
   opacity: 1;
   color: white;
   width: 100%;
   text-align: right;
-  font-size: 7vw;
 }
 .portfolioTitleTextSmall {
   @extend .portfolioTitleText;

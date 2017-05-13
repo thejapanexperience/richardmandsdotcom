@@ -38,7 +38,7 @@
   @include responsive-font(13vw, 20px, 150px, 50px);
 }
 .fontSizeTitle3 {
-  @include responsive-font(12vw, 18px, 120px, 50px);
+  @include responsive-font(11vw, 14px, 130px, 50px);
 }
 .fontSizeBody1 {
   @include responsive-font(3vw, 14px, 20px, 16px);
@@ -149,7 +149,7 @@ div {
 }
 
 .section {
-  width: 90%;
+  width: 100%;
   max-width: 1024px;
   height: 400px;
   // height: auto;
@@ -225,8 +225,7 @@ div {
 
 .section1Box {
   width: 100%;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 20px;
 }
 
 .section1 {
@@ -305,8 +304,7 @@ div {
 .section2Box {
   width: 100%;
   background-color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .section2 {
@@ -395,14 +393,12 @@ div {
 
 .section3Box {
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .section3 {
   @extend .flex;
   @extend .section;
-  width: 100%;
   height: auto;
   border: 0;
   text-align: center;
@@ -436,12 +432,9 @@ div {
   background-color: $color1;
   background-color: $colorGradient2;
   &:hover {
-    background-color: rgba(255,255,255,.4);
-    color: $color1;
-  }
-  :hover {
     // background-color: rgba(255,255,255,.4);
-    color: $color1;
+    // color: $color1;
+    cursor: pointer;
   }
 }
 
@@ -471,7 +464,7 @@ div {
   color: white;
   width: 100%;
   text-align: right;
-  font-size: 4vw;
+  font-size: 7vw;
 }
 .portfolioTitleTextSmall {
   @extend .portfolioTitleText;

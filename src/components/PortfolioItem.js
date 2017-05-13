@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 class PortfolioItem extends React.Component {
 
@@ -8,8 +8,6 @@ class PortfolioItem extends React.Component {
   }
 
   componentWillReceiveProps(nextProps){
-    console.log('this.props.data: ', this.props.data);
-    console.log('nextProps.data: ', nextProps.data);
     if (this.props.data !== nextProps.data){
       document.getElementById('portfolioItemTitle').className ='portfolioTitleTextSmallInvisible';
       document.getElementById('youtubeBox').className ='portfolioYoutubeBoxGone';

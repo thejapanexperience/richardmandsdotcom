@@ -31,13 +31,13 @@ export default class HomePage extends React.Component {
         setTimeout(()=>{
           document.getElementById('section0Nav').className="section0Gone";
           document.getElementById('navText').className="nav1TextGone";
-        },200);
+        },5);
       }
       if (top <= totalHeight){
         setTimeout(()=> {
           document.getElementById('section0Nav').className="section0";
           document.getElementById('navText').className="nav1Text";
-        },200);
+        },5);
       }
     }, false);
   }

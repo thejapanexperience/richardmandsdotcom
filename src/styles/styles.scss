@@ -74,8 +74,8 @@ $colorGradient2: rgba(230,20,100,0.7);
 // $colorGradient3: rgba(232,61,66,0.9);
 
 .transition0{
-  transition: all 0.6s;
-  -webkit-transition: all 0.6s;
+  transition: all 1s;
+  -webkit-transition: all 1s;
 }
 .transition1{
   transition: all 0.2s;
@@ -143,12 +143,14 @@ div {
   }
   @media screen and (max-height: 600px){
     height: 8vmax;
-    height: 60px;  }
+    height: 60px;
+  }
+  opacity: 1;
 }
 
 .navbarHeightGone {
-  height: 10vmax;
-  height: 0;
+  @extend .navbarHeight;
+  opacity: 0;
 }
 
 @mixin border-radius($radius) {
@@ -257,7 +259,7 @@ div {
 .nav1TextGone {
   @extend .nav1Text;
   position: absolute;
-  top: -50px;
+  top: -300px;
   opacity: 0;
   @extend .transition0;
 }
@@ -355,6 +357,7 @@ div {
 .section2Text {
   @extend .flex;
   margin: auto;
+  width: 98%;
 }
 
 .section2TextTitle {
@@ -375,9 +378,11 @@ div {
 }
 
 .iconBoxOuter {
+  @extend .flex;
+  margin: auto;
   margin-top: 20px;
   box-shadow: 5px 5px 5px rgba(0,0,0,.35);
-  width: 98%;
+  width: 100%;
 }
 
 .iconBox {
@@ -431,17 +436,18 @@ div {
 
 
 .section3Box {
+  @extend .flex;
   width: 100%;
   padding: 20px;
 }
 
 .section3 {
-  @extend .flex;
   @extend .section;
+  @extend .flex;
+  margin: auto;
   height: auto;
-  border: 0;
   text-align: center;
-  // box-shadow: 10px 10px 10px rgba(0,0,0,.35), -10px -10px 10px rgba(0,0,0,.35);
+  border: 0;
   background-color: rgba(0,0,0,.4);
   padding-bottom: 20px;
 }

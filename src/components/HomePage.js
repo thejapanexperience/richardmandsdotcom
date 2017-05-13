@@ -8,12 +8,6 @@ export default class HomePage extends React.Component {
 
   constructor() {
     super();
-    this._handleScroll = this._handleScroll.bind(this);
-  }
-
-  _handleScroll(ev) {
-    console.log('ev: ', ev);
-    console.log("Scrolling!");
   }
 
   componentDidMount() {
@@ -24,27 +18,20 @@ export default class HomePage extends React.Component {
       let height1 = $('#section1Box').outerHeight(true);
       let height2 = $('#section2Box').outerHeight(true);
       let height3 = $('#section3Box').outerHeight(true);
-      console.log('top: ', top);
       let totalHeight = height0 + height1 + height2;
-      console.log('totalHeight: ', totalHeight);
       if (top > totalHeight){
-        setTimeout(()=>{
           document.getElementById('section0Nav').className="section0Gone";
           document.getElementById('navText').className="nav1TextGone";
-        },5);
       }
       if (top <= totalHeight){
-        setTimeout(()=> {
           document.getElementById('section0Nav').className="section0";
           document.getElementById('navText').className="nav1Text";
-        },5);
       }
     }, false);
   }
 
   componentWillUnmount() {
-          // const list = ReactDOM.findDOMNode(this.refs.list);
-          // list.removeEventListener('scroll', this._handleScroll);
+          window.removeEventListener('scroll');
   }
 
 
@@ -62,25 +49,6 @@ export default class HomePage extends React.Component {
                 richardmands.com
               </div>
             </div>
-            <div className="nav2" />
-            <div className="nav3">
-              <div className="nav3Text">
-                {/* Coding */}
-              </div>
-              <div className="nav3Text">
-                {/* My Work */}
-              </div>
-            </div>
-            <div className="nav4">
-              <div className="nav4Text">
-                {/* Skills */}
-              </div>
-              <div className="nav4Text">
-                {/* Resume */}
-              </div>
-            </div>
-            <div className="nav5" />
-            <div className="nav6" />
           </div>
         </div>
 

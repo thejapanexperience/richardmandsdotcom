@@ -43,6 +43,9 @@
 .fontSizeBody1 {
   @include responsive-font(3vw, 14px, 20px, 16px);
 }
+.fontSizeBody2 {
+  @include responsive-font(1.5vw, 6px, 16px, 16px);
+}
 
 .color1 {
   color: #311847;
@@ -53,6 +56,11 @@ $color1: #311847;
   color: #e93e43;
 }
 $color2: #e93e43;
+
+.colorJS {
+  color: #f0da5a;
+}
+$colorJS: #f0da5a;
 
 // $colorGradient1: #EC4067;
 // $colorGradient1: rgba(137,52,121,0.8);
@@ -65,16 +73,29 @@ $colorGradient2: rgba(230,20,100,0.7);
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
 }
+.transition1Size{
+  transition: font-size 0.2s;
+  -webkit-transition: font-size 0.2s;
+}
 
 .transition2{
   transition: all 1s;
   -webkit-transition: all 1s;
+}
+.transition3{
+  transition: all 2s;
+  -webkit-transition: all 2s;
+}
+
+.shadowFull {
+  box-shadow: 10px 10px 10px rgba(0,0,0,.35), -10px -10px 10px rgba(0,0,0,.35);
 }
 
 // Body
 body {
   @extend .font1;
   @extend .transition1;
+  color: $color1;
   padding: 0;
   margin: 0;
   // background-color: red;
@@ -204,8 +225,8 @@ div {
 
 .section1Box {
   width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .section1 {
@@ -284,7 +305,7 @@ div {
 .section2Box {
   width: 100%;
   background-color: white;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -374,7 +395,7 @@ div {
 
 .section3Box {
   width: 100%;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -385,6 +406,9 @@ div {
   height: auto;
   border: 0;
   text-align: center;
+  // box-shadow: 10px 10px 10px rgba(0,0,0,.35), -10px -10px 10px rgba(0,0,0,.35);
+  background-color: rgba(0,0,0,.4);
+  padding-bottom: 20px;
 }
 
 .section3Title {
@@ -392,6 +416,44 @@ div {
   width: 100%;
   color: white;
   text-align: center;
+}
+
+.tabBar{
+  @extend .flex;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 10px;
+  // @extend .shadowFull;
+}
+
+.tabBarTab {
+  @extend .flex;
+  @extend .transition1;
+  margin: auto;
+  width: 24.7%;
+  height: 50px;
+  color: white;
+  background-color: $color1;
+  background-color: $colorGradient2;
+  &:hover {
+    background-color: rgba(255,255,255,.4);
+    color: $color1;
+  }
+  :hover {
+    // background-color: rgba(255,255,255,.4);
+    color: $color1;
+  }
+}
+
+.tabBarTabActive {
+  @extend .tabBarTab;
+  background-color: lighten($color1, 10%);
+  background-color: $colorGradient1;
+}
+
+.tabBarTabTitle {
+  @extend .fontSizeBody2;
+  margin: auto;
 }
 
 .portfolioBox {
@@ -404,26 +466,59 @@ div {
 .portfolioTitleText {
   @extend .font1;
   @extend .fontSizeTitle1;
+  @extend .transition1Size;
+  opacity: 1;
   color: white;
   width: 100%;
   text-align: right;
+  font-size: 4vw;
+}
+.portfolioTitleTextSmall {
+  @extend .portfolioTitleText;
+  opacity: 0;
+  font-size: 0.01vw;
+}
+.portfolioTitleTextSmallInvisible {
+  @extend .portfolioTitleText;
+  opacity: 0;
+  font-size: 0.01vw;
+  // font-size: 0.01vw;
 }
 
 .portfolioYoutubeBox {
+  @extend .transition3;
   display: inline-block;
   position: relative;
   width: 100%;
+  height: auto;
   margin: auto;
   z-index: 1;
-  :hover {
-    @extend .transition2;
-    -moz-transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02);
-  }
-  :not(:hover){
-    @extend .transition2;
-  }
+  // :hover {
+  //   @extend .transition2;
+  //   -moz-transform: scale(1.02);
+  //   -webkit-transform: scale(1.02);
+  //   transform: scale(1.02);
+  // }
+  // :not(:hover){
+  //   @extend .transition2;
+  // }
+}
+.portfolioYoutubeBoxGone {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 0;
+  margin: auto;
+  z-index: 1;
+  // :hover {
+  //   @extend .transition2;
+  //   -moz-transform: scale(1.02);
+  //   -webkit-transform: scale(1.02);
+  //   transform: scale(1.02);
+  // }
+  // :not(:hover){
+  //   @extend .transition2;
+  // }
 }
 
 .portfolioYoutubeBoxSmall {
@@ -432,15 +527,15 @@ div {
   width: 50%;
   margin: auto;
   z-index: 1;
-  :hover {
-    @extend .transition2;
-    -moz-transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02);
-  }
-  :not(:hover){
-    @extend .transition2;
-  }
+  // :hover {
+  //   @extend .transition2;
+  //   -moz-transform: scale(1.02);
+  //   -webkit-transform: scale(1.02);
+  //   transform: scale(1.02);
+  // }
+  // :not(:hover){
+  //   @extend .transition2;
+  // }
 }
 
 .portfolioYoutubeBox::after {
@@ -483,7 +578,7 @@ div {
 
 .section4Box {
   @extend .section2Box;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -538,7 +633,7 @@ div {
 
 .section5Box {
   @extend .section4Box;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 20px;
   background-color: transparent;
 }
@@ -547,6 +642,8 @@ div {
   @extend .section4;
   background-color: transparent;
   color: white;
+  background-color: rgba(0,0,0,.4);
+  padding-bottom: 20px;
 }
 
 .section5Title {
@@ -576,7 +673,7 @@ div {
 
 .section6Box {
   @extend .section4Box;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -663,19 +760,12 @@ hr {
 .section7ImageBox {
   @extend .flex;
   padding-bottom: 10px;
-  :hover {
-    // box-shadow: 20px 20px 10px rgba(0,0,0,.35);
-    @extend .transition2;
-    -moz-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-  }
-  :not(:hover){
-    @extend .transition2;
-  }
 }
 .section7Image {
-  width: 100%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 97%;
   height: 100%;
 }
 .spacer {

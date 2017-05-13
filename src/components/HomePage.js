@@ -1,4 +1,5 @@
 import React from 'react';
+import PortfolioBox from './PortfolioBox';
 // import {Link} from 'react-router';
 
 const HomePage = () => {
@@ -125,75 +126,7 @@ const HomePage = () => {
         </div>
 
         <div className="section3Box">
-          <div className="section3">
-            <div className="section3Title">
-              PORTFOLIO
-            </div>
-            {/* Portfolio Entry Begin */}
-            <div className="portfolioBox">
-              <div className="portfolioTitleText">
-                {/* <hr/> */}
-                EDUKU
-              </div>
-              <div className="portfolioYoutubeBox">
-                <div className="portfolioYoutubeVideo">
-                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
-                </div>
-              </div>
-              <div className="portfolioBodyText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div>
-            {/* Portfolio Entry End */}
-            {/* Portfolio Entry Begin */}
-            <div className="portfolioBox">
-              <div className="portfolioTitleText">
-                <hr/>
-                richardmands.com
-              </div>
-              <div className="portfolioYoutubeBox">
-                <div className="portfolioYoutubeVideo">
-                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
-                </div>
-              </div>
-              <div className="portfolioBodyText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div>
-            {/* Portfolio Entry End */}
-            {/* Portfolio Entry Begin */}
-            <div className="portfolioBox">
-              <div className="portfolioTitleText">
-                <hr/>
-                ENTABLE
-              </div>
-              <div className="portfolioYoutubeBox">
-                <div className="portfolioYoutubeVideo">
-                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
-                </div>
-              </div>
-              <div className="portfolioBodyText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div>
-            {/* Portfolio Entry End */}
-            {/* Portfolio Entry Begin */}
-            <div className="portfolioBox">
-              <div className="portfolioTitleText">
-                <hr/>
-                THE FAST LIFE
-              </div>
-              <div className="portfolioYoutubeBox">
-                <div className="portfolioYoutubeVideo">
-                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
-                </div>
-              </div>
-              <div className="portfolioBodyText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div>
-            {/* Portfolio Entry End */}
-          </div>
+          <PortfolioBox/>
         </div>
 
         <div className="section4Box">
@@ -267,7 +200,6 @@ const HomePage = () => {
             <div className="section7Title">
               OTHER SKILLS
             </div>
-            <hr/>
             <div className="section7Title2">
               PHOTOGRAPHY
             </div>
@@ -277,7 +209,6 @@ const HomePage = () => {
             <div className="section7ImageBox">
               <img className="section7Image" src={require("../images/richardCollageWide02.jpg")} alt="richardmandsphotography"/>
             </div>
-            <hr/>
             <div className="section7Title2">
               VIDEOGRAPHY AND EDITING
             </div>
@@ -298,7 +229,6 @@ const HomePage = () => {
               </div>
               <div className="spacer" />
             </div>
-            <hr/>
           </div>
         </div>
 

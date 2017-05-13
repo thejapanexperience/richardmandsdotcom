@@ -1,17 +1,64 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import $ from 'jquery';
 import PortfolioBox from './PortfolioBox';
 // import {Link} from 'react-router';
 
-const HomePage = () => {
-  return (
+export default class HomePage extends React.Component {
+
+  constructor() {
+    super();
+    this._handleScroll = this._handleScroll.bind(this);
+  }
+
+  _handleScroll(ev) {
+    console.log('ev: ', ev);
+    console.log("Scrolling!");
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", function(event) {
+      let top = this.scrollY;
+      let left =this.scrollX;
+      let height0 = $('#section0Box').outerHeight(true);
+      let height1 = $('#section1Box').outerHeight(true);
+      let height2 = $('#section2Box').outerHeight(true);
+      let height3 = $('#section3Box').outerHeight(true);
+      console.log('top: ', top);
+      let totalHeight = height0 + height1 + height2;
+      console.log('totalHeight: ', totalHeight);
+      if (top > totalHeight){
+        setTimeout(()=>{
+          document.getElementById('section0Nav').className="section0Gone";
+          document.getElementById('navText').className="nav1TextGone";
+        },200);
+      }
+      if (top <= totalHeight){
+        setTimeout(()=> {
+          document.getElementById('section0Nav').className="section0";
+          document.getElementById('navText').className="nav1Text";
+        },200);
+      }
+    }, false);
+  }
+
+  componentWillUnmount() {
+          // const list = ReactDOM.findDOMNode(this.refs.list);
+          // list.removeEventListener('scroll', this._handleScroll);
+  }
+
+
+  render() {
+
+    return (
     <div>
       <div className="backgroundImage"/>
-      <div className="mainContainer">
-        <div className="navPadding"/>
-        <div className="section0">
+      <div className="mainContainer" ref="mainContainer">
+        <div className="navPadding" id="section0Box"/>
+        <div className="section0" id="section0Nav">
           <div className="navBox">
             <div className="nav1">
-              <div className="nav1Text">
+              <div className="nav1Text" id="navText">
                 richardmands.com
               </div>
             </div>
@@ -37,7 +84,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="section1Box">
+        <div className="section1Box" id="section1Box">
           <div className="section1">
             <div className="section1Image">
               <img className="section1BoxImage" src={require("../images/richard1Crop.jpg")} alt="richardmands"/>
@@ -60,7 +107,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="section2Box">
+        <div className="section2Box" id="section2Box">
           <div className="section2" >
             <div className="section2Text">
               <span className="section2TextTitle">
@@ -125,7 +172,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="section3Box">
+        <div className="section3Box" id="section3Box" ref="section3Box">
           <PortfolioBox/>
         </div>
 
@@ -236,7 +283,5 @@ const HomePage = () => {
       </div>
     </div>
   );
-
-};
-
-export default HomePage;
+}
+}

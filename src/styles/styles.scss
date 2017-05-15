@@ -470,6 +470,7 @@ a:visited {
 
 .section3Box {
   @extend .flex;
+  @extend .transition1;
   width: 100%;
   padding: 20px;
   // background-color: rgba(0,0,0,.4);
@@ -480,6 +481,7 @@ a:visited {
 .section3 {
   @extend .section;
   @extend .flex;
+  @extend .transition1;
   margin: auto;
   height: auto;
   text-align: center;
@@ -551,32 +553,33 @@ a:visited {
 .portfolioTitleText {
   @extend .font1;
   @extend .fontSizeTitle4;
-  @extend .transition1Size;
+  @extend .transition2;
   opacity: 1;
   color: white;
   width: 100%;
   text-align: right;
 }
+.portfolioTitleTextHidden {
+  @extend .portfolioTitleText;
+  opacity: 0;
+}
 .portfolioTitleTextSmall {
   @extend .portfolioTitleText;
   opacity: 0;
-  font-size: 0.01vw;
 }
 .portfolioTitleTextSmallInvisible {
   @extend .portfolioTitleText;
   opacity: 0;
-  font-size: 0.01vw;
-  // font-size: 0.01vw;
 }
 
 .portfolioYoutubeBox {
-  @extend .transition3;
   display: inline-block;
   position: relative;
   width: 100%;
   height: auto;
   margin: auto;
   z-index: 1;
+  opacity: 1;
   // :hover {
   //   @extend .transition2;
   //   -moz-transform: scale(1.02);
@@ -587,7 +590,9 @@ a:visited {
   //   @extend .transition2;
   // }
 }
+
 .portfolioYoutubeBoxGone {
+  // @extend .transition2;
   display: inline-block;
   position: relative;
   width: 100%;
@@ -606,6 +611,7 @@ a:visited {
 }
 
 .portfolioYoutubeBoxSmall {
+  // @extend .transition2;
   display: inline-block;
   position: relative;
   width: 50%;
@@ -637,6 +643,7 @@ a:visited {
 }
 
 .portfolioYoutubeVideo {
+  // @extend .transition2;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -649,13 +656,21 @@ a:visited {
 }
 
 .iframe {
+  @extend .transition5;
   width: 100%;
   height: 100%;
+  opacity: 1;
+}
+.iframeHidden {
+  @extend .transition1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
 
 .portfolioBodyText {
   @extend .section2TextBody;
-  @extend .transition4;
+  @extend .transition2;
   margin: auto;
   width: 100%;
   color: white;
@@ -663,30 +678,32 @@ a:visited {
   margin-top: 10px;
   // @extend .transition3;
 }
+.portfolioBodyTextHidden {
+  @extend .portfolioBodyText;
+  opacity: 0;
+  // @extend .transition3;
+}
 .portfolioBodyTextGone{
-  @extend .section2TextBody;
-  margin: auto;
-  width: 100%;
-  color: white;
+  @extend .portfolioBodyText;
   opacity: 0;
 }
 
 .portfolioLink {
   @extend .section2TextBody;
-  @extend .transition5;
+  @extend .transition2;
   text-align: right;
   margin: auto;
   width: 100%auto;
   color: white;
   opacity: 1;
 }
-.portfolioLinkGone {
-  @extend .section2TextBody;
-  margin: auto;
-  width: 100%auto;
-  color: white;
+.portfolioLinkHidden {
+  @extend .portfolioLink;
   opacity: 0;
-  text-align: left;
+}
+.portfolioLinkGone {
+  @extend .portfolioLink;
+  opacity: 0;
 }
 
 .section4Box {

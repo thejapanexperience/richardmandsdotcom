@@ -25,7 +25,7 @@ export default class PortfolioBox extends React.Component {
           title: 'ENTABLE',
           src: "https://www.youtube.com/embed/Zy6XaHpnkEg",
           text: 'Entable something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.',
-          link: 'www.entable.org/',
+          link: 'www.entable.org',
         },
         {
           title: 'THE FAST LIFE',
@@ -56,10 +56,18 @@ export default class PortfolioBox extends React.Component {
         tabs[i] = 'tabBarTab';
       }
     }
+    document.getElementById('portfolioItemTitle').className ='portfolioTitleTextHidden';
+    document.getElementById('youtubeBox').className ='iframeHidden';
+    document.getElementById('portfolioBodyText').className ='portfolioBodyTextHidden';
+    document.getElementById('portfolioLink').className ='portfolioLinkHidden';
     this.setState({
       tabs: tabs,
-      portfolioState: portfolioItems[tabIndex]
     });
+    setTimeout(()=> {
+      this.setState({
+        portfolioState: portfolioItems[tabIndex],
+      });
+    }, 1000);
   }
 
 
@@ -74,7 +82,6 @@ export default class PortfolioBox extends React.Component {
 
     const tabBarContent = tabs.map((tab, i) => {
       let title;
-      let activeState;
       title = portfolioItems[i].title;
 
       return(

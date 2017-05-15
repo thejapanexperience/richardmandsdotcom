@@ -10,7 +10,7 @@ class PortfolioItem extends React.Component {
   componentWillReceiveProps(nextProps){
     if (this.props.data !== nextProps.data){
       document.getElementById('portfolioItemTitle').className ='portfolioTitleTextSmallInvisible';
-      document.getElementById('youtubeBox').className ='portfolioYoutubeBoxGone';
+      document.getElementById('youtubeBox').className ='iframeHidden';
       document.getElementById('portfolioBodyText').className ='portfolioBodyTextGone';
       document.getElementById('portfolioLink').className ='portfolioLinkGone';
     }
@@ -18,12 +18,12 @@ class PortfolioItem extends React.Component {
 
   componentDidMount(){
     document.getElementById('portfolioItemTitle').className ='portfolioTitleTextSmall';
-    document.getElementById('youtubeBox').className ='portfolioYoutubeBoxGone';
+    document.getElementById('youtubeBox').className ='iframeHidden';
     document.getElementById('portfolioBodyText').className ='portfolioBodyTextGone';
     document.getElementById('portfolioLink').className ='portfolioLinkGone';
     setTimeout(()=> {
       document.getElementById('portfolioItemTitle').className ='portfolioTitleText';
-      document.getElementById('youtubeBox').className ='portfolioYoutubeBox';
+      document.getElementById('youtubeBox').className ='iframe';
       document.getElementById('portfolioBodyText').className ='portfolioBodyText';
       document.getElementById('portfolioLink').className ='portfolioLink';
     }, 800);
@@ -32,13 +32,13 @@ class PortfolioItem extends React.Component {
   componentDidUpdate(prevProps){
     if (this.props.data !== prevProps.data){
       document.getElementById('portfolioItemTitle').className ='portfolioTitleTextSmall';
-      document.getElementById('youtubeBox').className ='portfolioYoutubeBoxGone';
+      document.getElementById('youtubeBox').className ='iframeHidden';
       document.getElementById('portfolioBodyText').className ='portfolioBodyTextGone';
       document.getElementById('portfolioLink').className ='portfolioLinkGone';
     }
     setTimeout(()=> {
       document.getElementById('portfolioItemTitle').className ='portfolioTitleText';
-      document.getElementById('youtubeBox').className ='portfolioYoutubeBox';
+      document.getElementById('youtubeBox').className ='iframe';
       document.getElementById('portfolioBodyText').className ='portfolioBodyText';
       document.getElementById('portfolioLink').className ='portfolioLink';
     }, 1000);
@@ -53,9 +53,9 @@ class PortfolioItem extends React.Component {
           <div className="portfolioTitleTextSmall" id="portfolioItemTitle">
             {data.title}
           </div>
-          <div className="portfolioYoutubeBox" id="youtubeBox">
+          <div className="portfolioYoutubeBox">
             <div className="portfolioYoutubeVideo">
-              <iframe className="iframe" src={data.src} frameBorder="0" allowFullScreen />
+              <iframe id="youtubeBox" className="iframe" src={data.src} frameBorder="0" allowFullScreen />
             </div>
           </div>
           <div className="portfolioBodyText" id="portfolioBodyText">

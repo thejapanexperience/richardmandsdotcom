@@ -211,17 +211,23 @@ export default class HomePage extends React.Component {
         <div className="section6Box">
           <div className="section6">
             <div className="section6Title">
-              CONTACT ME
+              <div className="section6TitleText">
+                CONTACT ME
+              </div>
             </div>
-            <div className="section6Text">
-              richard@eduku.org
+            <div className="section6Title">
+              <div className="section6Text">
+                richard@eduku.org
+              </div>
             </div>
-            <div className="section6IconsBox">
-              <a className="section6Icons" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="section6Icons"> | </span>
-              <a className="section6Icons" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section6Icons"> | </span>
-              <a className="section6Icons" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="section6Icons"> | </span>
-              <a className="section6Icons" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a><span className="section6Icons"> | </span>
-              <a className="section6Icons" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a>
+            <div className="section6Title">
+              <div className="section6IconsBox">
+                <a className="section6Icons" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="section6Icons"> | </span>
+                <a className="section6Icons" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section6Icons"> | </span>
+                <a className="section6Icons" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="section6Icons"> | </span>
+                <a className="section6Icons" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a><span className="section6Icons"> | </span>
+                <a className="section6Icons" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a>
+              </div>
             </div>
           </div>
         </div>
@@ -263,6 +269,28 @@ export default class HomePage extends React.Component {
           </div>
         </div>
 
+        <div className="footerBox">
+          {/* <div className="emptySpace" /> */}
+          <div className="footer">
+            <div className="footerTextBox">
+              <div className="footerText">
+                richardmands.com
+              </div>
+              <div className="footerText2">
+                created by Richard Mands
+              </div>
+            </div>
+          </div>
+          <div className="footer">
+            <span className="footerIcons">
+              <a className="footerText3" target="blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="footerText3"> | </span>
+              <a className="footerText3" target="blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="footerText3"> | </span>
+              <a className="footerText3" target="blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="footerText3"> | </span>
+              <a className="footerText3" target="blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a><span className="footerText3"> | </span>
+              <a className="footerText3" target="blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a>
+            </span>
+          </div>
+        </div>
 
       </div>
     </div>

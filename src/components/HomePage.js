@@ -55,14 +55,15 @@ export default class HomePage extends React.Component {
 
     return (
     <div>
-      <div className="backgroundImage"/>
+      <div className="backgroundImage" />
       <div className="mainContainer" ref="mainContainer">
-        <div className="navPadding" id="section0Box"/>
+
+        <div className="navPadding" id="section0Box" />
         <div className="section0" id="section0Nav">
           <div className="navBox">
             <div className="nav1">
               <div className="nav1Text" id="navText">
-                richardmands.com
+                www.richardmands.com
               </div>
             </div>
           </div>
@@ -232,11 +233,18 @@ export default class HomePage extends React.Component {
           </div>
         </div>
 
-        <div className="section7Box">
-          <div className="section7">
+
+        <div className="section7HeaderBox">
+          <div className="section7Header">
             <div className="section7Title">
               OTHER SKILLS
             </div>
+          </div>
+        </div>
+
+
+        <div className="section7Box1">
+          <div className="section7">
             <div className="section7Title2">
               PHOTOGRAPHY
             </div>
@@ -246,8 +254,16 @@ export default class HomePage extends React.Component {
             <div className="section7ImageBox">
               <img className="section7Image" src={require("../images/richardCollageWide02.jpg")} alt="richardmandsphotography"/>
             </div>
+          </div>
+        </div>
+
+        <div className="section7Box2">
+          <div className="section72">
             <div className="section7Title2">
-              VIDEOGRAPHY AND EDITING
+              VIDEOGRAPHY
+            </div>
+            <div className="section7Title2">
+              AND EDITING
             </div>
             <div className="section7Text">
               Lorem oopsum doloor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -258,23 +274,27 @@ export default class HomePage extends React.Component {
                   <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
                 </div>
               </div>
-              <div className="spacer" />
-              <div className="portfolioYoutubeBox">
-                <div className="portfolioYoutubeVideo">
-                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
-                </div>
-              </div>
-              <div className="spacer" />
             </div>
           </div>
         </div>
 
+        <div className="section7Box1">
+          <div className="section7">
+            <div className="section7Title2">
+              EDUCATION
+            </div>
+            <div className="section7Text">
+              Lorem oopsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+        
         <div className="footerBox">
           {/* <div className="emptySpace" /> */}
           <div className="footer">
             <div className="footerTextBox">
               <div className="footerText">
-                richardmands.com
+                www.richardmands.com
               </div>
               <div className="footerText2">
                 created by Richard Mands
@@ -294,6 +314,6 @@ export default class HomePage extends React.Component {
 
       </div>
     </div>
-  );
-}
-}
+      );
+      }
+      }

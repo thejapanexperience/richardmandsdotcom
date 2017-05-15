@@ -19,19 +19,19 @@ export default class PortfolioBox extends React.Component {
           title: 'RICHARDMANDS.COM',
           src: "https://www.youtube.com/embed/S4nIfLGqd9s",
           text: 'richardmands.com something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.',
-          link: 'eduku.org',
+          link: 'www.richardmands.com',
         },
         {
           title: 'ENTABLE',
           src: "https://www.youtube.com/embed/Zy6XaHpnkEg",
           text: 'Entable something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.',
-          link: 'eduku.org',
+          link: 'www.entable.org/',
         },
         {
           title: 'THE FAST LIFE',
           src: "https://www.youtube.com/embed/ln2dLeUfRtA" ,
           text: 'The Fast Life something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.',
-          link: 'eduku.org',
+          link: 'www.richardmands.com',
         }
       ],
       tabs: [

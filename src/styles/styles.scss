@@ -65,13 +65,8 @@ $color2: #e93e43;
 }
 $colorJS: #f0da5a;
 
-// $colorGradient1: #EC4067;
-// $colorGradient1: rgba(137,52,121,0.8);
 $colorGradient1: rgba(134,11,180,0.7);
-// $colorGradient2: #893479;
-// $colorGradient2: rgba(236,64,103,0.8);
 $colorGradient2: rgba(230,20,100,0.7);
-// $colorGradient3: rgba(232,61,66,0.9);
 
 .transition0{
   transition: all 1s;
@@ -97,14 +92,14 @@ $colorGradient2: rgba(230,20,100,0.7);
 .transition4{
   transition: all 2s;
   -webkit-transition: all 2s;
-  transition-delay: 1s;
-  -webkit-transition-delay: 1s;
+  transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
 }
 .transition5{
   transition: all 2s;
   -webkit-transition: all 2s;
-  transition-delay: 2s;
-  -webkit-transition-delay: 2s;
+  transition-delay: 1s;
+  -webkit-transition-delay: 1s;
 }
 
 .shadowFull {
@@ -273,14 +268,14 @@ a:visited {
   margin: auto;
   margin-bottom: 10px;
   padding-left: 2%;
-  @include responsive-font(4vmax, 18px, 50px, 50px);
+  @include responsive-font(6vw, 14px, 50px, 50px);
   text-align: left;
-  @media screen and (max-width: 600px){
-    @include responsive-font(2vmax, 18px, 50px, 50px);
-    text-align: right;
-    padding-right: 2%;
-    padding-left: 0;
-  }
+  // @media screen and (max-width: 600px){
+  //   @include responsive-font(2vmax, 18px, 50px, 50px);
+  //   text-align: right;
+  //   padding-right: 2%;
+  //   padding-left: 0;
+  // }
   opacity: 1;
   top: 0;
   @extend .transition0;
@@ -477,6 +472,9 @@ a:visited {
   @extend .flex;
   width: 100%;
   padding: 20px;
+  // background-color: rgba(0,0,0,.4);
+  // background-color: rgba(49, 24, 71, 0.5);
+  // background-color: rgba(230, 20, 100, .5);
 }
 
 .section3 {
@@ -486,8 +484,8 @@ a:visited {
   height: auto;
   text-align: center;
   border: 0;
-  background-color: rgba(0,0,0,.4);
   padding-bottom: 20px;
+  background-color: rgba(0,0,0,.4);
 }
 
 .section3Title {
@@ -751,12 +749,14 @@ a:visited {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: transparent;
+  // background-color: rgba(0,0,0,.4);
 }
 
 .section5 {
   @extend .section4;
   background-color: transparent;
   color: white;
+  background-color: rgba(230, 20, 100, .8);;
   background-color: rgba(0,0,0,.4);
   padding-bottom: 20px;
 }
@@ -857,11 +857,46 @@ a:visited {
 //   @extend .section4Text;
 // }
 
-.section7Box {
-  @extend .section5Box;
+.section7HeaderBox {
+  @extend .section6Box;
+  background-color: rgba(49, 24, 71, 0.5);
+  background-color: rgba(230, 20, 100, .5);;
+  // margin-top: 50px;
+}
+
+.section7Header {
+  @extend .section6;
+}
+
+.section7Box1 {
+  @extend .flex;
+  width: 100%;
+}
+.section7Box2 {
+  @extend .flex;
+  width: 100%;
 }
 .section7 {
-  @extend .section5;
+  @extend .flex;
+  background-color: rgba(230, 20, 100, .5);;
+  background-color: rgba(49, 24, 71, 0.5);
+  background-color: rgba(0,0,0,.4);
+  width: 100%;
+  margin: auto;
+  padding: 1vw;
+  padding-bottom: 3vw;
+  // margin-top: 50px;
+}
+.section72 {
+  @extend .flex;
+  background-color: rgba(49, 24, 71, 0.5);
+  background-color: rgba(0,0,0,.4);
+  background-color: rgba(230, 20, 100, .5);;
+  width: 100%;
+  margin: auto;
+  padding: 1vw;
+  padding-bottom: 3vw;
+  // margin-top: 50px;
 }
 .section7Title {
   @extend .fontSizeTitle2;
@@ -907,6 +942,7 @@ hr {
   width: 90%;
   margin: auto;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .footerBox {
@@ -914,6 +950,7 @@ hr {
   position: relative;
   width: 100%;
   padding: 0;
+  margin-top: 100px;
 }
 .emptySpace{
   width: 30%;

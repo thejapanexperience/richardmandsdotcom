@@ -18,7 +18,7 @@ export default class HomePage extends React.Component {
       let height1 = $('#section1Box').outerHeight(true);
       let height2 = $('#section2Box').outerHeight(true);
       let height3 = $('#section3Box').outerHeight(true);
-      let totalHeight = height0 + height1 + height2;
+      let totalHeight = height0 + height1 + height2 - 20;
       if (top > totalHeight){
           document.getElementById('section0Nav').className="section0Gone";
           document.getElementById('navText').className="nav1TextGone";
@@ -36,6 +36,22 @@ export default class HomePage extends React.Component {
 
 
   render() {
+
+    let bio = [
+      `I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I have experience implementing React, React Native, jQuery, Redux, Flux, Node, Express, Mongo, Firebase, Amazon Web Services, GoogleAPIs and more into my apps. I'm strongly self-reliant and am able to quickly learn and incorporate new technologies into my projects.`,
+
+      `I am the co-founder / lead developer of Eduku. See below for details.`,
+
+      `I was part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016.`,
+    ];
+
+    let bioFull = bio.map((sentence, i) => {
+      return (
+        <div className="section2TextBody" key={i}>
+          {sentence}
+        </div>
+      );
+    });
 
     return (
     <div>
@@ -81,9 +97,9 @@ export default class HomePage extends React.Component {
               <span className="section2TextTitle">
                 Please allow me to introduce myself...
               </span>
-              <span className="section2TextBody">
-                I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I have experience implementing React, React Native, jQuery, Redux, Flux, Node, Express, Mongo, Firebase, Amazon Web Services, GoogleAPIs and more into my apps. I'm strongly self-reliant and am able to quickly learn and incorporate new javascript technologies into my projects. I was part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016.
-              </span>
+              <div className="section2TextBodyBox">
+                {bioFull}
+              </div>
 
 
               <div className="iconBoxOuter">

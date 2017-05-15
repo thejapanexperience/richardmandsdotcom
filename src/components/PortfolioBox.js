@@ -12,22 +12,26 @@ export default class PortfolioBox extends React.Component {
         {
           title: 'EDUKU',
           src: "https://www.youtube.com/embed/u5G2dffogDo",
-          text: 'Eduku something something somethingLorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.'
+          text: `I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities for those lacking access. We have created a platform that will allow users to access well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. Check us out!`,
+          link: 'eduku.org',
         },
         {
           title: 'RICHARDMANDS.COM',
           src: "https://www.youtube.com/embed/S4nIfLGqd9s",
-          text: 'richardmands.com something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.'
+          text: 'richardmands.com something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.',
+          link: 'eduku.org',
         },
         {
           title: 'ENTABLE',
           src: "https://www.youtube.com/embed/Zy6XaHpnkEg",
-          text: 'Entable something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.'
+          text: 'Entable something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.',
+          link: 'eduku.org',
         },
         {
           title: 'THE FAST LIFE',
           src: "https://www.youtube.com/embed/ln2dLeUfRtA" ,
-          text: 'The Fast Life something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.'
+          text: 'The Fast Life something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.',
+          link: 'eduku.org',
         }
       ],
       tabs: [
@@ -75,7 +79,7 @@ export default class PortfolioBox extends React.Component {
 
       return(
         <div className={tabs[i]} key={i} onClick={(e) => this.click(e, i)} >
-          <div className="tabBarTabTitle">
+          <div className="tabBarTabTitle" onClick={(e) => this.click(e, i)}>
             {title}
           </div>
         </div>

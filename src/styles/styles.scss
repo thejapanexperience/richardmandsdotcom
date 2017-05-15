@@ -94,6 +94,18 @@ $colorGradient2: rgba(230,20,100,0.7);
   transition: all 2s;
   -webkit-transition: all 2s;
 }
+.transition4{
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+}
+.transition5{
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  transition-delay: 2s;
+  -webkit-transition-delay: 2s;
+}
 
 .shadowFull {
   box-shadow: 10px 10px 10px rgba(0,0,0,.35), -10px -10px 10px rgba(0,0,0,.35);
@@ -112,6 +124,14 @@ body {
 div {
   padding: 0;
   margin: 0;
+}
+
+a:link {
+   color: inherit;
+}
+
+a:visited {
+  color: inherit;
 }
 
 // Background Image
@@ -209,19 +229,6 @@ div {
   z-index: 5;
   @extend .transition0;
 }
-.section0Gone {
-  @extend.flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  // overflow: hidden;
-  @extend .navbarHeightGone;
-  background-color: rgba(0,0,0,.6);
-  z-index: 5;
-  @extend .transition0;
-}
-
 .navBox {
   @extend .flex;
   width: 100%;
@@ -237,6 +244,26 @@ div {
   width: 100%;
   height: 100%;
 }
+.section0Gone {
+  @extend.flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  // overflow: hidden;
+  @extend .navbarHeightGone;
+  background-color: rgba(0,0,0,.6);
+  z-index: 5;
+  .navBox{
+    pointer-events: none;
+    .nav1 {
+      pointer-events: none;
+    }
+  }
+  pointer-events: none;
+  @extend .transition0;
+}
+
 
 .nav1Text {
   position: relative;
@@ -323,6 +350,7 @@ div {
 
 .section1Text3Box {
   margin-top: 10px;
+  color: white;
 }
 
 .section1Text3 {
@@ -367,15 +395,23 @@ div {
   width: 100%;
 }
 
+.section2TextBodyBox {
+  @extend .flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+}
+
 .section2TextBody {
   @extend .font2;
   @extend .color1;
   @extend .fontSizeBody1;
-  width: 80%;
+  width: 100%;
   margin: auto;
-  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: justify;
 }
+
 
 .iconBoxOuter {
   @extend .flex;
@@ -477,16 +513,26 @@ div {
   background-color: $color1;
   background-color: $colorGradient2;
   &:hover {
-    // background-color: rgba(255,255,255,.4);
-    // color: $color1;
+    background-color: rgba(255,255,255,.4);
+    color: $color1;
     cursor: pointer;
   }
 }
 
 .tabBarTabActive {
+  &:hover {
+    background-color: $colorGradient1;
+    color: white;
+    cursor: pointer;
+  }
   @extend .tabBarTab;
   background-color: lighten($color1, 10%);
   background-color: $colorGradient1;
+  // &:hover {
+  //   background-color: rgba(255,255,255,.4);
+  //   color: $color1;
+  //   cursor: pointer;
+  // }
 }
 
 .tabBarTabTitle {
@@ -608,9 +654,38 @@ div {
 
 .portfolioBodyText {
   @extend .section2TextBody;
+  @extend .transition4;
   margin: auto;
   width: 100%;
   color: white;
+  opacity: 1;
+  margin-top: 10px;
+  // @extend .transition3;
+}
+.portfolioBodyTextGone{
+  @extend .section2TextBody;
+  margin: auto;
+  width: 100%;
+  color: white;
+  opacity: 0;
+}
+
+.portfolioLink {
+  @extend .section2TextBody;
+  @extend .transition5;
+  text-align: right;
+  margin: auto;
+  width: 100%auto;
+  color: white;
+  opacity: 1;
+}
+.portfolioLinkGone {
+  @extend .section2TextBody;
+  margin: auto;
+  width: 100%auto;
+  color: white;
+  opacity: 0;
+  text-align: left;
 }
 
 .section4Box {

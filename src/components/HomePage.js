@@ -18,7 +18,7 @@ export default class HomePage extends React.Component {
       let height1 = $('#section1Box').outerHeight(true);
       let height2 = $('#section2Box').outerHeight(true);
       let height3 = $('#section3Box').outerHeight(true);
-      let totalHeight = height0 + height1 + height2 - 50;
+      let totalHeight = height0 + height1 + height2 - 150;
       if (top > totalHeight){
           document.getElementById('section0Nav').className="section0Gone";
           document.getElementById('navText').className="nav1TextGone";
@@ -213,7 +213,7 @@ export default class HomePage extends React.Component {
           <div className="section6">
             <div className="section6Title">
               <div className="section6TitleText">
-                CONTACT ME
+                CONTACT
               </div>
             </div>
             <div className="section6Title">
@@ -277,7 +277,6 @@ export default class HomePage extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="spacer"/>
             </div>
           </div>
 
@@ -290,7 +289,6 @@ export default class HomePage extends React.Component {
                 Lorem oopsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </div>
-            <div className="spacer"/>
           </div>
         </div>
 

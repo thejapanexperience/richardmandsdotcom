@@ -35,7 +35,7 @@
   @include responsive-font(5vw, 16px, 35px, 30px);
 }
 .fontSizeTitle2 {
-  @include responsive-font(13vw, 20px, 150px, 50px);
+  @include responsive-font(13vw, 16px, 150px, 50px);
 }
 .fontSizeTitle3 {
   @include responsive-font(11vw, 14px, 130px, 50px);
@@ -207,6 +207,25 @@ a:visited {
   padding-bottom: 50px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navPadding {
   @extend .navbarHeight;
   width: 100%;
@@ -288,6 +307,24 @@ a:visited {
   @extend .transition0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section1Box {
   width: 100%;
   padding: 20px;
@@ -367,6 +404,21 @@ a:visited {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section2Box {
   width: 100%;
   background-color: white;
@@ -377,7 +429,7 @@ a:visited {
   @extend .flex;
   @extend .section;
   height: auto;
-  @extend .shadowFull;
+  // @extend .shadowFull;
   // background-color: rgba(0,0,0,.1);
 }
 
@@ -471,12 +523,26 @@ a:visited {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section3Box {
   @extend .flex;
   @extend .transition1;
   width: 100%;
   padding: 20px;
-  // background-color: rgba(0,0,0,.4);
+  background-color: rgba(0,0,0,.4);
   // background-color: rgba(49, 24, 71, 0.5);
   // background-color: rgba(230, 20, 100, .5);
 }
@@ -490,7 +556,7 @@ a:visited {
   text-align: center;
   border: 0;
   padding-bottom: 20px;
-  background-color: rgba(0,0,0,.4);
+  // background-color: rgba(0,0,0,.4);
 }
 
 .section3Title {
@@ -709,6 +775,28 @@ a:visited {
   opacity: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section4Box {
   @extend .section2Box;
   padding-top: 20px;
@@ -720,7 +808,7 @@ a:visited {
   @extend .section;
   height: auto;
   border: 0;
-  @extend .shadowFull;
+  // @extend .shadowFull;
 }
 
 .section4Title {
@@ -765,6 +853,22 @@ a:visited {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section5Box {
   @extend .section4Box;
   padding-top: 20px;
@@ -779,7 +883,7 @@ a:visited {
   background-color: transparent;
   color: white;
   // background-color: rgba(230, 20, 100, .8);;
-  background-color: rgba(0,0,0,.4);
+  // background-color: rgba(0,0,0,.4);
   padding-bottom: 20px;
 }
 
@@ -808,6 +912,22 @@ a:visited {
   padding-top: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section6Box {
   width: 100%;
   @extend .flex;
@@ -819,19 +939,21 @@ a:visited {
   @extend .flex;
   @extend .section;
   width: 100%;
-  @extend .shadowFull;
+  // @extend .shadowFull;
 }
 
 .section6Title {
   @extend .flex;
   width: 100%;
-  padding: 20px;
+  // padding: 20px;
 }
 .section6TitleText{
   // @extend .fontSizeTitle2;
-  @include responsive-font(10vw, 20px, 160px, 100px);
-  // @extend .font1;
-  font-size: 7vw;
+  @include responsive-font(12vw, 20px, 240px, 100px);
+  margin-top: -1vw;
+  margin-bottom: -1.8vw;
+  @extend .font1;
+  // font-size: 7vw;
   margin-left: auto;
   margin-right: auto;
   color: $color1;
@@ -840,6 +962,8 @@ a:visited {
 .section6Text {
   @extend .section4Text;
   @include responsive-font(8vw, 20px, 120px, 50px);
+  margin-top: -1vw;
+  margin-bottom: -0.5vw;
   width: 100%;
   padding: 0;
   color: $color1;
@@ -887,6 +1011,11 @@ a:visited {
 
 
 
+
+
+
+
+
 .section7Whole {
   width: 100%;
   @extend .flex;
@@ -899,7 +1028,7 @@ a:visited {
   width: 100%;
   // padding: 20px;
   // background-color: rgba(49, 24, 71, 0.5);
-  margin-top: 50px;
+  // margin-top: 20px;
 }
 
 .section7Header {
@@ -913,13 +1042,11 @@ a:visited {
   @extend .flex;
   @extend .section;
   width: 100%;
-  // padding: 20px;
 }
 .section7Box2 {
   @extend .flex;
   @extend .section;
   width: 100%;
-  // padding: 20px;
 }
 .section7 {
   @extend .flex;
@@ -928,12 +1055,14 @@ a:visited {
   background-color: rgba(0,0,0,.4);
   width: 100%;
   margin: auto;
+  padding: 20px;
   // padding: 1vw;
   // padding-bottom: 3vw;
   // margin-top: 50px;
 }
 .section72 {
   @extend .flex;
+  padding: 20px;
   background-color: rgba(230, 20, 100, .5);;
   width: 100%;
   margin: auto;
@@ -941,6 +1070,7 @@ a:visited {
 .section7Title {
   @extend .fontSizeTitle2;
   @extend .font1;
+  // font-size: 12.2vw;
   margin: auto;
   color: white;
 }
@@ -986,12 +1116,32 @@ hr {
   padding-bottom: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footerBox {
   @extend .flex;
   position: relative;
   width: 100%;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .emptySpace{
   width: 30%;
@@ -1042,7 +1192,7 @@ hr {
   width: 100%;
   padding: 30px;
   @media screen and (max-width: 600px){
-    padding: 15px;
+    padding: 25px;
   }
   padding-left: 0;
   text-align: right;

@@ -7,20 +7,11 @@ class PortfolioItem extends React.Component {
     super();
   }
 
-  componentWillReceiveProps(nextProps){
-    if (this.props.data !== nextProps.data){
-      document.getElementById('portfolioItemTitle').className ='portfolioTitleTextSmallInvisible';
-      document.getElementById('youtubeBox').className ='iframeHidden';
-      document.getElementById('portfolioBodyText').className ='portfolioBodyTextGone';
-      document.getElementById('portfolioLink').className ='portfolioLinkGone';
-    }
-  }
-
   componentDidMount(){
-    document.getElementById('portfolioItemTitle').className ='portfolioTitleTextSmall';
-    document.getElementById('youtubeBox').className ='iframeHidden';
-    document.getElementById('portfolioBodyText').className ='portfolioBodyTextGone';
-    document.getElementById('portfolioLink').className ='portfolioLinkGone';
+    // if(this.props.data.image && this.props.data.image.length > 1){
+    //   console.log('in componentDidMount');
+    //   this.props.imageCarousel();
+    // }
     setTimeout(()=> {
       document.getElementById('portfolioItemTitle').className ='portfolioTitleText';
       document.getElementById('youtubeBox').className ='iframe';
@@ -30,12 +21,10 @@ class PortfolioItem extends React.Component {
   }
 
   componentDidUpdate(prevProps){
-    if (this.props.data !== prevProps.data){
-      document.getElementById('portfolioItemTitle').className ='portfolioTitleTextSmall';
-      document.getElementById('youtubeBox').className ='iframeHidden';
-      document.getElementById('portfolioBodyText').className ='portfolioBodyTextGone';
-      document.getElementById('portfolioLink').className ='portfolioLinkGone';
-    }
+    // if(this.props.data.image && this.props.data.image.length > 1){
+    //   console.log('in componentDidUpdate');
+    //   this.props.imageCarousel();
+    // }
     setTimeout(()=> {
       document.getElementById('portfolioItemTitle').className ='portfolioTitleText';
       document.getElementById('youtubeBox').className ='iframe';
@@ -45,24 +34,58 @@ class PortfolioItem extends React.Component {
   }
 
   render() {
-    const { data } = this.props;
+    const { data, imageIndex } = this.props;
+
     const url = 'http://';
+    let links;
+    if (data.link){
+      links = data.link.map((lnk, i) => {
+        if (i === 1){
+          return <div key={i}><a href={url + lnk} target="blank">github</a><br/></div>;
+        }
+        if (i === 2){
+          return <div key={i}><a href={url + lnk} target="blank">youtube</a><br/></div>;
+        }
+        if (i === 3){
+          return <div key={i}><a href={url + lnk} target="blank">twitter</a><br/></div>;
+        }
+        return <div key={i}><a href={url + lnk} target="blank">{lnk}</a><br/></div>;
+      });
+    } else {
+      links = <div key="noLinks"><a href="#" target="blank">nothingYet</a><br/></div>;
+    }
+
+
+    let media;
+    if(data.src){
+      media = (
+        <div className="portfolioYoutubeBox">
+          <div className="portfolioYoutubeVideo">
+            <iframe id="youtubeBox" className="iframe" src={data.src} frameBorder="0" allowFullScreen />
+          </div>
+        </div>);
+    }
+    if(data.image) {
+      let image = data.image[imageIndex];
+      media = (
+        <div className="portfolioImageBox">
+          <div className="portfolioImage">
+            <img id="youtubeBox" className="iframe" src={require(`../images/${image}`)} />
+          </div>
+        </div>);
+    }
 
     return (
         <div className="portfolioBox">
-          <div className="portfolioTitleTextSmall" id="portfolioItemTitle">
+          <div className="portfolioTitleTextHidden" id="portfolioItemTitle">
             {data.title}
           </div>
-          <div className="portfolioYoutubeBox">
-            <div className="portfolioYoutubeVideo">
-              <iframe id="youtubeBox" className="iframe" src={data.src} frameBorder="0" allowFullScreen />
-            </div>
-          </div>
+          {media}
           <div className="portfolioBodyText" id="portfolioBodyText">
             {data.text}
           </div>
           <div className="portfolioLink" id="portfolioLink">
-            <a href={url + data.link} target="blank">{data.link}</a>
+            {links}
           </div>
         </div>
     );

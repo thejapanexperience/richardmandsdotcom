@@ -632,14 +632,6 @@ a:visited {
   @extend .portfolioTitleText;
   opacity: 0;
 }
-.portfolioTitleTextSmall {
-  @extend .portfolioTitleText;
-  opacity: 0;
-}
-.portfolioTitleTextSmallInvisible {
-  @extend .portfolioTitleText;
-  opacity: 0;
-}
 
 .portfolioYoutubeBox {
   display: inline-block;
@@ -649,34 +641,13 @@ a:visited {
   margin: auto;
   z-index: 1;
   opacity: 1;
-  // :hover {
-  //   @extend .transition2;
-  //   -moz-transform: scale(1.02);
-  //   -webkit-transform: scale(1.02);
-  //   transform: scale(1.02);
-  // }
-  // :not(:hover){
-  //   @extend .transition2;
-  // }
 }
 
-.portfolioYoutubeBoxGone {
-  // @extend .transition2;
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  height: 0;
-  margin: auto;
-  z-index: 1;
-  // :hover {
-  //   @extend .transition2;
-  //   -moz-transform: scale(1.02);
-  //   -webkit-transform: scale(1.02);
-  //   transform: scale(1.02);
-  // }
-  // :not(:hover){
-  //   @extend .transition2;
-  // }
+.portfolioYoutubeBox::after {
+  padding-top: 56.25%;
+  /* 16:9 ratio */
+  display: block;
+  content: '';
 }
 
 .portfolioYoutubeBoxSmall {
@@ -697,13 +668,6 @@ a:visited {
   // }
 }
 
-.portfolioYoutubeBox::after {
-  padding-top: 56.25%;
-  /* 16:9 ratio */
-  display: block;
-  content: '';
-}
-
 .portfolioYoutubeBoxSmall::after {
   padding-top: 56.25%;
   /* 16:9 ratio */
@@ -712,7 +676,6 @@ a:visited {
 }
 
 .portfolioYoutubeVideo {
-  // @extend .transition2;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -725,7 +688,7 @@ a:visited {
 }
 
 .iframe {
-  @extend .transition5;
+  @extend .transition2;
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -736,7 +699,10 @@ a:visited {
   height: 100%;
   opacity: 0;
 }
-
+.portfolioImageBox {
+  width: 100%;
+  @extend .flex;
+}
 .portfolioBodyText {
   @extend .section2TextBody;
   @extend .transition2;

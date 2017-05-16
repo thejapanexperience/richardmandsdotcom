@@ -152,14 +152,14 @@ a:visited {
   height: 10vmax;
   height: 100px;
   max-height: 100px;
-  @media screen and (max-width: 600px){
-    height: 8vmax;
-    height: 60px;
-  }
-  @media screen and (max-height: 600px){
-    height: 8vmax;
-    height: 60px;
-  }
+  // @media screen and (max-width: 600px){
+  //   height: 8vmax;
+  //   height: 60px;
+  // }
+  // @media screen and (max-height: 600px){
+  //   height: 8vmax;
+  //   height: 60px;
+  // }
   opacity: 1;
 }
 

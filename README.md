@@ -4,7 +4,7 @@ My Website
 
 Fully custom html and sass. Fully responsive.
 
-Check it out <a target="blank" href="https://serene-bayou-99800.herokuapp.com/">here</a>.
+Check it out <a target="blank" href="https://www.richardmands.com">here</a>.
 
 * code written by me.
 * built on top of an empty React Slingshot template.

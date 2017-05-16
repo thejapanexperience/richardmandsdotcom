@@ -12,14 +12,14 @@ export default class PortfolioBox extends React.Component {
         {
           title: 'EDUKU',
           src: "https://www.youtube.com/embed/u5G2dffogDo",
-          text: `I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities for those lacking access. We have created a platform that will allow users to access well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. Check us out!`,
-          link: 'eduku.org',
+          text: `I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities (predominantly in low-income countries) for those who don't have regular or sufficient access. We have created a platform that will allow users to interact with well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. Check us out!`,
+          link: ['eduku.org'],
         },
         {
           title: 'RICHARDMANDS.COM',
           src: "https://www.youtube.com/embed/S4nIfLGqd9s",
-          text: 'richardmands.com something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.',
-          link: 'www.richardmands.com',
+          text: 'I created this website from scratch as an attempt to develop a beautiful, full-scale, fully-responsive single-page application using react without any css-libraries.',
+          link: ['www.richardmands.com'],
         },
         {
           title: 'ENTABLE',

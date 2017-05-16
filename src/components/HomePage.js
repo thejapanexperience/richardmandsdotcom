@@ -40,7 +40,7 @@ export default class HomePage extends React.Component {
     let bio = [
       `I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I have experience implementing React, React Native, jQuery, Redux, Flux, Node, Express, Mongo, Firebase, Amazon Web Services, GoogleAPIs and more into my apps. I'm strongly self-reliant and am able to quickly learn and incorporate new technologies into my projects.`,
 
-      `I am the co-founder / lead developer of Eduku. See below for details.`,
+      `I am the co-founder / lead developer of Eduku. See my portfolio for details.`,
 
       `I was part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016.`,
     ];
@@ -187,7 +187,7 @@ export default class HomePage extends React.Component {
         <div className="section5Box">
           <div className="section5">
             <div className="section5Title">
-              RESUME
+              RÉSUMÉ
             </div>
             <div className="section5Text">
               <a target="blank" href="https://drive.google.com/open?id=0B6GYiEdGHBSDbFRteU9sWkxFMGM" className="resumeLink">

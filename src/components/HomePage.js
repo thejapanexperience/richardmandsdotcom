@@ -18,7 +18,7 @@ export default class HomePage extends React.Component {
       let height1 = $('#section1Box').outerHeight(true);
       let height2 = $('#section2Box').outerHeight(true);
       let height3 = $('#section3Box').outerHeight(true);
-      let totalHeight = height0 + height1 + height2 - 20;
+      let totalHeight = height0 + height1 + height2 - 50;
       if (top > totalHeight){
           document.getElementById('section0Nav').className="section0Gone";
           document.getElementById('navText').className="nav1TextGone";
@@ -187,7 +187,7 @@ export default class HomePage extends React.Component {
         <div className="section5Box">
           <div className="section5">
             <div className="section5Title">
-              FULL RESUME
+              RESUME
             </div>
             <div className="section5Text">
               <a target="blank" href="https://drive.google.com/open?id=0B6GYiEdGHBSDbFRteU9sWkxFMGM" className="resumeLink">
@@ -233,62 +233,67 @@ export default class HomePage extends React.Component {
           </div>
         </div>
 
+        <div className="section7Whole">
 
-        <div className="section7HeaderBox">
-          <div className="section7Header">
-            <div className="section7Title">
-              OTHER SKILLS
-            </div>
-          </div>
-        </div>
-
-
-        <div className="section7Box1">
-          <div className="section7">
-            <div className="section7Title2">
-              PHOTOGRAPHY
-            </div>
-            <div className="section7Text">
-              Lorem oopsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-            <div className="section7ImageBox">
-              <img className="section7Image" src={require("../images/richardCollageWide02.jpg")} alt="richardmandsphotography"/>
-            </div>
-          </div>
-        </div>
-
-        <div className="section7Box2">
-          <div className="section72">
-            <div className="section7Title2">
-              VIDEOGRAPHY
-            </div>
-            <div className="section7Title2">
-              AND EDITING
-            </div>
-            <div className="section7Text">
-              Lorem oopsum doloor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-            <div className="section7YoutubeBox">
-              <div className="portfolioYoutubeBox">
-                <div className="portfolioYoutubeVideo">
-                  <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
-                </div>
+          <div className="section7HeaderBox">
+            <div className="section7Header">
+              <div className="section7Title">
+                OTHER SKILLS
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="section7Box1">
-          <div className="section7">
-            <div className="section7Title2">
-              EDUCATION
-            </div>
-            <div className="section7Text">
-              Lorem oopsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+          <div className="section7Box1">
+            <div className="section7">
+              <div className="section7Title2">
+                PHOTOGRAPHY
+              </div>
+              <div className="section7Text">
+                Lorem oopsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div className="section7ImageBox">
+                <img className="section7Image" src={require("../images/richardCollageWide02.jpg")} alt="richardmandsphotography"/>
+              </div>
+              {/* <div className="spacer"/> */}
             </div>
           </div>
+
+          <div className="section7Box2">
+            <div className="section72">
+              <div className="section7Title2">
+                VIDEOGRAPHY
+              </div>
+              <div className="section7Title2">
+                AND EDITING
+              </div>
+              <div className="section7Text">
+                Lorem oopsum doloor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div className="section7YoutubeBox">
+                <div className="portfolioYoutubeBox">
+                  <div className="portfolioYoutubeVideo">
+                    <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
+                  </div>
+                </div>
+              </div>
+              <div className="spacer"/>
+            </div>
+          </div>
+
+          <div className="section7Box1">
+            <div className="section7">
+              <div className="section7Title2">
+                EDUCATION
+              </div>
+              <div className="section7Text">
+                Lorem oopsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+            <div className="spacer"/>
+          </div>
         </div>
-        
+
         <div className="footerBox">
           {/* <div className="emptySpace" /> */}
           <div className="footer">

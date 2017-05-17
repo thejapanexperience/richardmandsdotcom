@@ -801,6 +801,16 @@ a:visited {
   padding-bottom: 20px;
 }
 
+.section4ImageBox{
+  @extend .flex;
+  width: 100%;
+}
+.section4ImageBox{
+  @extend .flex;
+  margin: auto;
+  width: 60%;
+}
+
 .miniProjectBox {
   @extend .flex;
   width: 100%;

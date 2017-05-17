@@ -171,7 +171,7 @@ export default class HomePage extends React.Component {
             </div>
             <div className="portfolioYoutubeBoxSmall">
               <div className="portfolioYoutubeVideo">
-                <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
+                <img className="iframe" src={require("../images/github.png")} frameBorder="0" allowFullScreen />
               </div>
             </div>
             <div className="miniProjectBox">
@@ -273,7 +273,28 @@ export default class HomePage extends React.Component {
               <div className="section7YoutubeBox">
                 <div className="portfolioYoutubeBox">
                   <div className="portfolioYoutubeVideo">
-                    <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
+                    <iframe className="iframe" src="https://www.youtube.com/embed/U_icV5LqHKA" frameBorder="0" allowFullScreen />
+                  </div>
+                </div>
+              </div>
+              <div className="section7YoutubeBox">
+                <div className="portfolioYoutubeBox">
+                  <div className="portfolioYoutubeVideo">
+                    <iframe className="iframe" src="https://www.youtube.com/embed/erew-BmkB6o"  frameBorder="0" allowFullScreen />
+                  </div>
+                </div>
+              </div>
+              <div className="section7YoutubeBox">
+                <div className="portfolioYoutubeBox">
+                  <div className="portfolioYoutubeVideo">
+                    <iframe className="iframe" src="https://www.youtube.com/embed/cdvg_jTrjlg" frameBorder="0" allowFullScreen />
+                  </div>
+                </div>
+              </div>
+              <div className="section7YoutubeBox">
+                <div className="portfolioYoutubeBox">
+                  <div className="portfolioYoutubeVideo">
+                    <iframe className="iframe" src="https://www.youtube.com/embed/De1DiZgcEy0" frameBorder="0" allowFullScreen />
                   </div>
                 </div>
               </div>

@@ -70,7 +70,7 @@ class PortfolioItem extends React.Component {
       media = (
         <div className="portfolioImageBox">
           <div className="portfolioImage">
-            <img id="youtubeBox" className="iframe" src={require(`../images/${image}`)} />
+            <img id="youtubeBox" className="iframeHidden" src={require(`../images/${image}`)} />
           </div>
         </div>);
     }
@@ -81,10 +81,10 @@ class PortfolioItem extends React.Component {
             {data.title}
           </div>
           {media}
-          <div className="portfolioBodyText" id="portfolioBodyText">
+          <div className="portfolioBodyTextHidden" id="portfolioBodyText">
             {data.text}
           </div>
-          <div className="portfolioLink" id="portfolioLink">
+          <div className="portfolioLinkHidden" id="portfolioLink">
             {links}
           </div>
         </div>

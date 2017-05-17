@@ -19,7 +19,7 @@ export default class PortfolioBox extends React.Component {
         },
         {
           title: 'RICHARDMANDS.COM',
-          image:['richardmandsdotcom.png'],
+          image:['richardmandsdotcom2.png'],
           src: "https://www.youtube.com/embed/S4nIfLGqd9s",
           text: 'I created this website from scratch as an attempt to develop a beautiful, full-scale, fully-responsive single-page application using react without any css-libraries.',
           link: ['www.richardmands.com','github.com/thejapanexperience/newWebsiteShell'],

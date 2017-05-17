@@ -37,9 +37,6 @@ export default class HomePage extends React.Component {
 
   render() {
 
-    // let height = $(window).height();
-    // console.log(height);
-
     let bio = [
       `I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I have experience implementing React, React Native, jQuery, Redux, Flux, Node, Express, Mongo, Firebase, Amazon Web Services, GoogleAPIs and more into my apps. I'm strongly self-reliant and am able to quickly learn and incorporate new technologies into my projects.`,
 
@@ -60,9 +57,9 @@ export default class HomePage extends React.Component {
     <div>
       {/* <div className="backgroundImage" /> */}
       <div className="mainContainer" ref="mainContainer">
-
         <div className="navPadding" id="section0Box" />
         <div className="section0" id="section0Nav">
+
           <div className="navBox">
             <div className="nav1">
               <div className="nav1Text" id="navText">

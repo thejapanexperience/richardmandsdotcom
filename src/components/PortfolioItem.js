@@ -68,10 +68,13 @@ class PortfolioItem extends React.Component {
     if(data.image) {
       let image = data.image[imageIndex];
       media = (
-
-          <a href={url + data.link[0]} target="_blank">
-            <img id="youtubeBox" className="iframeHidden" src={require(`../images/${image}`)} />
-          </a>
+          <div className="portfolioImageBox">
+            <div className="portfolioImage">
+              <a href={url + data.link[0]} target="_blank">
+                <img id="youtubeBox" className="iframeHidden" src={require(`../images/${image}`)} />
+              </a>
+            </div>
+          </div>
 
       );
     }

@@ -42,7 +42,7 @@ export default class HomePage extends React.Component {
 
       `I am the co-founder / lead developer of Eduku. See my portfolio for details.`,
 
-      `I was part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016.`,
+      `I was part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016 for creating Entable - an sms-based online banking platform for use in developing countries.`,
     ];
 
     let bioFull = bio.map((sentence, i) => {

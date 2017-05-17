@@ -55,7 +55,9 @@ export default class HomePage extends React.Component {
 
     return (
     <div>
-      <div className="backgroundImage" />
+      <div className="backgroundImageBox">
+        <div className="backgroundImage" />
+      </div>
       <div className="mainContainer" ref="mainContainer">
 
         <div className="navPadding" id="section0Box" />

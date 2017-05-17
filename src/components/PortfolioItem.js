@@ -56,15 +56,15 @@ class PortfolioItem extends React.Component {
     }
 
 
-    let media;
-    if(data.src){
-      media = (
-        <div className="portfolioYoutubeBox">
-          <div className="portfolioYoutubeVideo">
-            <iframe id="youtubeBox" className="iframe" src={data.src} frameBorder="0" allowFullScreen />
-          </div>
-        </div>);
-    }
+    // let media;
+    // if(data.src){
+    //   media = (
+    //     <div className="portfolioYoutubeBox">
+    //       <div className="portfolioYoutubeVideo">
+    //         <iframe id="youtubeBox" className="iframe" src={data.src} frameBorder="0" allowFullScreen />
+    //       </div>
+    //     </div>);
+    // }
     if(data.image) {
       let image = data.image[imageIndex];
       media = (

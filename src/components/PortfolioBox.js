@@ -33,7 +33,7 @@ export default class PortfolioBox extends React.Component {
         },
         {
           title: 'THE FAST LIFE',
-          image: ['Entable.png', 'richardmandsdotcom.png'],
+          image: ['github.png'],
           src: "https://www.youtube.com/embed/ln2dLeUfRtA" ,
           text: 'The Fast Life something something Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut inventore, quae hic repellendus consequatur minima dicta veniam distinctio id iure minus! Consequatur quibusdam veniam suscipit ad voluptatum a corporis assumenda.',
           link: ['www.richardmands.com', 'github.com/thejapanexperience/the-fast-life'],
@@ -134,6 +134,12 @@ export default class PortfolioBox extends React.Component {
         </div>
         <div className="tabBar">
           {tabBarContent}
+        </div>
+        <div className="imageCache">
+          <img src={require("../images/Entable.png")} alt="Entable"/>
+          <img src={require("../images/eduku.png")} alt="Eduku"/>
+          <img src={require("../images/richardmandsdotcom.png")} alt="richardmands.com"/>
+          <img src={require("../images/github.png")} alt="Github"/>
         </div>
         <PortfolioItem data={data} imageCarousel={() => this.imageCarousel()} imageIndex={imageIndex} />
       </div>

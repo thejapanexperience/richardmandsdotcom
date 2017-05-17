@@ -56,7 +56,6 @@ class PortfolioItem extends React.Component {
     }
 
 
-    // let media;
     // if(data.src){
     //   media = (
     //     <div className="portfolioYoutubeBox">
@@ -65,17 +64,20 @@ class PortfolioItem extends React.Component {
     //       </div>
     //     </div>);
     // }
+    let media;
     if(data.image) {
       let image = data.image[imageIndex];
       media = (
-        <div className="portfolioImageBox">
-          <div className="portfolioImage">
+        // <div className="portfolioImageBox">
+          // <div className="portfolioImage">
             <img id="youtubeBox" className="iframeHidden" src={require(`../images/${image}`)} />
-          </div>
-        </div>);
+            // {/* </div> */}
+        // </div>
+      );
     }
 
     return (
+      <div className="portfolioBoxBox">
         <div className="portfolioBox">
           <div className="portfolioTitleTextHidden" id="portfolioItemTitle">
             {data.title}
@@ -88,6 +90,7 @@ class PortfolioItem extends React.Component {
             {links}
           </div>
         </div>
+      </div>
     );
   }
 }

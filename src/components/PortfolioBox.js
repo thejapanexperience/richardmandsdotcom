@@ -14,7 +14,7 @@ export default class PortfolioBox extends React.Component {
           title: 'EDUKU',
           image: ['eduku.png'],
           src: "https://www.youtube.com/embed/u5G2dffogDo",
-          text: `I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities (predominantly in low-income countries) for those who don't have regular or sufficient access. We have created a platform that will allow users to interact with well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. Check us out!`,
+          text: `I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities (predominantly in low-income countries) for those who don't have regular or sufficient access. We have created a platform that will allow users to interact with well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. We are using React and Redux to deliver the front-end, using Auth0 to manage authentication and user creation, and employing a MongoDB Express backend. Check us out!`,
           link: ['eduku.org'],
         },
         {

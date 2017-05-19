@@ -252,12 +252,13 @@ export default class HomePage extends React.Component {
                 PHOTOGRAPHY
               </div>
               <div className="section7Text">
-                I'm an experienced photographer and have shot a variety of paid jobs both on location and in the studio. 
+                I'm an experienced photographer, having shot a variety of jobs for a range of clients (Eduku, Acamis, HubbloVR, SkyData, Outback Tea and Coffee) ranging from in-studio product shots, to on location portraiture and events. I am proficient with Photoshop, Lightroom and the whole suite of available plug-ins that expand Adobe's software.<br/>
+                <br/>
+                I own a range of professional cameras and lenses and would love to use my photography skills to support any organisation I work for.
               </div>
               <div className="section7ImageBox">
                 <img className="section7Image" src={require("../images/richardCollageWide02.jpg")} alt="richardmandsphotography"/>
               </div>
-              {/* <div className="spacer"/> */}
             </div>
           </div>
 
@@ -270,7 +271,7 @@ export default class HomePage extends React.Component {
                 AND EDITING
               </div>
               <div className="section7Text">
-                Lorem oopsum doloor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I have been shooting video professionally since 2014, using my photography background as a starting point. I have experience shooting promo-videos for Eduku, HubbloVR and Acamis that range in styles from in-studio promos and product shots to on-location events and even 360 video (using a 6 camera GoPro rig). I shoot with professional standard cameras (Panasonic GH4) and lenses in 4K. I am proficient with Adobe Premiere Pro, After-Effects (mostly text animations) and Audition. I also have experience with recording high quality audio using shotgun, lavalier and traditional dynamic micropohnes recorded onto a variety of Zoom external recorders (H1, H5).
               </div>
               <div className="section7YoutubeBox">
                 <div className="portfolioYoutubeBox">

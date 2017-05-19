@@ -83,8 +83,8 @@ export default class HomePage extends React.Component {
               </div>
               <div className="section1Text3Box">
                 <a className="section1Text3" target="_blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="section1Text3"> | </span>
-                <a className="section1Text3" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section1Text3"> | </span>
                 <a className="section1Text3" target="_blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="section1Text3"> | </span>
+                <a className="section1Text3" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section1Text3"> | </span>
                 <a className="section1Text3" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a>
                 {/* <span className="section1Text3"> | </span>
                 <a className="section1Text3" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}
@@ -227,8 +227,8 @@ export default class HomePage extends React.Component {
             <div className="section6Title">
               <div className="section6IconsBox">
                 <a className="section6Icons" target="_blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="section6Icons"> | </span>
-                <a className="section6Icons" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section6Icons"> | </span>
                 <a className="section6Icons" target="_blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="section6Icons"> | </span>
+                <a className="section6Icons" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section6Icons"> | </span>
                 <a className="section6Icons" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a>
                 {/* <span className="section6Icons"> | </span>
                 <a className="section6Icons" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}
@@ -319,6 +319,20 @@ export default class HomePage extends React.Component {
                   </div>
                 </div>
               </div>
+              <div className="section7YoutubeBox">
+                <div className="portfolioYoutubeBox">
+                  <div className="portfolioYoutubeVideo">
+                    <iframe className="iframe" src="https://www.youtube.com/embed/6zsAoQC8RcQ" frameBorder="0" allowFullScreen />
+                  </div>
+                </div>
+              </div>
+              <div className="section7YoutubeBox">
+                <div className="portfolioYoutubeBox">
+                  <div className="portfolioYoutubeVideo">
+                    <iframe className="iframe" src="https://www.youtube.com/embed/1d0gc4Ux6Rc" frameBorder="0" allowFullScreen />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -340,8 +354,8 @@ export default class HomePage extends React.Component {
           <div className="footer">
             <span className="footerIcons">
               <a className="footerText3" target="_blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="footerText3"> | </span>
-              <a className="footerText3" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="footerText3"> | </span>
               <a className="footerText3" target="_blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="footerText3"> | </span>
+              <a className="footerText3" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="footerText3"> | </span>
               <a className="footerText3" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a>
               {/* <span className="footerText3"> | </span>
               <a className="footerText3" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}

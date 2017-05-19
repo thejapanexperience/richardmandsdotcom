@@ -85,8 +85,9 @@ export default class HomePage extends React.Component {
                 <a className="section1Text3" target="_blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="section1Text3"> | </span>
                 <a className="section1Text3" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section1Text3"> | </span>
                 <a className="section1Text3" target="_blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="section1Text3"> | </span>
-                <a className="section1Text3" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a><span className="section1Text3"> | </span>
-                <a className="section1Text3" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a>
+                <a className="section1Text3" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a>
+                {/* <span className="section1Text3"> | </span>
+                <a className="section1Text3" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}
               </div>
             </div>
           </div>
@@ -245,19 +246,15 @@ export default class HomePage extends React.Component {
             </div>
           </div>
 
-
           <div className="section7Box1">
             <div className="section7">
               <div className="section7Title2">
-                PHOTOGRAPHY
+                EDUCATION & TRAINING
               </div>
               <div className="section7Text">
-                I'm an experienced photographer, having shot a variety of jobs for a range of clients (Eduku, Acamis, HubbloVR, SkyData, Outback Tea and Coffee) ranging from in-studio product shots, to on location portraiture and events. I am proficient with Photoshop, Lightroom and the whole suite of available plug-ins that expand Adobe's software.<br/>
+                I'm a UK qualified secondary science teacher with a decade of classroom teaching experience. In that time, as well as day-to-day teaching, I have developed original learning resources, managed student assessment data, introduced Google Drive into student assessment and feedback at my school, won a technology development prize from my schools group, led teacher training sessions (mostly based around usage of technology) and been a leader in developing social enterprise / charitable giving. <br/>
                 <br/>
-                I own a range of professional cameras and lenses and would love to use my photography skills to support any organisation I work for.
-              </div>
-              <div className="section7ImageBox">
-                <img className="section7Image" src={require("../images/richardCollageWide02.jpg")} alt="richardmandsphotography"/>
+                These are all experiences that have helped me develop the abilitiy to understand and communicate new technologies in a clear and effective way.
               </div>
             </div>
           </div>
@@ -265,13 +262,33 @@ export default class HomePage extends React.Component {
           <div className="section7Box2">
             <div className="section72">
               <div className="section7Title2">
+                PHOTOGRAPHY
+              </div>
+              <div className="section7Text">
+                I'm a passionate and experienced photographer, having shot a variety of jobs for a number of clients (Eduku, Acamis, HubbloVR, SkyData, Outback Tea and Coffee), as well as private individuals, ranging in style from in-studio product shots, to on location portraiture and events. I am proficient with Photoshop, Lightroom and the whole suite of available plug-ins that expand Adobe's software.<br/>
+                <br/>
+                I own a range of professional cameras and lenses and would love to use my photography skills to support any organisation I work for. <br/>
+              </div>
+              <div className="section7ImageBox">
+                <img className="section7Image" src={require("../images/richardCollageWide02.jpg")} alt="richardmandsphotography"/>
+              </div>
+            </div>
+          </div>
+
+          <div className="section7Box1">
+            <div className="section7">
+              <div className="section7Title2">
                 VIDEOGRAPHY
               </div>
               <div className="section7Title2">
                 AND EDITING
               </div>
               <div className="section7Text">
-                I have been shooting video professionally since 2014, using my photography background as a starting point. I have experience shooting promo-videos for Eduku, HubbloVR and Acamis that range in styles from in-studio promos and product shots to on-location events and even 360 video (using a 6 camera GoPro rig). I shoot with professional standard cameras (Panasonic GH4) and lenses in 4K. I am proficient with Adobe Premiere Pro, After-Effects (mostly text animations) and Audition. I also have experience with recording high quality audio using shotgun, lavalier and traditional dynamic micropohnes recorded onto a variety of Zoom external recorders (H1, H5).
+                I have been shooting video professionally since 2014, using my photography background as a starting point. I have experience shooting promo-videos for Eduku, HubbloVR and Acamis that range in styles from in-studio promos and product shots to on-location events and even 360 video (using a 6 camera GoPro rig). I shoot with professional standard cameras (Panasonic GH4) and lenses in 4K. <br/>
+                <br/>
+                I am proficient with Adobe Premiere Pro, After-Effects (mostly text animations) and Audition. I also have experience with recording high quality audio using shotgun, lavalier and traditional dynamic microphones recorded onto a variety of Zoom external recorders (H1, H5). <br/>
+                <br/>
+                As with my photography skills, it would be great to utilise my videography experience (if possible) alongside a role as a javascript developer.
               </div>
               <div className="section7YoutubeBox">
                 <div className="portfolioYoutubeBox">
@@ -304,17 +321,8 @@ export default class HomePage extends React.Component {
             </div>
           </div>
 
-          <div className="section7Box1">
-            <div className="section7">
-              <div className="section7Title2">
-                EDUCATION
-              </div>
-              <div className="section7Text">
-                Lorem oopsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div>
-          </div>
         </div>
+
 
         <div className="footerBox">
           {/* <div className="emptySpace" /> */}
@@ -333,8 +341,9 @@ export default class HomePage extends React.Component {
               <a className="footerText3" target="_blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="footerText3"> | </span>
               <a className="footerText3" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="footerText3"> | </span>
               <a className="footerText3" target="_blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="footerText3"> | </span>
-              <a className="footerText3" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a><span className="footerText3"> | </span>
-              <a className="footerText3" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a>
+              <a className="footerText3" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a>
+              {/* <span className="footerText3"> | </span>
+              <a className="footerText3" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}
             </span>
           </div>
         </div>

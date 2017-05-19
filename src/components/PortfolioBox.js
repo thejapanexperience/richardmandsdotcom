@@ -36,7 +36,7 @@ export default class PortfolioBox extends React.Component {
           image: ['theFastLife.png'],
           src: "https://www.youtube.com/embed/ln2dLeUfRtA" ,
           text: "The Fast Life is an application that allows users to schedule, edit and view fasts, as well as keep a diary. Firebase is used to handle Google authentication. Styling was done using material-ui. The app was built with React and also incorporates Node, Express, Redux and MongoDB.",
-          link: ['nameless-cove-36810.herokuapp.com', 'github.com/thejapanexperience/the-fast-life'],
+          link: ['www.thefastlife.website', 'github.com/thejapanexperience/the-fast-life'],
         }
       ],
       tabs: [

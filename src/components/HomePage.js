@@ -229,8 +229,9 @@ export default class HomePage extends React.Component {
                 <a className="section6Icons" target="_blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="section6Icons"> | </span>
                 <a className="section6Icons" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section6Icons"> | </span>
                 <a className="section6Icons" target="_blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="section6Icons"> | </span>
-                <a className="section6Icons" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a><span className="section6Icons"> | </span>
-                <a className="section6Icons" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a>
+                <a className="section6Icons" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a>
+                {/* <span className="section6Icons"> | </span>
+                <a className="section6Icons" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}
               </div>
             </div>
           </div>

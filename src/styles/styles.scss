@@ -344,6 +344,10 @@ a:visited {
   @extend .section;
   height: auto;
   margin: auto;
+  padding-left: 2%;
+  // @media screen and (max-width: 600px){
+  //   padding-left: 0;
+  // }
   border: 0;
   text-align: center;
 }
@@ -403,13 +407,13 @@ a:visited {
   color: white;
   :hover {
     // text-shadow: 10px 10px 5px rgba(0,0,0,0.4);
-    @extend .transition2;
+    @extend .transition1;
     -moz-transform: scale(1.25);
     -webkit-transform: scale(1.25);
     transform: scale(1.25);
   }
   :not(:hover){
-    @extend .transition2;
+    @extend .transition1;
   }
 }
 
@@ -1378,7 +1382,7 @@ hr {
   padding: 3px;
   @extend .font1;
   pointer-events: none;
-  @include responsive-font(1.3vw, 1px, 18px, 25px);
+  @include responsive-font(1.3vw, 1px, 18px, 18px);
   text-align: center;
 }
 .contentBox {

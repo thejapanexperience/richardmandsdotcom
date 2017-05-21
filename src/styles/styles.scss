@@ -192,7 +192,7 @@ a:visited {
 
 .section {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -910,7 +910,7 @@ a:visited {
   @extend .section4Title;
   color: white;
   padding: 0;
-  margin-bottom: -2vw;
+  margin-bottom: -2%;
 }
 
 .section5Text {
@@ -984,9 +984,9 @@ a:visited {
 }
 .section6TitleText{
   // @extend .fontSizeTitle2;
-  @include responsive-font(12vw, 20px, 240px, 100px);
-  margin-top: -1vw;
-  margin-bottom: -1.8vw;
+  @include responsive-font(12vw, 20px, 200px, 100px);
+  margin-top: -1%;
+  margin-bottom: -2%;
   @extend .font1;
   // font-size: 7vw;
   margin-left: auto;
@@ -1052,7 +1052,9 @@ a:visited {
 
 
 .section7Whole {
+  @extend .section;
   width: 100%;
+  max-width: 1200px;
   @extend .flex;
   padding: 20px;
   @media screen and (max-width: 600px){
@@ -1300,7 +1302,7 @@ hr {
 .resumeBoxHide {
   @extend .transition4;
   position: absolute;
-  left: -2000px;
+  left: -100000px;
   width: 100%;
 }
 
@@ -1396,6 +1398,15 @@ hr {
   padding-top: 0vw;
   @extend .font2;
   @include responsive-font(0.95vw, 1px, 11px, 12px);
+  @media screen and (min-width: 1200px){
+    @include responsive-font(1.2vw, 1px, 12.5px, 12px);
+  }
+  @media screen and (min-width: 1300px){
+    @include responsive-font(1.6vw, 1px, 14px, 12px);
+  }
+  @media screen and (min-width: 1400px){
+    @include responsive-font(2vw, 1px, 16px, 12px);
+  }
   text-align: left;
 }
 

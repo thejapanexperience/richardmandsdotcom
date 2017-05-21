@@ -48,7 +48,7 @@ export default class PortfolioBox extends React.Component {
     };
 
     this.click = this.click.bind(this);
-    this.imageCarousel = this.imageCarousel.bind(this);
+    // this.imageCarousel = this.imageCarousel.bind(this);
   }
 
 
@@ -76,30 +76,30 @@ export default class PortfolioBox extends React.Component {
     }, 1000);
   }
 
-  imageCarousel(){
-    console.log('inside imageCarousel');
-    let data = this.state.portfolioState;
-    let images = data.image;
-    let index = this.state.imageIndex;
-    let length = images.length;
-    let newIndex = index + 1;
-    console.log('length: ', length);
-    console.log('index: ', index);
-    setTimeout(()=> {
-      document.getElementById('youtubeBox').className ='iframeHidden';
-    });
-    // setTimeout(()=> {
-    //   if (newIndex === length){
-    //     this.setState({
-    //       imageIndex: 0,
-    //     });
-    //   } else {
-    //     this.setState({
-    //       imageIndex: newIndex,
-    //     });
-    //   }
-    // }, 10000);
-  }
+  // imageCarousel(){
+  //   console.log('inside imageCarousel');
+  //   let data = this.state.portfolioState;
+  //   let images = data.image;
+  //   let index = this.state.imageIndex;
+  //   let length = images.length;
+  //   let newIndex = index + 1;
+  //   console.log('length: ', length);
+  //   console.log('index: ', index);
+  //   setTimeout(()=> {
+  //     document.getElementById('youtubeBox').className ='iframeHidden';
+  //   });
+  //   // setTimeout(()=> {
+  //   //   if (newIndex === length){
+  //   //     this.setState({
+  //   //       imageIndex: 0,
+  //   //     });
+  //   //   } else {
+  //   //     this.setState({
+  //   //       imageIndex: newIndex,
+  //   //     });
+  //   //   }
+  //   // }, 10000);
+  // }
 
 
 

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import PortfolioBox from './PortfolioBox';
+import Resume from './Resume';
 // import {Link} from 'react-router';
 
 export default class HomePage extends React.Component {
@@ -201,14 +202,15 @@ export default class HomePage extends React.Component {
                 Simple word version
               </a>
             </div>
-            <div className="portfolioYoutubeBoxSmall">
+            {/* <div className="portfolioYoutubeBoxSmall">
               <div className="portfolioYoutubeVideo">
                 <iframe className="iframe" src="https://www.youtube.com/embed/u5G2dffogDo" frameBorder="0" allowFullScreen />
               </div>
-            </div>
-            <div className="section5Text2">
+              </div>
+              <div className="section5Text2">
               Lorem oopsum lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
+            </div> */}
+            <Resume />
           </div>
         </div>
 
@@ -255,7 +257,7 @@ export default class HomePage extends React.Component {
               <div className="section7Text">
                 I'm a UK qualified secondary science teacher with a decade of classroom teaching experience. In that time, as well as day-to-day teaching, I have developed original learning resources, managed student assessment data, introduced Google Drive into student assessment and feedback at my school, won a technology development prize from my schools group, led teacher training sessions (mostly based around usage of technology) and been a leader in developing social enterprise / charitable giving. <br/>
                 <br/>
-                These are all experiences that have helped me develop the abilitiy to understand and communicate new technologies in a clear and effective way.
+                These are all experiences that have helped me develop the ability to understand and communicate new technologies in a clear and effective way.
               </div>
             </div>
           </div>

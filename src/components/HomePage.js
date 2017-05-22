@@ -223,7 +223,7 @@ export default class HomePage extends React.Component {
               MINI-PROJECTS
             </div>
             <div className="section4Text">
-              These projects are designed to showcase the usage of key javascript technologies.
+              These projects are designed to showcase the usage of basic javascript technologies.
             </div>
             <div className="section4ImageBox">
               <div className="section4Image">
@@ -234,8 +234,23 @@ export default class HomePage extends React.Component {
             </div>
             <div className="miniProjectBox">
               <div className="miniProject">
+                <a target="_blank" href="https://github.com/thejapanexperience/miniProjectsReact-Dnd" className="miniProjectLink">
+                  React-DnD - Testing simple drag and drop using React and React-dnd
+                </a>
+              </div>
+              <div className="miniProject">
+                <a target="_blank" href="https://github.com/thejapanexperience/immersive-learning" className="miniProjectLink">
+                  Study Bubble - A VR learning environment built using A-Frame
+                </a>
+              </div>
+              <div className="miniProject">
+                <a target="_blank" href="https://github.com/thejapanexperience/friendalizer" className="miniProjectLink">
+                  Friendalizer - IBM Watson and Microsoft Cognitive Services
+                </a>
+              </div>
+              <div className="miniProject">
                 <a target="_blank" href="https://github.com/thejapanexperience/PokemonAPIViewer2" className="miniProjectLink">
-                  PokeAPI - This project presents data from an external API.
+                  PokeAPI - Using data from an external API
                 </a>
               </div>
             </div>

@@ -91,11 +91,13 @@ export default class HomePage extends React.Component {
   render() {
 
     let bio = [
-      `I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I have experience implementing React, React Native, jQuery, Redux, Flux, Node, Express, Mongo, Firebase, Amazon Web Services, GoogleAPIs and more into my apps. I'm strongly self-reliant and am able to quickly learn and incorporate new technologies into my projects.`,
+      `I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I am proficient with React, Redux, Flux, Node, Express, MongoDB, Mongoose, Webpack, and have experience with jQuery, Firebase, Auth0, Amazon Web Services, GoogleAPIs and more.`,
 
-      `I am the co-founder / lead developer of Eduku. See my portfolio for details.`,
+      `Since deciding to become a developer full-time, I've learned more in less time than I've ever done before. I bring with me a love for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.`,
 
-      `I was part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016 for creating Entable - an sms-based online banking platform for use in developing countries.`,
+      `I am the co-founder / lead developer of Eduku, a social enterprise (self-funded charity), that aims to raise funds for those lacking educational opportunities in low-income countries via an exciting online learning platform.`,
+
+      `I was also part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016 for creating Entable - an sms-based online banking platform aimed spefically at supporting women in low-income countries by offering wider access to microfinance.`,
     ];
 
     let bioFull = bio.map((sentence, i) => {
@@ -125,7 +127,7 @@ export default class HomePage extends React.Component {
         <div className="section1Box" id="section1Box">
           <div className="section1">
             <div className="section1Image">
-              <img className="section1BoxImage" src={require("../images/richard1Crop.jpg")} alt="richardmands"/>
+              <img className="section1BoxImage" src={require("../images/RichardColorVertical900.jpg")} alt="richardmands"/>
             </div>
             <div className="flexText">
               <div className="section1Text1">

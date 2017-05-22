@@ -11,28 +11,7 @@ class ResumeColumn extends React.Component {
       buttonText: 'Show résumé?',
     };
 
-    // this.resumeColumnClick = this.resumeColumnClick.bind(this);
-
   }
-
-  // resumeColumnClick(e){
-  //   e.preventDefault();
-  //   if (!this.state.showResume){
-  //     document.getElementById('resumeColumn').className ='resumeBox';
-  //     document.getElementById('resumeColumnButton').className ='tabBarTabResume';
-  //     this.setState({
-  //       showResume: true,
-  //       buttonText: this.state.buttonText2,
-  //     })
-  //   } else {
-  //     document.getElementById('resumeColumn').className ='resumeBoxHide';
-  //     document.getElementById('resumeColumnButton').className ='tabBarTabActiveResume';
-  //     this.setState({
-  //       showResume: false,
-  //       buttonText: this.state.buttonText1,
-  //     })
-  //   }
-  // }
 
   render() {
 
@@ -54,7 +33,8 @@ class ResumeColumn extends React.Component {
           </div>
         </div>
         <div className="contentBox">
-          <div className="contentContent">
+          <div className="resumeImageColumn"/>
+          <div className="contentContentImage">
             Since deciding to become a developer full-time, I've learned more in less time than I've ever done before. I bring with me a love for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
           </div>
         </div>

@@ -3,12 +3,23 @@ import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import PortfolioBox from './PortfolioBox';
 import Resume from './Resume';
+import ResumeColumn from './ResumeColumn';
 // import {Link} from 'react-router';
 
 export default class HomePage extends React.Component {
 
   constructor() {
     super();
+    this.state = {
+      showResume: false,
+      buttonText1: 'Show résumé?',
+      buttonText2: 'Hide résumé?',
+      buttonText: 'Show résumé?',
+    };
+
+    this.resumeColumnClick = this.resumeColumnClick.bind(this);
+    this.resumeClick = this.resumeClick.bind(this);
+
   }
 
   componentDidMount() {
@@ -35,6 +46,47 @@ export default class HomePage extends React.Component {
           window.removeEventListener('scroll');
   }
 
+  resumeColumnClick(e){
+    e.preventDefault();
+    if (!this.state.showResume){
+      document.getElementById('resumeColumn').className ='resumeBox';
+      document.getElementById('resumeColumnButton').className ='tabBarTabResume';
+      document.getElementById('resumeButton').className ='tabBarTabResume';
+      this.setState({
+        showResume: true,
+        buttonText: this.state.buttonText2,
+      })
+    } else {
+      document.getElementById('resumeColumn').className ='resumeBoxHide';
+      document.getElementById('resumeColumnButton').className ='tabBarTabActiveResume';
+      document.getElementById('resumeButton').className ='tabBarTabActiveResume';
+      this.setState({
+        showResume: false,
+        buttonText: this.state.buttonText1,
+      })
+    }
+  }
+
+  resumeClick(e){
+    e.preventDefault();
+    if (!this.state.showResume){
+      document.getElementById('resume').className ='resumeBox';
+      document.getElementById('resumeButton').className ='tabBarTabResume';
+      document.getElementById('resumeColumnButton').className ='tabBarTabResume';
+      this.setState({
+        showResume: true,
+        buttonText: this.state.buttonText2,
+      })
+    } else {
+      document.getElementById('resume').className ='resumeBoxHide';
+      document.getElementById('resumeButton').className ='tabBarTabActiveResume';
+      document.getElementById('resumeColumnButton').className ='tabBarTabActiveResume';
+      this.setState({
+        showResume: false,
+        buttonText: this.state.buttonText1,
+      })
+    }
+  }
 
   render() {
 
@@ -210,7 +262,8 @@ export default class HomePage extends React.Component {
               <div className="section5Text2">
               Lorem oopsum lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div> */}
-            <Resume />
+            <ResumeColumn resumeColumnClick={this.resumeColumnClick} buttonText={this.state.buttonText} showResume={this.state.showResume}/>
+            <Resume resumeClick={this.resumeClick} buttonText={this.state.buttonText} showResume={this.state.showResume}/>
           </div>
         </div>
 

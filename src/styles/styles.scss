@@ -484,9 +484,12 @@ a:visited {
 .iconBoxOuter {
   @extend .flex;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10px;
   box-shadow: 5px 5px 5px rgba(0,0,0,.35);
   width: 80%;
+  @media screen and (max-width: 900px){
+    width: 90%;
+  }
 }
 
 .iconBox {
@@ -1292,16 +1295,29 @@ hr {
   @extend .flex;
   // position: relative;
   width: 100%;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 900px){
+    position: absolute;
+    top: -5000px;
+    left: -5000px;
+  }
+}
+.resumeColumnBoxBox{
+  // @extend .transition2;
+  @extend .flex;
+  // position: relative;
+  width: 100%;
+  @media screen and (min-width: 901px){
     position: absolute;
     top: -5000px;
     left: -5000px;
   }
 }
 .resumeBox {
-  @extend .transition4;
+  // @extend .transition4;
   width: 100%;
   @extend .flex;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .resumeBoxHide {
   @extend .transition4;
@@ -1321,32 +1337,6 @@ hr {
 .letter {
   @extend .flex;
 }
-// .letterBox {
-//   display: inline-block;
-//   position: relative;
-//   width: 80%;
-//   height: auto;
-//   margin: auto;
-//   z-index: 1;
-//   opacity: 1;
-//   background-color: white;
-// }
-//
-// .letterBox::after {
-//   padding-top: 129.4%;
-//   /* 16:9 ratio */
-//   display: block;
-//   content: '';
-// }
-//
-// .letter {
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   right: 0;
-//   left: 0;
-//   padding: 2%;
-// }
 
 .letterContent {
   position: relative;
@@ -1362,6 +1352,13 @@ hr {
 .img {
   width: 100%;
   height: auto;
+}
+.resumeImage{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/meWidishIsh.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .titleBox {
@@ -1383,34 +1380,31 @@ hr {
   @extend .font1;
   pointer-events: none;
   @include responsive-font(1.3vw, 1px, 18px, 18px);
+  @media screen and (max-width: 901px){
+    @include responsive-font(1.3vw, 14px, 18px, 18px);
+  }
   text-align: center;
 }
 .contentBox {
   @extend .flex;
-  width: 100%;
-  padding-top: 0.25vw;
-  padding-bottom: 0.25vw;
+  padding: 7px;
+  padding-bottom: 10px;
 }
 .contentContent {
   color: $color1;
-  width: 97.5%;
-  margin: auto;
-  margin-left: 0;
-  padding-left: 1.5%;
-  padding-right: 1%;
-  padding-bottom: 0.3vw;
-  padding-top: 0vw;
+  padding: 2px;
   @extend .font2;
-  @include responsive-font(0.95vw, 1px, 11px, 12px);
+  @include responsive-font(1.2vw, 1px, 12px, 12px);
   @media screen and (min-width: 1200px){
     @include responsive-font(1.2vw, 1px, 12.5px, 12px);
   }
   @media screen and (min-width: 1300px){
     @include responsive-font(1.5vw, 1px, 13.5px, 12px);
   }
-  // @media screen and (min-width: 1400px){
-  //   @include responsive-font(2vw, 1px, 16px, 12px);
-  // }
+  @media screen and (max-width: 901px){
+    @include responsive-font(1.5vw, 12px, 18px, 18px);
+  }
+
   text-align: left;
 }
 
@@ -1422,7 +1416,14 @@ hr {
 
 .four {
   position:relative;
-  flex:0 0 25%;
+  flex:0 0 28%;
+  @media screen and (max-width: 600px){
+    flex:0 0 100%;
+  }
+}
+.fourImage {
+  position:relative;
+  flex:0 0 16%;
   @media screen and (max-width: 600px){
     flex:0 0 100%;
   }
@@ -1432,15 +1433,6 @@ hr {
   height: 98%;
   margin-left: 2%;
   background-color: rgba(0, 0, 0, 0.08);
-  .contentBox{
-    .contentContent{
-      width: 94%;
-      margin: auto;
-      margin-left: 0;
-      padding-left: 3%;
-      padding-right: 3%;
-    }
-  }
 }
 .four:nth-of-type(1){
   .fourInner{
@@ -1469,8 +1461,7 @@ hr {
   margin-left: 2%;
   background-color: rgba(0, 0, 0, 0.08);
   .twentyFive{
-    width: 24%;
-    margin-left: 1%;
+    width: 25%;
   }
 }
 
@@ -1494,30 +1485,37 @@ hr {
 .oneInner {
   @extend .flex;
   width: 100%;
-  height: 100%;
   background-color: rgba(0, 0, 0, 0.08);
-  .contentBox{
-    .contentContent{
-      width: 98.75%;
-      margin: auto;
-      margin-left: 0;
-      padding-left: 0.75%;
-      padding-right: 0.5%;
-    }
+}
+.oneInnerFlex {
+  @extend .oneInner;
+  @extend .flex;
+  .twentyFiveColumn{
+    width: 25%;
+    // .contentBox{
+    //   .contentContent{
+    //     @media screen and (max-width: 600px){
+    //       @include responsive-font(1.2vw, 10px, 18px, 18px);
+    //     }
+    //   }
+    // }
   }
 }
-.one:nth-of-type(1){
-  .oneInner{
-    width: 100%;
-    margin-left: 0;
-  }
-}
+
+// @media screen and (min-width: 601px){
+//   .one:nth-of-type(1){
+//     .oneInner{
+//       width: 100%;
+//       margin-left: 0;
+//     }
+//   }
+// }
 
 .tabBarResume{
   @extend .flex;
   margin: auto;
   width: 90%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   // @extend .shadowFull;
 }
 

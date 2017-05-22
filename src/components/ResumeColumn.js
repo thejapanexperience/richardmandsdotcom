@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Resume extends React.Component {
+class ResumeColumn extends React.Component {
 
   constructor(){
     super();
@@ -11,22 +11,22 @@ class Resume extends React.Component {
       buttonText: 'Show résumé?',
     };
 
-    // this.resumeClick = this.resumeClick.bind(this);
+    // this.resumeColumnClick = this.resumeColumnClick.bind(this);
 
   }
 
-  // resumeClick(e){
+  // resumeColumnClick(e){
   //   e.preventDefault();
   //   if (!this.state.showResume){
-  //     document.getElementById('resume').className ='resumeBox';
-  //     document.getElementById('resumeButton').className ='tabBarTabResume';
+  //     document.getElementById('resumeColumn').className ='resumeBox';
+  //     document.getElementById('resumeColumnButton').className ='tabBarTabResume';
   //     this.setState({
   //       showResume: true,
   //       buttonText: this.state.buttonText2,
   //     })
   //   } else {
-  //     document.getElementById('resume').className ='resumeBoxHide';
-  //     document.getElementById('resumeButton').className ='tabBarTabActiveResume';
+  //     document.getElementById('resumeColumn').className ='resumeBoxHide';
+  //     document.getElementById('resumeColumnButton').className ='tabBarTabActiveResume';
   //     this.setState({
   //       showResume: false,
   //       buttonText: this.state.buttonText1,
@@ -39,16 +39,15 @@ class Resume extends React.Component {
     let buttonText = this.props.buttonText;
 
     let image =
-    <div className="fourImage">
-      <div className="fourInner">
-        {/* <img className="img" src={require("../images/meWidishIsh.jpg")} alt=""/> */}
-        <div className="resumeImage"/>
+    <div className="one">
+      <div className="oneInner">
+        <img className="img" src={require("../images/meWidishIsh.jpg")} alt=""/>
       </div>
     </div>
 
     let introduction =
-    <div className="four">
-      <div className="fourInner">
+    <div className="one">
+      <div className="oneInner">
         <div className="titleBox">
           <div className="titleContent">
             INTRODUCTION
@@ -63,8 +62,8 @@ class Resume extends React.Component {
     </div>
 
     let quickPoints =
-    <div className="four">
-      <div className="fourInner">
+    <div className="one">
+      <div className="oneInner">
         <div className="titleBox">
           <div className="titleContent">
             QUICK POINTS
@@ -85,8 +84,8 @@ class Resume extends React.Component {
     </div>
 
     let contact =
-    <div className="four">
-      <div className="fourInner">
+    <div className="one">
+      <div className="oneInner">
         <div className="titleBox">
           <div className="titleContent">
             CONTACT
@@ -149,8 +148,8 @@ class Resume extends React.Component {
     </div>
 
     let cinderhouseEduku =
-    <div className="two">
-      <div className="twoInner">
+    <div className="one">
+      <div className="oneInner">
 
         <div className="titleBox">
           <div className="titleContent">
@@ -183,139 +182,155 @@ class Resume extends React.Component {
     </div>
 
     let codingHouse =
-    <div>
-      <div className="titleBox">
-        <div className="titleContent">
-          CODING HOUSE
-          | Sep '16 - Nov '16
+    <div className="one">
+      <div className="oneInner">
+
+        <div className="titleBox">
+          <div className="titleContent">
+            CODING HOUSE
+            | Sep '16 - Nov '16
+          </div>
         </div>
-      </div>
-      <div className="contentBox">
-        <div className="contentContent">
-          Student | San Francisco, USA
-        </div>
-        <div className="contentContent">
-          Trained 14 hours a day for three months at a live-in coding bootcamp.
-        </div>
-        <div className="contentContent">
-          React, React-Native, Flux, Redux, Node, Express, Mongo, MySQL, Firebase, jQuery, Socket.Io Amazon Web Services, Google APIs and more.
-        </div>
-        <div className="contentContent">
-          Part of a team that won the Cisco sponsor prize at the Lady Problems hackathon in San Francisco in October 2016.
+        <div className="contentBox">
+          <div className="contentContent">
+            Student | San Francisco, USA
+          </div>
+          <div className="contentContent">
+            Trained 14 hours a day for three months at a live-in coding bootcamp.
+          </div>
+          <div className="contentContent">
+            React, React-Native, Flux, Redux, Node, Express, Mongo, MySQL, Firebase, jQuery, Socket.Io Amazon Web Services, Google APIs and more.
+          </div>
+          <div className="contentContent">
+            Part of a team that won the Cisco sponsor prize at the Lady Problems hackathon in San Francisco in October 2016.
+          </div>
         </div>
       </div>
     </div>
 
     let selfStudy =
-    <div>
-      <div className="titleBox">
-        <div className="titleContent">
-          SELF-STUDY
-          | Dec '16 - Present
+    <div className="one">
+      <div className="oneInner">
+
+        <div className="titleBox">
+          <div className="titleContent">
+            SELF-STUDY
+            | Dec '16 - Present
+          </div>
         </div>
-      </div>
-      <div className="contentBox">
-        <div className="contentContent">
-          I have completed the following online courses:
-        </div>
-        <div className="contentContent">
-          Pluralsight |
-          <a href="https://app.pluralsight.com/library/courses/better-css/table-of-contents" target="blank"> A Better CSS: LESS and SASS</a> |
-          <a href="https://app.pluralsight.com/library/courses/css3-in-depth/table-of-contents" target="blank"> CSS3 In-Depth</a> |
-          <a href="https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents" target="blank"> Building Applications with React and Flux</a> |
-          <a href="https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents" target="blank"> Building Applications with React and Redux in ES6</a>
-        </div>
-        <div className="contentContent">
-          Udacity |
-          <a href="https://classroom.udacity.com/courses/ud893" target="blank"> Responsive Design Fundamentals</a> |
-          <a href="https://classroom.udacity.com/courses/ud882" target="blank"> Responsive Images</a>
+        <div className="contentBox">
+          <div className="contentContent">
+            I have completed the following online courses:
+          </div>
+          <div className="contentContent">
+            Pluralsight |
+            <a href="https://app.pluralsight.com/library/courses/better-css/table-of-contents" target="blank"> A Better CSS: LESS and SASS</a> |
+            <a href="https://app.pluralsight.com/library/courses/css3-in-depth/table-of-contents" target="blank"> CSS3 In-Depth</a> |
+            <a href="https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents" target="blank"> Building Applications with React and Flux</a> |
+            <a href="https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents" target="blank"> Building Applications with React and Redux in ES6</a>
+          </div>
+          <div className="contentContent">
+            Udacity |
+            <a href="https://classroom.udacity.com/courses/ud893" target="blank"> Responsive Design Fundamentals</a> |
+            <a href="https://classroom.udacity.com/courses/ud882" target="blank"> Responsive Images</a>
+          </div>
         </div>
       </div>
     </div>
 
     let teaching =
-    <div>
-      <div className="titleBox">
-        <div className="titleContent">
-          TEACHING | Apr '12 - Jul '16
+    <div className="one">
+      <div className="oneInner">
+
+        <div className="titleBox">
+          <div className="titleContent">
+            TEACHING | Apr '12 - Jul '16
+          </div>
         </div>
-      </div>
-      <div className="contentBox">
-        <div className="contentContent">
-          <a href="https://bsn.org.cn/" target="_blank">The British School of Nanjing</a> | Science / ICT Teacher | Nanjing, China
-        </div>
-        <div className="contentContent">
-          Taught science and ICT to students aged 10-18.
-        </div>
-        <div className="contentContent">
-          Assessment Coordinator. Developed and implemented a google-drive based real-time assessment and feedback system for students and teachers.
-        </div>
-        <div className="contentContent">
-          Won $2000 technology development prize from the <a href="https://www.britishschools.co.uk/" target="_blank">British Schools Foundation</a>.
-        </div>
-        <div className="contentContent">
-          Developed training materials and led inset for  staff with the goal of improving IT integration.
-        </div>
-        <div className="contentContent">
-          Created and led highly successful after-school programs related to charity work and fundraising.
+        <div className="contentBox">
+          <div className="contentContent">
+            <a href="https://bsn.org.cn/" target="_blank">The British School of Nanjing</a> | Science / ICT Teacher | Nanjing, China
+          </div>
+          <div className="contentContent">
+            Taught science and ICT to students aged 10-18.
+          </div>
+          <div className="contentContent">
+            Assessment Coordinator. Developed and implemented a google-drive based real-time assessment and feedback system for students and teachers.
+          </div>
+          <div className="contentContent">
+            Won $2000 technology development prize from the <a href="https://www.britishschools.co.uk/" target="_blank">British Schools Foundation</a>.
+          </div>
+          <div className="contentContent">
+            Developed training materials and led inset for  staff with the goal of improving IT integration.
+          </div>
+          <div className="contentContent">
+            Created and led highly successful after-school programs related to charity work and fundraising.
+          </div>
         </div>
       </div>
     </div>
 
     let teachingCont =
-    <div>
-      <div className="titleBox">
-        <div className="titleContent">
-          TEACHING CONT. | Apr '04 - Mar '12
+    <div className="one">
+      <div className="oneInner">
+
+        <div className="titleBox">
+          <div className="titleContent">
+            TEACHING CONT. | Apr '04 - Mar '12
+          </div>
+        </div>
+        <div className="contentBox">
+          <div className="contentContent">
+            <a href="http://www.londonacademy.org.uk/" target="_blank">London Academy</a> | Secondary Science Teacher | London, UK
+          </div>
+          <div className="contentContent">
+            Various | English Teacher | Tokyo, Japan
+          </div>
         </div>
       </div>
-      <div className="contentBox">
-        <div className="contentContent">
-          <a href="http://www.londonacademy.org.uk/" target="_blank">London Academy</a> | Secondary Science Teacher | London, UK
-        </div>
-        <div className="contentContent">
-          Various | English Teacher | Tokyo, Japan
-        </div>
       </div>
-    </div>
 
     let teachingQualification =
-    <div>
-      <div className="titleBox">
-        <div className="titleContent">
-          TEACHING QUALIFICATION | '09 - '10
+    <div className="one">
+      <div className="oneInner">
+        <div className="titleBox">
+          <div className="titleContent">
+            TEACHING QUALIFICATION | '09 - '10
+          </div>
+        </div>
+        <div className="contentBox">
+          <div className="contentContent">
+            <a href="http://www.ucl.ac.uk/ioe" target="_blank">Institute of Education : UCL</a> | Secondary Science PGCE | London, UK
+          </div>
         </div>
       </div>
-      <div className="contentBox">
-        <div className="contentContent">
-          <a href="http://www.ucl.ac.uk/ioe" target="_blank">Institute of Education : UCL</a> | Secondary Science PGCE | London, UK
-        </div>
       </div>
-    </div>
 
     let universityDegree =
-    <div>
-      <div className="titleBox">
-        <div className="titleContent">
-          UNIVERSITY DEGREE | '99 - '03
+    <div className="one">
+      <div className="oneInner">
+        <div className="titleBox">
+          <div className="titleContent">
+            UNIVERSITY DEGREE | '99 - '03
+          </div>
+        </div>
+        <div className="contentBox">
+          <div className="contentContent">
+            <a href="https://www.york.ac.uk/" target="_blank">University of York</a> | Biochemistry BSc | York, UK
+          </div>
         </div>
       </div>
-      <div className="contentBox">
-        <div className="contentContent">
-          <a href="https://www.york.ac.uk/" target="_blank">University of York</a> | Biochemistry BSc | York, UK
-        </div>
       </div>
-    </div>
 
     let langPro =
-    <div className="two">
-      <div className="twoInnerFlex">
+    <div className="one">
+      <div className="oneInnerFlex">
         <div className="titleBox">
           <div className="titleContent">
             LANGUAGES & LIBRARIES : Proficient
           </div>
         </div>
-        <div className="twentyFive">
+        <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
               HTML <br/>
@@ -324,7 +339,7 @@ class Resume extends React.Component {
             </div>
           </div>
         </div>
-        <div className="twentyFive">
+        <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
               React.js <br/>
@@ -333,7 +348,7 @@ class Resume extends React.Component {
             </div>
           </div>
         </div>
-        <div className="twentyFive">
+        <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
               Express <br/>
@@ -342,7 +357,7 @@ class Resume extends React.Component {
             </div>
           </div>
         </div>
-        <div className="twentyFive">
+        <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
               MongoDB <br/>
@@ -354,8 +369,8 @@ class Resume extends React.Component {
     </div>
 
     let langExp =
-    <div className="two">
-      <div className="twoInnerFlex">
+    <div className="one">
+      <div className="oneInnerFlex">
 
         <div className="titleBox">
           <div className="titleContent">
@@ -363,7 +378,7 @@ class Resume extends React.Component {
           </div>
         </div>
 
-        <div className="twentyFive">
+        <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
               MySQL <br/>
@@ -373,7 +388,7 @@ class Resume extends React.Component {
           </div>
         </div>
 
-        <div className="twentyFive">
+        <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
               Socket.IO <br/>
@@ -383,7 +398,7 @@ class Resume extends React.Component {
           </div>
         </div>
 
-        <div className="twentyFive">
+        <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
               Google APIs <br/>
@@ -392,7 +407,7 @@ class Resume extends React.Component {
           </div>
         </div>
 
-        <div className="twentyFive">
+        <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
               React Native <br/>
@@ -405,8 +420,8 @@ class Resume extends React.Component {
     </div>
 
     let personalInformation =
-    <div className="two">
-      <div className="twoInner">
+    <div className="one">
+      <div className="oneInner">
         <div className="titleBox">
           <div className="titleContent">
             PERSONAL INFORMATION
@@ -423,8 +438,8 @@ class Resume extends React.Component {
     </div>
 
     let quickNote =
-    <div className="two">
-      <div className="twoInner">
+    <div className="one">
+      <div className="oneInner">
         <div className="titleBox">
           <div className="titleContent">
             QUICK NOTE
@@ -446,103 +461,59 @@ class Resume extends React.Component {
     }
 
     return (
-      <div className="resumeBoxBox">
-        <div className="tabBarResume" onClick={(e) => this.props.resumeClick(e)}>
-          <div className="tabBarTabActiveResume" id="resumeButton">
+      <div className="resumeColumnBoxBox">
+        <div className="tabBarResume" onClick={(e) => this.props.resumeColumnClick(e)}>
+          <div className="tabBarTabActiveResume" id="resumeColumnButton">
             <div className="tabBarTabTitle" >
-              {this.props.buttonText}
+              {buttonText}
             </div>
           </div>
         </div>
 
-        <div className={showOrHide} id="resume">
+        <div className={showOrHide} id="resumeColumn">
           <div className="letterBox">
             <div className="letter">
               <div className="letterContent">
 
-                <div className="row">
+                {introduction}
 
-                  {image}
+                {quickPoints}
 
-                  {introduction}
+                {contact}
 
-                  {quickPoints}
+                {profile}
 
-                  {contact}
+                {cinderhouseEduku}
 
-                </div>
+                {codingHouse}
 
-                <div className="row">
+                {selfStudy}
 
-                  {profile}
+                {teaching}
 
-                </div>
+                {teachingCont}
 
-                <div className="row">
+                {teachingQualification}
 
-                  {cinderhouseEduku}
+                {universityDegree}
 
-                  <div className="two">
-                    <div className="twoInner">
+                {langPro}
 
-                      {codingHouse}
+                {langExp}
 
-                      {selfStudy}
+                {personalInformation}
 
-                    </div>
-                  </div>
+                {quickNote}
 
-                </div>
-
-                <div className="row">
-
-                  <div className="two">
-                    <div className="twoInner">
-
-                      {teaching}
-
-                    </div>
-                  </div>
-
-                  <div className="two">
-                    <div className="twoInner">
-
-                      {teachingCont}
-
-                      {teachingQualification}
-
-                      {universityDegree}
-
-                    </div>
-                  </div>
-
-                </div>
-
-                <div className="row">
-
-                  {langPro}
-
-                  {langExp}
-
-                </div>
-
-
-                <div className="row">
-
-                  {personalInformation}
-
-                  {quickNote}
-
-                </div>
 
               </div>
             </div>
           </div>
-          </div>
-
         </div>
+
+      </div>
     );
   }
 }
 
-export default Resume;
+export default ResumeColumn;

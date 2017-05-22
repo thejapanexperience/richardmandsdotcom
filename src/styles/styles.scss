@@ -1362,8 +1362,17 @@ hr {
 }
 .resumeImageColumn{
   width: 30%;
+  margin-right: 5px;
+  @media screen and (min-width: 700px){
+    width: 20%;
+    // margin: auto;
+  }
+  @media screen and (min-width: 800px){
+    width: 10%;
+    // margin: auto;
+  }
   height: 100%;
-  background-image: url(../images/RichardBWSquare900.jpg);
+  background-image: url(../images/RichardBW900.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -1416,7 +1425,7 @@ hr {
 .contentContentImage {
   @extend .contentContent;
   width: 65%;
-  margin: auto;
+  // margin: auto;
 }
 
 .row {

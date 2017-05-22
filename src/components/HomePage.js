@@ -93,7 +93,7 @@ export default class HomePage extends React.Component {
     let bio = [
       `I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I am proficient with React, Redux, Flux, Node, Express, MongoDB, Mongoose, Webpack, and have experience with jQuery, Firebase, Auth0, Amazon Web Services, GoogleAPIs and more.`,
 
-      `Since deciding to become a developer full-time, I've learned more in less time than I've ever done before. I bring with me a love for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.`,
+      `Since deciding to become a developer full-time, I've learned more in less time than I've ever done before. I bring with me a real passion for technology, a fierce work-ethic and an honest desire to leave the world a better place each day.`,
 
       `I am the co-founder / lead developer of Eduku, a social enterprise (self-funded charity), that aims to raise funds for those lacking educational opportunities in low-income countries via an exciting online learning platform.`,
 

@@ -35,7 +35,7 @@ class ResumeColumn extends React.Component {
         <div className="contentBox">
           <div className="resumeImageColumn"/>
           <div className="contentContentImage">
-            Since deciding to become a developer full-time, I've learned more in less time than I've ever done before. I bring with me a love for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
+            Since deciding to become a developer full-time, I've learned more in less time than I've ever done before. I bring with me a real passion for technology, a fierce work-ethic and an honest desire to leave the world a better place each day.
           </div>
         </div>
       </div>

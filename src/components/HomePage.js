@@ -249,11 +249,11 @@ export default class HomePage extends React.Component {
             </div>
             <div className="section5Text">
               <a target="_blank" href="https://drive.google.com/open?id=0B6GYiEdGHBSDc0hMakI1a3FqRHc" className="resumeLink">
-                Download fancy pdf version
+                Download pdf
               </a>
               <span> / </span>
-              <a target="_blank" href="https://drive.google.com/file/d/0B6GYiEdGHBSDcVkySmM0dTRMdTg/view?usp=sharing" className="resumeLink">
-                Download simple word version
+              <a target="_blank" href="https://drive.google.com/file/d/0B6GYiEdGHBSDM25wckxSNzBYM1k/view?usp=sharing" className="resumeLink">
+                Download word
               </a>
             </div>
             {/* <div className="portfolioYoutubeBoxSmall">

@@ -250,7 +250,7 @@ export default class HomePage extends React.Component {
             <div className="miniProjectBox">
               <div className="miniProject">
                 <a target="_blank" href="https://github.com/thejapanexperience/miniProjectsReact-Dnd" className="miniProjectLink">
-                  React-DnD - Testing simple drag and drop using React and React-dnd
+                  React-DnD - Drag and drop using React and React-dnd
                 </a>
               </div>
               <div className="miniProject">
@@ -290,7 +290,7 @@ export default class HomePage extends React.Component {
             <div className="miniProjectBox">
               <div className="miniProject">
                 <a target="_blank" href="https://github.com/thejapanexperience/miniProjectsReact-Dnd" className="miniProjectLink">
-                  React-DnD - Testing simple drag and drop using React and React-dnd
+                  React-DnD - Drag and drop using React and React-dnd
                 </a>
               </div>
               <div className="miniProject">
@@ -311,7 +311,7 @@ export default class HomePage extends React.Component {
             </div>
           </div>
         </div> */}
-
+        
         <div className="section6Box">
           <div className="section6">
             <div className="section6Title">

@@ -49,6 +49,9 @@
 .fontSizeBody1 {
   @include responsive-font(3vw, 14px, 20px, 16px);
 }
+.fontSizeBody1b {
+  @include responsive-font(3vw, 9px, 20px, 16px);
+}
 .fontSizeBody2 {
   @include responsive-font(1.5vw, 6px, 16px, 16px);
 }
@@ -592,7 +595,7 @@ a:visited {
   height: auto;
   text-align: center;
   border: 0;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   // background-color: rgba(0,0,0,.4);
 }
 
@@ -814,7 +817,7 @@ a:visited {
 
 
 .section4Box {
-  @extend .section2Box;
+  @extend .section3Box;
   padding: 20px;
   @media screen and (max-width: 600px){
     padding: 5px;
@@ -824,8 +827,10 @@ a:visited {
 .section4 {
   @extend .flex;
   @extend .section;
+  width: 85%;
   height: auto;
-  border: 0;
+  border: 5px white solid;
+  margin-bottom: 20px;
   // @extend .shadowFull;
 }
 
@@ -836,7 +841,7 @@ a:visited {
   color: white;
   width: 100%;
   text-align: center;
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .section4Text {
@@ -873,12 +878,13 @@ a:visited {
 
 .miniProject {
   width: 100%;
-  padding-bottom: 5px;
+  padding-bottom: 0.5%;
   color: white;
 }
 
 .miniProjectLink {
-  @extend .fontSizeBody3;
+  @extend .fontSizeBody1b;
+  // @extend .section2TextBody;
   width: 100%;
   margin: auto;
   color: white;
@@ -916,6 +922,7 @@ a:visited {
 .section5Box {
   @extend .section4Box;
   padding: 20px;
+  padding-bottom: 0;
   background-color: transparent;
 }
 

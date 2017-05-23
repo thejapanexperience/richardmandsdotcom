@@ -51,7 +51,6 @@ class ResumeColumn extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            - Coding full-time since Aug '16<br/>
             - Cofounder/ lead developer of Eduku<br/>
             - Hackathon prize winner<br/>
             - Happy to relocate<br/>
@@ -141,7 +140,7 @@ class ResumeColumn extends React.Component {
             Partner / Co-Founder | Nanjing, China
           </div>
           <div className="contentContent">
-            <a href="http://www.cinderhouse.com.au/" target="_blank">EDUKU</a> |
+            <a href="http://eduku.org/" target="_blank">EDUKU</a> |
             Co-creator, co-owner, photographer, videographer, copy-editor, head of technology, and a million other roles.
           </div>
           <div className="contentContent">

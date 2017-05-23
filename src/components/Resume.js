@@ -508,7 +508,7 @@ class Resume extends React.Component {
                     <div className="twoInner">
 
                       {teaching}
-                      
+
                     </div>
                   </div>
 

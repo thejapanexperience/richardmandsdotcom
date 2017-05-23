@@ -1086,10 +1086,10 @@ a:visited {
   max-width: 1200px;
   @extend .flex;
   padding: 20px;
-  padding-top: 30px;
+  padding-top: 20px;
   @media screen and (max-width: 600px){
     padding: 5px;
-    padding-top: 30px;
+    padding-top: 20px;
   }
 }
 

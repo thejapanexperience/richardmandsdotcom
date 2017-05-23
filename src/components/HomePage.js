@@ -255,12 +255,12 @@ export default class HomePage extends React.Component {
               </div>
               <div className="miniProject">
                 <a target="_blank" href="https://github.com/thejapanexperience/immersive-learning" className="miniProjectLink">
-                  Study Bubble - A VR learning environment built using A-Frame
+                  Study Bubble - A VR learning environment using A-Frame
                 </a>
               </div>
               <div className="miniProject">
                 <a target="_blank" href="https://github.com/thejapanexperience/friendalizer" className="miniProjectLink">
-                  Friendalizer - IBM Watson and Microsoft Cognitive Services
+                  Friendalizer - Watson / Microsoft Cognitive Services
                 </a>
               </div>
               <div className="miniProject">
@@ -311,7 +311,7 @@ export default class HomePage extends React.Component {
             </div>
           </div>
         </div> */}
-        
+
         <div className="section6Box">
           <div className="section6">
             <div className="section6Title">

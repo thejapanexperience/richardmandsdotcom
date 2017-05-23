@@ -17,12 +17,12 @@ class ResumeColumn extends React.Component {
 
     let buttonText = this.props.buttonText;
 
-    let image =
-    <div className="one">
-      <div className="oneInner">
-        <img className="img" src={require("../images/meWidishIsh.jpg")} alt=""/>
-      </div>
-    </div>
+    // let image =
+    // <div className="one">
+    //   <div className="oneInner">
+    //     <img className="img" src={require("../images/meWidishIsh.jpg")} alt=""/>
+    //   </div>
+    // </div>
 
     let introduction =
     <div className="one">

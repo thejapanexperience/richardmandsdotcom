@@ -496,11 +496,19 @@ class Resume extends React.Component {
 
                 <div className="row">
 
+                  {langPro}
+
+                  {langExp}
+
+                </div>
+
+                <div className="row">
+
                   <div className="two">
                     <div className="twoInner">
 
                       {teaching}
-
+                      
                     </div>
                   </div>
 
@@ -515,14 +523,6 @@ class Resume extends React.Component {
 
                     </div>
                   </div>
-
-                </div>
-
-                <div className="row">
-
-                  {langPro}
-
-                  {langExp}
 
                 </div>
 

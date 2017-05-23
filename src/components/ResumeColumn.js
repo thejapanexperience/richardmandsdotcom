@@ -469,6 +469,10 @@ class ResumeColumn extends React.Component {
 
                 {selfStudy}
 
+                {langPro}
+
+                {langExp}
+
                 {teaching}
 
                 {teachingCont}
@@ -476,10 +480,6 @@ class ResumeColumn extends React.Component {
                 {teachingQualification}
 
                 {universityDegree}
-
-                {langPro}
-
-                {langExp}
 
                 {personalInformation}
 

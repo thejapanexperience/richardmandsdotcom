@@ -532,7 +532,8 @@ a:visited {
   }
 }
 .iconBoxImage {
-  width: 100%;
+  max-width: 100%;
+  max-height: 80px;
 }
 .iconBoxImageSmall {
   width: 80%;

@@ -169,6 +169,12 @@ export default class HomePage extends React.Component {
 
                 <div className="iconBox">
                   <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/HTML5CSS3.png")} alt="HTMLCSS"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/Sass.png")} alt="Sass"/>
+                  </div>
+                  <div className="iconBoxImageBox">
                     <img className="iconBoxImage" src={require("../images/techIcons300/React.png")} alt="React"/>
                   </div>
                   <div className="iconBoxImageBox">
@@ -203,6 +209,12 @@ export default class HomePage extends React.Component {
                   </div>
                   <div className="iconBoxImageBox">
                     <img className="iconBoxImage" src={require("../images/techIcons300/Node.png")} alt="Node"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/webpack.png")} alt="Webpack"/>
+                  </div>
+                  <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/github.png")} alt="github"/>
                   </div>
                 </div>
 

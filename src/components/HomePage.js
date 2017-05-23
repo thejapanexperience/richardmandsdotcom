@@ -233,9 +233,6 @@ export default class HomePage extends React.Component {
 
         <div className="section3Box" id="section3Box" ref="section3Box">
           <PortfolioBox/>
-        </div>
-
-        <div className="section4Box">
           <div className="section4">
             <div className="section4Title">
               MINI-PROJECTS
@@ -275,6 +272,71 @@ export default class HomePage extends React.Component {
           </div>
         </div>
 
+        {/* <div className="section4Box">
+          <div className="section4">
+            <div className="section4Title">
+              MINI-PROJECTS
+            </div>
+            <div className="section4Text">
+              These projects are designed to showcase the usage of basic javascript technologies.
+            </div>
+            <div className="section4ImageBox">
+              <div className="section4Image">
+                <a target="_blank" href="https://github.com/thejapanexperience">
+                  <img className="iframe" src={require("../images/github.png")} />
+                </a>
+              </div>
+            </div>
+            <div className="miniProjectBox">
+              <div className="miniProject">
+                <a target="_blank" href="https://github.com/thejapanexperience/miniProjectsReact-Dnd" className="miniProjectLink">
+                  React-DnD - Testing simple drag and drop using React and React-dnd
+                </a>
+              </div>
+              <div className="miniProject">
+                <a target="_blank" href="https://github.com/thejapanexperience/immersive-learning" className="miniProjectLink">
+                  Study Bubble - A VR learning environment built using A-Frame
+                </a>
+              </div>
+              <div className="miniProject">
+                <a target="_blank" href="https://github.com/thejapanexperience/friendalizer" className="miniProjectLink">
+                  Friendalizer - IBM Watson and Microsoft Cognitive Services
+                </a>
+              </div>
+              <div className="miniProject">
+                <a target="_blank" href="https://github.com/thejapanexperience/PokemonAPIViewer2" className="miniProjectLink">
+                  PokeAPI - Using data from an external API
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+        <div className="section6Box">
+          <div className="section6">
+            <div className="section6Title">
+              <div className="section6TitleText">
+                CONTACT
+              </div>
+            </div>
+            <div className="section6Title">
+              <div className="section6Text">
+                richard@eduku.org
+              </div>
+            </div>
+            <div className="section6Title">
+              <div className="section6IconsBox">
+                <a className="section6Icons" target="_blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="section6Icons"> | </span>
+                <a className="section6Icons" target="_blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="section6Icons"> | </span>
+                <a className="section6Icons" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section6Icons"> | </span>
+                <a className="section6Icons" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a>
+                {/* <span className="section6Icons"> | </span>
+                <a className="section6Icons" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="section5Box">
           <div className="section5">
             <div className="section5Title">
@@ -299,31 +361,6 @@ export default class HomePage extends React.Component {
             </div> */}
             <ResumeColumn resumeColumnClick={this.resumeColumnClick} buttonText={this.state.buttonText} showResume={this.state.showResume}/>
             <Resume resumeClick={this.resumeClick} buttonText={this.state.buttonText} showResume={this.state.showResume}/>
-          </div>
-        </div>
-
-        <div className="section6Box">
-          <div className="section6">
-            <div className="section6Title">
-              <div className="section6TitleText">
-                CONTACT
-              </div>
-            </div>
-            <div className="section6Title">
-              <div className="section6Text">
-                richard@eduku.org
-              </div>
-            </div>
-            <div className="section6Title">
-              <div className="section6IconsBox">
-                <a className="section6Icons" target="_blank" href="https://github.com/thejapanexperience"><i className="fa fa-github fa-lg" /></a><span className="section6Icons"> | </span>
-                <a className="section6Icons" target="_blank" href="https://twitter.com/RichardMands"><i className="fa fa-twitter fa-lg" /></a><span className="section6Icons"> | </span>
-                <a className="section6Icons" target="_blank" href="https://www.facebook.com/richard.mands"><i className="fa fa-facebook fa-lg" /></a><span className="section6Icons"> | </span>
-                <a className="section6Icons" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"><i className="fa fa-linkedin fa-lg" /></a>
-                {/* <span className="section6Icons"> | </span>
-                <a className="section6Icons" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}
-              </div>
-            </div>
           </div>
         </div>
 
@@ -369,11 +406,11 @@ export default class HomePage extends React.Component {
           <div className="section7Box1">
             <div className="section7">
               <div className="section7Title2">
-                VIDEOGRAPHY
+                VIDEOGRAPHY & EDITING
               </div>
-              <div className="section7Title2">
+              {/* <div className="section7Title2">
                 AND EDITING
-              </div>
+              </div> */}
               <div className="section7Text">
                 I have been shooting video professionally since 2014, using my photography background as a starting point. I have experience shooting promo-videos for Eduku, HubbloVR and Acamis that range in styles from in-studio promos and product shots to on-location events and even 360 video (using a 6 camera GoPro rig). I shoot with professional standard cameras (Panasonic GH4) and lenses in 4K. <br/>
                 <br/>

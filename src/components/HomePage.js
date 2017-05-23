@@ -111,6 +111,12 @@ export default class HomePage extends React.Component {
     return (
     <div>
       {/* <div className="backgroundImage" /> */}
+      <div className="imageCache">
+        <img src={require("../images/Entable.png")} alt="Entable"/>
+        <img src={require("../images/eduku.png")} alt="Eduku"/>
+        <img src={require("../images/richardmandsdotcom.png")} alt="richardmands.com"/>
+        <img src={require("../images/theFastLife.png")} alt="The Fast Life"/>
+      </div>
       <div className="mainContainer" ref="mainContainer">
         <div className="navPadding" id="section0Box" />
         <div className="section0" id="section0Nav">

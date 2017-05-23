@@ -135,12 +135,12 @@ export default class PortfolioBox extends React.Component {
         <div className="tabBar">
           {tabBarContent}
         </div>
-        <div className="imageCache">
+        {/* <div className="imageCache">
           <img src={require("../images/Entable.png")} alt="Entable"/>
           <img src={require("../images/eduku.png")} alt="Eduku"/>
           <img src={require("../images/richardmandsdotcom.png")} alt="richardmands.com"/>
           <img src={require("../images/theFastLife.png")} alt="The Fast Life"/>
-        </div>
+        </div> */}
         <PortfolioItem data={data} imageCarousel={() => this.imageCarousel()} imageIndex={imageIndex} />
       </div>
     );

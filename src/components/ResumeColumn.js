@@ -51,6 +51,7 @@ class ResumeColumn extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
+            - 3yrs experience coding, designing, marketing at Cinderhouse Creative<br/>
             - Cofounder/ lead developer of Eduku<br/>
             - Hackathon prize winner<br/>
             - Happy to relocate<br/>
@@ -151,7 +152,7 @@ class ResumeColumn extends React.Component {
           </div>
           <div className="contentContent">
             <a href="http://www.cinderhouse.com.au/" target="_blank">CINDERHOUSE CREATIVE</a> |
-            Photographer, videographer (2D and 360), video-editor, social-media manager, and more on projects for clients including Acamis, Outback Tea and Coffee, HubbloVR, SkyData.
+            Photographer, videographer (2D and 360), video-editor, social-media manager, marketer and more on projects for clients including Acamis, Outback Tea and Coffee, HubbloVR, SkyData.
           </div>
           <div className="contentContent">
             Co-creator of 3 social enterprise (self-funded charity) case-studies: <a href="http://eduku.org/" target="_blank">Eduku</a>, <a href="http://stockdisrupt.com/" target="_blank">Stock Disrupt</a> and <a href="http://domogo.co/" target="_blank">Domogo</a> that have featured in several publications including the BBC.

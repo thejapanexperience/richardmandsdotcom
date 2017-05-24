@@ -258,11 +258,11 @@ export default class HomePage extends React.Component {
                   Study Bubble - A VR learning environment using A-Frame
                 </a>
               </div>
-              <div className="miniProject">
+              {/* <div className="miniProject">
                 <a target="_blank" href="https://github.com/thejapanexperience/friendalizer" className="miniProjectLink">
                   Friendalizer - Watson / Microsoft Cognitive Services
                 </a>
-              </div>
+              </div> */}
               <div className="miniProject">
                 <a target="_blank" href="https://github.com/thejapanexperience/PokemonAPIViewer2" className="miniProjectLink">
                   PokeAPI - Using data from an external API

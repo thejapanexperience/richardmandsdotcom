@@ -29,14 +29,13 @@ class ResumeColumn extends React.Component {
       <div className="oneInner">
         <div className="titleBox">
           <div className="titleContent">
-            INTRODUCTION
+            RICHARD MANDS
           </div>
         </div>
         <div className="contentBox">
           <div className="resumeImageColumn"/>
           <div className="contentContentImage">
-            Since deciding to become a developer full-time, I've learned more in less time than I've ever done before. I bring with me a real passion for technology, a fierce work-ethic and an honest desire to leave the world a better place each day.
-          </div>
+          Full-stack javascript developer. Able to learn and adapt quickly to new technologies, I bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.       </div>
         </div>
       </div>
     </div>
@@ -51,8 +50,8 @@ class ResumeColumn extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            - 3yrs experience coding, designing, marketing at Cinderhouse Creative<br/>
-            - Cofounder/ lead developer of Eduku<br/>
+            - 3 yrs experience coding, designing & marketing at <a target="_blank" href='http://www.cinderhouse.com.au/'>Cinderhouse Creative</a><br/>
+            - Cofounder/ lead developer of <a target="_blank" href='http://www.eduku.org/'>Eduku</a><br/>
             - Hackathon prize winner<br/>
             - Happy to relocate<br/>
             - Available at earliest convenience<br/>
@@ -73,13 +72,13 @@ class ResumeColumn extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            Portfolio: <a target="_blank" href="http://www.richardmands.com">www.richardmands.com</a><br/>
+            Portfolio: <a target="_blank" href="http://www.richardmands.com">richardmands.com</a><br/>
             Phone: +86 158 5068 0774<br/>
             Email: richard@eduku.org<br/>
-            <a target="_blank" href="https://www.linkedin.com/in/richardmands">www.linkedin.com/in/richardmands</a><br/>
+            <a target="_blank" href="https://www.linkedin.com/in/richardmands">linkedin.com/in/richardmands</a><br/>
             <a target="_blank" href="https://github.com/thejapanexperience">github.com/thejapanexperience</a><br/>
             <a target="_blank" href="https://twitter.com/RichardMands">twitter.com/RichardMands</a><br/>
-            <a target="_blank" href="https://www.facebook.com/richard.mands">www.facebook.com/richard.mands</a>
+            <a target="_blank" href="https://www.facebook.com/richard.mands">facebook.com/richard.mands</a>
           </div>
         </div>
       </div>
@@ -96,6 +95,9 @@ class ResumeColumn extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
+            - Co-Founder / Visual Director / Developer at Cinderhouse Creative.
+          </div>
+          <div className="contentContent">
             - Lead developer / Co-owner of Eduku : an online education platform made using React, Redux, Express, Auth0, MongoDB.
           </div>
           <div className="contentContent">
@@ -105,13 +107,13 @@ class ResumeColumn extends React.Component {
             - Have experience of React Native, Socket.IO, Google APIs, Watson APIs, Amazon Web Services, MySQL, Firebase, Auth0, React-DnD, Tropo.
           </div>
           <div className="contentContent">
-            - Won the Cisco sponsor prize at the Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system.
+            - Won Cisco’s 1st place prize at AngelHack’s Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system.
           </div>
           <div className="contentContent">
-            - Co-creator and owner of 3 social enterprise case-studies that funded business-development competitions on <a href="https://herox.com/domogo" target="_blank">HeroX</a> for <a href="http://www.kitointl.org/" target="_blank">Kito International</a> graduates in Kenya.
+            - Co-founder of 3 social enterprise case-studies that funded business-development competitions on <a href="https://herox.com/domogo" target="_blank">HeroX</a> for <a href="http://www.kitointl.org/" target="_blank">Kito International</a> graduates in Kenya.
           </div>
           <div className="contentContent">
-            - Professional photographer, videographer and video editor on projects for Acamis, Outback Tea and Coffee, HubbloVR and SkyData, as well as Eduku.
+            - Professional level photography, videography and video editing skill. Have worked on projects in Australia, China and the UK
           </div>
           <div className="contentContent">
             - Proficient with Photoshop, Lightroom, Premiere Pro, After-Effects, Audition, Autopano Video (360 video software).
@@ -127,96 +129,86 @@ class ResumeColumn extends React.Component {
       </div>
     </div>
 
-    let cinderhouseEduku =
+    let cinderhouse =
     <div className="one">
       <div className="oneInner">
 
         <div className="titleBox">
           <div className="titleContent">
-            CINDERHOUSE / EDUKU | Oct '14 - Present
+            <a target="_blank" href='http://www.cinderhouse.com.au/'>CINDERHOUSE CREATIVE</a> | Oct ‘14 - Present
           </div>
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            Partner / Co-Founder | Nanjing, China
+            Co-Founder / Visual Director / Developer | Nanjing, China
+
           </div>
           <div className="contentContent">
-            <a href="http://eduku.org/" target="_blank">EDUKU</a> |
-            Co-creator, co-owner, photographer, videographer, copy-editor, head of technology, and a million other roles.
+            Since co-founding Cinderhouse Creative, we have delivered projects for clients such as Officemax, Unilever, Sinoma, JHerro and SkyData, among others.
+
           </div>
           <div className="contentContent">
-            Jan '17 - Present | Lead developer of the Eduku platform that will allow users to interact with online learning resources as well as participate in the allocation of profits towards social outcomes.
+            Additionally, through Cinderhouse Creative, I am the co-founder of 3 social enterprise (self-funded charity) case-studies: <a href="http://eduku.org/" target="_blank">Eduku</a>, <a href="http://stockdisrupt.com/" target="_blank">Stock Disrupt</a> and <a href="http://domogo.co/" target="_blank">Domogo</a> that have featured in several publications including the BBC.
           </div>
-          <div className="contentContent">
-            React and Redux front-end, Auth0 to manage authentication and user creation, a MongoDB / Express backend.
-          </div>
-          <div className="contentContent">
-            <a href="http://www.cinderhouse.com.au/" target="_blank">CINDERHOUSE CREATIVE</a> |
-            Photographer, videographer (2D and 360), video-editor, social-media manager, marketer and more on projects for clients including Acamis, Outback Tea and Coffee, HubbloVR, SkyData.
-          </div>
-          <div className="contentContent">
-            Co-creator of 3 social enterprise (self-funded charity) case-studies: <a href="http://eduku.org/" target="_blank">Eduku</a>, <a href="http://stockdisrupt.com/" target="_blank">Stock Disrupt</a> and <a href="http://domogo.co/" target="_blank">Domogo</a> that have featured in several publications including the BBC.
-          </div>
+
         </div>
       </div>
     </div>
 
-    let codingHouse =
+    let eduku =
     <div className="one">
       <div className="oneInner">
 
         <div className="titleBox">
           <div className="titleContent">
-            CODING HOUSE
-            | Sep '16 - Nov '16
+            <a href="http://eduku.org/" target="_blank">EDUKU</a> | Aug ’15 - Present
           </div>
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            Student | San Francisco, USA
+            Co-Founder / Lead Developer | Nanjing, China
           </div>
           <div className="contentContent">
-            Trained 14 hours a day for three months at a live-in coding bootcamp.
+            <a href="http://eduku.org/" target="_blank">Eduku</a> is a Cinderhouse Creative social enterprise, that aims to raise funds for those lacking educational opportunities in low-income countries via an online learning platform.
+
           </div>
           <div className="contentContent">
-            React, React-Native, Flux, Redux, Node, Express, Mongo, MySQL, Firebase, jQuery, Socket.Io Amazon Web Services, Google APIs and more.
+            The platform will allow users to interact with online learning resources as well as participate in the allocation of profits towards social outcomes.
           </div>
-          <div className="contentContent">
-            Part of a team that won the Cisco sponsor prize at the Lady Problems hackathon in San Francisco in October 2016.
-          </div>
+
         </div>
       </div>
     </div>
 
-    let selfStudy =
-    <div className="one">
-      <div className="oneInner">
-
-        <div className="titleBox">
-          <div className="titleContent">
-            SELF-STUDY
-            | Dec '16 - Present
-          </div>
-        </div>
-        <div className="contentBox">
-          <div className="contentContent">
-            I have completed the following online courses:
-          </div>
-          <div className="contentContent">
-            Pluralsight |
-            <a href="https://app.pluralsight.com/library/courses/better-css/table-of-contents" target="blank"> A Better CSS: LESS and SASS</a> |
-            <a href="https://app.pluralsight.com/library/courses/css3-in-depth/table-of-contents" target="blank"> CSS3 In-Depth</a> |
-            <a href="https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents" target="blank"> Building Applications with React and Flux</a> |
-            <a href="https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents" target="blank"> Building Applications with React and Redux in ES6</a>
-          </div>
-          <div className="contentContent">
-            Udacity |
-            <a href="https://classroom.udacity.com/courses/ud893" target="blank"> Responsive Design Fundamentals</a> |
-            <a href="https://classroom.udacity.com/courses/ud882" target="blank"> Responsive Images</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    // let selfStudy =
+    // <div className="one">
+    //   <div className="oneInner">
+    //
+    //     <div className="titleBox">
+    //       <div className="titleContent">
+    //         SELF-STUDY
+    //         | Dec '16 - Present
+    //       </div>
+    //     </div>
+    //     <div className="contentBox">
+    //       <div className="contentContent">
+    //         I have completed the following online courses:
+    //       </div>
+    //       <div className="contentContent">
+    //         Pluralsight |
+    //         <a href="https://app.pluralsight.com/library/courses/better-css/table-of-contents" target="blank"> A Better CSS: LESS and SASS</a> |
+    //         <a href="https://app.pluralsight.com/library/courses/css3-in-depth/table-of-contents" target="blank"> CSS3 In-Depth</a> |
+    //         <a href="https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents" target="blank"> Building Applications with React and Flux</a> |
+    //         <a href="https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents" target="blank"> Building Applications with React and Redux in ES6</a>
+    //       </div>
+    //       <div className="contentContent">
+    //         Udacity |
+    //         <a href="https://classroom.udacity.com/courses/ud893" target="blank"> Responsive Design Fundamentals</a> |
+    //         <a href="https://classroom.udacity.com/courses/ud882" target="blank"> Responsive Images</a>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
 
     let teaching =
     <div className="one">
@@ -224,24 +216,24 @@ class ResumeColumn extends React.Component {
 
         <div className="titleBox">
           <div className="titleContent">
-            TEACHING | Apr '12 - Jul '16
+            <a href="https://bsn.org.cn/" target="_blank">BRITISH SCHOOL OF NANJING</a> | Apr '12 - Jul '16
           </div>
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            <a href="https://bsn.org.cn/" target="_blank">The British School of Nanjing</a> | Science / ICT Teacher | Nanjing, China
+            Science & ICT Teacher / Assessment Coordinator | Nanjing, China
           </div>
           <div className="contentContent">
             Taught science and ICT to students aged 10-18.
           </div>
           <div className="contentContent">
-            Assessment Coordinator. Developed and implemented a google-drive based real-time assessment and feedback system for students and teachers.
+            Developed and implemented a google-drive based real-time assessment and feedback system for students and teachers.
           </div>
           <div className="contentContent">
-            Won $2000 technology development prize from the <a href="https://www.britishschools.co.uk/" target="_blank">British Schools Foundation</a>.
+            Won the technology development prize from the <a href="https://www.britishschools.co.uk/" target="_blank">British Schools Foundation</a>.
           </div>
           <div className="contentContent">
-            Developed training materials and led inset for  staff with the goal of improving IT integration.
+            Developed training curricula and led inset for  staff with the goal of improving IT integration.
           </div>
           <div className="contentContent">
             Created and led highly successful after-school programs related to charity work and fundraising.
@@ -256,7 +248,7 @@ class ResumeColumn extends React.Component {
 
         <div className="titleBox">
           <div className="titleContent">
-            TEACHING CONT. | Apr '04 - Mar '12
+            OTHER TEACHING | Apr '04 - Mar '12
           </div>
         </div>
         <div className="contentBox">
@@ -427,7 +419,7 @@ class ResumeColumn extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            I currently live in Nanjing, China where I am working on Eduku. However, I am available to relocate at short notice for the right position.
+            I currently live in Nanjing, China where I am working for Cinderhouse Creative, with a focus on Eduku. However, I am available to relocate at short notice for the right position.
           </div>
         </div>
       </div>
@@ -463,11 +455,9 @@ class ResumeColumn extends React.Component {
 
                 {profile}
 
-                {cinderhouseEduku}
+                {cinderhouse}
 
-                {codingHouse}
-
-                {selfStudy}
+                {eduku}
 
                 {langPro}
 

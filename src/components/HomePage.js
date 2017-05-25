@@ -90,24 +90,6 @@ export default class HomePage extends React.Component {
 
   render() {
 
-    let bio = [
-      `I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I am proficient with React, Redux, Flux, Node, Express, MongoDB, Mongoose, Webpack, and have experience with jQuery, Firebase, Auth0, Amazon Web Services, GoogleAPIs and more.`,
-
-      `Since deciding to become a developer full-time, I've learned more in less time than I've ever done before. I bring with me a real passion for technology, a fierce work-ethic and an honest desire to leave the world a better place each day.`,
-
-      `I am the co-founder / lead developer of Eduku, a social enterprise (self-funded charity), that aims to raise funds for those lacking educational opportunities in low-income countries via an exciting online learning platform.`,
-
-      `I was also part of the team that won the Cisco developer prize at the Lady Problems hackathon in San Francisco in October 2016 for creating Entable - an sms-based online banking platform aimed spefically at supporting women in low-income countries by offering wider access to microfinance.`,
-    ];
-
-    let bioFull = bio.map((sentence, i) => {
-      return (
-        <div className="section2TextBody" key={i}>
-          {sentence}
-        </div>
-      );
-    });
-
     return (
     <div>
       {/* <div className="backgroundImage" /> */}
@@ -124,7 +106,7 @@ export default class HomePage extends React.Component {
           <div className="navBox">
             <div className="nav1">
               <div className="nav1Text" id="navText">
-                www.richardmands.com
+                richardmands.com
               </div>
             </div>
           </div>
@@ -161,7 +143,22 @@ export default class HomePage extends React.Component {
                 Please allow me to introduce myself...
               </span>
               <div className="section2TextBodyBox">
-                {bioFull}
+                {/* {bioFull} */}
+                <div className="section2TextBody">
+                  I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I am proficient with React, Redux, Flux, Node, Express, MongoDB, Mongoose, Webpack, and have experience with jQuery, Firebase, Auth0, Amazon Web Services, GoogleAPIs and more.
+                </div>
+                <div className="section2TextBody">
+                  Able to learn and adapt quickly to new technologies, I bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
+                </div>
+                <div className="section2TextBody">
+                  I have 3 years experience coding, designing and marketing as co-founder of <a target="_blank" href='http://www.cinderhouse.com.au/'>Cinderhouse Creative</a>.
+                </div>
+                <div className="section2TextBody">
+                  Through Cinderhouse Creative, I am a co-founder / lead developer of <a target="_blank" href='http://www.eduku.org/'>Eduku</a>, a social enterprise (self-funded charity), that aims to raise funds for those lacking educational opportunities in low-income countries via an exciting online learning platform.
+                </div>
+                <div className="section2TextBody">
+                  I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in San Francisco in October 2016 for creating Entable (an sms-based online banking platform aimed spefically at supporting women in low-income countries by offering wider access to microfinance).
+                </div>
               </div>
 
 
@@ -393,7 +390,7 @@ export default class HomePage extends React.Component {
                 PHOTOGRAPHY
               </div>
               <div className="section7Text">
-                I'm a passionate and experienced photographer, having shot a variety of jobs for a number of clients (Eduku, Acamis, HubbloVR, SkyData, Outback Tea and Coffee), as well as private individuals, ranging in style from in-studio product shots, to on location portraiture and events. I am proficient with Photoshop, Lightroom and the whole suite of available plug-ins that expand Adobe's software.<br/>
+                I'm a passionate and experienced photographer, having shot a wide variety of jobs ranging in style from in-studio product shots, to on location portraiture and events. I am proficient with Photoshop, Lightroom and the whole suite of available plug-ins that expand Adobe's software.<br/>
                 <br/>
                 I own a range of professional cameras and lenses and would love to use my photography skills to support any organisation I work for. <br/>
               </div>
@@ -412,11 +409,11 @@ export default class HomePage extends React.Component {
                 AND EDITING
               </div> */}
               <div className="section7Text">
-                I have been shooting video professionally since 2014, using my photography background as a starting point. I have experience shooting promo-videos for Eduku, HubbloVR and Acamis that range in styles from in-studio promos and product shots to on-location events and even 360 video (using a 6 camera GoPro rig). I shoot with professional standard cameras (Panasonic GH4) and lenses in 4K. <br/>
+                I have experience shooting a variety of projects that range from in-studio promos and product shots to on-location events and even 360 video (using a multi-camera GoPro rig). I shoot with professional standard cameras (Panasonic GH4) and lenses in 4K. <br/>
                 <br/>
                 I am proficient with Adobe Premiere Pro, After-Effects (mostly text animations) and Audition. I also have experience with recording high quality audio using shotgun, lavalier and traditional dynamic microphones recorded onto a variety of Zoom external recorders (H1, H5). <br/>
                 <br/>
-                As with my photography skills, it would be great to utilise my videography experience (if possible) alongside a role as a javascript developer.
+                As with my photography skills, it would be great to utilise my videography experience (if possible) alongside a role as a developer.
               </div>
               <div className="section7YoutubeBox">
                 <div className="portfolioYoutubeBox">

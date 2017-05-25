@@ -63,6 +63,7 @@
     "json-loader": "0.5.4",
     "mockdate": "2.0.1",
     "node-sass": "^4.5.2",
+    "normalize.css": "^7.0.0",
     "npm-run-all": "3.1.2",
     "object-assign": "4.1.0",
     "open": "0.0.5",

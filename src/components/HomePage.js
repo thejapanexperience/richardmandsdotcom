@@ -361,7 +361,7 @@ export default class HomePage extends React.Component {
           </div>
         </div>
 
-        
+
         <div className="section7Whole">
 
           <div className="section7HeaderBox">

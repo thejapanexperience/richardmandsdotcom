@@ -929,7 +929,8 @@ a:visited {
 .section5Box {
   @extend .section4Box;
   padding: 20px;
-  padding-bottom: 0;
+  padding-bottom: 20px;
+  padding-top: 40px;
   background-color: transparent;
 }
 
@@ -943,9 +944,10 @@ a:visited {
 .section5Title {
   @extend .fontSizeTitle3;
   margin: auto;
+
   color: white;
-  padding: 0;
-  margin-bottom: -2%;
+  line-height: 80%;
+  // margin-bottom: -2%;
 }
 
 .section5Text {
@@ -1015,13 +1017,13 @@ a:visited {
 .section6Title {
   @extend .flex;
   width: 100%;
+  padding-top: 10px;
   // padding: 20px;
 }
 .section6TitleText{
   @extend .fontSizeTitle3;
   // @include responsive-font(12vw, 20px, 200px, 100px);
-  margin-top: -1%;
-  margin-bottom: -2%;
+  line-height: 50%;
   @extend .font1;
   // font-size: 7vw;
   margin-left: auto;
@@ -1032,8 +1034,8 @@ a:visited {
 .section6Text {
   @extend .section4Text;
   @include responsive-font(8vw, 20px, 120px, 50px);
-  margin-top: -1vw;
-  margin-bottom: -0.5vw;
+  // margin-top: -1vw;
+  // margin-bottom: -0.5vw;
   width: 100%;
   padding: 0;
   color: $color1;
@@ -1324,6 +1326,7 @@ hr {
 
 //RESUME --------------------------------------------------------------------
 .resumeBoxBox{
+
   // @extend .transition2;
   @extend .flex;
   // position: relative;
@@ -1352,11 +1355,12 @@ hr {
   // width: 100%;
   // height: auto;
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .resumeBoxHide {
   // @extend .transition4;
   position: absolute;
+  top: -100000px;
   left: -100000px;
   width: 100%;
 }
@@ -1386,16 +1390,34 @@ hr {
 
 .img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  // width: 100%;
+  // height: auto;
+}
+.imgColumn {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+  // width: 100%;
+  // height: auto;
+}
+.resumeImageBox{
+  width: 100%;
+  height: 100%;
 }
 .resumeImage{
   width: 100%;
   height: 100%;
+  z-index: 60;
+  background-color: blue;
+  // height: 400px;
   background-image: url("../images/RichardBWSquare900.jpg");
-  -o-background-size: cover;
+  // // background:url("../images/RichardBWSquare900.jpg") no-repeat scroll right top #000000;
+    -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size:cover;
-  background-size: cover;
+    background-size: cover;
   background-position: center;
 }
 .resumeImageColumn{
@@ -1467,7 +1489,7 @@ hr {
 .contentContentImage {
   @extend .contentContent;
   width: 65%;
-  // margin: auto;
+  margin: auto;
 }
 
 .row {
@@ -1577,6 +1599,7 @@ hr {
   @extend .flex;
   margin: auto;
   width: 90%;
+  // padding-bottom: 10px;
   // @extend .shadowFull;
 }
 
@@ -1600,6 +1623,7 @@ hr {
     // color: black;
     cursor: pointer;
   }
+  // margin-bottom: 40px;
 }
 
 .tabBarTabActiveResume {

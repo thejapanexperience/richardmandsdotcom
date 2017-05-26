@@ -41,8 +41,10 @@ class Resume extends React.Component {
     let image =
     <div className="fourImage">
       <div className="fourInner">
-        {/* <img className="img" src={require("../images/meWidishIsh.jpg")} alt=""/> */}
-        <div className="resumeImage"/>
+        <div className="resumeImageBox">
+          <img className="img" src={require("../images/RichardBWSquare900.jpg")} alt=""/>
+          {/* <div className="resumeImage"/> */}
+      </div>
       </div>
     </div>
 

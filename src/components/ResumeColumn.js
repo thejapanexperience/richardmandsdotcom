@@ -33,8 +33,10 @@ class ResumeColumn extends React.Component {
           </div>
         </div>
         <div className="contentBox">
-          <div className="resumeImageColumn"/>
+          {/* <div className="resumeImageColumn"/> */}
+          <img className="imgColumn" src={require("../images/RichardBWSquare900.jpg")} alt=""/>
           <div className="contentContentImage">
+
           Full-stack javascript developer. Able to learn and adapt quickly to new technologies, I bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.       </div>
         </div>
       </div>

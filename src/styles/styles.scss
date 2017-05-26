@@ -1,3 +1,6 @@
+// Normalize
+@import 'normalize';
+
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Ubuntu');
 
@@ -195,6 +198,10 @@ a:visited {
 }
 
 .flex {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1317,7 +1324,7 @@ hr {
 
 //RESUME --------------------------------------------------------------------
 .resumeBoxBox{
-  @extend .transition2;
+  // @extend .transition2;
   @extend .flex;
   // position: relative;
   width: 100%;
@@ -1339,14 +1346,16 @@ hr {
   }
 }
 .resumeBox {
+  // @extend .flex;
   // @extend .transition4;
-  width: 100%;
-  @extend .flex;
+  // height: 100%;
+  // width: 100%;
+  // height: auto;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 .resumeBoxHide {
-  @extend .transition4;
+  // @extend .transition4;
   position: absolute;
   left: -100000px;
   width: 100%;
@@ -1382,13 +1391,20 @@ hr {
 .resumeImage{
   width: 100%;
   height: 100%;
-  background-image: url(../images/RichardBWSquare900.jpg);
+  background-image: url("../images/RichardBWSquare900.jpg");
+  -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
 }
 .resumeImageColumn{
+  // min-height: ;
   width: 30%;
   margin-right: 5px;
+  -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
   @media screen and (min-width: 700px){
     width: 20%;
     // margin: auto;
@@ -1398,7 +1414,7 @@ hr {
     // margin: auto;
   }
   height: 100%;
-  background-image: url(../images/RichardBW900.jpg);
+  background-image: url("../images/RichardBW900.jpg");
   background-size: cover;
   background-position: center;
 }

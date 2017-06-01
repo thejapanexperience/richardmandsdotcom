@@ -378,13 +378,13 @@ export default class HomePage extends React.Component {
                 EDUCATION & TRAINING
               </div>
               <div className="section7Text">
-                I'm a UK qualified secondary science teacher with a decade of classroom teaching experience. In that time, as well as day-to-day teaching, I have developed original learning resources, managed student assessment data, introduced Google Drive into student assessment and feedback at my school, won a technology development prize from my schools group, led teacher training sessions (mostly based around usage of technology) and been a leader in developing social enterprise / charitable giving. <br/>
+                I'm a UK qualified secondary science teacher with a decade of classroom teaching experience. In that time, as well as day-to-day teaching, I have developed original curricula, managed student assessment data, introduced Google Drive into student assessment and feedback at my school, won a technology development prize from my schools group, led teacher training sessions (mostly based around usage of technology) and been a leader in developing social enterprise / charitable giving. <br/>
                 <br/>
                 These are all experiences that have helped me develop the ability to understand and communicate new technologies in a clear and effective way.
               </div>
             </div>
           </div>
-
+          
           <div className="section7Box2">
             <div className="section72">
               <div className="section7Title2">

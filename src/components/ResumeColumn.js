@@ -53,7 +53,7 @@ class ResumeColumn extends React.Component {
         <div className="contentBox">
           <div className="contentContent">
             - 3 yrs experience coding, designing & marketing at <a target="_blank" href='http://www.cinderhouse.com.au/'>Cinderhouse Creative</a><br/>
-            - Cofounder/ lead developer of <a target="_blank" href='http://www.eduku.org/'>Eduku</a><br/>
+            - Cofounder/lead developer of <a target="_blank" href='http://www.eduku.org/'>Eduku</a><br/>
             - Hackathon prize winner<br/>
             - Happy to relocate<br/>
             - Available at earliest convenience<br/>

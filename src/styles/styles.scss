@@ -407,6 +407,8 @@ a:visited {
 
 .section1Text2 {
   @extend .section1Text1;
+  width: 90%;
+  margin: auto;
   @extend .font2;
   @include responsive-font(5vw, 16px, 65px, 30px);
 }
@@ -829,7 +831,6 @@ a:visited {
   @extend .section3Box;
   padding: 20px;
   padding-top: 5px;
-  background-color: orange;
   @media screen and (max-width: 600px){
     padding: 5px;
     padding-top: 5px;

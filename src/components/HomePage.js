@@ -231,7 +231,7 @@ export default class HomePage extends React.Component {
         <div className="section3Box" id="section3Box" ref="section3Box">
           <PortfolioBox/>
         </div>
-        <div className="section3Box">
+        <div className="section4Box">
           <div className="section4">
             <div className="section4Title">
               MINI-PROJECTS

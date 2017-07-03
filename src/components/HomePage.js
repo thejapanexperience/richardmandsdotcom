@@ -148,7 +148,7 @@ export default class HomePage extends React.Component {
                   I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I am proficient with React, Redux, Flux, Node, Express, MongoDB, Mongoose, Webpack, and have experience with jQuery, Firebase, Auth0, Amazon Web Services, GoogleAPIs and more.
                 </div>
                 <div className="section2TextBody">
-                  Able to learn and adapt quickly to new technologies, I bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
+                  A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
                 </div>
                 <div className="section2TextBody">
                   I have 3 years experience coding, designing and marketing as co-founder of <a target="_blank" href='http://www.cinderhouse.com.au/'>Cinderhouse Creative</a>.

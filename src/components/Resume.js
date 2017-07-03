@@ -61,7 +61,7 @@ class Resume extends React.Component {
             Full-stack javascript developer.
           </div>
           <div className="contentContent">
-            Able to learn and adapt quickly to new technologies, I bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
+            A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ class Resume extends React.Component {
         <div className="contentBox">
           <div className="contentContent">
             Portfolio: <a target="_blank" href="http://www.richardmands.com">richardmands.com</a><br/>
-            Phone: +86 158 5068 0774<br/>
+            Phone: +44 07507 881794<br/>
             Email: richard@eduku.org<br/>
             <a target="_blank" href="https://www.linkedin.com/in/richardmands">linkedin.com/in/richardmands</a><br/>
             <a target="_blank" href="https://github.com/thejapanexperience">github.com/thejapanexperience</a><br/>
@@ -435,7 +435,7 @@ class Resume extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            I currently live in Nanjing, China where I am working for Cinderhouse Creative, with a focus on Eduku. However, I am available to relocate at short notice for the right position.
+            I currently live in Whitley Bay, England where I am working on projects for Cinderhouse Creative, with a focus on Eduku. However, I am available to relocate at short notice for the right position.
           </div>
         </div>
       </div>

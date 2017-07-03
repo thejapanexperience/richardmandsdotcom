@@ -41,18 +41,18 @@ class PortfolioItem extends React.Component {
     if (data.link){
       links = data.link.map((lnk, i) => {
         if (i === 1){
-          return <div key={i}><a href={url + lnk} target="blank">github</a><br/></div>;
+          return <div key={i}><a href={url + lnk} target="#blank">github</a><br/></div>;
         }
         if (i === 2){
-          return <div key={i}><a href={url + lnk} target="blank">youtube</a><br/></div>;
+          return <div key={i}><a href={url + lnk} target="#blank">youtube</a><br/></div>;
         }
         if (i === 3){
-          return <div key={i}><a href={url + lnk} target="blank">twitter</a><br/></div>;
+          return <div key={i}><a href={url + lnk} target="#blank">twitter</a><br/></div>;
         }
-        return <div key={i}><a href={url + lnk} target="blank">{lnk}</a><br/></div>;
+        return <div key={i}><a href={url + lnk} target="#blank">{lnk}</a><br/></div>;
       });
     } else {
-      links = <div key="noLinks"><a href="#" target="blank">nothingYet</a><br/></div>;
+      links = <div key="noLinks"><a href="#" target="#blank">nothingYet</a><br/></div>;
     }
 
 

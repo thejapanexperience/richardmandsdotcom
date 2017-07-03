@@ -140,7 +140,7 @@ export default class HomePage extends React.Component {
           <div className="section2" >
             <div className="section2Text">
               <span className="section2TextTitle">
-                Please allow me to introduce myself ...
+                Please allow me to introduce myself...
               </span>
               <div className="section2TextBodyBox">
                 {/* {bioFull} */}

@@ -157,10 +157,10 @@ export default class HomePage extends React.Component {
                   Through Cinderhouse Creative, I am a co-founder / lead developer of <a target="_blank" href='http://www.eduku.org/'>Eduku</a>, a social enterprise (self-funded charity), that aims to raise funds for those lacking educational opportunities in low-income countries via an exciting online learning platform.
                 </div>
                 <div className="section2TextBody">
-                  I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in San Francisco in October 2016 for creating Entable (an sms-based online banking platform aimed spefically at supporting women in low-income countries by offering wider access to microfinance).
+                  I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in San Francisco in October 2016 for creating Entable (an sms-based online banking platform aimed specifically at supporting women in low-income countries by offering wider access to microfinance).
                 </div>
               </div>
-
+              
 
               <div className="iconBoxOuter">
 

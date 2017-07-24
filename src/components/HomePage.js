@@ -160,7 +160,7 @@ export default class HomePage extends React.Component {
                   I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in San Francisco in October 2016 for creating Entable (an sms-based online banking platform aimed specifically at supporting women in low-income countries by offering wider access to microfinance).
                 </div>
               </div>
-              
+
 
               <div className="iconBoxOuter">
 
@@ -217,6 +217,9 @@ export default class HomePage extends React.Component {
                     <img className="iconBoxImage" src={require("../images/techIcons300/webpack.png")} alt="Webpack"/>
                   </div>
                   <div className="iconBoxImageBox">
+                    <img className="iconBoxImage" src={require("../images/techIcons300/chaijs-mocha.png")} alt="MochaChaijs"/>
+                  </div>
+                  <div className="iconBoxImageBox">
                     <img className="iconBoxImage" src={require("../images/techIcons300/github.png")} alt="github"/>
                   </div>
                 </div>
@@ -231,8 +234,8 @@ export default class HomePage extends React.Component {
         <div className="section3Box" id="section3Box" ref="section3Box">
           <PortfolioBox/>
         </div>
-        <div className="section4Box">
-          <div className="section4">
+        <div className="section4Box" id="section4Box">
+          <div className="section4" id="section4">
             <div className="section4Title">
               MINI-PROJECTS
             </div>
@@ -418,48 +421,51 @@ export default class HomePage extends React.Component {
                 <br/>
                 As with my photography skills, it would be great to utilise my videography experience (if possible) alongside a role as a developer.
               </div>
-              <div className="section7YoutubeBox">
-                <div className="portfolioYoutubeBox">
-                  <div className="portfolioYoutubeVideo">
-                    <iframe className="iframe" src="https://www.youtube.com/embed/U_icV5LqHKA" frameBorder="0" allowFullScreen />
+              <div className="section7YoutubeBoxBox">
+                <div className="section7YoutubeBox">
+                  <div className="portfolioYoutubeBox">
+                    <div className="portfolioYoutubeVideo">
+                      <iframe className="iframe" src="https://www.youtube.com/embed/U_icV5LqHKA" frameBorder="0" allowFullScreen />
+                    </div>
+                  </div>
+                </div>
+                <div className="section7YoutubeBox">
+                  <div className="portfolioYoutubeBox">
+                    <div className="portfolioYoutubeVideo">
+                      <iframe className="iframe" src="https://www.youtube.com/embed/erew-BmkB6o"  frameBorder="0" allowFullScreen />
+                    </div>
+                  </div>
+                </div>
+                <div className="section7YoutubeBox">
+                  <div className="portfolioYoutubeBox">
+                    <div className="portfolioYoutubeVideo">
+                      <iframe className="iframe" src="https://www.youtube.com/embed/cdvg_jTrjlg" frameBorder="0" allowFullScreen />
+                    </div>
+                  </div>
+                </div>
+                <div className="section7YoutubeBox">
+                  <div className="portfolioYoutubeBox">
+                    <div className="portfolioYoutubeVideo">
+                      <iframe className="iframe" src="https://www.youtube.com/embed/De1DiZgcEy0" frameBorder="0" allowFullScreen />
+                    </div>
+                  </div>
+                </div>
+                <div className="section7YoutubeBox">
+                  <div className="portfolioYoutubeBox">
+                    <div className="portfolioYoutubeVideo">
+                      <iframe className="iframe" src="https://www.youtube.com/embed/6zsAoQC8RcQ" frameBorder="0" allowFullScreen />
+                    </div>
+                  </div>
+                </div>
+                <div className="section7YoutubeBox">
+                  <div className="portfolioYoutubeBox">
+                    <div className="portfolioYoutubeVideo">
+                      <iframe className="iframe" src="https://www.youtube.com/embed/1d0gc4Ux6Rc" frameBorder="0" allowFullScreen />
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="section7YoutubeBox">
-                <div className="portfolioYoutubeBox">
-                  <div className="portfolioYoutubeVideo">
-                    <iframe className="iframe" src="https://www.youtube.com/embed/erew-BmkB6o"  frameBorder="0" allowFullScreen />
-                  </div>
-                </div>
-              </div>
-              <div className="section7YoutubeBox">
-                <div className="portfolioYoutubeBox">
-                  <div className="portfolioYoutubeVideo">
-                    <iframe className="iframe" src="https://www.youtube.com/embed/cdvg_jTrjlg" frameBorder="0" allowFullScreen />
-                  </div>
-                </div>
-              </div>
-              <div className="section7YoutubeBox">
-                <div className="portfolioYoutubeBox">
-                  <div className="portfolioYoutubeVideo">
-                    <iframe className="iframe" src="https://www.youtube.com/embed/De1DiZgcEy0" frameBorder="0" allowFullScreen />
-                  </div>
-                </div>
-              </div>
-              <div className="section7YoutubeBox">
-                <div className="portfolioYoutubeBox">
-                  <div className="portfolioYoutubeVideo">
-                    <iframe className="iframe" src="https://www.youtube.com/embed/6zsAoQC8RcQ" frameBorder="0" allowFullScreen />
-                  </div>
-                </div>
-              </div>
-              <div className="section7YoutubeBox">
-                <div className="portfolioYoutubeBox">
-                  <div className="portfolioYoutubeVideo">
-                    <iframe className="iframe" src="https://www.youtube.com/embed/1d0gc4Ux6Rc" frameBorder="0" allowFullScreen />
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
 

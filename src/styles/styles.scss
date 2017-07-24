@@ -174,7 +174,7 @@ a:visited {
   // max-height: 100px;
   // height: 100px;
   // max-height: 100px;
-  // @media screen and (max-width: 600px){
+  // @media screen and (max-width: 800px){
   //   height: 8vmax;
   //   height: 60px;
   // }
@@ -208,7 +208,8 @@ a:visited {
 
 .section {
   width: 100%;
-  max-width: 1200px;
+  // max-width: 1200px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -310,7 +311,7 @@ a:visited {
   padding-left: 2%;
   @include responsive-font(6vw, 14px, 50px, 50px);
   text-align: left;
-  // @media screen and (max-width: 600px){
+  // @media screen and (max-width: 800px){
   //   @include responsive-font(2vmax, 18px, 50px, 50px);
   //   text-align: right;
   //   padding-right: 2%;
@@ -350,7 +351,7 @@ a:visited {
   @extend .flex;
   width: 100%;
   padding: 30px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding: 20px;
   }
 }
@@ -361,7 +362,7 @@ a:visited {
   height: auto;
   margin: auto;
   padding-left: 2%;
-  // @media screen and (max-width: 600px){
+  // @media screen and (max-width: 800px){
   //   padding-left: 0;
   // }
   border: 0;
@@ -454,7 +455,7 @@ a:visited {
   width: 100%;
   background-color: white;
   padding: 20px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding: 5px;
   }
 }
@@ -478,14 +479,14 @@ a:visited {
   @extend .color1;
   @extend .fontSizeTitle1;
   margin: auto;
-  width: 100%;
+  width: 90%;
 }
 
 .section2TextBodyBox {
   @extend .flex;
   width: 80%;
   margin: auto;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .section2TextBody {
@@ -510,6 +511,7 @@ a:visited {
   }
 }
 
+
 .iconBox {
   @extend .flex;
   align-items: center;
@@ -517,6 +519,7 @@ a:visited {
   width: 100%;
   margin: auto;
 }
+
 // .iconBox {
 //   display: -webkit-flex;
 //   display: flex;
@@ -549,6 +552,7 @@ a:visited {
     @extend .transition2;
   }
 }
+
 .iconBoxImage {
   max-width: 100%;
   max-height: 80px;
@@ -592,7 +596,7 @@ a:visited {
   padding: 20px;
   padding-bottom: 0;
   background-color: rgba(0,0,0,.4);
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding: 5px;
     padding-bottom: 0;
   }
@@ -602,6 +606,7 @@ a:visited {
   @extend .section;
   @extend .flex;
   @extend .transition1;
+  position: relative;
   margin: auto;
   height: auto;
   text-align: center;
@@ -630,8 +635,9 @@ a:visited {
   @extend .transition1;
   margin: auto;
   width: 24.7%;
-  height: 50px;
-  @media screen and (max-width: 600px){
+  height: 100px;
+  margin-top: 20px;
+  @media screen and (max-width: 800px){
     height: 30px;
     width: 24.5%;
   }
@@ -664,14 +670,25 @@ a:visited {
 
 .portfolioBoxBox {
   @extend .flex;
-  width: 80%;
+  width: 100%;
   margin: auto;
+  margin-top: 20px;
   // background-color: green;
 }
 .portfolioBox {
   @extend .flex;
-  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  // padding: 40px;
+  // padding-left: 5%;
+  // padding-right: 5%;
   margin: auto;
+  @extend .transition2;
+}
+.portfolioBoxHidden {
+  @extend .portfolioBox;
+  opacity: 0;
+  visibility: hidden;
+  @extend .transition2;
 }
 
 .portfolioTitleText {
@@ -681,8 +698,9 @@ a:visited {
   opacity: 1;
   color: white;
   width: 100%;
-  text-align: right;
-  padding: 0;
+  text-align: left;
+  padding: 10px;
+  margin-left: 10px;
 }
 .portfolioTitleTextHidden {
   @extend .portfolioTitleText;
@@ -754,10 +772,28 @@ a:visited {
   visibility: hidden;
   opacity: 0;
 }
+.portfolioImageHREF {
+  @extend .flex;
+  width: 100%;
+}
+.portfolioImageImage {
+  @extend .transition5;
+  width: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+.portfolioImageImageHidden {
+  @extend .transition2;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+}
 .portfolioImageBox {
   @extend .flex;
   position: relative;
-  width: 100%;
+  width: 90%;
   margin: auto;
 }
 .portfolioImage {
@@ -774,7 +810,11 @@ a:visited {
   width: 100%;
   color: white;
   opacity: 1;
-  margin-top: 10px;
+  // margin-top: 10px;
+  padding: 20px;
+  @include responsive-font(2vw, 16px, 25px, 20px);
+
+  // margin-left: 10px;
   // @extend .transition3;
 }
 .portfolioBodyTextHidden {
@@ -788,7 +828,7 @@ a:visited {
 }
 
 .portfolioLink {
-  @extend .section2TextBody;
+  @extend .portfolioBodyText;
   @extend .transition2;
   text-align: right;
   margin: auto;
@@ -829,21 +869,48 @@ a:visited {
 
 .section4Box {
   @extend .section3Box;
-  padding: 20px;
-  padding-top: 5px;
-  @media screen and (max-width: 600px){
-    padding: 5px;
-    padding-top: 5px;
-  }
+  // width: 100%;
+  // padding: 20px;
+  // padding-top: 5px;
+  // @media screen and (max-width: 800px){
+  //   padding: 5px;
+  //   padding-top: 5px;
+  // }
+}
+.section4BoxHidden {
+  @extend .section3Box;
+  // padding: 20px;
+  // padding-top: 5px;
+  // @media screen and (max-width: 800px){
+  //   padding: 5px;
+  //   padding-top: 5px;
+  // }
 }
 
 .section4 {
-  @extend .flex;
-  @extend .section;
-  width: 85%;
-  height: auto;
-  border: 5px white solid;
-  margin-bottom: 20px;
+  @extend .section3;
+  // @extend .flex;
+  // @extend .section;
+  // @extend .transition2;
+  background-color: rgba(255, 255, 255, 0.3);
+  // height: auto;
+  box-sizing: border-box;
+  // border: 5px white solid;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  // // @extend .shadowFull;
+}
+.section4Hidden {
+  @extend .section4;
+  visibility: hidden;
+  opacity: 0;
+  // @extend .flex;
+  // @extend .section;
+  // @extend .transition2;
+  // width: 85%;
+  // height: auto;
+  // border: 5px white solid;
+  // margin-bottom: 20px;
   // @extend .shadowFull;
 }
 
@@ -884,7 +951,7 @@ a:visited {
   text-align: center;
   margin: auto;
   padding: 20px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding: 10px;
   }
 }
@@ -961,7 +1028,7 @@ a:visited {
   padding: 0;
   padding-top: 10px;
   padding-bottom: 20px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding-bottom: 10px;
     padding-top: 2px;
   }
@@ -981,7 +1048,7 @@ a:visited {
   color: white;
   text-align: justify;
   padding-top: 20px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding: 5px;
     padding-top: 10px;
   }
@@ -1009,7 +1076,7 @@ a:visited {
   background-color: white;
   padding: 20px;
   padding-top: 25px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding: 5px;
     padding-top: 10px;
   }
@@ -1100,11 +1167,11 @@ a:visited {
 .section7Whole {
   @extend .section;
   width: 100%;
-  max-width: 1200px;
+  // max-width: 1200px;
   @extend .flex;
   padding: 20px;
   padding-top: 20px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding: 5px;
     padding-top: 20px;
   }
@@ -1145,7 +1212,7 @@ a:visited {
   width: 100%;
   margin: auto;
   padding: 20px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -1156,7 +1223,7 @@ a:visited {
 .section72 {
   @extend .flex;
   padding: 20px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -1181,12 +1248,13 @@ a:visited {
 .section7Text {
   @extend .section5Text;
   width: 80%;
-  @media screen and (max-width: 600px){
+  // max-width: 900px;
+  @media screen and (max-width: 800px){
     width: 90%;
   }
   text-align: justify;
   padding-bottom: 20px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding-bottom: 10px;
   }
 }
@@ -1196,7 +1264,10 @@ hr {
 }
 .section7ImageBox {
   @extend .flex;
-  @media screen and (max-width: 600px){
+  width: 80%;
+  margin: auto;
+  @media screen and (max-width: 800px){
+    width: 90%;
     padding: 5px;
     padding-bottom: 10px;
     padding-top: 0;
@@ -1213,14 +1284,23 @@ hr {
   height: 20px;
 }
 
+.section7YoutubeBoxBox {
+  @extend .flex;
+  width: 80%;
+  margin: auto;
+  @media screen and (max-width: 800px){
+    width: 90%;
+  }
+}
 .section7YoutubeBox {
   @extend .flex;
+  align-content: center;
   width: 50%;
-  margin: auto;
+  // margin: auto;
   text-align: center;
   padding: 0;
-  @media screen and (max-width: 600px){
-    width: 90%;
+  @media screen and (max-width: 800px){
+    width: 100%;
     min-width: 200px;
     margin-bottom: 10px;
   }
@@ -1268,7 +1348,7 @@ hr {
 .footerTextBox {
   width: 100%;
   padding: 30px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding: 15px;
   }
   padding-right: 0;
@@ -1280,7 +1360,7 @@ hr {
   margin: 0;
   @include responsive-font(4vw, 3px, 40px, 30px);
   text-align: left;
-  // @media screen and (max-width: 600px){
+  // @media screen and (max-width: 800px){
   //   @include responsive-font(4vw, 5px, 20px, 50px);
   // }
   color: white;;
@@ -1291,7 +1371,7 @@ hr {
   margin: 0;
   @include responsive-font(3vw, 5px, 30px, 20px);
   text-align: left;
-  // @media screen and (max-width: 600px){
+  // @media screen and (max-width: 800px){
   //   @include responsive-font(4vw, 5px, 20px, 50px);
   // }
   color: white;;
@@ -1301,7 +1381,7 @@ hr {
   margin: auto;
   width: 100%;
   padding: 30px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     padding: 25px;
   }
   padding-left: 0;
@@ -1509,14 +1589,14 @@ hr {
 .four {
   position:relative;
   flex:0 0 28%;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     flex:0 0 100%;
   }
 }
 .fourImage {
   position:relative;
   flex:0 0 16%;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     flex:0 0 100%;
   }
 }
@@ -1541,7 +1621,7 @@ hr {
   width: 98%;
   height: 100%;
   margin-left: 2%;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     margin-left: 0;
   }
   background-color: rgba(0, 0, 0, 0.08);
@@ -1586,7 +1666,7 @@ hr {
     width: 25%;
     // .contentBox{
     //   .contentContent{
-    //     @media screen and (max-width: 600px){
+    //     @media screen and (max-width: 800px){
     //       @include responsive-font(1.2vw, 10px, 18px, 18px);
     //     }
     //   }
@@ -1618,7 +1698,7 @@ hr {
   margin: auto;
   width: 24.7%;
   height: 50px;
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 800px){
     height: 30px;
     width: 24.5%;
   }
@@ -1643,4 +1723,392 @@ hr {
     cursor: pointer;
   }
   background-color: $colorGradient1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------------------------
+//REACT DEMOS --------------------------------------------------------------------
+.reactBoxBox {
+  @extend .flex;
+  position: relative;
+  width: 100%;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.reactBoxBoxHide {
+  @extend .flex;
+  position: relative;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.reactBox {
+  @extend .flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.reactBoxHide {
+  @extend .reactBox;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.reactTitle {
+  @extend .flex;
+  margin-left: 10px;
+  width: 100%;
+  padding: 10px;
+  opacity: inherit;
+}
+.reactText {
+  @extend .reactTitle;
+  opacity: inherit;
+}
+.reactTitleText {
+  width: 100%;
+  text-align: left;
+  color: white;
+  margin: auto;
+  opacity: inherit;
+  @include responsive-font(4vw, 16px, 60px, 20px);
+
+}
+.reactTextText {
+  @extend .reactTitleText;
+  @include responsive-font(2vw, 16px, 25px, 20px);
+}
+
+.iconsAndApp {
+  @extend .flex;
+  opacity: inherit;
+  width: 100%;
+  margin-top: 10px;
+  // border: 3px white solid;
+  background-color: rgba(255, 255, 255, 0.2);
+
+}
+.iconBoxOuterPortfolio {
+  @extend .flex;
+  width: 10%;
+  opacity: inherit;
+  height: 100%;
+  @media screen and (max-width: 800px){
+    width: 100%;
+    height: auto;
+  }
+  background-color: rgba(255, 255, 255, 0.5);
+  // background-color: rgba(0, 0, 0, 0.5);
+  justify-content:flex-end;
+}
+.iconBoxPortfolio {
+  @extend .flex;
+  opacity: inherit;
+  padding: 10px;
+  width: 100%;
+}
+.iconBoxImageBoxPortfolio {
+  width: 100%;
+  opacity: inherit;
+  margin: auto;
+  :hover {
+    @extend .transition2;
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  :not(:hover){
+    @extend .transition2;
+  }
+  @media screen and (max-width: 800px){
+    width: 22%;
+  }
+}
+.appBox {
+  @extend .flex;
+  position: relative;
+  opacity: inherit;
+  width: 90%;
+  // padding: 30px;
+  // border: white solid 5px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 0;
+  @media screen and (max-width: 800px){
+    width: 100%
+  }
+}
+
+.headerText {
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+  opacity: inherit;
+}
+
+.buttonBox {
+  @extend .tabBar;
+  opacity: inherit;
+  // @extend .flex;
+  // width: 100%;
+  // height: 100px;
+  // margin-top: 10px;
+}
+
+.myButton1 {
+  @extend .tabBarTabResume;
+  opacity: inherit;
+  background-color: rgba(20, 230, 46, 0.7);
+  width: 100%;
+  // @extend .flex;
+  // margin: auto;
+  // height: 100%;
+  // width: 80%;
+  // background-color: orange;
+  // border: 3px solid white;
+  // cursor: pointer;
+}
+
+.myButton1Text {
+  opacity: inherit;
+  color: white;
+  margin: auto;
+  pointer-events: none;
+  font-size: 25px;
+}
+
+.userCardBox {
+  @extend .flex;
+  opacity: inherit;
+  position: relative;
+  padding: 30px;
+  padding-top: 10px;
+  width: 100%;
+  justify-content: space-around;
+  // background-color: blue;
+}
+
+.userCard {
+  @extend .flex;
+  opacity: inherit;
+  // flex-direction: column;
+  position: relative;
+  width: 28%;
+  margin: 5px;
+  // padding: 1%;
+  // margin-top: 50px;
+  min-height: 50px;
+  border: solid white 2px;
+  border-radius: 5%;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  @media screen and (max-width: 1200px){
+  width: 40%;
+  }
+  @media screen and (max-width: 900px){
+  width: 90%;
+  }
+}
+.userCardShow {
+  @extend .userCard;
+  opacity: 1;
+  visibility: visible;
+  background-color: rgba(0, 128, 116, 0.33);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.userCardShow0 {
+  @extend .userCardShow;
+  opacity: 1;
+  visibility: visible;
+  // background-color: rgba(0, 128, 116, 0.66);
+  background-color: rgba(48, 224, 78, 0.66);
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+  -webkit-transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.nameImageBox{
+  @extend .flex;
+  opacity: inherit;
+  width: 100%;
+  padding-top: 20px;
+  pointer-events: none;
+}
+
+.userNameBox {
+  @extend .flex;
+  opacity: inherit;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  padding-top: 0;
+  pointer-events: none;
+}
+.userName {
+  @extend .flex;
+  opacity: inherit;
+  color: white;
+  @include responsive-font(2vw, 12px, 30px, 20px);
+  line-height: 150%;
+  margin: auto;
+  @media screen and (max-width: 1200px){
+    @include responsive-font(3vw, 24px, 50px, 20px);
+  }
+  @media screen and (max-width: 900px){
+    @include responsive-font(4vw, 24px, 60px, 20px);
+  }
+}
+
+.userCardImageBox {
+  @extend .userNameBox;
+  width: 100%;
+  padding-bottom: 0;
+  padding-top: 10px;
+  pointer-events: none;
+}
+.userCardImage {
+  opacity: inherit;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  border-radius: 5%;
+  pointer-events: none;
+}
+
+.userDetailsBox {
+  @extend .userNameBox;
+  flex: 1 1 auto;
+  width: 100%;
+  border-top: 2px solid white;
+  padding-top: 8px;
+  pointer-events: none;
+}
+.userDetails {
+  @extend .userName;
+  @include responsive-font(1vw, 6px, 16px, 18px);
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+  pointer-events: none;
+  @media screen and (max-width: 1200px){
+    @include responsive-font(1vw, 14px, 16px, 18px);
+  }
+  @media screen and (max-width: 900px){
+    @include responsive-font(1vw, 14px, 16px, 18px);
+  }
+}
+
+.cornerButtons {
+  @extend .flex;
+  opacity: inherit;
+  position: absolute;
+  height: 4vw;
+  max-height: 100px;
+  width: 4vw;
+  max-width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  @media screen and (max-width: 1200px){
+    height: 6vw;
+    width: 6vw;
+  }
+  @media screen and (max-width: 900px){
+    height: 8vw;
+    width: 8vw;
+  }
+}
+
+.editButtonBox {
+  @extend .cornerButtons;
+  opacity: inherit;
+  background-color: orange;
+  top: -1.5vw;
+  left: -1.5vw;
+  @media screen and (max-width: 1200px){
+    top: -2.25vw;
+    left: -2.25vw;
+  }
+  @media screen and (max-width: 900px){
+    top: -3vw;
+    left: -3vw;
+  }
+}
+
+.deleteButtonBox {
+  @extend .cornerButtons;
+  opacity: inherit;
+  background-color: red;
+  bottom: -1.5vw;
+  right: -1.5vw;
+  @media screen and (max-width: 1200px){
+    bottom: -2.25vw;
+    right: -2.25vw;
+  }
+  @media screen and (max-width: 900px){
+    bottom: -3vw;
+    right: -3vw;
+  }
+}
+
+.editButton {
+  @extend .flex;
+  width: 100%;
+}
+
+.deleteButton {
+  @extend .editButton;
+}
+
+.editButtonText {
+  @include responsive-font(2vw, 12px, 20px, 12px);
+  color: white;
+  opacity: 1;
+  margin: auto;
+  pointer-events: none;
+}
+.deleteButtonText {
+  @extend .editButtonText;
 }

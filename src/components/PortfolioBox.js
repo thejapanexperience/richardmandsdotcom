@@ -11,36 +11,45 @@ export default class PortfolioBox extends React.Component {
       portfolioState: {},
       portfolioItems: [
         {
-          title: 'EDUKU',
-          image: ['eduku.png'],
-          src: "https://www.youtube.com/embed/u5G2dffogDo",
-          text: `I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities (predominantly in low-income countries) for those who don't have regular or sufficient access. We have created a platform that will allow users to interact with well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. We are using React and Redux to deliver the front-end, using Auth0 to manage authentication and user creation, and employing a MongoDB Express backend. Check us out!`,
-          link: ['eduku.org'],
-        },
-        {
-          title: 'RICHARDMANDS.COM',
-          image:['richardmandsdotcom.png'],
-          src: "https://www.youtube.com/embed/S4nIfLGqd9s",
-          text: 'I created this website from scratch as an attempt to develop a beautiful, full-scale, fully-responsive single-page application using react without any css-libraries.',
-          link: ['www.richardmands.com','github.com/thejapanexperience/newWebsiteShell'],
-        },
-        {
           title: 'ENTABLE',
           image: ['Entable.png'],
-          src: "https://www.youtube.com/embed/Zy6XaHpnkEg",
+          // src: "https://www.youtube.com/embed/Zy6XaHpnkEg",
           text: `This application was built over a single weekend at the Lady Problems Hackathon in San Francisco and won the Cisco developers prize. It incorporates React, Express, Flux, Socket.io, MongoDB and Cisco's Tropo API to enable the creation and management of "banks" by customers around the world using a simple sms-based interface. Supporters of those banks can then go online to view updates, interact with bank members and make donations.`,
           link: ['www.entable.org', 'github.com/thejapanexperience/entable2.0', 'youtu.be/y7ehO-zgFmM', 'twitter.com/rekhapai/status/790329165341794304'],
         },
         {
           title: 'THE FAST LIFE',
           image: ['theFastLife.png'],
-          src: "https://www.youtube.com/embed/ln2dLeUfRtA" ,
+          // src: "https://www.youtube.com/embed/ln2dLeUfRtA" ,
           text: "The Fast Life is an application that allows users to schedule, edit and view fasts, as well as keep a diary. Firebase is used to handle Google authentication. Styling was done using material-ui. The app was built with React and also incorporates Node, Express, Redux and MongoDB.",
           link: ['www.thefastlife.website', 'github.com/thejapanexperience/the-fast-life'],
-        }
+        },
+        {
+          title: 'EDUKU',
+          image: ['eduku.png'],
+          // src: "https://www.youtube.com/embed/u5G2dffogDo",
+          text: `I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities (predominantly in low-income countries) for those who don't have regular or sufficient access. We have created a platform that will allow users to interact with well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. We are using React and Redux to deliver the front-end, using Auth0 to manage authentication and user creation, and employing a MongoDB Express backend. Check us out!`,
+          link: ['eduku.org'],
+        },
+        {
+          title: 'RICHARDMANDS.COM',
+          image:['richardmandsdotcom.png'],
+          // src: "https://www.youtube.com/embed/S4nIfLGqd9s",
+          text: 'I created this website from scratch as an attempt to develop a beautiful, full-scale, fully-responsive single-page application using react without any css-libraries.',
+          link: ['www.richardmands.com','github.com/thejapanexperience/newWebsiteShell'],
+        },
+        {
+          title: 'REACT DEMO 1',
+          image: ['theFastLife.png'],
+          src: "https://www.youtube.com/embed/ln2dLeUfRtA" ,
+          text: "Demonstration of React and displaying data from external APIs",
+          link: ['github.com/thejapanexperience/the-fast-life'],
+          reactDemo: 1,
+        },
       ],
       tabs: [
         'tabBarTabActive',
+        'tabBarTab',
         'tabBarTab',
         'tabBarTab',
         'tabBarTab'
@@ -53,27 +62,42 @@ export default class PortfolioBox extends React.Component {
 
 
   click(e, tabIndex){
-    e.preventDefault();
-    let { tabs, portfolioItems } = this.state;
-    for (let i = 0; i < tabs.length; i++) {
-      if (i === tabIndex){
-        tabs[i] = 'tabBarTabActive';
-      } else {
-        tabs[i] = 'tabBarTab';
-      }
+    if (e){
+      e.preventDefault();
     }
-    document.getElementById('portfolioItemTitle').className ='portfolioTitleTextHidden';
-    document.getElementById('youtubeBox').className ='iframeHidden';
-    document.getElementById('portfolioBodyText').className ='portfolioBodyTextHidden';
-    document.getElementById('portfolioLink').className ='portfolioLinkHidden';
-    this.setState({
-      tabs: tabs,
-    });
+    console.log('tabIndex: ', tabIndex)
+    let { tabs, portfolioItems } = this.state;
+      for (let i = 0; i < tabs.length; i++) {
+        if (i === tabIndex){
+          tabs[i] = 'tabBarTabActive';
+        } else {
+          tabs[i] = 'tabBarTab';
+        }
+    }
+
+    if (this.state.portfolioState === undefined || !this.state.portfolioState.reactDemo){
+      document.getElementById('portfolioItemTitle').className ='portfolioTitleTextHidden';
+      document.getElementById('youtubeBox').className ='iframeHidden';
+      document.getElementById('portfolioBodyText').className ='portfolioBodyTextHidden';
+      document.getElementById('portfolioLink').className ='portfolioLinkHidden';
+      document.getElementById('section4').className ='section4Hidden';
+      document.getElementById('portfolioBox').className ='portfolioBoxHidden';
+      if (document.getElementById('reactDemo1'))document.getElementById('reactDemo1').className ='reactBoxBoxHide';
+      if (document.getElementById('reactDemo11'))document.getElementById('reactDemo11').className ='reactBoxHide';
+      this.setState({
+        tabs: tabs,
+      });
+    } else {
+      if (document.getElementById('reactDemo1'))document.getElementById('reactDemo1').className ='reactBoxBoxHide';
+      if (document.getElementById('reactDemo11'))document.getElementById('reactDemo11').className ='reactBoxHide';
+      document.getElementById('section4').className ='section4Hidden';
+    }
     setTimeout(()=> {
       this.setState({
         portfolioState: portfolioItems[tabIndex],
       });
-    }, 1000);
+    }, 1000)
+    // }
   }
 
   // imageCarousel(){
@@ -113,10 +137,11 @@ export default class PortfolioBox extends React.Component {
       data = portfolioItems[0];
     }
 
+    console.log('tabs: ', tabs)
+
     const tabBarContent = tabs.map((tab, i) => {
       let title;
       title = portfolioItems[i].title;
-
       return(
         <div className={tabs[i]} key={i} onClick={(e) => this.click(e, i)} >
           <div className="tabBarTabTitle" onClick={(e) => this.click(e, i)}>
@@ -141,7 +166,7 @@ export default class PortfolioBox extends React.Component {
           <img src={require("../images/richardmandsdotcom.png")} alt="richardmands.com"/>
           <img src={require("../images/theFastLife.png")} alt="The Fast Life"/>
         </div> */}
-        <PortfolioItem data={data} imageCarousel={() => this.imageCarousel()} imageIndex={imageIndex} />
+        <PortfolioItem data={data} imageCarousel={() => this.imageCarousel()} imageIndex={imageIndex} click={this.click}/>
       </div>
     );
   }

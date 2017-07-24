@@ -28,14 +28,14 @@ export default class PortfolioBox extends React.Component {
           title: 'EDUKU',
           image: ['eduku.png'],
           // src: "https://www.youtube.com/embed/u5G2dffogDo",
-          text: `I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities (predominantly in low-income countries) for those who don't have regular or sufficient access. We have created a platform that will allow users to interact with well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. We are using React and Redux to deliver the front-end, using Auth0 to manage authentication and user creation, and employing a MongoDB Express backend. Check us out!`,
+          text: `I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities (predominantly in low-income countries) for those who don't have regular or sufficient access. We are creating a platform that will allow users to interact with well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. `,
           link: ['eduku.org'],
         },
         {
           title: 'RICHARDMANDS.COM',
           image:['richardmandsdotcom.png'],
           // src: "https://www.youtube.com/embed/S4nIfLGqd9s",
-          text: 'I created this website from scratch as an attempt to develop a beautiful, full-scale, fully-responsive single-page application using react without any css-libraries.',
+          text: 'A beautiful, fully-responsive single-page application built using react without any css-libraries.',
           link: ['www.richardmands.com','github.com/thejapanexperience/newWebsiteShell'],
         },
         {
@@ -46,13 +46,22 @@ export default class PortfolioBox extends React.Component {
           link: ['github.com/thejapanexperience/the-fast-life'],
           reactDemo: 1,
         },
+        {
+          title: 'MINI PROJECTS',
+          image: ['theFastLife.png'],
+          src: "https://www.youtube.com/embed/ln2dLeUfRtA" ,
+          text: "Demonstration of React and displaying data from external APIs",
+          link: ['github.com/thejapanexperience/the-fast-life'],
+          reactDemo: -1,
+        },
       ],
       tabs: [
         'tabBarTabActive',
         'tabBarTab',
         'tabBarTab',
         'tabBarTab',
-        'tabBarTab'
+        'tabBarTab',
+        'tabBarTab',
       ]
     };
 
@@ -65,7 +74,6 @@ export default class PortfolioBox extends React.Component {
     if (e){
       e.preventDefault();
     }
-    console.log('tabIndex: ', tabIndex)
     let { tabs, portfolioItems } = this.state;
       for (let i = 0; i < tabs.length; i++) {
         if (i === tabIndex){
@@ -80,7 +88,7 @@ export default class PortfolioBox extends React.Component {
       document.getElementById('youtubeBox').className ='iframeHidden';
       document.getElementById('portfolioBodyText').className ='portfolioBodyTextHidden';
       document.getElementById('portfolioLink').className ='portfolioLinkHidden';
-      document.getElementById('section4').className ='section4Hidden';
+      // document.getElementById('section4').className ='section4Hidden';
       document.getElementById('portfolioBox').className ='portfolioBoxHidden';
       if (document.getElementById('reactDemo1'))document.getElementById('reactDemo1').className ='reactBoxBoxHide';
       if (document.getElementById('reactDemo11'))document.getElementById('reactDemo11').className ='reactBoxHide';
@@ -90,7 +98,8 @@ export default class PortfolioBox extends React.Component {
     } else {
       if (document.getElementById('reactDemo1'))document.getElementById('reactDemo1').className ='reactBoxBoxHide';
       if (document.getElementById('reactDemo11'))document.getElementById('reactDemo11').className ='reactBoxHide';
-      document.getElementById('section4').className ='section4Hidden';
+      if (document.getElementById('section4Box'))document.getElementById('section4Box').className ='section4BoxHidden';
+      // document.getElementById('section4').className ='section4Hidden';
     }
     setTimeout(()=> {
       this.setState({
@@ -136,8 +145,6 @@ export default class PortfolioBox extends React.Component {
     if(!data.title){
       data = portfolioItems[0];
     }
-
-    console.log('tabs: ', tabs)
 
     const tabBarContent = tabs.map((tab, i) => {
       let title;

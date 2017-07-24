@@ -1,6 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import MiniProject1 from './miniProject01/MiniProject';
+import ReactDemo1 from './miniProject01/MiniProject';
+import MiniProjects from './MiniProjects';
 
 class PortfolioItem extends React.Component {
 
@@ -9,11 +10,12 @@ class PortfolioItem extends React.Component {
   }
 
   componentDidMount(){
-    if (this.props.data.reactDemo === 1){
+    if (this.props.data.reactDemo > -2){
       setTimeout(() => {
-        document.getElementById('section4').className ='section4';
-        document.getElementById('reactDemo1').className ='reactBoxBox';
-        document.getElementById('reactDemo11').className ='reactBox';
+        if (document.getElementById('section4Box'))document.getElementById('section4Box').className ='section4Box';
+        if(document.getElementById('section4'))document.getElementById('section4').className ='section4';
+        if(document.getElementById('reactDemo1'))document.getElementById('reactDemo1').className ='reactBoxBox';
+        if(document.getElementById('reactDemo11'))document.getElementById('reactDemo11').className ='reactBox';
       }, 1000)
     } else {
       setTimeout(()=> {
@@ -22,28 +24,27 @@ class PortfolioItem extends React.Component {
         document.getElementById('youtubeBox').className ='iframe';
         document.getElementById('portfolioBodyText').className ='portfolioBodyText';
         document.getElementById('portfolioLink').className ='portfolioLink';
-        document.getElementById('section4').className ='section4';
+        // document.getElementById('section4').className ='section4';
       }, 1000);
     }
   }
 
   componentDidUpdate(){
-    if(this.props.data.reactDemo === 1) {
+    if(this.props.data.reactDemo > -2) {
       setTimeout(() => {
-        console.log('other set timeout');
-        document.getElementById('section4').className ='section4';
-        document.getElementById('reactDemo1').className ='reactBoxBox';
-        document.getElementById('reactDemo11').className ='reactBox';
+        // document.getElementById('section4').className ='section4';
+        if(document.getElementById('reactDemo1'))document.getElementById('reactDemo1').className ='reactBoxBox';
+        if(document.getElementById('reactDemo11'))document.getElementById('reactDemo11').className ='reactBox';
+        if (document.getElementById('section4Box'))document.getElementById('section4Box').className ='section4Box';
       }, 1000)
     } else {
       setTimeout(()=> {
-        console.log('in set timeout');
         if(document.getElementById('portfolioItemTitle'))document.getElementById('portfolioItemTitle').className ='portfolioTitleText';
         if(document.getElementById('portfolioBox'))document.getElementById('portfolioBox').className ='portfolioBox';
         if(document.getElementById('youtubeBox'))document.getElementById('youtubeBox').className ='iframe';
         if(document.getElementById('portfolioBodyText'))document.getElementById('portfolioBodyText').className ='portfolioBodyText';
         if(document.getElementById('portfolioLink'))document.getElementById('portfolioLink').className ='portfolioLink';
-        if(document.getElementById('section4'))document.getElementById('section4').className ='section4';
+        // if(document.getElementById('section4'))document.getElementById('section4').className ='section4';
       }, 1000);
     }
   }
@@ -190,10 +191,10 @@ class PortfolioItem extends React.Component {
         icons =
         (<div className="iconBoxOuterPortfolio">
           <div className="iconBoxPortfolio">
+            {iconJS}
             {iconHTMLCSS}
             {iconSASS}
             {iconReact}
-            {iconRedux}
             {iconNode}
             {iconExpress}
             {iconWebpack}
@@ -251,8 +252,12 @@ class PortfolioItem extends React.Component {
       );
     } else if (data.reactDemo === 1){
       return (
-        <MiniProject1 click={click}/>
+        <ReactDemo1 click={click}/>
       );
+    } else if (data.reactDemo === -1){
+      return (
+        <MiniProjects/>
+      )
     }
 
   }

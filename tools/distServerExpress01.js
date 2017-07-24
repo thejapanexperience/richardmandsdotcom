@@ -7,15 +7,15 @@ import path from 'path';
 const app = express();
 const server = http.createServer(app);
 const port = (process.env.PORT || 4000);
-const MONGODB_URI = process.env.MONGODB_URI || `mongodb://localhost/AllPurposeApp001`
+// const MONGODB_URI = process.env.MONGODB_URI || `mongodb://localhost/AllPurposeApp001`
 console.log(chalkSuccess('Starting Express dist server...'));
 
 // MONGOOSE
-const mongoose = require('mongoose')
-mongoose.Promise = Promise;
-mongoose.connect(MONGODB_URI, err => {
-  console.log(err || `Mongo connected to ${MONGODB_URI}`);
-})
+// const mongoose = require('mongoose')
+// mongoose.Promise = Promise;
+// mongoose.connect(MONGODB_URI, err => {
+//   console.log(err || `Mongo connected to ${MONGODB_URI}`);
+// })
 
 // ROUTES
 app.use('/api', require('./routes/api'));

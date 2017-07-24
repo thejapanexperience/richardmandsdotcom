@@ -11,7 +11,7 @@
     "start": "npm-run-all --parallel open:src",
     "diststart": "npm-run-all --parallel open:dist",
     "open:src": "babel-node tools/srcServerExpress01.js",
-    "open:dist": "babel-node tools/distServerExpress.js",
+    "open:dist": "babel-node tools/distServerExpress01.js",
     "lint": "esw webpack.config.* src tools --color",
     "lint:watch": "npm run lint -- --watch",
     "clean-dist": "npm run remove-dist && mkdir dist",

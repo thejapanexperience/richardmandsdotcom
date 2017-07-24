@@ -174,7 +174,7 @@ a:visited {
   // max-height: 100px;
   // height: 100px;
   // max-height: 100px;
-  // @media screen and (max-width: 800px){
+  // @media screen and (max-width: 900px){
   //   height: 8vmax;
   //   height: 60px;
   // }
@@ -311,7 +311,7 @@ a:visited {
   padding-left: 2%;
   @include responsive-font(6vw, 14px, 50px, 50px);
   text-align: left;
-  // @media screen and (max-width: 800px){
+  // @media screen and (max-width: 900px){
   //   @include responsive-font(2vmax, 18px, 50px, 50px);
   //   text-align: right;
   //   padding-right: 2%;
@@ -351,7 +351,7 @@ a:visited {
   @extend .flex;
   width: 100%;
   padding: 30px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding: 20px;
   }
 }
@@ -362,7 +362,7 @@ a:visited {
   height: auto;
   margin: auto;
   padding-left: 2%;
-  // @media screen and (max-width: 800px){
+  // @media screen and (max-width: 900px){
   //   padding-left: 0;
   // }
   border: 0;
@@ -455,7 +455,7 @@ a:visited {
   width: 100%;
   background-color: white;
   padding: 20px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding: 5px;
   }
 }
@@ -596,7 +596,7 @@ a:visited {
   padding: 20px;
   padding-bottom: 0;
   background-color: rgba(0,0,0,.4);
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding: 5px;
     padding-bottom: 0;
   }
@@ -637,8 +637,8 @@ a:visited {
   width: 24.7%;
   height: 100px;
   margin-top: 20px;
-  @media screen and (max-width: 800px){
-    height: 30px;
+  @media screen and (max-width: 900px){
+    height: 100px;
     width: 24.5%;
   }
   color: white;
@@ -795,6 +795,10 @@ a:visited {
   position: relative;
   width: 90%;
   margin: auto;
+  @media screen and (max-width: 900px){
+    width: 100%;
+    order: -1;
+  }
 }
 .portfolioImage {
   @extend .flex;
@@ -872,7 +876,7 @@ a:visited {
   // width: 100%;
   // padding: 20px;
   // padding-top: 5px;
-  // @media screen and (max-width: 800px){
+  // @media screen and (max-width: 900px){
   //   padding: 5px;
   //   padding-top: 5px;
   // }
@@ -881,7 +885,7 @@ a:visited {
   @extend .section3Box;
   // padding: 20px;
   // padding-top: 5px;
-  // @media screen and (max-width: 800px){
+  // @media screen and (max-width: 900px){
   //   padding: 5px;
   //   padding-top: 5px;
   // }
@@ -951,7 +955,7 @@ a:visited {
   text-align: center;
   margin: auto;
   padding: 20px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding: 10px;
   }
 }
@@ -1028,7 +1032,7 @@ a:visited {
   padding: 0;
   padding-top: 10px;
   padding-bottom: 20px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding-bottom: 10px;
     padding-top: 2px;
   }
@@ -1048,7 +1052,7 @@ a:visited {
   color: white;
   text-align: justify;
   padding-top: 20px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding: 5px;
     padding-top: 10px;
   }
@@ -1076,7 +1080,7 @@ a:visited {
   background-color: white;
   padding: 20px;
   padding-top: 25px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding: 5px;
     padding-top: 10px;
   }
@@ -1171,7 +1175,7 @@ a:visited {
   @extend .flex;
   padding: 20px;
   padding-top: 20px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding: 5px;
     padding-top: 20px;
   }
@@ -1212,7 +1216,7 @@ a:visited {
   width: 100%;
   margin: auto;
   padding: 20px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -1223,7 +1227,7 @@ a:visited {
 .section72 {
   @extend .flex;
   padding: 20px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -1249,12 +1253,12 @@ a:visited {
   @extend .section5Text;
   width: 80%;
   // max-width: 900px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     width: 90%;
   }
   text-align: justify;
   padding-bottom: 20px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding-bottom: 10px;
   }
 }
@@ -1266,7 +1270,7 @@ hr {
   @extend .flex;
   width: 80%;
   margin: auto;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     width: 90%;
     padding: 5px;
     padding-bottom: 10px;
@@ -1288,7 +1292,7 @@ hr {
   @extend .flex;
   width: 80%;
   margin: auto;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     width: 90%;
   }
 }
@@ -1299,7 +1303,7 @@ hr {
   // margin: auto;
   text-align: center;
   padding: 0;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     width: 100%;
     min-width: 200px;
     margin-bottom: 10px;
@@ -1348,7 +1352,7 @@ hr {
 .footerTextBox {
   width: 100%;
   padding: 30px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding: 15px;
   }
   padding-right: 0;
@@ -1360,7 +1364,7 @@ hr {
   margin: 0;
   @include responsive-font(4vw, 3px, 40px, 30px);
   text-align: left;
-  // @media screen and (max-width: 800px){
+  // @media screen and (max-width: 900px){
   //   @include responsive-font(4vw, 5px, 20px, 50px);
   // }
   color: white;;
@@ -1371,7 +1375,7 @@ hr {
   margin: 0;
   @include responsive-font(3vw, 5px, 30px, 20px);
   text-align: left;
-  // @media screen and (max-width: 800px){
+  // @media screen and (max-width: 900px){
   //   @include responsive-font(4vw, 5px, 20px, 50px);
   // }
   color: white;;
@@ -1381,7 +1385,7 @@ hr {
   margin: auto;
   width: 100%;
   padding: 30px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     padding: 25px;
   }
   padding-left: 0;
@@ -1589,14 +1593,14 @@ hr {
 .four {
   position:relative;
   flex:0 0 28%;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     flex:0 0 100%;
   }
 }
 .fourImage {
   position:relative;
   flex:0 0 16%;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     flex:0 0 100%;
   }
 }
@@ -1621,7 +1625,7 @@ hr {
   width: 98%;
   height: 100%;
   margin-left: 2%;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     margin-left: 0;
   }
   background-color: rgba(0, 0, 0, 0.08);
@@ -1666,7 +1670,7 @@ hr {
     width: 25%;
     // .contentBox{
     //   .contentContent{
-    //     @media screen and (max-width: 800px){
+    //     @media screen and (max-width: 900px){
     //       @include responsive-font(1.2vw, 10px, 18px, 18px);
     //     }
     //   }
@@ -1698,7 +1702,7 @@ hr {
   margin: auto;
   width: 24.7%;
   height: 50px;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     height: 30px;
     width: 24.5%;
   }
@@ -1821,13 +1825,13 @@ hr {
   width: 10%;
   opacity: inherit;
   height: 100%;
-  @media screen and (max-width: 800px){
-    width: 100%;
-    height: auto;
-  }
   background-color: rgba(255, 255, 255, 0.5);
   // background-color: rgba(0, 0, 0, 0.5);
   justify-content:flex-end;
+  @media screen and (max-width: 900px){
+    width: 100%;
+    height: auto;
+  }
 }
 .iconBoxPortfolio {
   @extend .flex;
@@ -1848,7 +1852,7 @@ hr {
   :not(:hover){
     @extend .transition2;
   }
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     width: 22%;
   }
 }
@@ -1862,7 +1866,7 @@ hr {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 0;
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 900px){
     width: 100%
   }
 }

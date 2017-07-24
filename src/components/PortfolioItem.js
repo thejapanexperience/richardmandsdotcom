@@ -160,6 +160,8 @@ class PortfolioItem extends React.Component {
         icons =
         (<div className="iconBoxOuterPortfolio">
           <div className="iconBoxPortfolio">
+            {iconJS}
+            {iconHTMLCSS}
             {iconReact}
             {iconRedux}
             {iconNode}
@@ -173,6 +175,7 @@ class PortfolioItem extends React.Component {
         icons =
         (<div className="iconBoxOuterPortfolio">
           <div className="iconBoxPortfolio">
+            {iconHTMLCSS}
             {iconReact}
             {iconRedux}
             {iconNode}
@@ -201,6 +204,7 @@ class PortfolioItem extends React.Component {
         icons =
         (<div className="iconBoxOuterPortfolio">
           <div className="iconBoxPortfolio">
+            {iconHTMLCSS}
             {iconReact}
             {iconFlux}
             {iconNode}

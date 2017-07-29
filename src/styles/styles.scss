@@ -1960,7 +1960,7 @@ hr {
   width: 40%;
   }
   @media screen and (max-width: 900px){
-  width: 90%;
+  width: 60%;
   }
 }
 .userCardShow {
@@ -1972,6 +1972,11 @@ hr {
   -moz-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
+}
+@media screen and (max-width: 900px){
+  .userCardShow:last-child {
+    display: none;
+  }
 }
 .userCardShow0 {
   @extend .userCardShow;
@@ -2018,7 +2023,7 @@ hr {
     @include responsive-font(3vw, 24px, 50px, 20px);
   }
   @media screen and (max-width: 900px){
-    @include responsive-font(4vw, 24px, 60px, 20px);
+    @include responsive-font(4vw, 0px, 60px, 20px);
   }
 }
 
@@ -2057,7 +2062,7 @@ hr {
     @include responsive-font(1vw, 14px, 16px, 18px);
   }
   @media screen and (max-width: 900px){
-    @include responsive-font(1vw, 14px, 16px, 18px);
+    @include responsive-font(1vw, 8px, 16px, 18px);
   }
 }
 

@@ -4,6 +4,8 @@ import $ from 'jquery';
 import PortfolioBox from './PortfolioBox';
 import Resume from './Resume';
 import ResumeColumn from './ResumeColumn';
+import axios from 'axios';
+
 // import {Link} from 'react-router';
 
 export default class HomePage extends React.Component {
@@ -19,6 +21,7 @@ export default class HomePage extends React.Component {
 
     this.resumeColumnClick = this.resumeColumnClick.bind(this);
     this.resumeClick = this.resumeClick.bind(this);
+    this.herokuLaunch = this.herokuLaunch.bind(this);
 
   }
 
@@ -88,7 +91,26 @@ export default class HomePage extends React.Component {
     }
   }
 
+  herokuLaunch(){
+    axios.get('/api/heroku/entable')
+    .then(response => {
+      console.log('entable loading');
+    })
+    .catch(error => {
+      console.log('entable not loading');
+    })
+    axios.get('/api/heroku/theFastLife')
+    .then(response => {
+      console.log('thefastlife loading');
+    })
+    .catch(error => {
+      console.log('thefastlife not loading');
+    })
+  }
+
   render() {
+
+    this.herokuLaunch();
 
     return (
     <div>
@@ -234,7 +256,7 @@ export default class HomePage extends React.Component {
         <div className="section3Box" id="section3Box" ref="section3Box">
           <PortfolioBox/>
         </div>
-        
+
 
         {/* <div className="section4Box">
           <div className="section4">

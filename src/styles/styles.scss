@@ -1974,7 +1974,7 @@ hr {
   transition: 1s;
 }
 @media screen and (max-width: 900px){
-  .userCardShow:last-child {
+  .userCardShow:nth-child(3n) {
     display: none;
   }
 }
@@ -2062,7 +2062,7 @@ hr {
     @include responsive-font(1vw, 14px, 16px, 18px);
   }
   @media screen and (max-width: 900px){
-    @include responsive-font(1vw, 8px, 16px, 18px);
+    @include responsive-font(2vw, 6px, 16px, 18px);
   }
 }
 

@@ -5,27 +5,74 @@ export default class OtherSkills extends React.Component {
   constructor(){
     super();
     this.state = {
-      showResume: false,
-      buttonText1: 'Show résumé?',
-      buttonText2: 'Hide résumé?',
-      buttonText: 'Show résumé?',
+      first: false,
+      second: false,
+      third: false,
     };
+    this.firstClick = this.firstClick.bind(this);
+    this.secondClick = this.secondClick.bind(this);
+    this.thirdClick = this.thirdClick.bind(this);
+  }
+
+  firstClick(e) {
+    e.preventDefault();
+    if (!this.state.first) {
+      document.getElementById('eAndT').className = 'section7Text';
+      this.setState({
+        first: true,
+      });
+    } else {
+      document.getElementById('eAndT').className = 'section7TextHide';
+      this.setState({
+        first: false,
+      });
+    }
+  }
+
+  secondClick(e) {
+    e.preventDefault();
+    if (!this.state.second) {
+      document.getElementById('photography').className = 'section7Text';
+      document.getElementById('photographySample').className = 'section7ImageBox';
+      this.setState({
+        second: true,
+      });
+    } else {
+      document.getElementById('photography').className = 'section7TextHide';
+      document.getElementById('photographySample').className = 'section7TextHide';
+      this.setState({
+        second: false,
+      });
+    }
+  }
+
+  thirdClick(e) {
+    e.preventDefault();
+    if (!this.state.third) {
+      document.getElementById('videography').className = 'section7Text';
+      document.getElementById('videographySample').className = 'section7YoutubeBoxBox';
+      this.setState({
+        third: true,
+      });
+    } else {
+      document.getElementById('videography').className = 'section7TextHide';
+      document.getElementById('videographySample').className = 'section7TextHide';
+      this.setState({
+        third: false,
+      });
+    }
   }
 
   render() {
     return(
       <div className="section7Whole">
-      <div className="section7HeaderBox">
-        <div className="section7Header">
-          <div className="section7Title">OTHER SKILLS</div>
-        </div>
-      </div>
+      
 
       <div className="section7Box1">
         <div className="section7">
-          <div className="section7Title2">EDUCATION & TRAINING</div>
-          <div className="section7Text">
-            I'm a UK qualified secondary science teacher with a decade of classroom teaching experience. In that
+          <div className="section7Title2" onClick={(e) => this.firstClick(e)}>EDUCATION & TRAINING</div>
+          <div id="eAndT" className="section7TextHide">
+            I am a UK qualified secondary science teacher with a decade of classroom teaching experience. In that
             time, as well as day-to-day teaching, I have developed original curricula, managed student assessment
             data, introduced Google Drive into student assessment and feedback at my school, won a technology
             development prize from my schools group, led teacher training sessions (mostly based around usage of
@@ -39,8 +86,8 @@ export default class OtherSkills extends React.Component {
 
       <div className="section7Box2">
         <div className="section72">
-          <div className="section7Title2">PHOTOGRAPHY</div>
-          <div className="section7Text">
+          <div className="section7Title2" onClick={(e) => this.secondClick(e)}>PHOTOGRAPHY</div>
+          <div id="photography" className="section7TextHide">
             I'm a passionate and experienced photographer, having shot a wide variety of jobs ranging in style
             from in-studio product shots, to on location portraiture and events. I am proficient with Photoshop,
             Lightroom and the whole suite of available plug-ins that expand Adobe's software.<br />
@@ -48,7 +95,7 @@ export default class OtherSkills extends React.Component {
             I own a range of professional cameras and lenses and would love to use my photography skills to
             support any organisation I work for. <br />
           </div>
-          <div className="section7ImageBox">
+          <div id="photographySample" className="section7TextHide">
             <img
               className="section7Image"
               src={require('../images/richardCollageWide02.jpg')}
@@ -60,11 +107,11 @@ export default class OtherSkills extends React.Component {
 
       <div className="section7Box1">
         <div className="section7">
-          <div className="section7Title2">VIDEOGRAPHY & EDITING</div>
+          <div className="section7Title2" onClick={(e) => this.thirdClick(e)}>VIDEOGRAPHY & EDITING</div>
           {/* <div className="section7Title2">
           AND EDITING
         </div> */}
-          <div className="section7Text">
+          <div id="videography" className="section7TextHide">
             I have experience shooting a variety of projects that range from in-studio promos and product shots to
             on-location events and even 360 video (using a multi-camera GoPro rig). I shoot with professional
             standard cameras (Panasonic GH4) and lenses in 4K. <br />
@@ -76,7 +123,7 @@ export default class OtherSkills extends React.Component {
             As with my photography skills, it would be great to utilise my videography experience (if possible)
             alongside a role as a developer.
           </div>
-          <div className="section7YoutubeBoxBox">
+          <div id="videographySample" className="section7TextHide">
             <div className="section7YoutubeBox">
               <div className="portfolioYoutubeBox">
                 <div className="portfolioYoutubeVideo">

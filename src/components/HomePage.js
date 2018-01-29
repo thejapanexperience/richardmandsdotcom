@@ -4,6 +4,7 @@ import $ from 'jquery';
 import PortfolioBox from './PortfolioBox';
 import Resume from './Resume';
 import ResumeColumn from './ResumeColumn';
+import OtherSkills from './OtherSkills';
 import axios from 'axios';
 
 // import {Link} from 'react-router';
@@ -147,30 +148,26 @@ export default class HomePage extends React.Component {
               </div>
               <div className="flexText">
                 <div className="section1Text1">Richard Mands</div>
-                <div className="section1Text2">Full-Stack Javascript Developer</div>
-                <div className="section1Text3Box">
-                  <a className="section1Text3" target="_blank" href="https://github.com/thejapanexperience">
-                    <i className="fa fa-github fa-lg" />
-                  </a>
-                  <span className="section1Text3"> | </span>
-                  <a className="section1Text3" target="_blank" href="https://twitter.com/RichardMands">
-                    <i className="fa fa-twitter fa-lg" />
-                  </a>
-                  <span className="section1Text3"> | </span>
-                  <a className="section1Text3" target="_blank" href="https://www.facebook.com/richard.mands">
-                    <i className="fa fa-facebook fa-lg" />
-                  </a>
-                  <span className="section1Text3"> | </span>
-                  <a
-                    className="section1Text3"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"
-                  >
-                    <i className="fa fa-linkedin fa-lg" />
-                  </a>
-                  {/* <span className="section1Text3"> | </span>
-                <a className="section1Text3" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}
+                <div className="section1Text2">Full-Stack Developer</div>
                 </div>
+              <div className="section1Text3Box">
+                <a className="section1Text3" target="_blank" href="https://github.com/thejapanexperience">
+                <i className="fa fa-github fa-lg" />
+                </a>
+                <span className="section1Text3"> | </span>
+                <a className="section1Text3" target="_blank" href="https://twitter.com/RichardMands">
+                <i className="fa fa-twitter fa-lg" />
+                </a>
+                <span className="section1Text3"> | </span>
+                <a
+                className="section1Text3"
+                target="_blank"
+                href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"
+                >
+                <i className="fa fa-linkedin fa-lg" />
+                </a>
+                {/* <span className="section1Text3"> | </span>
+                <a className="section1Text3" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}
               </div>
             </div>
           </div>
@@ -182,9 +179,9 @@ export default class HomePage extends React.Component {
                 <div className="section2TextBodyBox">
                   {/* {bioFull} */}
                   <div className="section2TextBody">
-                    I'm a full-stack javascript developer. Working predominantly with a MERN Stack, I am proficient with
-                    React, Redux, Flux, Node, Express, MongoDB, Mongoose, Webpack, and have experience with jQuery,
-                    Firebase, Auth0, Amazon Web Services, GoogleAPIs and more.
+                    I'm a full-stack developer with primary experience in JavaScript and Ruby. I'm proficient with
+                    a JS stack based around React, Redux, Flux, Node, Express, MongoDB, Mongoose, and Webpack.
+                    I have also worked extensively with Ruby (Rails / Sinatra) and have experience of technologies such as Socket.io, DynamoDB, Firebase, Google APIs and others.
                   </div>
                   <div className="section2TextBody">
                     A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a
@@ -192,17 +189,14 @@ export default class HomePage extends React.Component {
                     place each day.
                   </div>
                   <div className="section2TextBody">
-                    I have 3 years experience coding, designing and marketing as co-founder of{' '}
-                    <a target="_blank" href="http://www.cinderhouse.com.au/">
-                      Cinderhouse Creative
-                    </a>.
+                    I have 3 years experience coding, designing and marketing as co-founder of
+                    <a target="_blank" href="http://www.cinderhouse.com.au/"> Cinderhouse Creative</a> and
+                    in my current role as a Software Developer at <a target="_blank" href="http://www.sage.com/"> Sage</a>.
                   </div>
                   <div className="section2TextBody">
-                    Through Cinderhouse Creative, I am a co-founder / lead developer of{' '}
-                    <a target="_blank" href="http://www.eduku.org/">
-                      Eduku
-                    </a>, a social enterprise (self-funded charity), that aims to raise funds for those lacking
-                    educational opportunities in low-income countries via an exciting online learning platform.
+                    Through Cinderhouse Creative, I was a co-founder / developer
+                    of <a target="_blank" href="http://www.eduku.org/">Eduku</a>, a social enterprise (self-funded charity), that aimed to raise funds for those lacking
+                    educational opportunities in low-income countries via an online learning platform.
                   </div>
                   <div className="section2TextBody">
                     I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in
@@ -236,13 +230,7 @@ export default class HomePage extends React.Component {
                     <div className="iconBoxImageBox">
                       <img className="iconBoxImage" src={require('../images/techIcons300/React.png')} alt="React" />
                     </div>
-                    <div className="iconBoxImageBox">
-                      <img
-                        className="iconBoxImage"
-                        src={require('../images/techIcons300/ReactNative.png')}
-                        alt="ReactNative"
-                      />
-                    </div>
+
                     <div className="iconBoxImageBox">
                       <img className="iconBoxImage" src={require('../images/techIcons300/Redux.png')} alt="Redux" />
                     </div>
@@ -354,7 +342,7 @@ export default class HomePage extends React.Component {
                 <div className="section6TitleText">CONTACT</div>
               </div>
               <div className="section6Title">
-                <div className="section6Text">richard@eduku.org</div>
+                <div className="section6Text">richard@cinderhousecreative.com</div>
               </div>
               <div className="section6Title">
                 <div className="section6IconsBox">
@@ -364,10 +352,6 @@ export default class HomePage extends React.Component {
                   <span className="section6Icons"> | </span>
                   <a className="section6Icons" target="_blank" href="https://twitter.com/RichardMands">
                     <i className="fa fa-twitter fa-lg" />
-                  </a>
-                  <span className="section6Icons"> | </span>
-                  <a className="section6Icons" target="_blank" href="https://www.facebook.com/richard.mands">
-                    <i className="fa fa-facebook fa-lg" />
                   </a>
                   <span className="section6Icons"> | </span>
                   <a
@@ -425,145 +409,7 @@ export default class HomePage extends React.Component {
             </div>
           </div>
 
-          <div className="section7Whole">
-            <div className="section7HeaderBox">
-              <div className="section7Header">
-                <div className="section7Title">OTHER SKILLS</div>
-              </div>
-            </div>
-
-            <div className="section7Box1">
-              <div className="section7">
-                <div className="section7Title2">EDUCATION & TRAINING</div>
-                <div className="section7Text">
-                  I'm a UK qualified secondary science teacher with a decade of classroom teaching experience. In that
-                  time, as well as day-to-day teaching, I have developed original curricula, managed student assessment
-                  data, introduced Google Drive into student assessment and feedback at my school, won a technology
-                  development prize from my schools group, led teacher training sessions (mostly based around usage of
-                  technology) and been a leader in developing social enterprise / charitable giving. <br />
-                  <br />
-                  These are all experiences that have helped me develop the ability to understand and communicate new
-                  technologies in a clear and effective way.
-                </div>
-              </div>
-            </div>
-
-            <div className="section7Box2">
-              <div className="section72">
-                <div className="section7Title2">PHOTOGRAPHY</div>
-                <div className="section7Text">
-                  I'm a passionate and experienced photographer, having shot a wide variety of jobs ranging in style
-                  from in-studio product shots, to on location portraiture and events. I am proficient with Photoshop,
-                  Lightroom and the whole suite of available plug-ins that expand Adobe's software.<br />
-                  <br />
-                  I own a range of professional cameras and lenses and would love to use my photography skills to
-                  support any organisation I work for. <br />
-                </div>
-                <div className="section7ImageBox">
-                  <img
-                    className="section7Image"
-                    src={require('../images/richardCollageWide02.jpg')}
-                    alt="richardmandsphotography"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div className="section7Box1">
-              <div className="section7">
-                <div className="section7Title2">VIDEOGRAPHY & EDITING</div>
-                {/* <div className="section7Title2">
-                AND EDITING
-              </div> */}
-                <div className="section7Text">
-                  I have experience shooting a variety of projects that range from in-studio promos and product shots to
-                  on-location events and even 360 video (using a multi-camera GoPro rig). I shoot with professional
-                  standard cameras (Panasonic GH4) and lenses in 4K. <br />
-                  <br />
-                  I am proficient with Adobe Premiere Pro, After-Effects (mostly text animations) and Audition. I also
-                  have experience with recording high quality audio using shotgun, lavalier and traditional dynamic
-                  microphones recorded onto a variety of Zoom external recorders (H1, H5). <br />
-                  <br />
-                  As with my photography skills, it would be great to utilise my videography experience (if possible)
-                  alongside a role as a developer.
-                </div>
-                <div className="section7YoutubeBoxBox">
-                  <div className="section7YoutubeBox">
-                    <div className="portfolioYoutubeBox">
-                      <div className="portfolioYoutubeVideo">
-                        <iframe
-                          className="iframe"
-                          src="https://www.youtube.com/embed/U_icV5LqHKA"
-                          frameBorder="0"
-                          allowFullScreen
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="section7YoutubeBox">
-                    <div className="portfolioYoutubeBox">
-                      <div className="portfolioYoutubeVideo">
-                        <iframe
-                          className="iframe"
-                          src="https://www.youtube.com/embed/erew-BmkB6o"
-                          frameBorder="0"
-                          allowFullScreen
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="section7YoutubeBox">
-                    <div className="portfolioYoutubeBox">
-                      <div className="portfolioYoutubeVideo">
-                        <iframe
-                          className="iframe"
-                          src="https://www.youtube.com/embed/cdvg_jTrjlg"
-                          frameBorder="0"
-                          allowFullScreen
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="section7YoutubeBox">
-                    <div className="portfolioYoutubeBox">
-                      <div className="portfolioYoutubeVideo">
-                        <iframe
-                          className="iframe"
-                          src="https://www.youtube.com/embed/De1DiZgcEy0"
-                          frameBorder="0"
-                          allowFullScreen
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="section7YoutubeBox">
-                    <div className="portfolioYoutubeBox">
-                      <div className="portfolioYoutubeVideo">
-                        <iframe
-                          className="iframe"
-                          src="https://www.youtube.com/embed/6zsAoQC8RcQ"
-                          frameBorder="0"
-                          allowFullScreen
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="section7YoutubeBox">
-                    <div className="portfolioYoutubeBox">
-                      <div className="portfolioYoutubeVideo">
-                        <iframe
-                          className="iframe"
-                          src="https://www.youtube.com/embed/1d0gc4Ux6Rc"
-                          frameBorder="0"
-                          allowFullScreen
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <OtherSkills/>
 
           <div className="footerBox">
             {/* <div className="emptySpace" /> */}
@@ -582,10 +428,7 @@ export default class HomePage extends React.Component {
                 <a className="footerText3" target="_blank" href="https://twitter.com/RichardMands">
                   <i className="fa fa-twitter fa-lg" />
                 </a>
-                <span className="footerText3"> | </span>
-                <a className="footerText3" target="_blank" href="https://www.facebook.com/richard.mands">
-                  <i className="fa fa-facebook fa-lg" />
-                </a>
+
                 <span className="footerText3"> | </span>
                 <a
                   className="footerText3"

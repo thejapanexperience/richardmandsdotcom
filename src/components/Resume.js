@@ -58,7 +58,7 @@ class Resume extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            Full-stack javascript developer.
+            Full-stack developer.
           </div>
           <div className="contentContent">
             A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
@@ -77,13 +77,12 @@ class Resume extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            - 3 yrs experience coding, designing & marketing at <a target="_blank" href='http://www.cinderhouse.com.au/'>Cinderhouse Creative</a><br/>
-            - Cofounder/lead developer of <a target="_blank" href='http://www.eduku.org/'>Eduku</a><br/>
+            - Software Developer at <a target="_blank" href='http://www.sage.com/'>Sage</a><br/>
+            - 3 years coding, designing & marketing at <a target="_blank" href='http://www.cinderhouse.com.au/'>Cinderhouse Creative</a><br/>
+            - Cofounder / lead developer of <a target="_blank" href='http://www.eduku.org/'>Eduku</a><br/>
             - Hackathon prize winner<br/>
-            - Happy to relocate<br/>
-            - Available at earliest convenience<br/>
             - Pro photographer / videographer<br/>
-            - UK/Canada passport holder<br/>
+            - UK / Canada passport holder<br/>
           </div>
         </div>
       </div>
@@ -101,11 +100,10 @@ class Resume extends React.Component {
           <div className="contentContent">
             Portfolio: <a target="_blank" href="http://www.richardmands.com">richardmands.com</a><br/>
             Phone: +44 07507 881794<br/>
-            Email: richard@eduku.org<br/>
+            richard@cinderhousecreative.com<br/>
             <a target="_blank" href="https://www.linkedin.com/in/richardmands">linkedin.com/in/richardmands</a><br/>
             <a target="_blank" href="https://github.com/thejapanexperience">github.com/thejapanexperience</a><br/>
             <a target="_blank" href="https://twitter.com/RichardMands">twitter.com/RichardMands</a><br/>
-            <a target="_blank" href="https://www.facebook.com/richard.mands">facebook.com/richard.mands</a>
           </div>
         </div>
       </div>
@@ -122,16 +120,19 @@ class Resume extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
+            - Software Developer at Sage.
+          </div>
+
+          <div className="contentContent">
             - Co-Founder / Visual Director / Developer at Cinderhouse Creative.
           </div>
           <div className="contentContent">
             - Lead developer / Co-owner of Eduku : an online education platform made using React, Redux, Express, Auth0, MongoDB.
           </div>
           <div className="contentContent">
-            - Proficient in HTML, CSS, Javascript, Node.js, React, Redux, Flux, Webpack, Express, MongoDB, Mongoose.
-          </div>
+            - Proficient in HTML, CSS, JavaScript, Node.js, React, Redux, Flux, Webpack, Express, MongoDB, Mongoose, Ruby, Rails, Sinatra.          </div>
           <div className="contentContent">
-            - Have experience of React Native, Socket.IO, Google APIs, Watson APIs, Amazon Web Services, MySQL, Firebase, Auth0, React-DnD, Tropo.
+            - Have experience of Socket.IO, Google APIs, Watson APIs, Amazon Web Services, MySQL, Firebase, Auth0, React-DnD, Tropo.
           </div>
           <div className="contentContent">
             - Won Cisco’s 1st place prize at AngelHack’s Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system.
@@ -150,8 +151,42 @@ class Resume extends React.Component {
           </div>
         </div>
 
-        {/* <div className="one50">
-        </div> */}
+      </div>
+    </div>
+
+    let sage =
+    <div className="one">
+      <div className="oneInner">
+
+        <div className="titleBox">
+          <div className="titleContent">
+            <a target="_blank" href='http://www.sage.com/'>SAGE</a> | Jul ‘17 - Present
+          </div>
+        </div>
+
+        <div className="contentBox">
+          <div className="contentContent">
+            Software Developer | Newcastle, UK
+          </div>
+          <div className="contentContent">
+            Ruby, Rails, Sinatra, MySQL, RSpec, JavaScript, React, Jasmine, Git, Docker, AWS, Postmark, Jira, Scrum.
+          </div>
+          <div className="contentContent">
+            - worked with a very large codebase, adding features and fixing bugs.
+          </div>
+          <div className="contentContent">
+            - successfully developed a new email service using Postmark, Sinatra, AWS and Docker that sends millions of emails per year.
+          </div>
+          <div className="contentContent">
+            - mentored new graduate developers.
+          </div>
+          <div className="contentContent">
+            - taken a lead role in scrum meetings, delivered presentations, led communications with other departments, etc
+          </div>
+          <div className="contentContent">
+            - developed my own large-scale project on a volunteer basis with the <a target="_blank" href="http://www.sage.com/company/sage_foundation">Sage Foundation</a>.
+          </div>
+        </div>
 
       </div>
     </div>
@@ -162,7 +197,7 @@ class Resume extends React.Component {
 
         <div className="titleBox">
           <div className="titleContent">
-            <a target="_blank" href='http://www.cinderhouse.com.au/'>CINDERHOUSE CREATIVE</a> | Oct ‘14 - Present
+            <a target="_blank" href='http://www.cinderhouse.com.au/'>CINDERHOUSE CREATIVE</a> | Oct ‘14 - Jun ‘17
           </div>
         </div>
         <div className="contentBox">
@@ -188,7 +223,7 @@ class Resume extends React.Component {
 
         <div className="titleBox">
           <div className="titleContent">
-            <a href="http://eduku.org/" target="_blank">EDUKU</a> | Aug ’15 - Present
+            <a href="http://eduku.org/" target="_blank">EDUKU</a> | Aug ’15 - Jun ‘17
           </div>
         </div>
         <div className="contentBox">
@@ -323,7 +358,8 @@ class Resume extends React.Component {
             <div className="contentContent">
               HTML <br/>
               CSS <br/>
-              Javascript <br/>
+              JS <br/>
+              Docker <br/>
             </div>
           </div>
         </div>
@@ -331,25 +367,29 @@ class Resume extends React.Component {
           <div className="contentBox">
             <div className="contentContent">
               React.js <br/>
-              Redux <br/>
-              Flux <br/>
-            </div>
-          </div>
-        </div>
-        <div className="twentyFive">
-          <div className="contentBox">
-            <div className="contentContent">
-              Express <br/>
-              Node.js <br/>
+              Redux / Flux <br/>
               Webpack <br/>
+              AWS <br/>
             </div>
           </div>
         </div>
         <div className="twentyFive">
           <div className="contentBox">
             <div className="contentContent">
+              Node.js <br/>
+              Express <br/>
               MongoDB <br/>
               Mongoose <br/>
+            </div>
+          </div>
+        </div>
+        <div className="twentyFive">
+          <div className="contentBox">
+            <div className="contentContent">
+              Ruby <br/>
+              Rails <br/>
+              RSpec <br/>
+              Sinatra <br/>
             </div>
           </div>
         </div>
@@ -371,7 +411,8 @@ class Resume extends React.Component {
             <div className="contentContent">
               MySQL <br/>
               Firebase <br/>
-              Auth0 <br/>
+              <br/>
+              <br/>
             </div>
           </div>
         </div>
@@ -381,7 +422,6 @@ class Resume extends React.Component {
             <div className="contentContent">
               Socket.IO <br/>
               Tropo <br/>
-              Amazon AWS <br/>
             </div>
           </div>
         </div>
@@ -398,7 +438,7 @@ class Resume extends React.Component {
         <div className="twentyFive">
           <div className="contentBox">
             <div className="contentContent">
-              React Native <br/>
+              Auth0 <br/>
               React-DnD <br/>
             </div>
           </div>
@@ -483,17 +523,23 @@ class Resume extends React.Component {
 
                 <div className="row">
 
-                  {cinderhouse}
+                  {langPro}
 
-                  {eduku}
+                  {langExp}
 
                 </div>
 
                 <div className="row">
 
-                  {langPro}
+                  {sage}
 
-                  {langExp}
+                </div>
+
+                <div className="row">
+
+                  {cinderhouse}
+
+                  {eduku}
 
                 </div>
 
@@ -526,7 +572,7 @@ class Resume extends React.Component {
 
                   {personalInformation}
 
-                  {quickNote}
+                  {/* {quickNote} */}
 
                 </div>
 

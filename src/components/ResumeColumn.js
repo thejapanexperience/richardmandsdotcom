@@ -36,7 +36,7 @@ class ResumeColumn extends React.Component {
           {/* <div className="resumeImageColumn"/> */}
           <img className="imgColumn" src={require("../images/RichardBWSquare900.jpg")} alt=""/>
           <div className="contentContentImage">
-            Full-stack javascript developer. A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
+            A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.
           </div>
         </div>
       </div>
@@ -52,13 +52,12 @@ class ResumeColumn extends React.Component {
         </div>
         <div className="contentBox">
           <div className="contentContent">
-            - 3 yrs experience coding, designing & marketing at <a target="_blank" href='http://www.cinderhouse.com.au/'>Cinderhouse Creative</a><br/>
-            - Cofounder/lead developer of <a target="_blank" href='http://www.eduku.org/'>Eduku</a><br/>
+            - Software Developer at <a target="_blank" href='http://www.sage.com/'>Sage</a><br/>
+            - 3 years coding, designing & marketing at <a target="_blank" href='http://www.cinderhouse.com.au/'>Cinderhouse Creative</a><br/>
+            - Cofounder / lead developer of <a target="_blank" href='http://www.eduku.org/'>Eduku</a><br/>
             - Hackathon prize winner<br/>
-            - Happy to relocate<br/>
-            - Available at earliest convenience<br/>
             - Pro photographer / videographer<br/>
-            - UK/Canada passport holder<br/>
+            - UK / Canada passport holder<br/>
           </div>
         </div>
       </div>
@@ -76,11 +75,10 @@ class ResumeColumn extends React.Component {
           <div className="contentContent">
             Portfolio: <a target="_blank" href="http://www.richardmands.com">richardmands.com</a><br/>
             Phone: +44 07507 881794<br/>
-            Email: richard@eduku.org<br/>
+            richard@cinderhousecreative.com<br/>
             <a target="_blank" href="https://www.linkedin.com/in/richardmands">linkedin.com/in/richardmands</a><br/>
             <a target="_blank" href="https://github.com/thejapanexperience">github.com/thejapanexperience</a><br/>
             <a target="_blank" href="https://twitter.com/RichardMands">twitter.com/RichardMands</a><br/>
-            <a target="_blank" href="https://www.facebook.com/richard.mands">facebook.com/richard.mands</a>
           </div>
         </div>
       </div>
@@ -96,6 +94,9 @@ class ResumeColumn extends React.Component {
           </div>
         </div>
         <div className="contentBox">
+          <div className="contentContent">
+            - Software Developer at Sage.
+          </div>
           <div className="contentContent">
             - Co-Founder / Visual Director / Developer at Cinderhouse Creative.
           </div>
@@ -131,13 +132,50 @@ class ResumeColumn extends React.Component {
       </div>
     </div>
 
+    let sage =
+    <div className="one">
+      <div className="oneInner">
+
+        <div className="titleBox">
+          <div className="titleContent">
+            <a target="_blank" href='http://www.sage.com/'>SAGE</a> | Jul ‘17 - Present
+          </div>
+        </div>
+
+        <div className="contentBox">
+          <div className="contentContent">
+            Software Developer | Newcastle, UK
+          </div>
+          <div className="contentContent">
+            Ruby, Rails, Sinatra, MySQL, RSpec, JavaScript, React, Jasmine, Git, Docker, AWS, Postmark, Jira, Scrum.
+          </div>
+          <div className="contentContent">
+            - worked with a very large codebase, adding features and fixing bugs.
+          </div>
+          <div className="contentContent">
+            - successfully developed a new email service using Postmark, Sinatra, AWS and Docker that sends millions of emails per year.
+          </div>
+          <div className="contentContent">
+            - mentored new graduate developers.
+          </div>
+          <div className="contentContent">
+            - taken a lead role in scrum meetings, delivered presentations, led communications with other departments, etc
+          </div>
+          <div className="contentContent">
+            - developed my own large-scale project on a volunteer basis with the <a target="_blank" href="http://www.sage.com/company/sage_foundation">Sage Foundation</a>.
+          </div>
+        </div>
+
+      </div>
+    </div>
+
     let cinderhouse =
     <div className="one">
       <div className="oneInner">
 
         <div className="titleBox">
           <div className="titleContent">
-            <a target="_blank" href='http://www.cinderhouse.com.au/'>CINDERHOUSE CREATIVE</a> | Oct ‘14 - Present
+            <a target="_blank" href='http://www.cinderhouse.com.au/'>CINDERHOUSE CREATIVE</a> | Oct ‘14 - Jun ‘17
           </div>
         </div>
         <div className="contentBox">
@@ -163,7 +201,7 @@ class ResumeColumn extends React.Component {
 
         <div className="titleBox">
           <div className="titleContent">
-            <a href="http://eduku.org/" target="_blank">EDUKU</a> | Aug ’15 - Present
+            <a href="http://eduku.org/" target="_blank">EDUKU</a> | Aug ’15 - Jun ‘17
           </div>
         </div>
         <div className="contentBox">
@@ -304,41 +342,51 @@ class ResumeColumn extends React.Component {
             LANGUAGES & LIBRARIES : Proficient
           </div>
         </div>
+
         <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
               HTML <br/>
               CSS <br/>
-              Javascript <br/>
+              JS <br/>
+              Docker <br/>
             </div>
           </div>
         </div>
+
         <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
               React.js <br/>
               Redux <br/>
-              Flux <br/>
-            </div>
-          </div>
-        </div>
-        <div className="twentyFiveColumn">
-          <div className="contentBox">
-            <div className="contentContent">
-              Express <br/>
-              Node.js <br/>
               Webpack <br/>
+              AWS <br/>
             </div>
           </div>
         </div>
+
         <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
+              Node.js <br/>
+              Express <br/>
               MongoDB <br/>
               Mongoose <br/>
             </div>
           </div>
         </div>
+
+        <div className="twentyFiveColumn">
+          <div className="contentBox">
+            <div className="contentContent">
+              Ruby <br/>
+              Rails <br/>
+              RSpec <br/>
+              Sinatra <br/>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -357,7 +405,8 @@ class ResumeColumn extends React.Component {
             <div className="contentContent">
               MySQL <br/>
               Firebase <br/>
-              Auth0 <br/>
+              <br/>
+              <br/>
             </div>
           </div>
         </div>
@@ -366,8 +415,7 @@ class ResumeColumn extends React.Component {
           <div className="contentBox">
             <div className="contentContent">
               Socket.IO <br/>
-              Tropo <br/>
-              Amazon AWS <br/>
+              Google APIs <br/>
             </div>
           </div>
         </div>
@@ -375,7 +423,7 @@ class ResumeColumn extends React.Component {
         <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
-              Google APIs <br/>
+              Tropo <br/>
               Watson APIs <br/>
             </div>
           </div>
@@ -384,7 +432,7 @@ class ResumeColumn extends React.Component {
         <div className="twentyFiveColumn">
           <div className="contentBox">
             <div className="contentContent">
-              React Native <br/>
+              Auth0 <br/>
               React-DnD <br/>
             </div>
           </div>
@@ -457,13 +505,15 @@ class ResumeColumn extends React.Component {
 
                 {profile}
 
-                {cinderhouse}
-
-                {eduku}
-
                 {langPro}
 
                 {langExp}
+
+                {sage}
+
+                {cinderhouse}
+
+                {eduku}
 
                 {teaching}
 
@@ -475,7 +525,7 @@ class ResumeColumn extends React.Component {
 
                 {personalInformation}
 
-                {quickNote}
+                {/* {quickNote} */}
 
 
               </div>

@@ -189,9 +189,9 @@ export default class HomePage extends React.Component {
                     place each day.
                   </div>
                   <div className="section2TextBody">
-                    I have 3 years experience coding, designing and marketing as co-founder of
-                    <a target="_blank" href="http://www.cinderhouse.com.au/"> Cinderhouse Creative</a> and
-                    in my current role as a Software Developer at <a target="_blank" href="http://www.sage.com/"> Sage</a>.
+                    I am currently working as a Software Developer at <a target="_blank" href="http://www.sage.com/"> Sage</a> and previously
+                    spent 3 years coding, designing and marketing as co-founder of
+                    <a target="_blank" href="http://www.cinderhouse.com.au/"> Cinderhouse Creative</a>.
                   </div>
                   <div className="section2TextBody">
                     Through Cinderhouse Creative, I was a co-founder / developer
@@ -217,16 +217,7 @@ export default class HomePage extends React.Component {
                   </div>
 
                   <div className="iconBox">
-                    <div className="iconBoxImageBox">
-                      <img
-                        className="iconBoxImage"
-                        src={require('../images/techIcons300/HTML5CSS3.png')}
-                        alt="HTMLCSS"
-                      />
-                    </div>
-                    <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Sass.png')} alt="Sass" />
-                    </div>
+
                     <div className="iconBoxImageBox">
                       <img className="iconBoxImage" src={require('../images/techIcons300/React.png')} alt="React" />
                     </div>
@@ -234,6 +225,27 @@ export default class HomePage extends React.Component {
                     <div className="iconBoxImageBox">
                       <img className="iconBoxImage" src={require('../images/techIcons300/Redux.png')} alt="Redux" />
                     </div>
+
+                    <div className="iconBoxImageBox">
+                      <img className="iconBoxImage" src={require('../images/techIcons300/Node.png')} alt="Node" />
+                    </div>
+
+                    <div className="iconBoxImageBox">
+                      <img className="iconBoxImage" src={require('../images/techIcons300/Express.png')} alt="Express" />
+                    </div>
+
+                    <div className="iconBoxImageBox">
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/HTML5CSS3.png')}
+                        alt="HTMLCSS"
+                      />
+                    </div>
+
+                    <div className="iconBoxImageBox">
+                      <img className="iconBoxImage" src={require('../images/techIcons300/Sass.png')} alt="Sass" />
+                    </div>
+
                     <div className="iconBoxImageBox">
                       <img
                         className="iconBoxImage"
@@ -241,6 +253,7 @@ export default class HomePage extends React.Component {
                         alt="SocketIO"
                       />
                     </div>
+
                     <div className="iconBoxImageBox">
                       <img
                         className="iconBoxImageSmall"
@@ -248,9 +261,7 @@ export default class HomePage extends React.Component {
                         alt="Amazon"
                       />
                     </div>
-                    <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Express.png')} alt="Express" />
-                    </div>
+
                     <div className="iconBoxImageBox">
                       <img
                         className="iconBoxImage"
@@ -258,6 +269,7 @@ export default class HomePage extends React.Component {
                         alt="Firebase"
                       />
                     </div>
+                    
                     <div className="iconBoxImageBox">
                       <img className="iconBoxImage" src={require('../images/techIcons300/Flux2.png')} alt="Flux2" />
                     </div>
@@ -271,10 +283,22 @@ export default class HomePage extends React.Component {
                       <img className="iconBoxImage" src={require('../images/techIcons300/Mongo.png')} alt="Mongo" />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Node.png')} alt="Node" />
+                      <img className="iconBoxImage" src={require('../images/techIcons300/webpack.png')} alt="Webpack" />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/webpack.png')} alt="Webpack" />
+                      <img className="iconBoxImage" src={require('../images/docker.png')} alt="docker" />
+                    </div>
+                    <div className="iconBoxImageBox">
+                      <img className="iconBoxImage" src={require('../images/tropo.png')} alt="tropo" />
+                    </div>
+                    <div className="iconBoxImageBox">
+                      <img className="iconBoxImage" src={require('../images/ruby.png')} alt="ruby" />
+                    </div>
+                    <div className="iconBoxImageBox">
+                      <img className="iconBoxImage" src={require('../images/rails.png')} alt="rails" />
+                    </div>
+                    <div className="iconBoxImageBox">
+                      <img className="iconBoxImage" src={require('../images/rspec.png')} alt="rspec" />
                     </div>
                     <div className="iconBoxImageBox">
                       <img
@@ -282,6 +306,15 @@ export default class HomePage extends React.Component {
                         src={require('../images/techIcons300/chaijs-mocha.png')}
                         alt="MochaChaijs"
                       />
+                    </div>
+                    <div className="iconBoxImageBox">
+                      <img className="iconBoxImage" src={require('../images/mysql.png')} alt="mysql" />
+                    </div>
+                    <div className="iconBoxImageBox">
+                      <img className="iconBoxImage" src={require('../images/jira.png')} alt="jira" />
+                    </div>
+                    <div className="iconBoxImageBox">
+                      <img className="iconBoxImage" src={require('../images/git.png')} alt="git" />
                     </div>
                     <div className="iconBoxImageBox">
                       <img className="iconBoxImage" src={require('../images/techIcons300/github.png')} alt="github" />

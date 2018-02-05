@@ -1204,7 +1204,7 @@ hr {
   padding-top: 0;
   position: inherit;
   opacity: 1;
-  @extend .transition3;
+  // @extend .transition3;
 }
 
 .section7Image {
@@ -1226,7 +1226,7 @@ hr {
   }
   position: inherit;
   opacity: 1;
-  @extend .transition3;
+  // @extend .transition3;
 }
 .section7YoutubeBox {
   @extend .flex;
@@ -1465,6 +1465,7 @@ hr {
   padding-bottom: 10px;
 }
 .contentContent {
+  width: 100%;
   color: $color1;
   padding: 2px;
   @extend .font2;

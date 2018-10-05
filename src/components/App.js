@@ -1,22 +1,22 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-// import { Link, IndexLink } from 'react-router';
+import { render } from 'react-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import '../styles/styles.scss';
+import HomePage from './HomePage';
+import NotFoundPage from './NotFoundPage';
 
-// This is a class-based component because the current
-// version of hot reloading won't hot reload a stateless
-// component at the top-level.
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        {this.props.children}
+const App = () => {
+  console.log('App');
+  return (
+    <BrowserRouter>
+      <div className="app">
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route component={NotFoundPage} />
+        </Switch>
       </div>
-    );
-  }
-}
-
-App.propTypes = {
-  children: PropTypes.element
+    </BrowserRouter>
+  );
 };
 
-export default App;
+render(<App />, document.getElementById('app'));

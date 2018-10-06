@@ -26641,7 +26641,7 @@ var _withRouter2 = _interopRequireDefault(require("./withRouter"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 },{"./BrowserRouter":"node_modules/react-router-dom/es/BrowserRouter.js","./HashRouter":"node_modules/react-router-dom/es/HashRouter.js","./Link":"node_modules/react-router-dom/es/Link.js","./MemoryRouter":"node_modules/react-router-dom/es/MemoryRouter.js","./NavLink":"node_modules/react-router-dom/es/NavLink.js","./Prompt":"node_modules/react-router-dom/es/Prompt.js","./Redirect":"node_modules/react-router-dom/es/Redirect.js","./Route":"node_modules/react-router-dom/es/Route.js","./Router":"node_modules/react-router-dom/es/Router.js","./StaticRouter":"node_modules/react-router-dom/es/StaticRouter.js","./Switch":"node_modules/react-router-dom/es/Switch.js","./generatePath":"node_modules/react-router-dom/es/generatePath.js","./matchPath":"node_modules/react-router-dom/es/matchPath.js","./withRouter":"node_modules/react-router-dom/es/withRouter.js"}],"src/images/RichardBWSquare900.jpg":[function(require,module,exports) {
 module.exports = "/RichardBWSquare900.a01f22c3.jpg";
-},{}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -26673,7 +26673,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -26708,12 +26708,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/styles/styles.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/styles.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../images/richardCollageWide01.jpg":[["richardCollageWide01.02d72318.jpg","src/images/richardCollageWide01.jpg"],"src/images/richardCollageWide01.jpg"],"./../images/RichardBWSquare900.jpg":[["RichardBWSquare900.a01f22c3.jpg","src/images/RichardBWSquare900.jpg"],"src/images/RichardBWSquare900.jpg"],"./../images/RichardBW900.jpg":[["RichardBW900.ef38a60f.jpg","src/images/RichardBW900.jpg"],"src/images/RichardBW900.jpg"],"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
+},{"./images/RichardBWSquare900.jpg":[["RichardBWSquare900.a01f22c3.jpg","src/images/RichardBWSquare900.jpg"],"src/images/RichardBWSquare900.jpg"],"./images/RichardBW900.jpg":[["RichardBW900.ef38a60f.jpg","src/images/RichardBW900.jpg"],"src/images/RichardBW900.jpg"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -37292,7 +37292,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":"../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"node_modules/react-redux/es/utils/PropTypes.js":[function(require,module,exports) {
+},{"process":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"node_modules/react-redux/es/utils/PropTypes.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -40499,7 +40499,7 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-},{"./utils":"node_modules/axios/lib/utils.js","./helpers/normalizeHeaderName":"node_modules/axios/lib/helpers/normalizeHeaderName.js","./adapters/xhr":"node_modules/axios/lib/adapters/xhr.js","./adapters/http":"node_modules/axios/lib/adapters/xhr.js","process":"../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"node_modules/axios/lib/core/InterceptorManager.js":[function(require,module,exports) {
+},{"./utils":"node_modules/axios/lib/utils.js","./helpers/normalizeHeaderName":"node_modules/axios/lib/helpers/normalizeHeaderName.js","./adapters/xhr":"node_modules/axios/lib/adapters/xhr.js","./adapters/http":"node_modules/axios/lib/adapters/xhr.js","process":"../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"node_modules/axios/lib/core/InterceptorManager.js":[function(require,module,exports) {
 'use strict';
 
 var utils = require('./../utils');
@@ -40948,7 +40948,7 @@ module.exports.default = axios;
 
 },{"./utils":"node_modules/axios/lib/utils.js","./helpers/bind":"node_modules/axios/lib/helpers/bind.js","./core/Axios":"node_modules/axios/lib/core/Axios.js","./defaults":"node_modules/axios/lib/defaults.js","./cancel/Cancel":"node_modules/axios/lib/cancel/Cancel.js","./cancel/CancelToken":"node_modules/axios/lib/cancel/CancelToken.js","./cancel/isCancel":"node_modules/axios/lib/cancel/isCancel.js","./helpers/spread":"node_modules/axios/lib/helpers/spread.js"}],"node_modules/axios/index.js":[function(require,module,exports) {
 module.exports = require('./lib/axios');
-},{"./lib/axios":"node_modules/axios/lib/axios.js"}],"src/components/miniProject01/UserCard.js":[function(require,module,exports) {
+},{"./lib/axios":"node_modules/axios/lib/axios.js"}],"src/Components/miniProject01/UserCard.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41042,7 +41042,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 var _default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(UserCard);
 
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-redux":"node_modules/react-redux/es/index.js"}],"src/components/miniProject01/AllPurposeApp.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-redux":"node_modules/react-redux/es/index.js"}],"src/Components/miniProject01/AllPurposeApp.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41211,7 +41211,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 var _default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(AllPurposeApp);
 
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-redux":"node_modules/react-redux/es/index.js","axios":"node_modules/axios/index.js","./UserCard":"src/components/miniProject01/UserCard.js"}],"src/images/techIcons300/Javascript.png":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-redux":"node_modules/react-redux/es/index.js","axios":"node_modules/axios/index.js","./UserCard":"src/Components/miniProject01/UserCard.js"}],"src/images/techIcons300/Javascript.png":[function(require,module,exports) {
 module.exports = "/Javascript.727291b9.png";
 },{}],"src/images/techIcons300/HTML5CSS3.png":[function(require,module,exports) {
 module.exports = "/HTML5CSS3.08dc33d1.png";
@@ -41225,7 +41225,7 @@ module.exports = "/Express.8f72ac4e.png";
 module.exports = "/Node.d8658c1f.png";
 },{}],"src/images/techIcons300/webpack.png":[function(require,module,exports) {
 module.exports = "/webpack.2489a014.png";
-},{}],"src/components/miniProject01/MiniProject.js":[function(require,module,exports) {
+},{}],"src/Components/miniProject01/MiniProject.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41348,9 +41348,9 @@ function (_React$Component) {
 ;
 var _default = MiniProject;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./AllPurposeApp":"src/components/miniProject01/AllPurposeApp.js","../../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../../images/techIcons300/React.png":"src/images/techIcons300/React.png","../../images/techIcons300/Express.png":"src/images/techIcons300/Express.png","../../images/techIcons300/Node.png":"src/images/techIcons300/Node.png","../../images/techIcons300/webpack.png":"src/images/techIcons300/webpack.png"}],"src/images/github.png":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./AllPurposeApp":"src/Components/miniProject01/AllPurposeApp.js","../../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../../images/techIcons300/React.png":"src/images/techIcons300/React.png","../../images/techIcons300/Express.png":"src/images/techIcons300/Express.png","../../images/techIcons300/Node.png":"src/images/techIcons300/Node.png","../../images/techIcons300/webpack.png":"src/images/techIcons300/webpack.png"}],"src/images/github.png":[function(require,module,exports) {
 module.exports = "/github.c6a36f36.png";
-},{}],"src/components/MiniProjects.js":[function(require,module,exports) {
+},{}],"src/Components/MiniProjects.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41464,7 +41464,7 @@ module.exports = "/Firebase.bf49bc97.png";
 module.exports = "/Flux2.ee4a67c9.png";
 },{}],"src/images/techIcons300/Mongo.png":[function(require,module,exports) {
 module.exports = "/Mongo.065c257c.png";
-},{}],"src/components/PortfolioItem.js":[function(require,module,exports) {
+},{}],"src/Components/PortfolioItem.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41552,6 +41552,7 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
+      console.log('PortfolioItem');
       var _this$props = this.props,
           data = _this$props.data,
           imageIndex = _this$props.imageIndex,
@@ -41565,7 +41566,7 @@ function (_React$Component) {
           if (i === 1) {
             return _react.default.createElement("span", {
               key: i
-            }, " | ", _react.default.createElement("a", {
+            }, ' ', "|", ' ', _react.default.createElement("a", {
               href: url + lnk,
               target: "_blank"
             }, "github"));
@@ -41574,7 +41575,7 @@ function (_React$Component) {
           if (i === 2) {
             return _react.default.createElement("span", {
               key: i
-            }, " | ", _react.default.createElement("a", {
+            }, ' ', "|", ' ', _react.default.createElement("a", {
               href: url + lnk,
               target: "_blank"
             }, "youtube"));
@@ -41583,7 +41584,7 @@ function (_React$Component) {
           if (i === 3) {
             return _react.default.createElement("span", {
               key: i
-            }, " | ", _react.default.createElement("a", {
+            }, ' ', "|", ' ', _react.default.createElement("a", {
               href: url + lnk,
               target: "_blank"
             }, "twitter"));
@@ -41599,7 +41600,7 @@ function (_React$Component) {
       } else {
         links = _react.default.createElement("span", {
           key: "noLinks"
-        }, " | ", _react.default.createElement("a", {
+        }, ' ', "|", ' ', _react.default.createElement("a", {
           href: "#",
           target: "_blank"
         }, "nothingYet"));
@@ -41617,6 +41618,7 @@ function (_React$Component) {
 
       if (data.image && data.link) {
         var image = data.image[imageIndex];
+        console.log(image);
         media = _react.default.createElement("div", {
           className: "portfolioImageBox"
         }, _react.default.createElement("div", {
@@ -41628,7 +41630,7 @@ function (_React$Component) {
         }, _react.default.createElement("img", {
           id: "youtubeBox",
           className: "iframeHidden",
-          src: require("../images/".concat(image))
+          src: require("../images/".concat(image)).then
         }))));
       }
 
@@ -41636,7 +41638,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/Javascript.png"),
+        src: require('../images/techIcons300/Javascript.png'),
         alt: "Javascript"
       }));
 
@@ -41644,7 +41646,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/HTML5CSS3.png"),
+        src: require('../images/techIcons300/HTML5CSS3.png'),
         alt: "HTMLCSS"
       }));
 
@@ -41652,7 +41654,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/Sass.png"),
+        src: require('../images/techIcons300/Sass.png'),
         alt: "Sass"
       }));
 
@@ -41660,7 +41662,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/React.png"),
+        src: require('../images/techIcons300/React.png'),
         alt: "React"
       }));
 
@@ -41668,7 +41670,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/Express.png"),
+        src: require('../images/techIcons300/Express.png'),
         alt: "Express"
       }));
 
@@ -41676,7 +41678,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/Node.png"),
+        src: require('../images/techIcons300/Node.png'),
         alt: "Node"
       }));
 
@@ -41684,7 +41686,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/webpack.png"),
+        src: require('../images/techIcons300/webpack.png'),
         alt: "Webpack"
       }));
 
@@ -41692,7 +41694,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/Redux.png"),
+        src: require('../images/techIcons300/Redux.png'),
         alt: "Redux"
       }));
 
@@ -41700,7 +41702,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/SocketIO.png"),
+        src: require('../images/techIcons300/SocketIO.png'),
         alt: "SocketIO"
       }));
 
@@ -41708,7 +41710,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/Firebase.png"),
+        src: require('../images/techIcons300/Firebase.png'),
         alt: "Firebase"
       }));
 
@@ -41716,7 +41718,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/Flux2.png"),
+        src: require('../images/techIcons300/Flux2.png'),
         alt: "Flux2"
       }));
 
@@ -41724,7 +41726,7 @@ function (_React$Component) {
         className: "iconBoxImageBoxPortfolio"
       }, _react.default.createElement("img", {
         className: "iconBoxImage",
-        src: require("../images/techIcons300/Mongo.png"),
+        src: require('../images/techIcons300/Mongo.png'),
         alt: "Mongo"
       }));
 
@@ -41804,7 +41806,7 @@ PortfolioItem.propTypes = {// children: PropTypes.element
 };
 var _default = PortfolioItem;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./miniProject01/MiniProject":"src/components/miniProject01/MiniProject.js","./MiniProjects":"src/components/MiniProjects.js","../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../images/techIcons300/React.png":"src/images/techIcons300/React.png","../images/techIcons300/Express.png":"src/images/techIcons300/Express.png","../images/techIcons300/Node.png":"src/images/techIcons300/Node.png","../images/techIcons300/webpack.png":"src/images/techIcons300/webpack.png","../images/techIcons300/Redux.png":"src/images/techIcons300/Redux.png","../images/techIcons300/SocketIO.png":"src/images/techIcons300/SocketIO.png","../images/techIcons300/Firebase.png":"src/images/techIcons300/Firebase.png","../images/techIcons300/Flux2.png":"src/images/techIcons300/Flux2.png","../images/techIcons300/Mongo.png":"src/images/techIcons300/Mongo.png"}],"src/components/PortfolioBox.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./miniProject01/MiniProject":"src/Components/miniProject01/MiniProject.js","./MiniProjects":"src/Components/MiniProjects.js","../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../images/techIcons300/React.png":"src/images/techIcons300/React.png","../images/techIcons300/Express.png":"src/images/techIcons300/Express.png","../images/techIcons300/Node.png":"src/images/techIcons300/Node.png","../images/techIcons300/webpack.png":"src/images/techIcons300/webpack.png","../images/techIcons300/Redux.png":"src/images/techIcons300/Redux.png","../images/techIcons300/SocketIO.png":"src/images/techIcons300/SocketIO.png","../images/techIcons300/Firebase.png":"src/images/techIcons300/Firebase.png","../images/techIcons300/Flux2.png":"src/images/techIcons300/Flux2.png","../images/techIcons300/Mongo.png":"src/images/techIcons300/Mongo.png"}],"src/Components/PortfolioBox.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41994,7 +41996,7 @@ function (_React$Component) {
 
 
 exports.default = PortfolioBox;
-},{"react":"node_modules/react/index.js","./PortfolioItem":"src/components/PortfolioItem.js"}],"src/components/Resume.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./PortfolioItem":"src/Components/PortfolioItem.js"}],"src/Components/Resume.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -42520,7 +42522,7 @@ function (_React$Component) {
 
 var _default = Resume;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../images/RichardBWSquare900.jpg":"src/images/RichardBWSquare900.jpg"}],"src/components/ResumeColumn.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../images/RichardBWSquare900.jpg":"src/images/RichardBWSquare900.jpg"}],"src/Components/ResumeColumn.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43021,7 +43023,7 @@ var _default = ResumeColumn;
 exports.default = _default;
 },{"react":"node_modules/react/index.js","../images/RichardBWSquare900.jpg":"src/images/RichardBWSquare900.jpg"}],"src/images/richardCollageWide02.jpg":[function(require,module,exports) {
 module.exports = "/richardCollageWide02.c952cbd4.jpg";
-},{}],"src/components/OtherSkills.js":[function(require,module,exports) {
+},{}],"src/Components/OtherSkills.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43281,7 +43283,7 @@ module.exports = "/jira.10c42969.png";
 module.exports = "/git.02818f98.png";
 },{}],"src/images/techIcons300/github.png":[function(require,module,exports) {
 module.exports = "/github.cfcf2f91.png";
-},{}],"src/components/HomePage.js":[function(require,module,exports) {
+},{}],"src/Components/HomePage.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43342,7 +43344,6 @@ function (_React$Component) {
     };
     _this.resumeColumnClick = _this.resumeColumnClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));
     _this.resumeClick = _this.resumeClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.herokuLaunch = _this.herokuLaunch.bind(_assertThisInitialized(_assertThisInitialized(_this)));
     return _this;
   }
 
@@ -43421,25 +43422,9 @@ function (_React$Component) {
       }
     }
   }, {
-    key: "herokuLaunch",
-    value: function herokuLaunch() {
-      _axios.default.get('/api/heroku/entable').then(function () {
-        console.log('entable loading');
-      }).catch(function () {
-        console.log('entable pinged');
-      });
-
-      _axios.default.get('/api/heroku/theFastLife').then(function () {
-        console.log('thefastlife loading');
-      }).catch(function () {
-        console.log('thefastlife pinged');
-      });
-    }
-  }, {
     key: "render",
     value: function render() {
-      console.log('HomePage'); // this.herokuLaunch();
-
+      console.log('HomePage');
       return _react.default.createElement("div", null, _react.default.createElement("div", {
         className: "imageCache"
       }), _react.default.createElement("div", {
@@ -43683,7 +43668,7 @@ function (_React$Component) {
         className: "section3Box",
         id: "section3Box",
         ref: "section3Box"
-      }), _react.default.createElement("div", {
+      }, _react.default.createElement(_PortfolioBox.default, null)), _react.default.createElement("div", {
         className: "section6Box"
       }, _react.default.createElement("div", {
         className: "section6"
@@ -43789,7 +43774,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 exports.default = HomePage;
-},{"react":"node_modules/react/index.js","jquery":"node_modules/jquery/dist/jquery.js","./PortfolioBox":"src/components/PortfolioBox.js","./Resume":"src/components/Resume.js","./ResumeColumn":"src/components/ResumeColumn.js","./OtherSkills":"src/components/OtherSkills.js","axios":"node_modules/axios/index.js","../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../images/techIcons300/React.png":"src/images/techIcons300/React.png","../images/techIcons300/Redux.png":"src/images/techIcons300/Redux.png","../images/techIcons300/Node.png":"src/images/techIcons300/Node.png","../images/techIcons300/Express.png":"src/images/techIcons300/Express.png","../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../images/techIcons300/SocketIO.png":"src/images/techIcons300/SocketIO.png","../images/techIcons300/Amazon.png":"src/images/techIcons300/Amazon.png","../images/techIcons300/Firebase.png":"src/images/techIcons300/Firebase.png","../images/techIcons300/Flux2.png":"src/images/techIcons300/Flux2.png","../images/techIcons300/Google.png":"src/images/techIcons300/Google.png","../images/techIcons300/jQuery.png":"src/images/techIcons300/jQuery.png","../images/techIcons300/Mongo.png":"src/images/techIcons300/Mongo.png","../images/techIcons300/webpack.png":"src/images/techIcons300/webpack.png","../images/docker.png":"src/images/docker.png","../images/tropo.png":"src/images/tropo.png","../images/ruby.png":"src/images/ruby.png","../images/rails.png":"src/images/rails.png","../images/rspec.png":"src/images/rspec.png","../images/techIcons300/chaijs-mocha.png":"src/images/techIcons300/chaijs-mocha.png","../images/mysql.png":"src/images/mysql.png","../images/jira.png":"src/images/jira.png","../images/git.png":"src/images/git.png","../images/techIcons300/github.png":"src/images/techIcons300/github.png"}],"node_modules/react-router/es/index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","jquery":"node_modules/jquery/dist/jquery.js","./PortfolioBox":"src/Components/PortfolioBox.js","./Resume":"src/Components/Resume.js","./ResumeColumn":"src/Components/ResumeColumn.js","./OtherSkills":"src/Components/OtherSkills.js","axios":"node_modules/axios/index.js","../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../images/techIcons300/React.png":"src/images/techIcons300/React.png","../images/techIcons300/Redux.png":"src/images/techIcons300/Redux.png","../images/techIcons300/Node.png":"src/images/techIcons300/Node.png","../images/techIcons300/Express.png":"src/images/techIcons300/Express.png","../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../images/techIcons300/SocketIO.png":"src/images/techIcons300/SocketIO.png","../images/techIcons300/Amazon.png":"src/images/techIcons300/Amazon.png","../images/techIcons300/Firebase.png":"src/images/techIcons300/Firebase.png","../images/techIcons300/Flux2.png":"src/images/techIcons300/Flux2.png","../images/techIcons300/Google.png":"src/images/techIcons300/Google.png","../images/techIcons300/jQuery.png":"src/images/techIcons300/jQuery.png","../images/techIcons300/Mongo.png":"src/images/techIcons300/Mongo.png","../images/techIcons300/webpack.png":"src/images/techIcons300/webpack.png","../images/docker.png":"src/images/docker.png","../images/tropo.png":"src/images/tropo.png","../images/ruby.png":"src/images/ruby.png","../images/rails.png":"src/images/rails.png","../images/rspec.png":"src/images/rspec.png","../images/techIcons300/chaijs-mocha.png":"src/images/techIcons300/chaijs-mocha.png","../images/mysql.png":"src/images/mysql.png","../images/jira.png":"src/images/jira.png","../images/git.png":"src/images/git.png","../images/techIcons300/github.png":"src/images/techIcons300/github.png"}],"node_modules/react-router/es/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43877,7 +43862,7 @@ var _matchPath2 = _interopRequireDefault(require("./matchPath"));
 var _withRouter2 = _interopRequireDefault(require("./withRouter"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./MemoryRouter":"node_modules/react-router/es/MemoryRouter.js","./Prompt":"node_modules/react-router/es/Prompt.js","./Redirect":"node_modules/react-router/es/Redirect.js","./Route":"node_modules/react-router/es/Route.js","./Router":"node_modules/react-router/es/Router.js","./StaticRouter":"node_modules/react-router/es/StaticRouter.js","./Switch":"node_modules/react-router/es/Switch.js","./generatePath":"node_modules/react-router/es/generatePath.js","./matchPath":"node_modules/react-router/es/matchPath.js","./withRouter":"node_modules/react-router/es/withRouter.js"}],"src/components/NotFoundPage.js":[function(require,module,exports) {
+},{"./MemoryRouter":"node_modules/react-router/es/MemoryRouter.js","./Prompt":"node_modules/react-router/es/Prompt.js","./Redirect":"node_modules/react-router/es/Redirect.js","./Route":"node_modules/react-router/es/Route.js","./Router":"node_modules/react-router/es/Router.js","./StaticRouter":"node_modules/react-router/es/StaticRouter.js","./Switch":"node_modules/react-router/es/Switch.js","./generatePath":"node_modules/react-router/es/generatePath.js","./matchPath":"node_modules/react-router/es/matchPath.js","./withRouter":"node_modules/react-router/es/withRouter.js"}],"src/Components/NotFoundPage.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43899,7 +43884,7 @@ var NotFoundPage = function NotFoundPage() {
 
 var _default = NotFoundPage;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-router":"node_modules/react-router/es/index.js"}],"src/components/App.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-router":"node_modules/react-router/es/index.js"}],"src/App.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -43908,11 +43893,11 @@ var _reactDom = require("react-dom");
 
 var _reactRouterDom = require("react-router-dom");
 
-require("../styles/styles.scss");
+require("./styles.scss");
 
-var _HomePage = _interopRequireDefault(require("./HomePage"));
+var _HomePage = _interopRequireDefault(require("./Components/HomePage"));
 
-var _NotFoundPage = _interopRequireDefault(require("./NotFoundPage"));
+var _NotFoundPage = _interopRequireDefault(require("./Components/NotFoundPage"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -43930,7 +43915,7 @@ var App = function App() {
 };
 
 (0, _reactDom.render)(_react.default.createElement(App, null), document.getElementById('app'));
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-router-dom":"node_modules/react-router-dom/es/index.js","../styles/styles.scss":"src/styles/styles.scss","./HomePage":"src/components/HomePage.js","./NotFoundPage":"src/components/NotFoundPage.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-router-dom":"node_modules/react-router-dom/es/index.js","./styles.scss":"src/styles.scss","./Components/HomePage":"src/Components/HomePage.js","./Components/NotFoundPage":"src/Components/NotFoundPage.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -43957,7 +43942,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53066" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53419" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -44099,5 +44084,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/components/App.js"], null)
-//# sourceMappingURL=/App.e8432ba2.map
+},{}]},{},["../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/App.js"], null)
+//# sourceMappingURL=/App.f684dadd.map

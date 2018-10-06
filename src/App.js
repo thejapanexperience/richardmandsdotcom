@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import '../styles/styles.scss';
-import HomePage from './HomePage';
-import NotFoundPage from './NotFoundPage';
+import './styles.scss';
+import HomePage from './Components/HomePage';
+import NotFoundPage from './Components/NotFoundPage';
 
 const App = () => {
   console.log('App');

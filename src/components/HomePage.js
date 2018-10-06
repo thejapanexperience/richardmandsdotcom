@@ -18,7 +18,6 @@ export default class HomePage extends React.Component {
 
     this.resumeColumnClick = this.resumeColumnClick.bind(this);
     this.resumeClick = this.resumeClick.bind(this);
-    this.herokuLaunch = this.herokuLaunch.bind(this);
   }
 
   componentDidMount() {
@@ -97,28 +96,8 @@ export default class HomePage extends React.Component {
     }
   }
 
-  herokuLaunch() {
-    axios
-      .get('/api/heroku/entable')
-      .then(() => {
-        console.log('entable loading');
-      })
-      .catch(() => {
-        console.log('entable pinged');
-      });
-    axios
-      .get('/api/heroku/theFastLife')
-      .then(() => {
-        console.log('thefastlife loading');
-      })
-      .catch(() => {
-        console.log('thefastlife pinged');
-      });
-  }
-
   render() {
     console.log('HomePage');
-    // this.herokuLaunch();
 
     return (
       <div>
@@ -436,7 +415,7 @@ export default class HomePage extends React.Component {
           </div>
 
           <div className="section3Box" id="section3Box" ref="section3Box">
-            {/* <PortfolioBox /> */}
+            <PortfolioBox />
           </div>
 
           {/* <div className="section4Box">

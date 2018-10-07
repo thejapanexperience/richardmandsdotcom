@@ -1,13 +1,10 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import PortfolioBox from './PortfolioBox';
 import Resume from './Resume';
 import ResumeColumn from './ResumeColumn';
 import OtherSkills from './OtherSkills';
 import axios from 'axios';
-
-// import {Link} from 'react-router';
 
 export default class HomePage extends React.Component {
   constructor() {
@@ -21,7 +18,6 @@ export default class HomePage extends React.Component {
 
     this.resumeColumnClick = this.resumeColumnClick.bind(this);
     this.resumeClick = this.resumeClick.bind(this);
-    this.herokuLaunch = this.herokuLaunch.bind(this);
   }
 
   componentDidMount() {
@@ -56,7 +52,8 @@ export default class HomePage extends React.Component {
     e.preventDefault();
     if (!this.state.showResume) {
       document.getElementById('resumeColumn').className = 'resumeBox';
-      document.getElementById('resumeColumnButton').className = 'tabBarTabResume';
+      document.getElementById('resumeColumnButton').className =
+        'tabBarTabResume';
       document.getElementById('resumeButton').className = 'tabBarTabResume';
       this.setState({
         showResume: true,
@@ -64,8 +61,10 @@ export default class HomePage extends React.Component {
       });
     } else {
       document.getElementById('resumeColumn').className = 'resumeBoxHide';
-      document.getElementById('resumeColumnButton').className = 'tabBarTabActiveResume';
-      document.getElementById('resumeButton').className = 'tabBarTabActiveResume';
+      document.getElementById('resumeColumnButton').className =
+        'tabBarTabActiveResume';
+      document.getElementById('resumeButton').className =
+        'tabBarTabActiveResume';
       this.setState({
         showResume: false,
         buttonText: this.state.buttonText1
@@ -78,15 +77,18 @@ export default class HomePage extends React.Component {
     if (!this.state.showResume) {
       document.getElementById('resume').className = 'resumeBox';
       document.getElementById('resumeButton').className = 'tabBarTabResume';
-      document.getElementById('resumeColumnButton').className = 'tabBarTabResume';
+      document.getElementById('resumeColumnButton').className =
+        'tabBarTabResume';
       this.setState({
         showResume: true,
         buttonText: this.state.buttonText2
       });
     } else {
       document.getElementById('resume').className = 'resumeBoxHide';
-      document.getElementById('resumeButton').className = 'tabBarTabActiveResume';
-      document.getElementById('resumeColumnButton').className = 'tabBarTabActiveResume';
+      document.getElementById('resumeButton').className =
+        'tabBarTabActiveResume';
+      document.getElementById('resumeColumnButton').className =
+        'tabBarTabActiveResume';
       this.setState({
         showResume: false,
         buttonText: this.state.buttonText1
@@ -94,36 +96,17 @@ export default class HomePage extends React.Component {
     }
   }
 
-  herokuLaunch() {
-    axios
-      .get('/api/heroku/entable')
-      .then(() => {
-        console.log('entable loading');
-      })
-      .catch(() => {
-        console.log('entable pinged');
-      });
-    axios
-      .get('/api/heroku/theFastLife')
-      .then(() => {
-        console.log('thefastlife loading');
-      })
-      .catch(() => {
-        console.log('thefastlife pinged');
-      });
-  }
-
   render() {
-    this.herokuLaunch();
+    console.log('HomePage');
 
     return (
       <div>
         {/* <div className="backgroundImage" /> */}
         <div className="imageCache">
-          <img src={require('../images/Entable.png')} alt="Entable" />
-          <img src={require('../images/eduku.png')} alt="Eduku" />
+          {/* <img src={'../images/Entable.png'} alt="Entable" /> */}
+          {/* <img src={require('../images/eduku.png')} alt="Eduku" />
           <img src={require('../images/richardmandsdotcom.png')} alt="richardmands.com" />
-          <img src={require('../images/theFastLife.png')} alt="The Fast Life" />
+          <img src={require('../images/theFastLife.png')} alt="The Fast Life" /> */}
         </div>
         <div className="mainContainer" ref="mainContainer">
           <div className="navPadding" id="section0Box" />
@@ -139,32 +122,40 @@ export default class HomePage extends React.Component {
 
           <div className="section1Box" id="section1Box">
             <div className="section1">
-              <div className="section1Image">
+              {/* <div className="section1Image">
                 <img
                   className="section1BoxImage"
                   src={require('../images/RichardColorVertical900.jpg')}
                   alt="richardmands"
                 />
-              </div>
+              </div> */}
               <div className="flexText">
                 <div className="section1Text1">Richard Mands</div>
                 <div className="section1Text2">Full-Stack Developer</div>
-                </div>
+              </div>
               <div className="section1Text3Box">
-                <a className="section1Text3" target="_blank" href="https://github.com/thejapanexperience">
-                <i className="fa fa-github fa-lg" />
-                </a>
-                <span className="section1Text3"> | </span>
-                <a className="section1Text3" target="_blank" href="https://twitter.com/RichardMands">
-                <i className="fa fa-twitter fa-lg" />
+                <a
+                  className="section1Text3"
+                  target="_blank"
+                  href="https://github.com/thejapanexperience"
+                >
+                  <i className="fa fa-github fa-lg" />
                 </a>
                 <span className="section1Text3"> | </span>
                 <a
-                className="section1Text3"
-                target="_blank"
-                href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"
+                  className="section1Text3"
+                  target="_blank"
+                  href="https://twitter.com/RichardMands"
                 >
-                <i className="fa fa-linkedin fa-lg" />
+                  <i className="fa fa-twitter fa-lg" />
+                </a>
+                <span className="section1Text3"> | </span>
+                <a
+                  className="section1Text3"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"
+                >
+                  <i className="fa fa-linkedin fa-lg" />
                 </a>
                 {/* <span className="section1Text3"> | </span>
                 <a className="section1Text3" target="_blank" href="https://medium.com/@RichardMands"><i className="fa fa-medium fa-lg" /></a> */}
@@ -175,33 +166,56 @@ export default class HomePage extends React.Component {
           <div className="section2Box" id="section2Box">
             <div className="section2">
               <div className="section2Text">
-                <span className="section2TextTitle">Please allow me to introduce myself...</span>
+                <span className="section2TextTitle">
+                  Please allow me to introduce myself...
+                </span>
                 <div className="section2TextBodyBox">
                   {/* {bioFull} */}
                   <div className="section2TextBody">
-                    I'm a full-stack developer with primary experience in JavaScript and Ruby. I'm proficient with
-                    a JS stack based around React, Redux, Flux, Node, Express, MongoDB, Mongoose, and Webpack.
-                    I have also worked extensively with Ruby (Rails / Sinatra) and have experience of technologies such as Socket.io, DynamoDB, Firebase, Google APIs and others.
+                    I'm a full-stack developer with primary experience in
+                    JavaScript and Ruby. I'm proficient with a JS stack based
+                    around React, Redux, Flux, Node, Express, MongoDB, Mongoose,
+                    and Webpack. I have also worked extensively with Ruby (Rails
+                    / Sinatra) and have experience of technologies such as
+                    Socket.io, DynamoDB, Firebase, Google APIs and others.
                   </div>
                   <div className="section2TextBody">
-                    A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a
-                    real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better
-                    place each day.
+                    A quick study who has learned how to learn, I adapt easily
+                    to new technologies and bring with me a real passion for
+                    what I do, a fierce work-ethic and an honest desire to leave
+                    the world a better place each day.
                   </div>
                   <div className="section2TextBody">
-                    I am currently working as a Software Developer at <a target="_blank" href="http://www.sage.com/"> Sage</a> and previously
-                    spent 3 years coding, designing and marketing as co-founder of
-                    <a target="_blank" href="http://www.cinderhouse.com.au/"> Cinderhouse Creative</a>.
+                    I am currently working as a Software Developer at{' '}
+                    <a target="_blank" href="http://www.sage.com/">
+                      {' '}
+                      Sage
+                    </a>{' '}
+                    and previously spent 3 years coding, designing and marketing
+                    as co-founder of
+                    <a target="_blank" href="http://www.cinderhouse.com.au/">
+                      {' '}
+                      Cinderhouse Creative
+                    </a>
+                    .
                   </div>
                   <div className="section2TextBody">
                     Through Cinderhouse Creative, I was a co-founder / developer
-                    of <a target="_blank" href="http://www.eduku.org/">Eduku</a>, a social enterprise (self-funded charity), that aimed to raise funds for those lacking
-                    educational opportunities in low-income countries via an online learning platform.
+                    of{' '}
+                    <a target="_blank" href="http://www.eduku.org/">
+                      Eduku
+                    </a>
+                    , a social enterprise (self-funded charity), that aimed to
+                    raise funds for those lacking educational opportunities in
+                    low-income countries via an online learning platform.
                   </div>
                   <div className="section2TextBody">
-                    I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in
-                    San Francisco in October 2016 for creating Entable (an sms-based online banking platform aimed
-                    specifically at supporting women in low-income countries by offering wider access to microfinance).
+                    I was also part of the team that won Cisco's first prize at
+                    AngelHack's Lady Problems hackathon in San Francisco in
+                    October 2016 for creating Entable (an sms-based online
+                    banking platform aimed specifically at supporting women in
+                    low-income countries by offering wider access to
+                    microfinance).
                   </div>
                 </div>
 
@@ -217,21 +231,36 @@ export default class HomePage extends React.Component {
                   </div>
 
                   <div className="iconBox">
-
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/React.png')} alt="React" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/React.png')}
+                        alt="React"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Redux.png')} alt="Redux" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Redux.png')}
+                        alt="Redux"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Node.png')} alt="Node" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Node.png')}
+                        alt="Node"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Express.png')} alt="Express" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Express.png')}
+                        alt="Express"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
@@ -243,7 +272,11 @@ export default class HomePage extends React.Component {
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Sass.png')} alt="Sass" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Sass.png')}
+                        alt="Sass"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
@@ -269,36 +302,76 @@ export default class HomePage extends React.Component {
                         alt="Firebase"
                       />
                     </div>
-                    
+
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Flux2.png')} alt="Flux2" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Flux2.png')}
+                        alt="Flux2"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Google.png')} alt="Google" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Google.png')}
+                        alt="Google"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/jQuery.png')} alt="jQuery" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/jQuery.png')}
+                        alt="jQuery"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Mongo.png')} alt="Mongo" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Mongo.png')}
+                        alt="Mongo"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/webpack.png')} alt="Webpack" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/webpack.png')}
+                        alt="Webpack"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/docker.png')} alt="docker" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/docker.png')}
+                        alt="docker"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/tropo.png')} alt="tropo" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/tropo.png')}
+                        alt="tropo"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/ruby.png')} alt="ruby" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/ruby.png')}
+                        alt="ruby"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/rails.png')} alt="rails" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/rails.png')}
+                        alt="rails"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/rspec.png')} alt="rspec" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/rspec.png')}
+                        alt="rspec"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
                       <img
@@ -308,16 +381,32 @@ export default class HomePage extends React.Component {
                       />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/mysql.png')} alt="mysql" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/mysql.png')}
+                        alt="mysql"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/jira.png')} alt="jira" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/jira.png')}
+                        alt="jira"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/git.png')} alt="git" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/git.png')}
+                        alt="git"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/github.png')} alt="github" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/github.png')}
+                        alt="github"
+                      />
                     </div>
                   </div>
                 </div>
@@ -375,15 +464,25 @@ export default class HomePage extends React.Component {
                 <div className="section6TitleText">CONTACT</div>
               </div>
               <div className="section6Title">
-                <div className="section6Text">richard@cinderhousecreative.com</div>
+                <div className="section6Text">
+                  richard@cinderhousecreative.com
+                </div>
               </div>
               <div className="section6Title">
                 <div className="section6IconsBox">
-                  <a className="section6Icons" target="_blank" href="https://github.com/thejapanexperience">
+                  <a
+                    className="section6Icons"
+                    target="_blank"
+                    href="https://github.com/thejapanexperience"
+                  >
                     <i className="fa fa-github fa-lg" />
                   </a>
                   <span className="section6Icons"> | </span>
-                  <a className="section6Icons" target="_blank" href="https://twitter.com/RichardMands">
+                  <a
+                    className="section6Icons"
+                    target="_blank"
+                    href="https://twitter.com/RichardMands"
+                  >
                     <i className="fa fa-twitter fa-lg" />
                   </a>
                   <span className="section6Icons"> | </span>
@@ -442,7 +541,7 @@ export default class HomePage extends React.Component {
             </div>
           </div>
 
-          <OtherSkills/>
+          <OtherSkills />
 
           <div className="footerBox">
             {/* <div className="emptySpace" /> */}
@@ -454,11 +553,19 @@ export default class HomePage extends React.Component {
             </div>
             <div className="footer">
               <span className="footerIcons">
-                <a className="footerText3" target="_blank" href="https://github.com/thejapanexperience">
+                <a
+                  className="footerText3"
+                  target="_blank"
+                  href="https://github.com/thejapanexperience"
+                >
                   <i className="fa fa-github fa-lg" />
                 </a>
                 <span className="footerText3"> | </span>
-                <a className="footerText3" target="_blank" href="https://twitter.com/RichardMands">
+                <a
+                  className="footerText3"
+                  target="_blank"
+                  href="https://twitter.com/RichardMands"
+                >
                   <i className="fa fa-twitter fa-lg" />
                 </a>
 

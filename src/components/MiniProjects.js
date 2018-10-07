@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 
 class MiniProjects extends Component {
   render() {
@@ -8,7 +7,8 @@ class MiniProjects extends Component {
         <div className="section4" id="section4">
           <div className="section4Title">MINI-PROJECTS</div>
           <div className="section4Text">
-            These projects are designed to showcase the usage of javascript technologies.
+            These projects are designed to showcase the usage of javascript
+            technologies.
           </div>
           <div className="section4ImageBox">
             <div className="section4Image">
@@ -57,8 +57,4 @@ class MiniProjects extends Component {
   }
 }
 
-const mapStateToProps = state => ({});
-
-const mapDispatchToProps = dispatch => ({});
-
-export default connect(mapStateToProps, mapDispatchToProps)(MiniProjects);
+export default MiniProjects;

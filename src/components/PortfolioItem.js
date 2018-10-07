@@ -65,7 +65,6 @@ class PortfolioItem extends React.Component {
   }
 
   render() {
-    console.log('PortfolioItem');
     const { data, imageIndex, click } = this.props;
     let icons = 'icons';
     const url = 'http://';
@@ -137,7 +136,20 @@ class PortfolioItem extends React.Component {
     let media;
     if (data.image && data.link) {
       let image = data.image[imageIndex];
-      console.log(image);
+      let src;
+      switch (image) {
+        case 'Entable.png':
+          src = require('../images/Entable.png');
+          break;
+        case 'eduku.png':
+          src = require('../images/eduku.png');
+          break;
+        case 'richardmandsdotcom.png':
+          src = require('../images/richardmandsdotcom.png');
+          break;
+        default:
+          src = require('../images/theFastLife.png');
+      }
       media = (
         <div className="portfolioImageBox">
           <div className="portfolioImage">
@@ -146,11 +158,7 @@ class PortfolioItem extends React.Component {
               target="_blank"
               className="portfolioImageHREF"
             >
-              <img
-                id="youtubeBox"
-                className="iframeHidden"
-                src={require(`../images/${image}`)}
-              />
+              <img id="youtubeBox" className="iframeHidden" src={src} />
             </a>
           </div>
         </div>

@@ -8,7 +8,7 @@ class AllPurposeApp extends Component {
     this.state = {
       users: [],
       initialized: false,
-      show: false
+      show: 'false'
     };
     this.getData1 = this.getData1.bind(this);
     this.getData2 = this.getData2.bind(this);
@@ -16,8 +16,6 @@ class AllPurposeApp extends Component {
   }
 
   getData1() {
-    console.log('in getData1');
-    // this.props.click(null,4);
     this.setState({
       show: false
     });
@@ -28,7 +26,7 @@ class AllPurposeApp extends Component {
 
   getData2() {
     axios
-      .get('/api/newuser')
+      .get('https://randomuser.me/api/?format=json')
       .then(response => {
         let newUser = response.data.results[0];
         let users = this.state.users;
@@ -49,7 +47,6 @@ class AllPurposeApp extends Component {
 
   getData3() {
     setTimeout(() => {
-      // document.getElementById('section4').className ='section4';
       this.setState({
         show: true
       });
@@ -59,17 +56,15 @@ class AllPurposeApp extends Component {
   render() {
     const { users, initialized, show } = this.state;
 
-    let userCard = <div> NoData </div>;
+    let displayUsers = <div> NoData </div>;
 
     if (!initialized) {
       this.getData2();
     }
 
     if (users.length) {
-      userCard = users.map((user, i) => {
-        return (
-          <UserCard key={user.login.md5} user={user} show={show} index={i} />
-        );
+      displayUsers = users.map((user, i) => {
+        return <UserCard key={i} user={user} show={show} index={i} />;
       });
     }
 
@@ -80,7 +75,7 @@ class AllPurposeApp extends Component {
             <div className="myButton1Text">Get User</div>
           </div>
         </div>
-        <div className="userCardBox">{userCard}</div>
+        <div className="userCardBox">{displayUsers}</div>
       </div>
     );
   }

@@ -3,10 +3,7 @@ import React, { Component } from 'react';
 class UserCard extends Component {
   render() {
     let { user, show, index } = this.props;
-
-    let visibility = 'userCard';
-
-    show ? (visibility = 'userCardShow') : (visibility = 'userCard');
+    let visibility = show ? 'userCardShow' : 'userCard';
 
     if (show && index === 0) {
       visibility = 'userCardShow0';
@@ -16,18 +13,6 @@ class UserCard extends Component {
 
     return (
       <div className={visibility}>
-        {/* <div className="editButtonBox">
-            <div className="editButton">
-              <div className="editButtonText">Edit</div>
-            </div>
-            </div>
-
-            <div className="deleteButtonBox">
-            <div className="deleteButton">
-              <div className="deleteButtonText">Del</div>
-            </div>
-          </div> */}
-
         <div className="nameImageBox">
           <div className="userCardImageBox">
             <img className="userCardImage" src={user.picture.large} alt="" />
@@ -46,7 +31,7 @@ class UserCard extends Component {
             City: {user.location.city} <br />
             Street: {user.location.street} <br />
             Nationality: {user.nat} <br />
-            Date: {user.registered} <br />
+            Date: {user.registered.date} <br />
           </div>
         </div>
       </div>

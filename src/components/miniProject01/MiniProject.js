@@ -56,7 +56,7 @@ class MiniProject extends React.Component {
                     alt="React"
                   />
                 </div>
-                <div className="iconBoxImageBoxPortfolio">
+                {/* <div className="iconBoxImageBoxPortfolio">
                   <img
                     className="iconBoxImage"
                     src={require('../../images/techIcons300/Express.png')}
@@ -76,7 +76,7 @@ class MiniProject extends React.Component {
                     src={require('../../images/techIcons300/webpack.png')}
                     alt="Webpack"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
             <AllPurposeApp click={click} />

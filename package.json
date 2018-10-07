@@ -5,7 +5,9 @@
   "engines": {
     "node": "10"
   },
-  "scripts": {},
+  "scripts": {
+    "dev": "parcel index.html"
+  },
   "author": "Richard Mands",
   "license": "MIT",
   "dependencies": {

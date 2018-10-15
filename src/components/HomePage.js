@@ -547,7 +547,7 @@ export default class HomePage extends React.Component {
             {/* <div className="emptySpace" /> */}
             <div className="footer">
               <div className="footerTextBox">
-                <div className="footerText">www.richardmands.com</div>
+                <div className="footerText">richardmands.com</div>
                 <div className="footerText2">created by Richard Mands</div>
               </div>
             </div>

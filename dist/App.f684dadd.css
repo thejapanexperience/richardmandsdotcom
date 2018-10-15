@@ -1807,9 +1807,10 @@ hr {
 }
 
 .userCardBox {
+  margin-bottom: 1rem;
   opacity: inherit;
   position: relative;
-  padding: 30px;
+  padding: 5px;
   padding-top: 10px;
   width: 100%;
   justify-content: center;
@@ -1819,7 +1820,7 @@ hr {
   opacity: inherit;
   position: relative;
   width: 30%;
-  margin: 5px;
+  margin: 0.5%;
   min-height: 50px;
   border: solid white 2px;
   border-radius: 5%;
@@ -1828,16 +1829,6 @@ hr {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-}
-@media screen and (max-width: 1200px) {
-  .userCard, .userCardShow, .userCardShow0 {
-    width: 40%;
-  }
-}
-@media screen and (max-width: 900px) {
-  .userCard, .userCardShow, .userCardShow0 {
-    width: 60%;
-  }
 }
 
 .userCardShow, .userCardShow0 {
@@ -1850,11 +1841,6 @@ hr {
   transition: 1s;
 }
 
-@media screen and (max-width: 900px) {
-  .userCardShow:nth-child(3n), .userCardShow0:nth-child(3n) {
-    display: none;
-  }
-}
 .userCardShow0 {
   opacity: 1;
   visibility: visible;
@@ -1891,6 +1877,7 @@ hr {
   color: white;
   font-size: 20px;
   font-size: 2vw;
+  font-size: 1.5rem;
   line-height: 150%;
   margin: auto;
 }
@@ -1908,6 +1895,7 @@ hr {
   .userName, .userDetails {
     font-size: 20px;
     font-size: 3vw;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 1200px) and (max-width: 800px) {
@@ -1924,6 +1912,7 @@ hr {
   .userName, .userDetails {
     font-size: 20px;
     font-size: 4vw;
+    font-size: 1.1rem;
   }
 }
 @media screen and (max-width: 900px) and (max-width: 0px) {
@@ -1954,6 +1943,7 @@ hr {
 }
 
 .userDetailsBox {
+  display: flex;
   flex: 1 1 auto;
   width: 100%;
   border-top: 2px solid white;
@@ -1963,10 +1953,12 @@ hr {
 
 .userDetails {
   font-size: 18px;
-  font-size: 1vw;
+  font-size: 1rem;
+  font-size: 1.3rem;
   width: 100%;
   text-align: left;
-  margin-left: 0;
+  margin: auto;
+  overflow: hidden;
   pointer-events: none;
 }
 @media (max-width: 600px) {
@@ -1982,7 +1974,8 @@ hr {
 @media screen and (max-width: 1200px) {
   .userDetails {
     font-size: 18px;
-    font-size: 1vw;
+    font-size: 1rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 1200px) and (max-width: 1400px) {
@@ -1998,15 +1991,16 @@ hr {
 @media screen and (max-width: 900px) {
   .userDetails {
     font-size: 18px;
-    font-size: 2vw;
+    font-size: 1rem;
+    font-size: 0.5rem;
   }
 }
-@media screen and (max-width: 900px) and (max-width: 300px) {
+@media screen and (max-width: 900px) and (max-width: 600px) {
   .userDetails {
     font-size: 6px;
   }
 }
-@media screen and (max-width: 900px) and (min-width: 800px) {
+@media screen and (max-width: 900px) and (min-width: 1600px) {
   .userDetails {
     font-size: 16px;
   }

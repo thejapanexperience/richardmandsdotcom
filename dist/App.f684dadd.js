@@ -39619,7 +39619,7 @@ function (_React$Component) {
         image: ['eduku.png'],
         // src: "https://www.youtube.com/embed/u5G2dffogDo",
         text: "I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities (predominantly in low-income countries) for those who don't have regular or sufficient access. We are creating a platform that will allow users to interact with well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. ",
-        link: ['eduku.org']
+        link: ['www.facebook.com/projecteduku/']
       }, {
         title: 'RICHARDMANDS.COM',
         image: ['richardmandsdotcom.png'],
@@ -39867,10 +39867,10 @@ function (_React$Component) {
         href: "http://www.sage.com/"
       }, "Sage"), _react.default.createElement("br", null), "- 3 years coding, designing & marketing at ", _react.default.createElement("a", {
         target: "_blank",
-        href: "http://www.cinderhouse.com.au/"
+        href: "https://www.facebook.com/CinderhouseCreative/"
       }, "Cinderhouse Creative"), _react.default.createElement("br", null), "- Cofounder / lead developer of ", _react.default.createElement("a", {
         target: "_blank",
-        href: "http://www.eduku.org/"
+        href: "https://www.facebook.com/projecteduku/"
       }, "Eduku"), _react.default.createElement("br", null), "- Hackathon prize winner", _react.default.createElement("br", null), "- Pro photographer / videographer", _react.default.createElement("br", null), "- UK / Canada passport holder", _react.default.createElement("br", null)))));
 
       var contact = _react.default.createElement("div", {
@@ -39888,7 +39888,7 @@ function (_React$Component) {
       }, "Portfolio: ", _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.richardmands.com"
-      }, "richardmands.com"), _react.default.createElement("br", null), "Phone: +44 07507 881794", _react.default.createElement("br", null), "richard@cinderhousecreative.com", _react.default.createElement("br", null), _react.default.createElement("a", {
+      }, "richardmands.com"), _react.default.createElement("br", null), "Phone: +44 07507 881794", _react.default.createElement("br", null), "richard@eduku.org", _react.default.createElement("br", null), _react.default.createElement("a", {
         target: "_blank",
         href: "https://www.linkedin.com/in/richardmands"
       }, "linkedin.com/in/richardmands"), _react.default.createElement("br", null), _react.default.createElement("a", {
@@ -39979,7 +39979,7 @@ function (_React$Component) {
         className: "titleContent"
       }, _react.default.createElement("a", {
         target: "_blank",
-        href: "http://www.cinderhouse.com.au/"
+        href: "https://www.facebook.com/CinderhouseCreative/"
       }, "CINDERHOUSE CREATIVE"), " | Oct \u201814 - Jun \u201817")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
@@ -39989,13 +39989,13 @@ function (_React$Component) {
       }, "Since co-founding Cinderhouse Creative, we have delivered projects for clients such as Officemax, Unilever, Sinoma, JHerro and SkyData, among others."), _react.default.createElement("div", {
         className: "contentContent"
       }, "Additionally, through Cinderhouse Creative, I am the co-founder of 3 social enterprise (self-funded charity) case-studies: ", _react.default.createElement("a", {
-        href: "http://eduku.org/",
+        href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
       }, "Eduku"), ", ", _react.default.createElement("a", {
-        href: "http://stockdisrupt.com/",
+        href: "https://www.facebook.com/stockdisrupt/",
         target: "_blank"
       }, "Stock Disrupt"), " and ", _react.default.createElement("a", {
-        href: "http://domogo.co/",
+        href: "https://www.facebook.com/projectdomogo/",
         target: "_blank"
       }, "Domogo"), " that have featured in several publications including the BBC."))));
 
@@ -40008,7 +40008,7 @@ function (_React$Component) {
       }, _react.default.createElement("div", {
         className: "titleContent"
       }, _react.default.createElement("a", {
-        href: "http://eduku.org/",
+        href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
       }, "EDUKU"), " | Aug \u201915 - Jun \u201817")), _react.default.createElement("div", {
         className: "contentBox"
@@ -40017,7 +40017,7 @@ function (_React$Component) {
       }, "Co-Founder / Lead Developer | Nanjing, China"), _react.default.createElement("div", {
         className: "contentContent"
       }, _react.default.createElement("a", {
-        href: "http://eduku.org/",
+        href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
       }, "Eduku"), " is a Cinderhouse Creative social enterprise, that aims to raise funds for those lacking educational opportunities in low-income countries via an online learning platform."), _react.default.createElement("div", {
         className: "contentContent"
@@ -40369,10 +40369,10 @@ function (_React$Component) {
         href: "http://www.sage.com/"
       }, "Sage"), _react.default.createElement("br", null), "- 3 years coding, designing & marketing at ", _react.default.createElement("a", {
         target: "_blank",
-        href: "http://www.cinderhouse.com.au/"
+        href: "https://www.facebook.com/CinderhouseCreative/"
       }, "Cinderhouse Creative"), _react.default.createElement("br", null), "- Cofounder / lead developer of ", _react.default.createElement("a", {
         target: "_blank",
-        href: "http://www.eduku.org/"
+        href: "https://www.facebook.com/projecteduku/"
       }, "Eduku"), _react.default.createElement("br", null), "- Hackathon prize winner", _react.default.createElement("br", null), "- Pro photographer / videographer", _react.default.createElement("br", null), "- UK / Canada passport holder", _react.default.createElement("br", null)))));
 
       var contact = _react.default.createElement("div", {
@@ -40390,7 +40390,7 @@ function (_React$Component) {
       }, "Portfolio: ", _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.richardmands.com"
-      }, "richardmands.com"), _react.default.createElement("br", null), "Phone: +44 07507 881794", _react.default.createElement("br", null), "richard@cinderhousecreative.com", _react.default.createElement("br", null), _react.default.createElement("a", {
+      }, "richardmands.com"), _react.default.createElement("br", null), "Phone: +44 07507 881794", _react.default.createElement("br", null), "richard@eduku.org", _react.default.createElement("br", null), _react.default.createElement("a", {
         target: "_blank",
         href: "https://www.linkedin.com/in/richardmands"
       }, "linkedin.com/in/richardmands"), _react.default.createElement("br", null), _react.default.createElement("a", {
@@ -40481,7 +40481,7 @@ function (_React$Component) {
         className: "titleContent"
       }, _react.default.createElement("a", {
         target: "_blank",
-        href: "http://www.cinderhouse.com.au/"
+        href: "https://www.facebook.com/CinderhouseCreative/"
       }, "CINDERHOUSE CREATIVE"), " | Oct \u201814 - Jun \u201817")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
@@ -40491,13 +40491,13 @@ function (_React$Component) {
       }, "Since co-founding Cinderhouse Creative, we have delivered projects for clients such as Officemax, Unilever, Sinoma, JHerro and SkyData, among others."), _react.default.createElement("div", {
         className: "contentContent"
       }, "Additionally, through Cinderhouse Creative, I am the co-founder of 3 social enterprise (self-funded charity) case-studies: ", _react.default.createElement("a", {
-        href: "http://eduku.org/",
+        href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
       }, "Eduku"), ", ", _react.default.createElement("a", {
-        href: "http://stockdisrupt.com/",
+        href: "https://www.facebook.com/stockdisrupt/",
         target: "_blank"
       }, "Stock Disrupt"), " and ", _react.default.createElement("a", {
-        href: "http://domogo.co/",
+        href: "https://www.facebook.com/projectdomogo/",
         target: "_blank"
       }, "Domogo"), " that have featured in several publications including the BBC."))));
 
@@ -40510,7 +40510,7 @@ function (_React$Component) {
       }, _react.default.createElement("div", {
         className: "titleContent"
       }, _react.default.createElement("a", {
-        href: "http://eduku.org/",
+        href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
       }, "EDUKU"), " | Aug \u201915 - Jun \u201817")), _react.default.createElement("div", {
         className: "contentBox"
@@ -40519,7 +40519,7 @@ function (_React$Component) {
       }, "Co-Founder / Lead Developer | Nanjing, China"), _react.default.createElement("div", {
         className: "contentContent"
       }, _react.default.createElement("a", {
-        href: "http://eduku.org/",
+        href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
       }, "Eduku"), " is a Cinderhouse Creative social enterprise, that aims to raise funds for those lacking educational opportunities in low-income countries via an online learning platform."), _react.default.createElement("div", {
         className: "contentContent"
@@ -41245,17 +41245,17 @@ function (_React$Component) {
         className: "section2TextBody"
       }, "A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day."), _react.default.createElement("div", {
         className: "section2TextBody"
-      }, "I am currently working as a Software Developer at", ' ', _react.default.createElement("a", {
+      }, "I am currently working as a Software Developer at ", _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.sage.com/"
-      }, ' ', "Sage"), ' ', "and previously spent 3 years coding, designing and marketing as co-founder of", _react.default.createElement("a", {
+      }, ' ', "Sage"), " and previously spent 3 years coding, designing and marketing as co-founder of", _react.default.createElement("a", {
         target: "_blank",
-        href: "http://www.cinderhouse.com.au/"
+        href: "https://www.facebook.com/CinderhouseCreative/"
       }, ' ', "Cinderhouse Creative"), "."), _react.default.createElement("div", {
         className: "section2TextBody"
-      }, "Through Cinderhouse Creative, I was a co-founder / developer of", ' ', _react.default.createElement("a", {
+      }, "Through Cinderhouse Creative, I was a co-founder / developer of ", _react.default.createElement("a", {
         target: "_blank",
-        href: "http://www.eduku.org/"
+        href: "https://www.facebook.com/projecteduku/"
       }, "Eduku"), ", a social enterprise (self-funded charity), that aimed to raise funds for those lacking educational opportunities in low-income countries via an online learning platform."), _react.default.createElement("div", {
         className: "section2TextBody"
       }, "I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in San Francisco in October 2016 for creating Entable (an sms-based online banking platform aimed specifically at supporting women in low-income countries by offering wider access to microfinance).")), _react.default.createElement("div", {
@@ -41430,7 +41430,7 @@ function (_React$Component) {
         className: "section6Title"
       }, _react.default.createElement("div", {
         className: "section6Text"
-      }, "richard@cinderhousecreative.com")), _react.default.createElement("div", {
+      }, "richard@eduku.org")), _react.default.createElement("div", {
         className: "section6Title"
       }, _react.default.createElement("div", {
         className: "section6IconsBox"
@@ -41692,7 +41692,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49456" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50503" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

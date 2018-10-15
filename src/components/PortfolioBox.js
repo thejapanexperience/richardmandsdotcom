@@ -37,7 +37,7 @@ export default class PortfolioBox extends React.Component {
           image: ['eduku.png'],
           // src: "https://www.youtube.com/embed/u5G2dffogDo",
           text: `I'm proud to be a co-founder and lead developer of Eduku. Eduku is a social enterprise (self-funded charity), that uses profits from the sales of learning resources to fund educational opportunities (predominantly in low-income countries) for those who don't have regular or sufficient access. We are creating a platform that will allow users to interact with well designed learning resources in the form of worksheets and online games for primary-age students, as well as participate in the allocation of funds raised by / through Eduku. `,
-          link: ['eduku.org']
+          link: ['www.facebook.com/projecteduku/']
         },
         {
           title: 'RICHARDMANDS.COM',

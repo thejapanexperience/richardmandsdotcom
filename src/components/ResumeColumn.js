@@ -42,26 +42,30 @@ class ResumeColumn extends React.Component {
       </div>
     </div>
 
-    let quickPoints =
-    <div className="one">
-      <div className="oneInner">
-        <div className="titleBox">
-          <div className="titleContent">
-            QUICK POINTS
+    let quickPoints = <div className="one">
+        <div className="oneInner">
+          <div className="titleBox">
+            <div className="titleContent">QUICK POINTS</div>
+          </div>
+          <div className="contentBox">
+            <div className="contentContent">
+              - Software Developer at <a target="_blank" href="http://www.sage.com/">
+                Sage
+              </a>
+              <br />- 3 years coding, designing & marketing at <a target="_blank" href="https://www.facebook.com/CinderhouseCreative/">
+                Cinderhouse Creative
+              </a>
+              <br />- Cofounder / lead developer of <a target="_blank" href="https://www.facebook.com/projecteduku/">
+                Eduku
+              </a>
+              <br />- Hackathon prize winner
+              <br />- Pro photographer / videographer
+              <br />- UK / Canada passport holder
+              <br />
+            </div>
           </div>
         </div>
-        <div className="contentBox">
-          <div className="contentContent">
-            - Software Developer at <a target="_blank" href='http://www.sage.com/'>Sage</a><br/>
-            - 3 years coding, designing & marketing at <a target="_blank" href='http://www.cinderhouse.com.au/'>Cinderhouse Creative</a><br/>
-            - Cofounder / lead developer of <a target="_blank" href='http://www.eduku.org/'>Eduku</a><br/>
-            - Hackathon prize winner<br/>
-            - Pro photographer / videographer<br/>
-            - UK / Canada passport holder<br/>
-          </div>
-        </div>
-      </div>
-    </div>
+      </div>;
 
     let contact =
     <div className="one">
@@ -75,7 +79,7 @@ class ResumeColumn extends React.Component {
           <div className="contentContent">
             Portfolio: <a target="_blank" href="http://www.richardmands.com">richardmands.com</a><br/>
             Phone: +44 07507 881794<br/>
-            richard@cinderhousecreative.com<br/>
+            richard@eduku.org<br/>
             <a target="_blank" href="https://www.linkedin.com/in/richardmands">linkedin.com/in/richardmands</a><br/>
             <a target="_blank" href="https://github.com/thejapanexperience">github.com/thejapanexperience</a><br/>
             <a target="_blank" href="https://twitter.com/RichardMands">twitter.com/RichardMands</a><br/>
@@ -169,31 +173,36 @@ class ResumeColumn extends React.Component {
       </div>
     </div>
 
-    let cinderhouse =
-    <div className="one">
-      <div className="oneInner">
-
-        <div className="titleBox">
-          <div className="titleContent">
-            <a target="_blank" href='http://www.cinderhouse.com.au/'>CINDERHOUSE CREATIVE</a> | Oct ‘14 - Jun ‘17
+    let cinderhouse = <div className="one">
+        <div className="oneInner">
+          <div className="titleBox">
+            <div className="titleContent">
+              <a target="_blank" href="https://www.facebook.com/CinderhouseCreative/">
+                CINDERHOUSE CREATIVE
+              </a> | Oct ‘14 - Jun ‘17
+            </div>
+          </div>
+          <div className="contentBox">
+            <div className="contentContent">
+              Co-Founder / Visual Director / Developer | Nanjing, China
+            </div>
+            <div className="contentContent">
+              Since co-founding Cinderhouse Creative, we have delivered
+              projects for clients such as Officemax, Unilever, Sinoma,
+              JHerro and SkyData, among others.
+            </div>
+            <div className="contentContent">
+              Additionally, through Cinderhouse Creative, I am the co-founder of 3 social enterprise (self-funded charity) case-studies: <a href="https://www.facebook.com/projecteduku/" target="_blank">
+                Eduku
+              </a>, <a href="https://www.facebook.com/stockdisrupt/" target="_blank">
+                Stock Disrupt
+              </a> and <a href="https://www.facebook.com/projectdomogo/" target="_blank">
+                Domogo
+              </a> that have featured in several publications including the BBC.
+            </div>
           </div>
         </div>
-        <div className="contentBox">
-          <div className="contentContent">
-            Co-Founder / Visual Director / Developer | Nanjing, China
-
-          </div>
-          <div className="contentContent">
-            Since co-founding Cinderhouse Creative, we have delivered projects for clients such as Officemax, Unilever, Sinoma, JHerro and SkyData, among others.
-
-          </div>
-          <div className="contentContent">
-            Additionally, through Cinderhouse Creative, I am the co-founder of 3 social enterprise (self-funded charity) case-studies: <a href="http://eduku.org/" target="_blank">Eduku</a>, <a href="http://stockdisrupt.com/" target="_blank">Stock Disrupt</a> and <a href="http://domogo.co/" target="_blank">Domogo</a> that have featured in several publications including the BBC.
-          </div>
-
-        </div>
-      </div>
-    </div>
+      </div>;
 
     let eduku =
     <div className="one">
@@ -201,7 +210,7 @@ class ResumeColumn extends React.Component {
 
         <div className="titleBox">
           <div className="titleContent">
-            <a href="http://eduku.org/" target="_blank">EDUKU</a> | Aug ’15 - Jun ‘17
+            <a href="https://www.facebook.com/projecteduku/" target="_blank">EDUKU</a> | Aug ’15 - Jun ‘17
           </div>
         </div>
         <div className="contentBox">
@@ -209,7 +218,7 @@ class ResumeColumn extends React.Component {
             Co-Founder / Lead Developer | Nanjing, China
           </div>
           <div className="contentContent">
-            <a href="http://eduku.org/" target="_blank">Eduku</a> is a Cinderhouse Creative social enterprise, that aims to raise funds for those lacking educational opportunities in low-income countries via an online learning platform.
+            <a href="https://www.facebook.com/projecteduku/" target="_blank">Eduku</a> is a Cinderhouse Creative social enterprise, that aims to raise funds for those lacking educational opportunities in low-income countries via an online learning platform.
 
           </div>
           <div className="contentContent">

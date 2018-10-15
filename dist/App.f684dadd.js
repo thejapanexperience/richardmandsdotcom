@@ -38797,7 +38797,9 @@ function (_Component) {
         className: "userNameBox"
       }, _react.default.createElement("div", {
         className: "userName"
-      }, userName))), _react.default.createElement("div", {
+      }, _react.default.createElement("span", null, user.name.first)), _react.default.createElement("div", {
+        className: "userName"
+      }, _react.default.createElement("span", null, user.name.last)))), _react.default.createElement("div", {
         className: "userDetailsBox"
       }, _react.default.createElement("div", {
         className: "userDetails"
@@ -41692,7 +41694,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50503" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56642" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

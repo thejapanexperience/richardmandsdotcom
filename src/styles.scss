@@ -1892,14 +1892,15 @@ hr {
   padding-top: 0;
   pointer-events: none;
 }
+
 .userName {
   @extend .flex;
+  width: 100%;
   opacity: inherit;
   color: white;
   @include responsive-font(2vw, 12px, 30px, 20px);
   font-size: 1.5rem;
   line-height: 150%;
-  margin: auto;
   @media screen and (max-width: 1200px) {
     @include responsive-font(3vw, 24px, 50px, 20px);
     font-size: 1.2rem;
@@ -1907,6 +1908,10 @@ hr {
   @media screen and (max-width: 900px) {
     @include responsive-font(4vw, 0px, 60px, 20px);
     font-size: 1.1rem;
+  }
+
+  span {
+    margin: auto;
   }
 }
 

@@ -19,7 +19,12 @@ class UserCard extends Component {
           </div>
 
           <div className="userNameBox">
-            <div className="userName">{userName}</div>
+            <div className="userName">
+              <span>{user.name.first}</span>
+            </div>
+            <div className="userName">
+              <span>{user.name.last}</span>
+            </div>
           </div>
         </div>
 

@@ -465,7 +465,7 @@ export default class HomePage extends React.Component {
               </div>
               <div className="section6Title">
                 <div className="section6Text">
-                  richard@cinderhousecreative.com
+                  richard@eduku.org
                 </div>
               </div>
               <div className="section6Title">

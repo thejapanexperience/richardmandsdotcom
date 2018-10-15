@@ -237,9 +237,13 @@ a:visited {
 }
 
 .navbarHeight, .section0, .navPadding, .navbarHeightGone, .section0Gone {
-  height: 10vh;
-  min-height: 75px;
+  height: 8rem;
   opacity: 1;
+}
+@media screen and (max-width: 800px) {
+  .navbarHeight, .section0, .navPadding, .navbarHeightGone, .section0Gone {
+    height: 6rem;
+  }
 }
 
 .navbarHeightGone, .section0Gone {
@@ -329,10 +333,10 @@ a:visited {
   width: 100%;
   margin: auto;
   margin-bottom: 10px;
-  padding-left: 2%;
+  padding-right: 2%;
   font-size: 50px;
   font-size: 6vw;
-  text-align: left;
+  text-align: right;
   opacity: 1;
   top: 0;
 }

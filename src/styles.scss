@@ -165,8 +165,10 @@ a:visited {
 }
 
 .navbarHeight {
-  height: 10vh;
-  min-height: 75px;
+  height: 8rem;
+  @media screen and (max-width: 800px) {
+    height: 6rem;
+  }
   // max-height: 100px;
   // height: 100px;
   // max-height: 100px;
@@ -300,9 +302,9 @@ a:visited {
   width: 100%;
   margin: auto;
   margin-bottom: 10px;
-  padding-left: 2%;
+  padding-right: 2%;
   @include responsive-font(6vw, 14px, 50px, 50px);
-  text-align: left;
+  text-align: right;
   // @media screen and (max-width: 900px){
   //   @include responsive-font(2vmax, 18px, 50px, 50px);
   //   text-align: right;

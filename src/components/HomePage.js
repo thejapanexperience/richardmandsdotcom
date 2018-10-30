@@ -180,9 +180,9 @@ export default class HomePage extends React.Component {
                     Firebase, Google APIs and others.
                   </div>
                   <div className="section2TextBody">
-                    A quick study who has learned how to learn, I adapt easily
-                    to new technologies and bring with me a real passion for
-                    what I do, a strong leadership background, a fierce
+                    A quick study who has learned how to learn, I have a strong
+                    leadership background, adapt easily to new technologies and
+                    bring with me a real passion for what I do, a fierce
                     work-ethic and an honest desire to leave the world a better
                     place each day.
                   </div>

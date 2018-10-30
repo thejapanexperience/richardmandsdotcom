@@ -39832,7 +39832,7 @@ function (_React$Component) {
         className: "resumeImageBox"
       }, _react.default.createElement("img", {
         className: "img",
-        src: require("../images/RichardBWSquare900.jpg"),
+        src: require('../images/RichardBWSquare900.jpg'),
         alt: ""
       }))));
 
@@ -39850,7 +39850,7 @@ function (_React$Component) {
         className: "contentContent"
       }, "Full-stack developer."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day."))));
+      }, "A quick study who has learned how to learn, I have a strong leadership background, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day."))));
 
       var quickPoints = _react.default.createElement("div", {
         className: "four"
@@ -39864,13 +39864,13 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Software Developer at ", _react.default.createElement("a", {
+      }, "- Software Developer at", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.sage.com/"
-      }, "Sage"), _react.default.createElement("br", null), "- 3 years coding, designing & marketing at ", _react.default.createElement("a", {
+      }, "Sage"), _react.default.createElement("br", null), "- 3 years coding, designing & marketing at", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "https://www.facebook.com/CinderhouseCreative/"
-      }, "Cinderhouse Creative"), _react.default.createElement("br", null), "- Cofounder / lead developer of ", _react.default.createElement("a", {
+      }, "Cinderhouse Creative"), _react.default.createElement("br", null), "- Cofounder / lead developer of", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "https://www.facebook.com/projecteduku/"
       }, "Eduku"), _react.default.createElement("br", null), "- Hackathon prize winner", _react.default.createElement("br", null), "- Pro photographer / videographer", _react.default.createElement("br", null), "- UK / Canada passport holder", _react.default.createElement("br", null)))));
@@ -39887,7 +39887,7 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "Portfolio: ", _react.default.createElement("a", {
+      }, "Portfolio:", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.richardmands.com"
       }, "richardmands.com"), _react.default.createElement("br", null), "Phone: +44 07507 881794", _react.default.createElement("br", null), "richard@eduku.org", _react.default.createElement("br", null), _react.default.createElement("a", {
@@ -39919,19 +39919,19 @@ function (_React$Component) {
         className: "contentContent"
       }, "- Lead developer / Co-owner of Eduku : an online education platform made using React, Redux, Express, Auth0, MongoDB."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Proficient in HTML, CSS, JavaScript, Node.js, React, Redux, Flux, Webpack, Express, MongoDB, Mongoose, Ruby, Rails, Sinatra.          "), _react.default.createElement("div", {
+      }, "- Proficient in HTML, CSS, JavaScript, Node.js, React, Redux, Flux, Webpack, Express, MongoDB, Mongoose, Ruby, Rails, Sinatra.", ' '), _react.default.createElement("div", {
         className: "contentContent"
       }, "- Have experience of Socket.IO, Google APIs, Watson APIs, Amazon Web Services, MySQL, Firebase, Auth0, React-DnD, Tropo."), _react.default.createElement("div", {
         className: "contentContent"
       }, "- Won Cisco\u2019s 1st place prize at AngelHack\u2019s Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Co-founder of 3 social enterprise case-studies that funded business-development competitions on ", _react.default.createElement("a", {
+      }, "- Co-founder of 3 social enterprise case-studies that funded business-development competitions on", ' ', _react.default.createElement("a", {
         href: "https://herox.com/domogo",
         target: "_blank"
-      }, "HeroX"), " for ", _react.default.createElement("a", {
+      }, "HeroX"), ' ', "for", ' ', _react.default.createElement("a", {
         href: "http://www.kitointl.org/",
         target: "_blank"
-      }, "Kito International"), " graduates in Kenya."), _react.default.createElement("div", {
+      }, "Kito International"), ' ', "graduates in Kenya."), _react.default.createElement("div", {
         className: "contentContent"
       }, "- Professional level photography, videography and video editing skill. Have worked on projects in Australia, China and the UK"), _react.default.createElement("div", {
         className: "contentContent"
@@ -39950,7 +39950,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.sage.com/"
-      }, "SAGE"), " | Jul \u201817 - Present")), _react.default.createElement("div", {
+      }, "SAGE"), ' ', "| Jul \u201817 - Present")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
@@ -39966,7 +39966,7 @@ function (_React$Component) {
         className: "contentContent"
       }, "- taken a lead role in scrum meetings, delivered presentations, led communications with other departments, etc"), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- developed my own large-scale project on a volunteer basis with the ", _react.default.createElement("a", {
+      }, "- developed my own large-scale project on a volunteer basis with the", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.sage.com/company/sage_foundation"
       }, "Sage Foundation"), "."))));
@@ -39982,7 +39982,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         target: "_blank",
         href: "https://www.facebook.com/CinderhouseCreative/"
-      }, "CINDERHOUSE CREATIVE"), " | Oct \u201814 - Jun \u201817")), _react.default.createElement("div", {
+      }, "CINDERHOUSE CREATIVE"), ' ', "| Oct \u201814 - Jun \u201817")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
@@ -39990,16 +39990,16 @@ function (_React$Component) {
         className: "contentContent"
       }, "Since co-founding Cinderhouse Creative, we have delivered projects for clients such as Officemax, Unilever, Sinoma, JHerro and SkyData, among others."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "Additionally, through Cinderhouse Creative, I am the co-founder of 3 social enterprise (self-funded charity) case-studies: ", _react.default.createElement("a", {
+      }, "Additionally, through Cinderhouse Creative, I am the co-founder of 3 social enterprise (self-funded charity) case-studies:", ' ', _react.default.createElement("a", {
         href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
-      }, "Eduku"), ", ", _react.default.createElement("a", {
+      }, "Eduku"), ",", ' ', _react.default.createElement("a", {
         href: "https://www.facebook.com/stockdisrupt/",
         target: "_blank"
-      }, "Stock Disrupt"), " and ", _react.default.createElement("a", {
+      }, "Stock Disrupt"), ' ', "and", ' ', _react.default.createElement("a", {
         href: "https://www.facebook.com/projectdomogo/",
         target: "_blank"
-      }, "Domogo"), " that have featured in several publications including the BBC."))));
+      }, "Domogo"), ' ', "that have featured in several publications including the BBC."))));
 
       var eduku = _react.default.createElement("div", {
         className: "two"
@@ -40012,7 +40012,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
-      }, "EDUKU"), " | Aug \u201915 - Jun \u201817")), _react.default.createElement("div", {
+      }, "EDUKU"), ' ', "| Aug \u201915 - Jun \u201817")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
@@ -40021,7 +40021,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
-      }, "Eduku"), " is a Cinderhouse Creative social enterprise, that aims to raise funds for those lacking educational opportunities in low-income countries via an online learning platform."), _react.default.createElement("div", {
+      }, "Eduku"), ' ', "is a Cinderhouse Creative social enterprise, that aims to raise funds for those lacking educational opportunities in low-income countries via an online learning platform."), _react.default.createElement("div", {
         className: "contentContent"
       }, "The platform will allow users to interact with online learning resources as well as participate in the allocation of profits towards social outcomes.")))); // let selfStudy =
       // <div>
@@ -40058,7 +40058,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "https://bsn.org.cn/",
         target: "_blank"
-      }, "BRITISH SCHOOL OF NANJING"), " | Apr '12 - Jul '16")), _react.default.createElement("div", {
+      }, "BRITISH SCHOOL OF NANJING"), ' ', "| Apr '12 - Jul '16")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
@@ -40068,12 +40068,12 @@ function (_React$Component) {
         className: "contentContent"
       }, "Developed and implemented a google-drive based real-time assessment and feedback system for students and teachers."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "Won the technology development prize from the ", _react.default.createElement("a", {
+      }, "Won the technology development prize from the", ' ', _react.default.createElement("a", {
         href: "https://www.britishschools.co.uk/",
         target: "_blank"
       }, "British Schools Foundation"), "."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "Developed training curricula and led inset for  staff with the goal of improving IT integration."), _react.default.createElement("div", {
+      }, "Developed training curricula and led inset for staff with the goal of improving IT integration."), _react.default.createElement("div", {
         className: "contentContent"
       }, "Created and led highly successful after-school programs related to charity work and fundraising.")));
 
@@ -40088,7 +40088,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "http://www.londonacademy.org.uk/",
         target: "_blank"
-      }, "London Academy"), " | Secondary Science Teacher | London, UK"), _react.default.createElement("div", {
+      }, "London Academy"), ' ', "| Secondary Science Teacher | London, UK"), _react.default.createElement("div", {
         className: "contentContent"
       }, "Various | English Teacher | Tokyo, Japan")));
 
@@ -40103,7 +40103,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "http://www.ucl.ac.uk/ioe",
         target: "_blank"
-      }, "Institute of Education : UCL"), " | Secondary Science PGCE | London, UK")));
+      }, "Institute of Education : UCL"), ' ', "| Secondary Science PGCE | London, UK")));
 
       var universityDegree = _react.default.createElement("div", null, _react.default.createElement("div", {
         className: "titleBox"
@@ -40116,7 +40116,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "https://www.york.ac.uk/",
         target: "_blank"
-      }, "University of York"), " | Biochemistry BSc | York, UK")));
+      }, "University of York"), ' ', "| Biochemistry BSc | York, UK")));
 
       var langPro = _react.default.createElement("div", {
         className: "two"
@@ -40217,9 +40217,9 @@ function (_React$Component) {
       var showOrHide;
 
       if (this.props.showResume) {
-        showOrHide = "resumeBox";
+        showOrHide = 'resumeBox';
       } else {
-        showOrHide = "resumeBoxHide";
+        showOrHide = 'resumeBoxHide';
       }
 
       return _react.default.createElement("div", {
@@ -41243,19 +41243,22 @@ function (_React$Component) {
         className: "section2TextBodyBox"
       }, _react.default.createElement("div", {
         className: "section2TextBody"
-      }, "I'm a full-stack developer with primary experience in JavaScript and Ruby. I'm proficient with a JS stack based around React, Redux, Flux, Node, Express, MongoDB, Mongoose, and Webpack. I have also worked extensively with Ruby (Rails / Sinatra) and have experience of technologies such as Socket.io, DynamoDB, Firebase, Google APIs and others."), _react.default.createElement("div", {
+      }, "I'm a full-stack developer with primary experience in JavaScript. I'm proficient with a JS stack based around React, Redux, Node, Express and Webpack. I've also worked with a variety of other React adjacent technologies such as MongoDB, Mongoose, Gatsby, Parcel, Flux, etc, as well as Ruby (Rails, Sinatra) AWS (Lambda, SNS/SQS, Serverless) and have experience of technologies such as Socket.io, DynamoDB, Firebase, Google APIs and others."), _react.default.createElement("div", {
         className: "section2TextBody"
-      }, "A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day."), _react.default.createElement("div", {
+      }, "A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a strong leadership background, a fierce work-ethic and an honest desire to leave the world a better place each day."), _react.default.createElement("div", {
         className: "section2TextBody"
-      }, "I am currently working as a Software Developer at ", _react.default.createElement("a", {
+      }, "I am currently working as a Lead Software Engineer at", ' ', _react.default.createElement("a", {
         target: "_blank",
-        href: "http://www.sage.com/"
-      }, ' ', "Sage"), " and previously spent 3 years coding, designing and marketing as co-founder of", _react.default.createElement("a", {
+        href: "https://bedegaming.com/"
+      }, ' ', "Bede Gaming"), ' ', ". Prior to that I was a Software Engineer at", ' ', _react.default.createElement("a", {
+        target: "_blank",
+        href: "https://sage.com/"
+      }, ' ', "Sage"), ' ', "and previously spent 3 years coding, designing and marketing as co-founder of", _react.default.createElement("a", {
         target: "_blank",
         href: "https://www.facebook.com/CinderhouseCreative/"
       }, ' ', "Cinderhouse Creative"), "."), _react.default.createElement("div", {
         className: "section2TextBody"
-      }, "Through Cinderhouse Creative, I was a co-founder / developer of ", _react.default.createElement("a", {
+      }, "Through Cinderhouse Creative, I was a co-founder / developer of", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "https://www.facebook.com/projecteduku/"
       }, "Eduku"), ", a social enterprise (self-funded charity), that aimed to raise funds for those lacking educational opportunities in low-income countries via an online learning platform."), _react.default.createElement("div", {
@@ -41654,7 +41657,6 @@ var _NotFoundPage = _interopRequireDefault(require("./Components/NotFoundPage"))
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
-  console.log('App');
   return _react.default.createElement(_reactRouterDom.BrowserRouter, null, _react.default.createElement("div", {
     className: "app"
   }, _react.default.createElement(_reactRouterDom.Switch, null, _react.default.createElement(_reactRouterDom.Route, {
@@ -41694,7 +41696,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56642" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55374" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

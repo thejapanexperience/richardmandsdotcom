@@ -6,7 +6,6 @@ import HomePage from './Components/HomePage';
 import NotFoundPage from './Components/NotFoundPage';
 
 const App = () => {
-  console.log('App');
   return (
     <BrowserRouter>
       <div className="app">

@@ -99,7 +99,8 @@ export default class HomePage extends React.Component {
   render() {
     console.log('HomePage');
 
-    return <div>
+    return (
+      <div>
         {/* <div className="backgroundImage" /> */}
         <div className="imageCache">
           {/* <img src={'../images/Entable.png'} alt="Entable" /> */}
@@ -133,15 +134,27 @@ export default class HomePage extends React.Component {
                 <div className="section1Text2">Full-Stack Developer</div>
               </div>
               <div className="section1Text3Box">
-                <a className="section1Text3" target="_blank" href="https://github.com/thejapanexperience">
+                <a
+                  className="section1Text3"
+                  target="_blank"
+                  href="https://github.com/thejapanexperience"
+                >
                   <i className="fa fa-github fa-lg" />
                 </a>
                 <span className="section1Text3"> | </span>
-                <a className="section1Text3" target="_blank" href="https://twitter.com/RichardMands">
+                <a
+                  className="section1Text3"
+                  target="_blank"
+                  href="https://twitter.com/RichardMands"
+                >
                   <i className="fa fa-twitter fa-lg" />
                 </a>
                 <span className="section1Text3"> | </span>
-                <a className="section1Text3" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name">
+                <a
+                  className="section1Text3"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"
+                >
                   <i className="fa fa-linkedin fa-lg" />
                 </a>
                 {/* <span className="section1Text3"> | </span>
@@ -160,132 +173,254 @@ export default class HomePage extends React.Component {
                   {/* {bioFull} */}
                   <div className="section2TextBody">
                     I'm a full-stack developer with primary experience in
-                    JavaScript and Ruby. I'm proficient with a JS stack
-                    based around React, Redux, Flux, Node, Express, MongoDB,
-                    Mongoose, and Webpack. I have also worked extensively
-                    with Ruby (Rails / Sinatra) and have experience of
-                    technologies such as Socket.io, DynamoDB, Firebase,
-                    Google APIs and others.
+                    JavaScript. I'm proficient with a JS stack based around
+                    React, Redux, Node, Express and Webpack. I've also worked
+                    with a variety of other React adjacent technologies such as
+                    MongoDB, Mongoose, Gatsby, Parcel, Flux, etc, as well as
+                    Ruby (Rails, Sinatra) AWS (Lambda, SNS/SQS, Serverless) and
+                    have experience of technologies such as Socket.io, DynamoDB,
+                    Firebase, Google APIs and others.
                   </div>
                   <div className="section2TextBody">
-                    A quick study who has learned how to learn, I adapt
-                    easily to new technologies and bring with me a real
-                    passion for what I do, a fierce work-ethic and an honest
-                    desire to leave the world a better place each day.
+                    A quick study who has learned how to learn, I adapt easily
+                    to new technologies and bring with me a real passion for
+                    what I do, a strong leadership background, a fierce
+                    work-ethic and an honest desire to leave the world a better
+                    place each day.
                   </div>
                   <div className="section2TextBody">
-                    I am currently working as a Software Developer at <a target="_blank" href="http://www.sage.com/">
+                    I am currently working as a Lead Software Engineer at{' '}
+                    <a target="_blank" href="https://bedegaming.com/">
+                      {' '}
+                      Bede Gaming
+                    </a>{' '}
+                    . Prior to that I was a Software Engineer at{' '}
+                    <a target="_blank" href="https://sage.com/">
                       {' '}
                       Sage
-                    </a> and previously spent 3 years coding, designing and marketing as co-founder of
-                    <a target="_blank" href="https://www.facebook.com/CinderhouseCreative/">
+                    </a>{' '}
+                    and previously spent 3 years coding, designing and marketing
+                    as co-founder of
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/CinderhouseCreative/"
+                    >
                       {' '}
                       Cinderhouse Creative
-                    </a>.
+                    </a>
+                    .
                   </div>
                   <div className="section2TextBody">
-                    Through Cinderhouse Creative, I was a co-founder / developer of <a target="_blank" href="https://www.facebook.com/projecteduku/">
+                    Through Cinderhouse Creative, I was a co-founder / developer
+                    of{' '}
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/projecteduku/"
+                    >
                       Eduku
-                    </a>, a social enterprise (self-funded charity), that aimed to raise funds for those lacking educational opportunities in low-income countries via an online learning platform.
+                    </a>
+                    , a social enterprise (self-funded charity), that aimed to
+                    raise funds for those lacking educational opportunities in
+                    low-income countries via an online learning platform.
                   </div>
                   <div className="section2TextBody">
-                    I was also part of the team that won Cisco's first prize
-                    at AngelHack's Lady Problems hackathon in San Francisco
-                    in October 2016 for creating Entable (an sms-based
-                    online banking platform aimed specifically at supporting
-                    women in low-income countries by offering wider access
-                    to microfinance).
+                    I was also part of the team that won Cisco's first prize at
+                    AngelHack's Lady Problems hackathon in San Francisco in
+                    October 2016 for creating Entable (an sms-based online
+                    banking platform aimed specifically at supporting women in
+                    low-income countries by offering wider access to
+                    microfinance).
                   </div>
                 </div>
 
                 <div className="iconBoxOuter">
                   <div className="iconBoxJS">
                     <div className="iconBoxImageBoxJS">
-                      <img className="iconBoxImageJS" src={require('../images/techIcons300/Javascript.png')} alt="Javascript" />
+                      <img
+                        className="iconBoxImageJS"
+                        src={require('../images/techIcons300/Javascript.png')}
+                        alt="Javascript"
+                      />
                     </div>
                   </div>
 
                   <div className="iconBox">
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/React.png')} alt="React" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/React.png')}
+                        alt="React"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Redux.png')} alt="Redux" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Redux.png')}
+                        alt="Redux"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Node.png')} alt="Node" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Node.png')}
+                        alt="Node"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Express.png')} alt="Express" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Express.png')}
+                        alt="Express"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/HTML5CSS3.png')} alt="HTMLCSS" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/HTML5CSS3.png')}
+                        alt="HTMLCSS"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Sass.png')} alt="Sass" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Sass.png')}
+                        alt="Sass"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/SocketIO.png')} alt="SocketIO" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/SocketIO.png')}
+                        alt="SocketIO"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImageSmall" src={require('../images/techIcons300/Amazon.png')} alt="Amazon" />
+                      <img
+                        className="iconBoxImageSmall"
+                        src={require('../images/techIcons300/Amazon.png')}
+                        alt="Amazon"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Firebase.png')} alt="Firebase" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Firebase.png')}
+                        alt="Firebase"
+                      />
                     </div>
 
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Flux2.png')} alt="Flux2" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Flux2.png')}
+                        alt="Flux2"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Google.png')} alt="Google" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Google.png')}
+                        alt="Google"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/jQuery.png')} alt="jQuery" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/jQuery.png')}
+                        alt="jQuery"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/Mongo.png')} alt="Mongo" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/Mongo.png')}
+                        alt="Mongo"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/webpack.png')} alt="Webpack" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/webpack.png')}
+                        alt="Webpack"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/docker.png')} alt="docker" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/docker.png')}
+                        alt="docker"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/tropo.png')} alt="tropo" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/tropo.png')}
+                        alt="tropo"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/ruby.png')} alt="ruby" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/ruby.png')}
+                        alt="ruby"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/rails.png')} alt="rails" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/rails.png')}
+                        alt="rails"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/rspec.png')} alt="rspec" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/rspec.png')}
+                        alt="rspec"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/chaijs-mocha.png')} alt="MochaChaijs" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/chaijs-mocha.png')}
+                        alt="MochaChaijs"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/mysql.png')} alt="mysql" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/mysql.png')}
+                        alt="mysql"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/jira.png')} alt="jira" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/jira.png')}
+                        alt="jira"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/git.png')} alt="git" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/git.png')}
+                        alt="git"
+                      />
                     </div>
                     <div className="iconBoxImageBox">
-                      <img className="iconBoxImage" src={require('../images/techIcons300/github.png')} alt="github" />
+                      <img
+                        className="iconBoxImage"
+                        src={require('../images/techIcons300/github.png')}
+                        alt="github"
+                      />
                     </div>
                   </div>
                 </div>
@@ -347,15 +482,27 @@ export default class HomePage extends React.Component {
               </div>
               <div className="section6Title">
                 <div className="section6IconsBox">
-                  <a className="section6Icons" target="_blank" href="https://github.com/thejapanexperience">
+                  <a
+                    className="section6Icons"
+                    target="_blank"
+                    href="https://github.com/thejapanexperience"
+                  >
                     <i className="fa fa-github fa-lg" />
                   </a>
                   <span className="section6Icons"> | </span>
-                  <a className="section6Icons" target="_blank" href="https://twitter.com/RichardMands">
+                  <a
+                    className="section6Icons"
+                    target="_blank"
+                    href="https://twitter.com/RichardMands"
+                  >
                     <i className="fa fa-twitter fa-lg" />
                   </a>
                   <span className="section6Icons"> | </span>
-                  <a className="section6Icons" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name">
+                  <a
+                    className="section6Icons"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"
+                  >
                     <i className="fa fa-linkedin fa-lg" />
                   </a>
                   {/* <span className="section6Icons"> | </span>
@@ -369,11 +516,19 @@ export default class HomePage extends React.Component {
             <div className="section5">
               <div className="section5Title">RÉSUMÉ</div>
               <div className="section5Text">
-                <a target="_blank" href="https://drive.google.com/open?id=0B6GYiEdGHBSDc0hMakI1a3FqRHc" className="resumeLink">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/open?id=0B6GYiEdGHBSDc0hMakI1a3FqRHc"
+                  className="resumeLink"
+                >
                   Download pdf
                 </a>
                 <span> / </span>
-                <a target="_blank" href="https://drive.google.com/file/d/0B6GYiEdGHBSDM25wckxSNzBYM1k/view?usp=sharing" className="resumeLink">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/0B6GYiEdGHBSDM25wckxSNzBYM1k/view?usp=sharing"
+                  className="resumeLink"
+                >
                   Download word
                 </a>
               </div>
@@ -385,8 +540,16 @@ export default class HomePage extends React.Component {
               <div className="section5Text2">
               Lorem oopsum lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div> */}
-              <ResumeColumn resumeColumnClick={this.resumeColumnClick} buttonText={this.state.buttonText} showResume={this.state.showResume} />
-              <Resume resumeClick={this.resumeClick} buttonText={this.state.buttonText} showResume={this.state.showResume} />
+              <ResumeColumn
+                resumeColumnClick={this.resumeColumnClick}
+                buttonText={this.state.buttonText}
+                showResume={this.state.showResume}
+              />
+              <Resume
+                resumeClick={this.resumeClick}
+                buttonText={this.state.buttonText}
+                showResume={this.state.showResume}
+              />
             </div>
           </div>
 
@@ -402,16 +565,28 @@ export default class HomePage extends React.Component {
             </div>
             <div className="footer">
               <span className="footerIcons">
-                <a className="footerText3" target="_blank" href="https://github.com/thejapanexperience">
+                <a
+                  className="footerText3"
+                  target="_blank"
+                  href="https://github.com/thejapanexperience"
+                >
                   <i className="fa fa-github fa-lg" />
                 </a>
                 <span className="footerText3"> | </span>
-                <a className="footerText3" target="_blank" href="https://twitter.com/RichardMands">
+                <a
+                  className="footerText3"
+                  target="_blank"
+                  href="https://twitter.com/RichardMands"
+                >
                   <i className="fa fa-twitter fa-lg" />
                 </a>
 
                 <span className="footerText3"> | </span>
-                <a className="footerText3" target="_blank" href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name">
+                <a
+                  className="footerText3"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/richard-mands-a99955119?trk=hp-identity-name"
+                >
                   <i className="fa fa-linkedin fa-lg" />
                 </a>
                 {/* <span className="footerText3"> | </span>
@@ -420,6 +595,7 @@ export default class HomePage extends React.Component {
             </div>
           </div>
         </div>
-      </div>;
+      </div>
+    );
   }
 }

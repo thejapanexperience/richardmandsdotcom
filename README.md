@@ -6,6 +6,4 @@ Fully custom html and sass. Fully responsive.
 
 Check it out <a target="blank" href="http://www.richardmands.com">here</a>.
 
-* code written by Richard Mands.
-* built on top of an empty React Slingshot template.
-* https://github.com/coryhouse/react-slingshot.git
+- code written by Richard Mands.

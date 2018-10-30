@@ -38728,7 +38728,7 @@ module.exports.default = axios;
 
 },{"./utils":"node_modules/axios/lib/utils.js","./helpers/bind":"node_modules/axios/lib/helpers/bind.js","./core/Axios":"node_modules/axios/lib/core/Axios.js","./defaults":"node_modules/axios/lib/defaults.js","./cancel/Cancel":"node_modules/axios/lib/cancel/Cancel.js","./cancel/CancelToken":"node_modules/axios/lib/cancel/CancelToken.js","./cancel/isCancel":"node_modules/axios/lib/cancel/isCancel.js","./helpers/spread":"node_modules/axios/lib/helpers/spread.js"}],"node_modules/axios/index.js":[function(require,module,exports) {
 module.exports = require('./lib/axios');
-},{"./lib/axios":"node_modules/axios/lib/axios.js"}],"src/Components/miniProject01/UserCard.js":[function(require,module,exports) {
+},{"./lib/axios":"node_modules/axios/lib/axios.js"}],"src/components/miniProject01/UserCard.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38812,7 +38812,7 @@ function (_Component) {
 
 var _default = UserCard;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"src/Components/miniProject01/AllPurposeApp.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"src/components/miniProject01/AllPurposeApp.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38967,7 +38967,7 @@ function (_Component) {
 
 var _default = AllPurposeApp;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","axios":"node_modules/axios/index.js","./UserCard":"src/Components/miniProject01/UserCard.js"}],"src/images/techIcons300/Javascript.png":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","axios":"node_modules/axios/index.js","./UserCard":"src/components/miniProject01/UserCard.js"}],"src/images/techIcons300/Javascript.png":[function(require,module,exports) {
 module.exports = "/Javascript.727291b9.png";
 },{}],"src/images/techIcons300/HTML5CSS3.png":[function(require,module,exports) {
 module.exports = "/HTML5CSS3.08dc33d1.png";
@@ -38975,7 +38975,7 @@ module.exports = "/HTML5CSS3.08dc33d1.png";
 module.exports = "/Sass.b9083fa9.png";
 },{}],"src/images/techIcons300/React.png":[function(require,module,exports) {
 module.exports = "/React.ed8454e9.png";
-},{}],"src/Components/miniProject01/MiniProject.js":[function(require,module,exports) {
+},{}],"src/components/miniProject01/MiniProject.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -39080,9 +39080,9 @@ function (_React$Component) {
 
 var _default = MiniProject;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./AllPurposeApp":"src/Components/miniProject01/AllPurposeApp.js","../../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../../images/techIcons300/React.png":"src/images/techIcons300/React.png"}],"src/images/github.png":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./AllPurposeApp":"src/components/miniProject01/AllPurposeApp.js","../../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../../images/techIcons300/React.png":"src/images/techIcons300/React.png"}],"src/images/github.png":[function(require,module,exports) {
 module.exports = "/github.c6a36f36.png";
-},{}],"src/Components/MiniProjects.js":[function(require,module,exports) {
+},{}],"src/components/MiniProjects.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -39199,7 +39199,7 @@ module.exports = "/Firebase.bf49bc97.png";
 module.exports = "/Flux2.ee4a67c9.png";
 },{}],"src/images/techIcons300/Mongo.png":[function(require,module,exports) {
 module.exports = "/Mongo.065c257c.png";
-},{}],"src/Components/PortfolioItem.js":[function(require,module,exports) {
+},{}],"src/components/PortfolioItem.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -39558,7 +39558,7 @@ PortfolioItem.propTypes = {// children: PropTypes.element
 };
 var _default = PortfolioItem;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./miniProject01/MiniProject":"src/Components/miniProject01/MiniProject.js","./MiniProjects":"src/Components/MiniProjects.js","../images/Entable.png":"src/images/Entable.png","../images/eduku.png":"src/images/eduku.png","../images/richardmandsdotcom.png":"src/images/richardmandsdotcom.png","../images/theFastLife.png":"src/images/theFastLife.png","../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../images/techIcons300/React.png":"src/images/techIcons300/React.png","../images/techIcons300/Express.png":"src/images/techIcons300/Express.png","../images/techIcons300/Node.png":"src/images/techIcons300/Node.png","../images/techIcons300/webpack.png":"src/images/techIcons300/webpack.png","../images/techIcons300/Redux.png":"src/images/techIcons300/Redux.png","../images/techIcons300/SocketIO.png":"src/images/techIcons300/SocketIO.png","../images/techIcons300/Firebase.png":"src/images/techIcons300/Firebase.png","../images/techIcons300/Flux2.png":"src/images/techIcons300/Flux2.png","../images/techIcons300/Mongo.png":"src/images/techIcons300/Mongo.png"}],"src/Components/PortfolioBox.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./miniProject01/MiniProject":"src/components/miniProject01/MiniProject.js","./MiniProjects":"src/components/MiniProjects.js","../images/Entable.png":"src/images/Entable.png","../images/eduku.png":"src/images/eduku.png","../images/richardmandsdotcom.png":"src/images/richardmandsdotcom.png","../images/theFastLife.png":"src/images/theFastLife.png","../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../images/techIcons300/React.png":"src/images/techIcons300/React.png","../images/techIcons300/Express.png":"src/images/techIcons300/Express.png","../images/techIcons300/Node.png":"src/images/techIcons300/Node.png","../images/techIcons300/webpack.png":"src/images/techIcons300/webpack.png","../images/techIcons300/Redux.png":"src/images/techIcons300/Redux.png","../images/techIcons300/SocketIO.png":"src/images/techIcons300/SocketIO.png","../images/techIcons300/Firebase.png":"src/images/techIcons300/Firebase.png","../images/techIcons300/Flux2.png":"src/images/techIcons300/Flux2.png","../images/techIcons300/Mongo.png":"src/images/techIcons300/Mongo.png"}],"src/components/PortfolioBox.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -39748,7 +39748,7 @@ function (_React$Component) {
 
 
 exports.default = PortfolioBox;
-},{"react":"node_modules/react/index.js","./PortfolioItem":"src/Components/PortfolioItem.js"}],"src/Components/Resume.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./PortfolioItem":"src/components/PortfolioItem.js"}],"src/components/Resume.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -39850,7 +39850,7 @@ function (_React$Component) {
         className: "contentContent"
       }, "Full-stack developer."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "A quick study who has learned how to learn, I have a strong leadership background, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day."))));
+      }, "A quick study who has learned how to learn, I have a strong leadership background, adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day."))));
 
       var quickPoints = _react.default.createElement("div", {
         className: "four"
@@ -39864,7 +39864,10 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Software Developer at", ' ', _react.default.createElement("a", {
+      }, "- Lead Software Engineer at", ' ', _react.default.createElement("a", {
+        target: "_blank",
+        href: "http://www.bedegaming.com/"
+      }, "Bede Gaming"), "- Software Engineer at", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.sage.com/"
       }, "Sage"), _react.default.createElement("br", null), "- 3 years coding, designing & marketing at", ' ', _react.default.createElement("a", {
@@ -39913,19 +39916,19 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Software Developer at Sage."), _react.default.createElement("div", {
+      }, "Currently Lead Software Engineer at Bede Gaming."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Co-Founder / Visual Director / Developer at Cinderhouse Creative."), _react.default.createElement("div", {
+      }, "Software Engineer at Sage."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Lead developer / Co-owner of Eduku : an online education platform made using React, Redux, Express, Auth0, MongoDB."), _react.default.createElement("div", {
+      }, "Co-Founder / Visual Director / Developer at Cinderhouse Creative."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Proficient in HTML, CSS, JavaScript, Node.js, React, Redux, Flux, Webpack, Express, MongoDB, Mongoose, Ruby, Rails, Sinatra.", ' '), _react.default.createElement("div", {
+      }, "Lead developer / Co-owner of Eduku : an online education platform made using React, Redux, Express, Auth0, MongoDB."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Have experience of Socket.IO, Google APIs, Watson APIs, Amazon Web Services, MySQL, Firebase, Auth0, React-DnD, Tropo."), _react.default.createElement("div", {
+      }, "Proficient with a JS stack based around React, Redux, Node, Express and Webpack. I've also worked with a variety of other React adjacent technologies such as MongoDB, Mongoose, Gatsby, Parcel, Flux, etc, as well as Ruby (Rails, Sinatra) AWS (Lambda, SNS/SQS, Serverless) and have experience of technologies such as Socket.io, DynamoDB, Firebase, Google APIs and others."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Won Cisco\u2019s 1st place prize at AngelHack\u2019s Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system."), _react.default.createElement("div", {
+      }, "Won Cisco\u2019s 1st place prize at AngelHack\u2019s Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Co-founder of 3 social enterprise case-studies that funded business-development competitions on", ' ', _react.default.createElement("a", {
+      }, "Co-founder of 3 social enterprise case-studies that funded business-development competitions on", ' ', _react.default.createElement("a", {
         href: "https://herox.com/domogo",
         target: "_blank"
       }, "HeroX"), ' ', "for", ' ', _react.default.createElement("a", {
@@ -39933,11 +39936,34 @@ function (_React$Component) {
         target: "_blank"
       }, "Kito International"), ' ', "graduates in Kenya."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Professional level photography, videography and video editing skill. Have worked on projects in Australia, China and the UK"), _react.default.createElement("div", {
+      }, "Professional level photography, videography and video editing skill. Have worked on projects in Australia, China and the UK"), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Proficient with Photoshop, Lightroom, Premiere Pro, After-Effects, Audition, Autopano Video (360 video software)."), _react.default.createElement("div", {
+      }, "Proficient with Photoshop, Lightroom, Premiere Pro, After-Effects, Audition, Autopano Video (360 video software)."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Qualified secondary science teacher with a degree in Biochemistry and 10 years of experience working in education in the UK and Asia."))));
+      }, "Qualified secondary science teacher with a degree in Biochemistry and 10 years of experience working in education in the UK and Asia."))));
+
+      var bede = _react.default.createElement("div", {
+        className: "one"
+      }, _react.default.createElement("div", {
+        className: "oneInner"
+      }, _react.default.createElement("div", {
+        className: "titleBox"
+      }, _react.default.createElement("div", {
+        className: "titleContent"
+      }, _react.default.createElement("a", {
+        target: "_blank",
+        href: "http://www.bedegaming.com/"
+      }, "BEDE GAMING"), ' ', "| Jul \u201818 - Present")), _react.default.createElement("div", {
+        className: "contentBox"
+      }, _react.default.createElement("div", {
+        className: "contentContent"
+      }, "Lead Software Engineer | Newcastle, UK"), _react.default.createElement("div", {
+        className: "contentContent"
+      }, "JavaScript, React, Backbone, Marionette, Jira, Scrum."), _react.default.createElement("div", {
+        className: "contentContent"
+      }, "- responsible for leading a team of developers, working with stake-holders, writing tickets / estimation, managing scrum ceremonies, 1-2-1s, etc."), _react.default.createElement("div", {
+        className: "contentContent"
+      }, "- transitioning front-end product over to a React stack while introducing new features."))));
 
       var sage = _react.default.createElement("div", {
         className: "one"
@@ -39950,11 +39976,11 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.sage.com/"
-      }, "SAGE"), ' ', "| Jul \u201817 - Present")), _react.default.createElement("div", {
+      }, "SAGE"), ' ', "| Jul \u201817 - Jul '18'")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "Software Developer | Newcastle, UK"), _react.default.createElement("div", {
+      }, "Software Engineer | Newcastle, UK"), _react.default.createElement("div", {
         className: "contentContent"
       }, "Ruby, Rails, Sinatra, MySQL, RSpec, JavaScript, React, Jasmine, Git, Docker, AWS, Postmark, Jira, Scrum."), _react.default.createElement("div", {
         className: "contentContent"
@@ -40249,7 +40275,7 @@ function (_React$Component) {
         className: "row"
       }, profile), _react.default.createElement("div", {
         className: "row"
-      }, langPro, langExp), _react.default.createElement("div", {
+      }, bede), _react.default.createElement("div", {
         className: "row"
       }, sage), _react.default.createElement("div", {
         className: "row"
@@ -40274,7 +40300,7 @@ function (_React$Component) {
 
 var _default = Resume;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../images/RichardBWSquare900.jpg":"src/images/RichardBWSquare900.jpg"}],"src/Components/ResumeColumn.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../images/RichardBWSquare900.jpg":"src/images/RichardBWSquare900.jpg"}],"src/components/ResumeColumn.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -40348,11 +40374,11 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("img", {
         className: "imgColumn",
-        src: require("../images/RichardBWSquare900.jpg"),
+        src: require('../images/RichardBWSquare900.jpg'),
         alt: ""
       }), _react.default.createElement("div", {
         className: "contentContentImage"
-      }, "A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day."))));
+      }, "A quick study who has learned how to learn, I have a strong leadership background, adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day.", ' '))));
 
       var quickPoints = _react.default.createElement("div", {
         className: "one"
@@ -40366,13 +40392,16 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Software Developer at ", _react.default.createElement("a", {
+      }, "- Lead Software Engineer at", ' ', _react.default.createElement("a", {
+        target: "_blank",
+        href: "http://www.bedegaming.com/"
+      }, "Bede Gaming"), _react.default.createElement("br", null), "- Software Engineer at", _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.sage.com/"
-      }, "Sage"), _react.default.createElement("br", null), "- 3 years coding, designing & marketing at ", _react.default.createElement("a", {
+      }, "Sage"), _react.default.createElement("br", null), "- 3 years coding, designing & marketing at", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "https://www.facebook.com/CinderhouseCreative/"
-      }, "Cinderhouse Creative"), _react.default.createElement("br", null), "- Cofounder / lead developer of ", _react.default.createElement("a", {
+      }, "Cinderhouse Creative"), _react.default.createElement("br", null), "- Cofounder / lead developer of", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "https://www.facebook.com/projecteduku/"
       }, "Eduku"), _react.default.createElement("br", null), "- Hackathon prize winner", _react.default.createElement("br", null), "- Pro photographer / videographer", _react.default.createElement("br", null), "- UK / Canada passport holder", _react.default.createElement("br", null)))));
@@ -40389,7 +40418,7 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "Portfolio: ", _react.default.createElement("a", {
+      }, "Portfolio:", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.richardmands.com"
       }, "richardmands.com"), _react.default.createElement("br", null), "Phone: +44 07507 881794", _react.default.createElement("br", null), "richard@eduku.org", _react.default.createElement("br", null), _react.default.createElement("a", {
@@ -40415,31 +40444,54 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Software Developer at Sage."), _react.default.createElement("div", {
+      }, "Currently Lead Software Engineer at Bede Gaming."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Co-Founder / Visual Director / Developer at Cinderhouse Creative."), _react.default.createElement("div", {
+      }, "Software Engineer at Sage."), ' ', _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Lead developer / Co-owner of Eduku : an online education platform made using React, Redux, Express, Auth0, MongoDB."), _react.default.createElement("div", {
+      }, "Co-Founder / Visual Director / Developer at Cinderhouse Creative."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Proficient in HTML, CSS, Javascript, Node.js, React, Redux, Flux, Webpack, Express, MongoDB, Mongoose."), _react.default.createElement("div", {
+      }, "Lead developer / Co-owner of Eduku : an online education platform made using React, Redux, Express, Auth0, MongoDB."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Have experience of React Native, Socket.IO, Google APIs, Watson APIs, Amazon Web Services, MySQL, Firebase, Auth0, React-DnD, Tropo."), _react.default.createElement("div", {
+      }, "Proficient with a JS stack based around React, Redux, Node, Express and Webpack. I've also worked with a variety of other React adjacent technologies such as MongoDB, Mongoose, Gatsby, Parcel, Flux, etc, as well as Ruby (Rails, Sinatra) AWS (Lambda, SNS/SQS, Serverless) and have experience of technologies such as Socket.io, DynamoDB, Firebase, Google APIs and others."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Won Cisco\u2019s 1st place prize at AngelHack\u2019s Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system."), _react.default.createElement("div", {
+      }, "Won Cisco\u2019s 1st place prize at AngelHack\u2019s Lady Problems hackathon in San Francisco for Entable, an sms-based, Tropo-powered table-banking system."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Co-founder of 3 social enterprise case-studies that funded business-development competitions on ", _react.default.createElement("a", {
+      }, "Co-founder of 3 social enterprise case-studies that funded business-development competitions on", ' ', _react.default.createElement("a", {
         href: "https://herox.com/domogo",
         target: "_blank"
-      }, "HeroX"), " for ", _react.default.createElement("a", {
+      }, "HeroX"), ' ', "for", ' ', _react.default.createElement("a", {
         href: "http://www.kitointl.org/",
         target: "_blank"
-      }, "Kito International"), " graduates in Kenya."), _react.default.createElement("div", {
+      }, "Kito International"), ' ', "graduates in Kenya."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Professional level photography, videography and video editing skill. Have worked on projects in Australia, China and the UK"), _react.default.createElement("div", {
+      }, "Professional level photography, videography and video editing skill. Have worked on projects in Australia, China and the UK"), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Proficient with Photoshop, Lightroom, Premiere Pro, After-Effects, Audition, Autopano Video (360 video software)."), _react.default.createElement("div", {
+      }, "Proficient with Photoshop, Lightroom, Premiere Pro, After-Effects, Audition, Autopano Video (360 video software)."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- Qualified secondary science teacher with a degree in Biochemistry and 10 years of experience working in education in the UK and Asia."))));
+      }, "Qualified secondary science teacher with a degree in Biochemistry and 10 years of experience working in education in the UK and Asia."))));
+
+      var bede = _react.default.createElement("div", {
+        className: "one"
+      }, _react.default.createElement("div", {
+        className: "oneInner"
+      }, _react.default.createElement("div", {
+        className: "titleBox"
+      }, _react.default.createElement("div", {
+        className: "titleContent"
+      }, _react.default.createElement("a", {
+        target: "_blank",
+        href: "http://www.bedegaming.com/"
+      }, "BEDE GAMING"), ' ', "| Jul \u201818 - Present")), _react.default.createElement("div", {
+        className: "contentBox"
+      }, _react.default.createElement("div", {
+        className: "contentContent"
+      }, "Lead Software Engineer | Newcastle, UK"), _react.default.createElement("div", {
+        className: "contentContent"
+      }, "JavaScript, React, Backbone, Marionette, Jira, Scrum."), _react.default.createElement("div", {
+        className: "contentContent"
+      }, "- responsible for leading a team of developers, working with stake-holders, writing tickets / estimation, managing scrum ceremonies, 1-2-1s, etc."), _react.default.createElement("div", {
+        className: "contentContent"
+      }, "- transitioning front-end product over to a React stack while introducing new features."))));
 
       var sage = _react.default.createElement("div", {
         className: "one"
@@ -40452,7 +40504,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.sage.com/"
-      }, "SAGE"), " | Jul \u201817 - Present")), _react.default.createElement("div", {
+      }, "SAGE"), ' ', "| Jul \u201817 - Jul '18'")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
@@ -40468,7 +40520,7 @@ function (_React$Component) {
         className: "contentContent"
       }, "- taken a lead role in scrum meetings, delivered presentations, led communications with other departments, etc"), _react.default.createElement("div", {
         className: "contentContent"
-      }, "- developed my own large-scale project on a volunteer basis with the ", _react.default.createElement("a", {
+      }, "- developed my own large-scale project on a volunteer basis with the", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "http://www.sage.com/company/sage_foundation"
       }, "Sage Foundation"), "."))));
@@ -40484,7 +40536,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         target: "_blank",
         href: "https://www.facebook.com/CinderhouseCreative/"
-      }, "CINDERHOUSE CREATIVE"), " | Oct \u201814 - Jun \u201817")), _react.default.createElement("div", {
+      }, "CINDERHOUSE CREATIVE"), ' ', "| Oct \u201814 - Jun \u201817")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
@@ -40492,16 +40544,16 @@ function (_React$Component) {
         className: "contentContent"
       }, "Since co-founding Cinderhouse Creative, we have delivered projects for clients such as Officemax, Unilever, Sinoma, JHerro and SkyData, among others."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "Additionally, through Cinderhouse Creative, I am the co-founder of 3 social enterprise (self-funded charity) case-studies: ", _react.default.createElement("a", {
+      }, "Additionally, through Cinderhouse Creative, I am the co-founder of 3 social enterprise (self-funded charity) case-studies:", ' ', _react.default.createElement("a", {
         href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
-      }, "Eduku"), ", ", _react.default.createElement("a", {
+      }, "Eduku"), ",", ' ', _react.default.createElement("a", {
         href: "https://www.facebook.com/stockdisrupt/",
         target: "_blank"
-      }, "Stock Disrupt"), " and ", _react.default.createElement("a", {
+      }, "Stock Disrupt"), ' ', "and", ' ', _react.default.createElement("a", {
         href: "https://www.facebook.com/projectdomogo/",
         target: "_blank"
-      }, "Domogo"), " that have featured in several publications including the BBC."))));
+      }, "Domogo"), ' ', "that have featured in several publications including the BBC."))));
 
       var eduku = _react.default.createElement("div", {
         className: "one"
@@ -40514,7 +40566,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
-      }, "EDUKU"), " | Aug \u201915 - Jun \u201817")), _react.default.createElement("div", {
+      }, "EDUKU"), ' ', "| Aug \u201915 - Jun \u201817")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
@@ -40523,7 +40575,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "https://www.facebook.com/projecteduku/",
         target: "_blank"
-      }, "Eduku"), " is a Cinderhouse Creative social enterprise, that aims to raise funds for those lacking educational opportunities in low-income countries via an online learning platform."), _react.default.createElement("div", {
+      }, "Eduku"), ' ', "is a Cinderhouse Creative social enterprise, that aims to raise funds for those lacking educational opportunities in low-income countries via an online learning platform."), _react.default.createElement("div", {
         className: "contentContent"
       }, "The platform will allow users to interact with online learning resources as well as participate in the allocation of profits towards social outcomes.")))); // let selfStudy =
       // <div className="one">
@@ -40567,7 +40619,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "https://bsn.org.cn/",
         target: "_blank"
-      }, "BRITISH SCHOOL OF NANJING"), " | Apr '12 - Jul '16")), _react.default.createElement("div", {
+      }, "BRITISH SCHOOL OF NANJING"), ' ', "| Apr '12 - Jul '16")), _react.default.createElement("div", {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
@@ -40577,12 +40629,12 @@ function (_React$Component) {
         className: "contentContent"
       }, "Developed and implemented a google-drive based real-time assessment and feedback system for students and teachers."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "Won the technology development prize from the ", _react.default.createElement("a", {
+      }, "Won the technology development prize from the", ' ', _react.default.createElement("a", {
         href: "https://www.britishschools.co.uk/",
         target: "_blank"
       }, "British Schools Foundation"), "."), _react.default.createElement("div", {
         className: "contentContent"
-      }, "Developed training curricula and led inset for  staff with the goal of improving IT integration."), _react.default.createElement("div", {
+      }, "Developed training curricula and led inset for staff with the goal of improving IT integration."), _react.default.createElement("div", {
         className: "contentContent"
       }, "Created and led highly successful after-school programs related to charity work and fundraising."))));
 
@@ -40601,7 +40653,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "http://www.londonacademy.org.uk/",
         target: "_blank"
-      }, "London Academy"), " | Secondary Science Teacher | London, UK"), _react.default.createElement("div", {
+      }, "London Academy"), ' ', "| Secondary Science Teacher | London, UK"), _react.default.createElement("div", {
         className: "contentContent"
       }, "Various | English Teacher | Tokyo, Japan"))));
 
@@ -40620,7 +40672,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "http://www.ucl.ac.uk/ioe",
         target: "_blank"
-      }, "Institute of Education : UCL"), " | Secondary Science PGCE | London, UK"))));
+      }, "Institute of Education : UCL"), ' ', "| Secondary Science PGCE | London, UK"))));
 
       var universityDegree = _react.default.createElement("div", {
         className: "one"
@@ -40637,7 +40689,7 @@ function (_React$Component) {
       }, _react.default.createElement("a", {
         href: "https://www.york.ac.uk/",
         target: "_blank"
-      }, "University of York"), " | Biochemistry BSc | York, UK"))));
+      }, "University of York"), ' ', "| Biochemistry BSc | York, UK"))));
 
       var langPro = _react.default.createElement("div", {
         className: "one"
@@ -40738,9 +40790,9 @@ function (_React$Component) {
       var showOrHide;
 
       if (this.props.showResume) {
-        showOrHide = "resumeBox";
+        showOrHide = 'resumeBox';
       } else {
-        showOrHide = "resumeBoxHide";
+        showOrHide = 'resumeBoxHide';
       }
 
       return _react.default.createElement("div", {
@@ -40764,7 +40816,7 @@ function (_React$Component) {
         className: "letter"
       }, _react.default.createElement("div", {
         className: "letterContent"
-      }, introduction, quickPoints, contact, profile, langPro, langExp, sage, cinderhouse, eduku, teaching, teachingCont, teachingQualification, universityDegree, personalInformation)))));
+      }, introduction, quickPoints, contact, profile, bede, sage, cinderhouse, eduku, teaching, teachingCont, teachingQualification, universityDegree, personalInformation)))));
     }
   }]);
 
@@ -40775,7 +40827,7 @@ var _default = ResumeColumn;
 exports.default = _default;
 },{"react":"node_modules/react/index.js","../images/RichardBWSquare900.jpg":"src/images/RichardBWSquare900.jpg"}],"src/images/richardCollageWide02.jpg":[function(require,module,exports) {
 module.exports = "/richardCollageWide02.c952cbd4.jpg";
-},{}],"src/Components/OtherSkills.js":[function(require,module,exports) {
+},{}],"src/components/OtherSkills.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41035,7 +41087,7 @@ module.exports = "/jira.10c42969.png";
 module.exports = "/git.02818f98.png";
 },{}],"src/images/techIcons300/github.png":[function(require,module,exports) {
 module.exports = "/github.cfcf2f91.png";
-},{}],"src/Components/HomePage.js":[function(require,module,exports) {
+},{}],"src/components/HomePage.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41176,7 +41228,6 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      console.log('HomePage');
       return _react.default.createElement("div", null, _react.default.createElement("div", {
         className: "imageCache"
       }), _react.default.createElement("div", {
@@ -41263,7 +41314,7 @@ function (_React$Component) {
         href: "https://www.facebook.com/projecteduku/"
       }, "Eduku"), ", a social enterprise (self-funded charity), that aimed to raise funds for those lacking educational opportunities in low-income countries via an online learning platform."), _react.default.createElement("div", {
         className: "section2TextBody"
-      }, "I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in San Francisco in October 2016 for creating Entable (an sms-based online banking platform aimed specifically at supporting women in low-income countries by offering wider access to microfinance).")), _react.default.createElement("div", {
+      }, "I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in San Frandcisco in October 2016 for creating Entable (an sms-based online banking platform aimed specifically at supporting women in low-income countries by offering wider access to microfinance).")), _react.default.createElement("div", {
         className: "iconBoxOuter"
       }, _react.default.createElement("div", {
         className: "iconBoxJS"
@@ -41529,7 +41580,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 exports.default = HomePage;
-},{"react":"node_modules/react/index.js","jquery":"node_modules/jquery/dist/jquery.js","./PortfolioBox":"src/Components/PortfolioBox.js","./Resume":"src/Components/Resume.js","./ResumeColumn":"src/Components/ResumeColumn.js","./OtherSkills":"src/Components/OtherSkills.js","axios":"node_modules/axios/index.js","../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../images/techIcons300/React.png":"src/images/techIcons300/React.png","../images/techIcons300/Redux.png":"src/images/techIcons300/Redux.png","../images/techIcons300/Node.png":"src/images/techIcons300/Node.png","../images/techIcons300/Express.png":"src/images/techIcons300/Express.png","../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../images/techIcons300/SocketIO.png":"src/images/techIcons300/SocketIO.png","../images/techIcons300/Amazon.png":"src/images/techIcons300/Amazon.png","../images/techIcons300/Firebase.png":"src/images/techIcons300/Firebase.png","../images/techIcons300/Flux2.png":"src/images/techIcons300/Flux2.png","../images/techIcons300/Google.png":"src/images/techIcons300/Google.png","../images/techIcons300/jQuery.png":"src/images/techIcons300/jQuery.png","../images/techIcons300/Mongo.png":"src/images/techIcons300/Mongo.png","../images/techIcons300/webpack.png":"src/images/techIcons300/webpack.png","../images/docker.png":"src/images/docker.png","../images/tropo.png":"src/images/tropo.png","../images/ruby.png":"src/images/ruby.png","../images/rails.png":"src/images/rails.png","../images/rspec.png":"src/images/rspec.png","../images/techIcons300/chaijs-mocha.png":"src/images/techIcons300/chaijs-mocha.png","../images/mysql.png":"src/images/mysql.png","../images/jira.png":"src/images/jira.png","../images/git.png":"src/images/git.png","../images/techIcons300/github.png":"src/images/techIcons300/github.png"}],"node_modules/react-router/es/index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","jquery":"node_modules/jquery/dist/jquery.js","./PortfolioBox":"src/components/PortfolioBox.js","./Resume":"src/components/Resume.js","./ResumeColumn":"src/components/ResumeColumn.js","./OtherSkills":"src/components/OtherSkills.js","axios":"node_modules/axios/index.js","../images/techIcons300/Javascript.png":"src/images/techIcons300/Javascript.png","../images/techIcons300/React.png":"src/images/techIcons300/React.png","../images/techIcons300/Redux.png":"src/images/techIcons300/Redux.png","../images/techIcons300/Node.png":"src/images/techIcons300/Node.png","../images/techIcons300/Express.png":"src/images/techIcons300/Express.png","../images/techIcons300/HTML5CSS3.png":"src/images/techIcons300/HTML5CSS3.png","../images/techIcons300/Sass.png":"src/images/techIcons300/Sass.png","../images/techIcons300/SocketIO.png":"src/images/techIcons300/SocketIO.png","../images/techIcons300/Amazon.png":"src/images/techIcons300/Amazon.png","../images/techIcons300/Firebase.png":"src/images/techIcons300/Firebase.png","../images/techIcons300/Flux2.png":"src/images/techIcons300/Flux2.png","../images/techIcons300/Google.png":"src/images/techIcons300/Google.png","../images/techIcons300/jQuery.png":"src/images/techIcons300/jQuery.png","../images/techIcons300/Mongo.png":"src/images/techIcons300/Mongo.png","../images/techIcons300/webpack.png":"src/images/techIcons300/webpack.png","../images/docker.png":"src/images/docker.png","../images/tropo.png":"src/images/tropo.png","../images/ruby.png":"src/images/ruby.png","../images/rails.png":"src/images/rails.png","../images/rspec.png":"src/images/rspec.png","../images/techIcons300/chaijs-mocha.png":"src/images/techIcons300/chaijs-mocha.png","../images/mysql.png":"src/images/mysql.png","../images/jira.png":"src/images/jira.png","../images/git.png":"src/images/git.png","../images/techIcons300/github.png":"src/images/techIcons300/github.png"}],"node_modules/react-router/es/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41617,7 +41668,7 @@ var _matchPath2 = _interopRequireDefault(require("./matchPath"));
 var _withRouter2 = _interopRequireDefault(require("./withRouter"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./MemoryRouter":"node_modules/react-router/es/MemoryRouter.js","./Prompt":"node_modules/react-router/es/Prompt.js","./Redirect":"node_modules/react-router/es/Redirect.js","./Route":"node_modules/react-router/es/Route.js","./Router":"node_modules/react-router/es/Router.js","./StaticRouter":"node_modules/react-router/es/StaticRouter.js","./Switch":"node_modules/react-router/es/Switch.js","./generatePath":"node_modules/react-router/es/generatePath.js","./matchPath":"node_modules/react-router/es/matchPath.js","./withRouter":"node_modules/react-router/es/withRouter.js"}],"src/Components/NotFoundPage.js":[function(require,module,exports) {
+},{"./MemoryRouter":"node_modules/react-router/es/MemoryRouter.js","./Prompt":"node_modules/react-router/es/Prompt.js","./Redirect":"node_modules/react-router/es/Redirect.js","./Route":"node_modules/react-router/es/Route.js","./Router":"node_modules/react-router/es/Router.js","./StaticRouter":"node_modules/react-router/es/StaticRouter.js","./Switch":"node_modules/react-router/es/Switch.js","./generatePath":"node_modules/react-router/es/generatePath.js","./matchPath":"node_modules/react-router/es/matchPath.js","./withRouter":"node_modules/react-router/es/withRouter.js"}],"src/components/NotFoundPage.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41650,9 +41701,9 @@ var _reactRouterDom = require("react-router-dom");
 
 require("./styles.scss");
 
-var _HomePage = _interopRequireDefault(require("./Components/HomePage"));
+var _HomePage = _interopRequireDefault(require("./components/HomePage"));
 
-var _NotFoundPage = _interopRequireDefault(require("./Components/NotFoundPage"));
+var _NotFoundPage = _interopRequireDefault(require("./components/NotFoundPage"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -41669,7 +41720,7 @@ var App = function App() {
 };
 
 (0, _reactDom.render)(_react.default.createElement(App, null), document.getElementById('app'));
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-router-dom":"node_modules/react-router-dom/es/index.js","./styles.scss":"src/styles.scss","./Components/HomePage":"src/Components/HomePage.js","./Components/NotFoundPage":"src/Components/NotFoundPage.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-router-dom":"node_modules/react-router-dom/es/index.js","./styles.scss":"src/styles.scss","./components/HomePage":"src/components/HomePage.js","./components/NotFoundPage":"src/components/NotFoundPage.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -41696,7 +41747,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55374" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64506" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

@@ -77,7 +77,11 @@ class Resume extends React.Component {
           </div>
           <div className="contentBox">
             <div className="contentContent">
-              - Software Developer at{' '}
+              - Lead Software Engineer at{' '}
+              <a target="_blank" href="http://www.bedegaming.com/">
+                Bede Gaming
+              </a>
+              - Software Engineer at{' '}
               <a target="_blank" href="http://www.sage.com/">
                 Sage
               </a>
@@ -147,31 +151,33 @@ class Resume extends React.Component {
             <div className="titleContent">PROFILE</div>
           </div>
           <div className="contentBox">
-            <div className="contentContent">- Software Developer at Sage.</div>
+            <div className="contentContent">
+              Currently Lead Software Engineer at Bede Gaming.
+            </div>
+            <div className="contentContent">Software Engineer at Sage.</div>
 
             <div className="contentContent">
-              - Co-Founder / Visual Director / Developer at Cinderhouse
-              Creative.
+              Co-Founder / Visual Director / Developer at Cinderhouse Creative.
             </div>
             <div className="contentContent">
-              - Lead developer / Co-owner of Eduku : an online education
-              platform made using React, Redux, Express, Auth0, MongoDB.
+              Lead developer / Co-owner of Eduku : an online education platform
+              made using React, Redux, Express, Auth0, MongoDB.
             </div>
             <div className="contentContent">
-              - Proficient in HTML, CSS, JavaScript, Node.js, React, Redux,
-              Flux, Webpack, Express, MongoDB, Mongoose, Ruby, Rails, Sinatra.{' '}
+              Proficient with a JS stack based around React, Redux, Node,
+              Express and Webpack. I've also worked with a variety of other
+              React adjacent technologies such as MongoDB, Mongoose, Gatsby,
+              Parcel, Flux, etc, as well as Ruby (Rails, Sinatra) AWS (Lambda,
+              SNS/SQS, Serverless) and have experience of technologies such as
+              Socket.io, DynamoDB, Firebase, Google APIs and others.
             </div>
             <div className="contentContent">
-              - Have experience of Socket.IO, Google APIs, Watson APIs, Amazon
-              Web Services, MySQL, Firebase, Auth0, React-DnD, Tropo.
+              Won Cisco’s 1st place prize at AngelHack’s Lady Problems hackathon
+              in San Francisco for Entable, an sms-based, Tropo-powered
+              table-banking system.
             </div>
             <div className="contentContent">
-              - Won Cisco’s 1st place prize at AngelHack’s Lady Problems
-              hackathon in San Francisco for Entable, an sms-based,
-              Tropo-powered table-banking system.
-            </div>
-            <div className="contentContent">
-              - Co-founder of 3 social enterprise case-studies that funded
+              Co-founder of 3 social enterprise case-studies that funded
               business-development competitions on{' '}
               <a href="https://herox.com/domogo" target="_blank">
                 HeroX
@@ -183,17 +189,50 @@ class Resume extends React.Component {
               graduates in Kenya.
             </div>
             <div className="contentContent">
-              - Professional level photography, videography and video editing
+              Professional level photography, videography and video editing
               skill. Have worked on projects in Australia, China and the UK
             </div>
             <div className="contentContent">
-              - Proficient with Photoshop, Lightroom, Premiere Pro,
-              After-Effects, Audition, Autopano Video (360 video software).
+              Proficient with Photoshop, Lightroom, Premiere Pro, After-Effects,
+              Audition, Autopano Video (360 video software).
             </div>
             <div className="contentContent">
-              - Qualified secondary science teacher with a degree in
-              Biochemistry and 10 years of experience working in education in
-              the UK and Asia.
+              Qualified secondary science teacher with a degree in Biochemistry
+              and 10 years of experience working in education in the UK and
+              Asia.
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+
+    let bede = (
+      <div className="one">
+        <div className="oneInner">
+          <div className="titleBox">
+            <div className="titleContent">
+              <a target="_blank" href="http://www.bedegaming.com/">
+                BEDE GAMING
+              </a>{' '}
+              | Jul ‘18 - Present
+            </div>
+          </div>
+
+          <div className="contentBox">
+            <div className="contentContent">
+              Lead Software Engineer | Newcastle, UK
+            </div>
+            <div className="contentContent">
+              JavaScript, React, Backbone, Marionette, Jira, Scrum.
+            </div>
+            <div className="contentContent">
+              - responsible for leading a team of developers, working with
+              stake-holders, writing tickets / estimation, managing scrum
+              ceremonies, 1-2-1s, etc.
+            </div>
+            <div className="contentContent">
+              - transitioning front-end product over to a React stack while
+              introducing new features.
             </div>
           </div>
         </div>
@@ -208,13 +247,13 @@ class Resume extends React.Component {
               <a target="_blank" href="http://www.sage.com/">
                 SAGE
               </a>{' '}
-              | Jul ‘17 - Present
+              | Jul ‘17 - Jul '18'
             </div>
           </div>
 
           <div className="contentBox">
             <div className="contentContent">
-              Software Developer | Newcastle, UK
+              Software Engineer | Newcastle, UK
             </div>
             <div className="contentContent">
               Ruby, Rails, Sinatra, MySQL, RSpec, JavaScript, React, Jasmine,
@@ -613,12 +652,13 @@ class Resume extends React.Component {
 
                 <div className="row">{profile}</div>
 
-                <div className="row">
+                {/* <div className="row">
                   {langPro}
 
                   {langExp}
-                </div>
+                </div> */}
 
+                <div className="row">{bede}</div>
                 <div className="row">{sage}</div>
 
                 <div className="row">

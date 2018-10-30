@@ -1459,6 +1459,9 @@ hr {
   padding: 3px;
   @extend .font1;
   pointer-events: none;
+  a {
+    pointer-events: all;
+  }
   @include responsive-font(1.3vw, 1px, 18px, 18px);
   @media screen and (max-width: 901px) {
     @include responsive-font(1.3vw, 14px, 18px, 18px);
@@ -1469,6 +1472,10 @@ hr {
   @extend .flex;
   padding: 7px;
   padding-bottom: 10px;
+  pointer-events: none;
+  a {
+    pointer-events: all;
+  }
 }
 .contentContent {
   width: 100%;

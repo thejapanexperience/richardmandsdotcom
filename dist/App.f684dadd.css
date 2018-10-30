@@ -1409,6 +1409,9 @@ hr {
   font-size: 1.3vw;
   text-align: center;
 }
+.titleContent a {
+  pointer-events: all;
+}
 @media (max-width: 76.9230769231px) {
   .titleContent {
     font-size: 1px;
@@ -1439,6 +1442,10 @@ hr {
 .contentBox {
   padding: 7px;
   padding-bottom: 10px;
+  pointer-events: none;
+}
+.contentBox a {
+  pointer-events: all;
 }
 
 .contentContent, .contentContentImage {

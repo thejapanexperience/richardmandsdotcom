@@ -2,11 +2,10 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './styles.scss';
-import HomePage from './Components/HomePage';
-import NotFoundPage from './Components/NotFoundPage';
+import HomePage from './components/HomePage';
+import NotFoundPage from './components/NotFoundPage';
 
 const App = () => {
-  console.log('App');
   return (
     <BrowserRouter>
       <div className="app">

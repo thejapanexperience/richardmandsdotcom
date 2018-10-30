@@ -40224,7 +40224,7 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "I'm married and have a young daughter. ", _react.default.createElement("br", null), "I hold UK and Canadian passports. ", _react.default.createElement("br", null), "I can speak, read and write Japanese to an intermediate level. ", _react.default.createElement("br", null)))));
+      }, "I'm married and have two young children.", _react.default.createElement("br", null), "I hold UK and Canadian passports. ", _react.default.createElement("br", null), "I can speak, read and write Japanese to an intermediate level. ", _react.default.createElement("br", null)))));
 
       var quickNote = _react.default.createElement("div", {
         className: "two"
@@ -40771,7 +40771,7 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "I'm married and have a young daughter. ", _react.default.createElement("br", null), "I hold UK and Canadian passports. ", _react.default.createElement("br", null), "I can speak, read and write Japanese to an intermediate level. ", _react.default.createElement("br", null)))));
+      }, "I'm married and have two young children.", _react.default.createElement("br", null), "I hold UK and Canadian passports. ", _react.default.createElement("br", null), "I can speak, read and write Japanese to an intermediate level. ", _react.default.createElement("br", null)))));
 
       var quickNote = _react.default.createElement("div", {
         className: "one"
@@ -41296,7 +41296,7 @@ function (_React$Component) {
         className: "section2TextBody"
       }, "I'm a full-stack developer with primary experience in JavaScript. I'm proficient with a JS stack based around React, Redux, Node, Express and Webpack. I've also worked with a variety of other React adjacent technologies such as MongoDB, Mongoose, Gatsby, Parcel, Flux, etc, as well as Ruby (Rails, Sinatra) AWS (Lambda, SNS/SQS, Serverless) and have experience of technologies such as Socket.io, DynamoDB, Firebase, Google APIs and others."), _react.default.createElement("div", {
         className: "section2TextBody"
-      }, "A quick study who has learned how to learn, I adapt easily to new technologies and bring with me a real passion for what I do, a strong leadership background, a fierce work-ethic and an honest desire to leave the world a better place each day."), _react.default.createElement("div", {
+      }, "A quick study who has learned how to learn, I have a strong leadership background, adapt easily to new technologies and bring with me a real passion for what I do, a fierce work-ethic and an honest desire to leave the world a better place each day."), _react.default.createElement("div", {
         className: "section2TextBody"
       }, "I am currently working as a Lead Software Engineer at", ' ', _react.default.createElement("a", {
         target: "_blank",
@@ -41747,7 +41747,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64506" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56529" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

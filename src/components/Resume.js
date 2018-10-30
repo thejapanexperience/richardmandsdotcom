@@ -595,9 +595,9 @@ class Resume extends React.Component {
           </div>
           <div className="contentBox">
             <div className="contentContent">
-              I'm married and have a young daughter. <br />I hold UK and
-              Canadian passports. <br />I can speak, read and write Japanese to
-              an intermediate level. <br />
+              I'm married and have two young children.
+              <br />I hold UK and Canadian passports. <br />I can speak, read
+              and write Japanese to an intermediate level. <br />
             </div>
           </div>
         </div>

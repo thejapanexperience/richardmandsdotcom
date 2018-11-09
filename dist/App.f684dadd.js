@@ -41314,7 +41314,7 @@ function (_React$Component) {
         href: "https://www.facebook.com/projecteduku/"
       }, "Eduku"), ", a social enterprise (self-funded charity), that aimed to raise funds for those lacking educational opportunities in low-income countries via an online learning platform."), _react.default.createElement("div", {
         className: "section2TextBody"
-      }, "I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in San Frandcisco in October 2016 for creating Entable (an sms-based online banking platform aimed specifically at supporting women in low-income countries by offering wider access to microfinance).")), _react.default.createElement("div", {
+      }, "I was also part of the team that won Cisco's first prize at AngelHack's Lady Problems hackathon in San Francisco in October 2016 for creating Entable (an sms-based online banking platform aimed specifically at supporting women in low-income countries by offering wider access to microfinance).")), _react.default.createElement("div", {
         className: "iconBoxOuter"
       }, _react.default.createElement("div", {
         className: "iconBoxJS"
@@ -41747,7 +41747,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57320" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49353" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

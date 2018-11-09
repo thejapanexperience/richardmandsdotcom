@@ -223,7 +223,7 @@ export default class HomePage extends React.Component {
                   </div>
                   <div className="section2TextBody">
                     I was also part of the team that won Cisco's first prize at
-                    AngelHack's Lady Problems hackathon in San Frandcisco in
+                    AngelHack's Lady Problems hackathon in San Francisco in
                     October 2016 for creating Entable (an sms-based online
                     banking platform aimed specifically at supporting women in
                     low-income countries by offering wider access to

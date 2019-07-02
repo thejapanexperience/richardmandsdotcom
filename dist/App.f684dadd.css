@@ -1359,7 +1359,7 @@ hr {
   height: 100%;
   z-index: 60;
   background-color: blue;
-  background-image: url("RichardBWSquare900.a01f22c3.jpg");
+  background-image: url("/RichardBWSquare900.a01f22c3.jpg");
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -1374,7 +1374,7 @@ hr {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   height: 100%;
-  background-image: url("RichardBW900.ef38a60f.jpg");
+  background-image: url("/RichardBW900.ef38a60f.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -2100,3 +2100,5 @@ hr {
     font-size: 20px;
   }
 }
+
+/*# sourceMappingURL=/App.f684dadd.css.map */

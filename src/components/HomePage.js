@@ -187,17 +187,22 @@ export default class HomePage extends React.Component {
                     place each day.
                   </div>
                   <div className="section2TextBody">
-                    I am currently working as a Lead Software Engineer at{' '}
+                    I am currently working as a Software Engineer at{' '}
+                    <a target="_blank" href="https://partnerize.com/">
+                      {' '}
+                      Partnerize
+                    </a>.{' '}
+                    Prior to that I was a Lead Software Engineer at{' '}
                     <a target="_blank" href="https://bedegaming.com/">
                       {' '}
                       Bede Gaming
                     </a>{' '}
-                    . Prior to that I was a Software Engineer at{' '}
+                    and a Software Engineer at{' '}
                     <a target="_blank" href="https://sage.com/">
                       {' '}
                       Sage
-                    </a>{' '}
-                    and previously spent 3 years coding, designing and marketing
+                    </a>
+                    . I previously spent 3 years coding, designing and marketing
                     as co-founder of
                     <a
                       target="_blank"

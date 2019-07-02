@@ -77,10 +77,14 @@ class Resume extends React.Component {
           </div>
           <div className="contentBox">
             <div className="contentContent">
+              - Software Engineer at{' '}
+              <a target="_blank" href="https://partnerize.com">
+                Partnerize
+              </a> <br/>
               - Lead Software Engineer at{' '}
               <a target="_blank" href="http://www.bedegaming.com/">
                 Bede Gaming
-              </a>
+              </a> <br/>
               - Software Engineer at{' '}
               <a target="_blank" href="http://www.sage.com/">
                 Sage
@@ -152,7 +156,10 @@ class Resume extends React.Component {
           </div>
           <div className="contentBox">
             <div className="contentContent">
-              Currently Lead Software Engineer at Bede Gaming.
+              Currently a Software Engineer at Partnerize.
+            </div>
+            <div className="contentContent">
+              Lead Software Engineer at Bede Gaming.
             </div>
             <div className="contentContent">Software Engineer at Sage.</div>
 
@@ -206,6 +213,33 @@ class Resume extends React.Component {
       </div>
     );
 
+    let partnerize = (
+      <div className="one">
+        <div className="oneInner">
+          <div className="titleBox">
+            <div className="titleContent">
+              <a target="_blank" href="https://partnerize.com">
+                PARTNERIZE
+              </a>{' '}
+              | Jan ‘19 - Present
+            </div>
+          </div>
+
+          <div className="contentBox">
+            <div className="contentContent">
+              Software Engineer | Newcastle, UK
+            </div>
+            <div className="contentContent">
+              JavaScript, React, Redux, Jira, Scrum.
+            </div>
+            <div className="contentContent">
+              - responsible for front-end development using modern JavaScript and React/Redux.
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+
     let bede = (
       <div className="one">
         <div className="oneInner">
@@ -214,7 +248,7 @@ class Resume extends React.Component {
               <a target="_blank" href="http://www.bedegaming.com/">
                 BEDE GAMING
               </a>{' '}
-              | Jul ‘18 - Present
+              | Jul ‘18 - Dec ‘18
             </div>
           </div>
 
@@ -658,6 +692,7 @@ class Resume extends React.Component {
                   {langExp}
                 </div> */}
 
+                <div className="row">{partnerize}</div>
                 <div className="row">{bede}</div>
                 <div className="row">{sage}</div>
 

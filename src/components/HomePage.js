@@ -191,7 +191,7 @@ export default class HomePage extends React.Component {
                     <a target="_blank" href="https://partnerize.com/">
                       {' '}
                       Partnerize
-                    </a>.{' '}
+                    </a> where I get to play with React every day.{' '}
                     Prior to that I was a Lead Software Engineer at{' '}
                     <a target="_blank" href="https://bedegaming.com/">
                       {' '}

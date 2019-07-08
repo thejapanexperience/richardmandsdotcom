@@ -43152,7 +43152,7 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "Currently a Software Engineer at Partnerize."), _react.default.createElement("div", {
+      }, "Currently a Software Engineer at Partnerize where I get to play with React every day."), _react.default.createElement("div", {
         className: "contentContent"
       }, "Lead Software Engineer at Bede Gaming."), _react.default.createElement("div", {
         className: "contentContent"
@@ -43708,7 +43708,7 @@ function (_React$Component) {
         className: "contentBox"
       }, _react.default.createElement("div", {
         className: "contentContent"
-      }, "Currently a Software Engineer at Partnerize."), _react.default.createElement("div", {
+      }, "Currently a Software Engineer at Partnerize where I get to play with React every day."), _react.default.createElement("div", {
         className: "contentContent"
       }, "Lead Software Engineer at Bede Gaming."), _react.default.createElement("div", {
         className: "contentContent"
@@ -44588,7 +44588,7 @@ function (_React$Component) {
       }, "I am currently working as a Software Engineer at", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "https://partnerize.com/"
-      }, ' ', "Partnerize"), ".", ' ', "Prior to that I was a Lead Software Engineer at", ' ', _react.default.createElement("a", {
+      }, ' ', "Partnerize"), " where I get to play with React every day.", ' ', "Prior to that I was a Lead Software Engineer at", ' ', _react.default.createElement("a", {
         target: "_blank",
         href: "https://bedegaming.com/"
       }, ' ', "Bede Gaming"), ' ', "and a Software Engineer at", ' ', _react.default.createElement("a", {
@@ -44950,7 +44950,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57110" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50795" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

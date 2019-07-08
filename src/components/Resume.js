@@ -156,7 +156,7 @@ class Resume extends React.Component {
           </div>
           <div className="contentBox">
             <div className="contentContent">
-              Currently a Software Engineer at Partnerize.
+              Currently a Software Engineer at Partnerize where I get to play with React every day.
             </div>
             <div className="contentContent">
               Lead Software Engineer at Bede Gaming.

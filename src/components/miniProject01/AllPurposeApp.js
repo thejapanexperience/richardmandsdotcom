@@ -62,11 +62,11 @@ class AllPurposeApp extends Component {
       this.getData2();
     }
 
-    if (users.length) {
-      displayUsers = users.map((user, i) => {
-        return <UserCard key={i} user={user} show={show} index={i} />;
-      });
-    }
+    // if (users.length) {
+    //   displayUsers = users.map((user, i) => {
+    //     return <UserCard key={i} user={user} show={show} index={i} />;
+    //   });
+    // }
 
     return (
       <div className="appBox">

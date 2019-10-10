@@ -42165,18 +42165,12 @@ function (_Component) {
 
       if (!initialized) {
         this.getData2();
-      }
+      } // if (users.length) {
+      //   displayUsers = users.map((user, i) => {
+      //     return <UserCard key={i} user={user} show={show} index={i} />;
+      //   });
+      // }
 
-      if (users.length) {
-        displayUsers = users.map(function (user, i) {
-          return _react.default.createElement(_UserCard.default, {
-            key: i,
-            user: user,
-            show: show,
-            index: i
-          });
-        });
-      }
 
       return _react.default.createElement("div", {
         className: "appBox"
@@ -44950,7 +44944,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50795" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62557" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
